@@ -28,7 +28,7 @@ stead.scene_delim = '^';
 game.act = function() nlb:curloc().lasttext = 'Ничего не происходит.'; p(nlb:curloc().lasttext); nlb:curloc().wastext = true; end;
 game.inv = function() nlb:curloc().lasttext = 'Хм... Странная штука...'; p(nlb:curloc().lasttext); nlb:curloc().wastext = true; end;
 game.nouse = function() nlb:curloc().lasttext = 'Не сработает...'; p(nlb:curloc().lasttext); nlb:curloc().wastext = true; end;
-game.forcedsc = false;
+game.forcedsc = true;
 paginator.delim = '\n[ \t]*\n'
 function exec(s)
     p('$'..s:gsub('\n', '^')..'$^^')
