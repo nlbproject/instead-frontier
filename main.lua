@@ -21696,6 +21696,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f279706d_f098_4909_844e_af3fa6951b52_XLnk|OK}^");
     end,
@@ -21820,6 +21821,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3d649968_78d0_4dd1_a63d_475915181748_XLnk|Далее}^");
     end,
@@ -21945,6 +21947,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_558c7137_cbed_4a2d_aefd_04a0b87e8fdf_XLnk|Далее}^");
     end,
@@ -22072,6 +22075,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_875e321c_1a99_4096_a368_65c65b751a39_XLnk|Расстрелять этот корабль из наших орудий}^");
         p("{v_02016866_b99a_40bb_8e7f_3ed7e8c8e6a2_XLnk|Продолжить полет к планете Варда}^");
@@ -22213,6 +22217,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_427e8187_f39c_4b5c_8e42_ebb8c14ce97f_XLnk|Назад}^");
     end,
@@ -22446,6 +22451,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e18d3a80_6d52_4693_b276_d52bc2628614_XLnk|Далее}^");
     end,
@@ -22572,6 +22578,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_526ec60e_65ac_4345_9d2f_4b902ffad4a2_XLnk|Далее}^");
     end,
@@ -22697,6 +22704,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d'] or s.wcns['v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d']()) and "{v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d_XLnk|Наш флот может сейчас сделать прыжок к планете Боро}^" or "");
         p((not s.wcns['v_6a317ea9_00ad_44f3_8881_3ac80de23f83'] or s.wcns['v_6a317ea9_00ad_44f3_8881_3ac80de23f83']()) and "{v_6a317ea9_00ad_44f3_8881_3ac80de23f83_XLnk|Или к планете Локан}^" or "");
@@ -23208,6 +23216,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7ada1706_cb29_42a3_ba52_4864e56581b7'] or s.wcns['v_7ada1706_cb29_42a3_ba52_4864e56581b7']()) and "{v_7ada1706_cb29_42a3_ba52_4864e56581b7_XLnk|Лететь к планете Нобула}^" or "");
         p((not s.wcns['v_9e1bd9c4_75a8_49d1_b885_e2249972bc62'] or s.wcns['v_9e1bd9c4_75a8_49d1_b885_e2249972bc62']()) and "{v_9e1bd9c4_75a8_49d1_b885_e2249972bc62_XLnk|Лететь к планете Кратос}^" or "");
@@ -23391,6 +23400,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_76f27108_9854_471f_9cd9_1bb0ab95363c_XLnk|Далее}^");
     end,
@@ -23516,6 +23526,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a6bf0c26_e4cc_48bc_bfa8_a7ba41330f17_XLnk|Продолжить полет к планете Эрива}^");
         p("{v_976ffa9c_24af_4d6f_bb4a_1f7f1e7be6ff_XLnk|Вступить в переговоры с капитаном корабля}^");
@@ -23674,6 +23685,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5e6416c8_bb6e_4a96_9352_43bc1eff05a6_XLnk|Далее}^");
     end,
@@ -23798,6 +23810,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e063f383_7848_49a1_a361_8fecbecbd22f_XLnk|Далее}^");
     end,
@@ -23923,6 +23936,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5649a45b_a424_444d_abe3_c0dd0271f180_XLnk|Далее}^");
     end,
@@ -24047,6 +24061,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e5b0fa30_b08c_4c51_9d05_f1a7389fa1d2_XLnk|Далее}^");
     end,
@@ -24389,6 +24404,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2023d2a3_3405_4a5c_857d_58361e999dd1_XLnk|Далее}^");
     end,
@@ -24514,6 +24530,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_9494a94c_6f84_4cdb_b923_fda74ce39bfb'] or s.wcns['v_9494a94c_6f84_4cdb_b923_fda74ce39bfb']()) and "{v_9494a94c_6f84_4cdb_b923_fda74ce39bfb_XLnk|Прикажете вступить в бой}^" or "");
         p("{v_43787534_fde8_4586_9845_bba2e67400b9_XLnk|Прикажете нашим бойцам сдаться в плен}^");
@@ -24657,6 +24674,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_345b75ad_0c18_4913_9e7e_5ca24efe82c8_XLnk|Далее}^");
     end,
@@ -24781,6 +24799,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e135d30c_cfff_453a_a5bc_e1fc6a1ba88a_XLnk|Отдать грузовые корабли пиратам и лететь к другим планетам}^");
         p("{v_7e361ad3_83cf_41f7_923c_d3b9de6196ff_XLnk|Вступить с ними в бой}^");
@@ -24922,6 +24941,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_63bd2b1a_f752_422e_9446_422eda2f710d_XLnk|Вернуться к планете Рита и захватить ее силой}^");
         p("{v_f9260a36_2d85_47fc_8dfd_163a8abece7a_XLnk|Лететь к другим планетам}^");
@@ -25069,6 +25089,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_bd9de47b_682a_45fd_ba4b_9b5801ecf8b9_XLnk|Переместиться к планете Таргос}^");
         p("{v_2762babd_0414_4253_81b0_d164f2e1a6f0_XLnk|Переместиться к планете Фарос}^");
@@ -25374,6 +25395,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32'] or s.wcns['v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32']()) and "{v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32_XLnk|Сделать прыжок к планете Рута}^" or "");
         p((not s.wcns['v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb'] or s.wcns['v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb']()) and "{v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb_XLnk|Сделать прыжок к планете Хорар}^" or "");
@@ -25556,6 +25578,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a3263cc4_892e_420c_87c0_4fe70d008eeb_XLnk|Далее}^");
     end,
@@ -25680,6 +25703,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_026fc1a5_1d02_4bf4_97e7_db82609e1a4c_XLnk|Далее}^");
     end,
@@ -25807,6 +25831,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_658c2b10_571d_447b_aad4_686753c9ffec_XLnk|Далее}^");
     end,
@@ -25931,6 +25956,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_47b8b0ec_d5d9_412d_97ab_671836b132db_XLnk|Далее}^");
     end,
@@ -26057,6 +26083,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a79fc046_3d79_4399_8cec_d6c58acaac02_XLnk|Отозвать шатлы на орбиту и продолжить свой полет}^");
         p("{v_3a125599_f7cf_4da0_98ae_dcbe2c0ad921_XLnk|Отправить бойцов на скутерах на поиски выживших}^");
@@ -26198,6 +26225,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_400e70a2_601a_4efd_b597_ada31810d53d_XLnk|Согласитесь напасть на неизвестных пришельцев}^");
         p("{v_3438d470_99bb_4493_8c7b_f8b7f34065f8_XLnk|Полетите к другим планетам}^");
@@ -26360,6 +26388,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_05d8c851_4f0d_47f2_a6eb_c6893864ba12_XLnk|Лететь к месту расположения Верфи}^");
         p("{v_9c21ce93_2e66_4f5d_8e70_430f230df9f6_XLnk|Лететь к планете Кратос}^");
@@ -26502,6 +26531,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c862c02b_5997_47b4_ae8e_ff04730fd0d7_XLnk|Далее}^");
     end,
@@ -26627,6 +26657,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67'] or s.wcns['v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67']()) and "{v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67_XLnk|Лететь к планете Сотус}^" or "");
         p((not s.wcns['v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4'] or s.wcns['v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4']()) and "{v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4_XLnk|Лететь к планете Эрива}^" or "");
@@ -26810,6 +26841,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_240266f2_f2cf_4824_b42b_044295942c0a'] or s.wcns['v_240266f2_f2cf_4824_b42b_044295942c0a']()) and "{v_240266f2_f2cf_4824_b42b_044295942c0a_XLnk|Откажетесь от этой сделки и отправите штурмовиков на абордаж}^" or "");
         p("{v_2aac3972_71c0_4695_9f92_8b73ddfdc647_XLnk|Согласитесь с этим предложением}^");
@@ -26953,6 +26985,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_44056157_b9b9_4bf7_81c6_7976e1860bcc_XLnk|Далее}^");
     end,
@@ -27077,6 +27110,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_fb7d361e_77ef_435b_8610_6de0ea2c1d3f_XLnk|Согласитесь на эту сделку и вместе атакуете планету Фарос.}^");
         p("{v_7026917d_baaf_47a0_8183_17d7c606e5d5_XLnk|Считаете, что это какая-то ловушка и прикажете атаковать флот адмирала Ротчера}^");
@@ -27224,6 +27258,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_347fb6ef_43c1_402a_ae19_c8e158d054e6_XLnk|Вернуть экипажи на корабли и продолжить полет к планете Эрива}^");
         p("{v_e2d8f5c1_af2a_4b33_94e8_935c939e921e_XLnk|Задержаться еще на один день}^");
@@ -27367,6 +27402,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4c428304_e5b9_4be0_8adc_b866d11d462a'] or s.wcns['v_4c428304_e5b9_4be0_8adc_b866d11d462a']()) and "{v_4c428304_e5b9_4be0_8adc_b866d11d462a_XLnk|Далее}^" or "");
         p((not s.wcns['v_24fd1ab1_c2b5_4ea1_8e81_d92feb1a9d96'] or s.wcns['v_24fd1ab1_c2b5_4ea1_8e81_d92feb1a9d96']()) and "{v_24fd1ab1_c2b5_4ea1_8e81_d92feb1a9d96_XLnk|Далее}^" or "");
@@ -27510,6 +27546,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1cc95240_40f4_46b8_87f1_6f68e2c08a59_XLnk|Далее}^");
     end,
@@ -27634,6 +27671,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0229034c_620b_41e1_baaa_a9082149dad7_XLnk|Далее}^");
     end,
@@ -27758,6 +27796,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ebce3b5a_29bc_4a47_b611_5432e05512b8_XLnk|Далее}^");
     end,
@@ -27880,6 +27919,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f9d35fbb_01fc_4e7f_b794_91f4e84e45a1_XLnk|Назад}^");
     end,
@@ -28007,6 +28047,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5f74c14b_9f20_407e_ab39_c489ba00b48b_XLnk|Далее}^");
     end,
@@ -28132,6 +28173,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_12e8abc2_08b3_4426_8519_d6832bccfb3e_XLnk|Далее}^");
     end,
@@ -28256,6 +28298,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b8b65285_eb2d_4f27_9861_a7fb5bec524f_XLnk|Далее}^");
     end,
@@ -28381,6 +28424,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_d0a33752_faf2_4c9c_9e84_c89cd3cb8eb5'] or s.wcns['v_d0a33752_faf2_4c9c_9e84_c89cd3cb8eb5']()) and "{v_d0a33752_faf2_4c9c_9e84_c89cd3cb8eb5_XLnk|Далее}^" or "");
         p((not s.wcns['v_f0b964b9_fb1d_4231_99f8_9cea7457e757'] or s.wcns['v_f0b964b9_fb1d_4231_99f8_9cea7457e757']()) and "{v_f0b964b9_fb1d_4231_99f8_9cea7457e757_XLnk|Далее}^" or "");
@@ -28525,6 +28569,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c1f70ae1_b052_4da1_b541_ed332971f3c1'] or s.wcns['v_c1f70ae1_b052_4da1_b541_ed332971f3c1']()) and "{v_c1f70ae1_b052_4da1_b541_ed332971f3c1_XLnk|Далее}^" or "");
         p((not s.wcns['v_a45b3bcd_1e04_4be7_bde3_04d1d55e3d9e'] or s.wcns['v_a45b3bcd_1e04_4be7_bde3_04d1d55e3d9e']()) and "{v_a45b3bcd_1e04_4be7_bde3_04d1d55e3d9e_XLnk|Далее}^" or "");
@@ -28669,6 +28714,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1e8cf8b5_9965_4d0f_bf92_3677765869e1_XLnk|Атаковать планету}^");
         p("{v_59e78842_9db7_496f_b8ab_84162551c9f6_XLnk|Лететь к другим планетам}^");
@@ -28810,6 +28856,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_63538395_71e2_4288_aa03_db555dc8f7dd_XLnk|Назад}^");
     end,
@@ -28935,6 +28982,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ec9c34e8_5884_486d_b3dc_1b5d1f9e1fde_XLnk|Принять это задание}^");
         p("{v_4c729e1c_0613_43f5_85f4_bf00b80a8a7d_XLnk|Отказаться и лететь к планете Кратос}^");
@@ -29077,6 +29125,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d97be071_a197_4030_b849_d47e48f6bf2c_XLnk|Далее}^");
     end,
@@ -29204,6 +29253,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_983c61c0_cd46_44a0_ada8_e57e3073d70a_XLnk|Далее}^");
     end,
@@ -29333,6 +29383,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b21ddf15_fed4_417a_b17c_e3c4752581e0_XLnk|Далее}^");
     end,
@@ -29459,6 +29510,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2e971747_1ffd_4627_82f9_491e952e1a99_XLnk|Далее}^");
     end,
@@ -29584,6 +29636,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_196d9e19_438f_491d_a9ac_17c095496548_XLnk|Далее}^");
     end,
@@ -29708,6 +29761,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_faa55e01_6b6d_4d73_ae7c_2286d8291d51_XLnk|Далее}^");
     end,
@@ -29833,6 +29887,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_75f4406f_0dba_4ffa_8573_de744f611044_XLnk|Далее}^");
     end,
@@ -29958,6 +30013,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8211940e_2aca_48c6_a85e_32b5d1950292_XLnk|Далее}^");
     end,
@@ -30082,6 +30138,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_fda6da9f_40dc_4302_aac6_94923b22b40f_XLnk|Далее}^");
     end,
@@ -30207,6 +30264,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7b7c795d_775b_4792_891c_5feaf5d9edf6_XLnk|Вам +1 отряд штурмовиков}^");
         p("{v_2235e0ba_3c16_44d0_a0f4_9aaafa4a4f20_XLnk|Вам +3 Славы и +1 карта флота}^");
@@ -30574,6 +30632,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_f7fada13_0ffe_4e13_9154_dcb385b43b6b'] or s.wcns['v_f7fada13_0ffe_4e13_9154_dcb385b43b6b']()) and "{v_f7fada13_0ffe_4e13_9154_dcb385b43b6b_XLnk|Далее}^" or "");
         p((not s.wcns['v_799fbf03_e18b_4582_b56b_52870034ce57'] or s.wcns['v_799fbf03_e18b_4582_b56b_52870034ce57']()) and "{v_799fbf03_e18b_4582_b56b_52870034ce57_XLnk|Далее}^" or "");
@@ -30733,6 +30792,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c512ab81_e98a_45a7_87f9_5c0e4a874d07_XLnk|Назад}^");
     end,
@@ -30857,6 +30917,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d36f377f_2e57_4003_9f2a_3782ea7a863a_XLnk|Прикажете нашим штурмовикам вернуться на корабль, чтобы поскорее убраться отсюда}^");
         p("{v_b44eea4b_9084_4c34_989c_4e3f4d404006_XLnk|Прикажете нашему флоту вступить с ними в бой}^");
@@ -31000,6 +31061,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_37238775_d8dc_4202_8784_8a6acb8e37fe_XLnk|Расстрелять астероид с потерей пяти единиц Боеспособности флота}^");
         p("{v_0d5e6bcb_137d_41ba_bcd4_5b6cfaa9d21f_XLnk|Потратить на расстрел астероида десять единиц Боеспособности флота}^");
@@ -31162,6 +31224,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9c6c724e_1c49_4cc6_9fb8_9cbf891855d0_XLnk|Далее}^");
     end,
@@ -31287,6 +31350,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_16208145_2693_4cfc_92a2_f8fcc1dead88_XLnk|Далее}^");
     end,
@@ -31416,6 +31480,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9dca4af5_8eae_464c_b1cb_28fee56d1242_XLnk|Научная лаборатория}^");
         p("{v_e487e585_d58d_47ce_9f92_6a5ffbf06ddf_XLnk|Торговый сканер}^");
@@ -31598,6 +31663,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d3a7c6c2_e210_431b_9936_5a0defd1089a_XLnk|Далее}^");
     end,
@@ -31722,6 +31788,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_05deba66_cb2d_47ce_9691_1cf3f1e46e8c_XLnk|Сдадите заговорщиков охране тюрьмы в надежде получить награду от начальства}^");
         p("{v_0eda7458_ff9b_446a_80f7_5121814f70ca_XLnk|Согласитесь участвовать в побеге}^");
@@ -31863,6 +31930,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5475cece_b5c5_4bde_8cce_dee563da0b68_XLnk|Не вмешиваться и продолжить сближение с планетой Рута}^");
         p("{v_88b81e3a_e052_49d2_8914_9d3a5e134b6d_XLnk|Атаковать корабли Ванессы Ван Горн}^");
@@ -32222,6 +32290,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_d216da7e_5515_400b_910b_1452545bd4cb'] or s.wcns['v_d216da7e_5515_400b_910b_1452545bd4cb']()) and "{v_d216da7e_5515_400b_910b_1452545bd4cb_XLnk|У вас есть Научная Лаборатория}^" or "");
         p((not s.wcns['v_e151fcb0_ab88_489e_9727_0225c8c1f92d'] or s.wcns['v_e151fcb0_ab88_489e_9727_0225c8c1f92d']()) and "{v_e151fcb0_ab88_489e_9727_0225c8c1f92d_XLnk|У вас нет Научной Лаборатории}^" or "");
@@ -32365,6 +32434,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e5d23ed7_9f5a_412e_8c71_4749cd56d8f2_XLnk|Далее}^");
     end,
@@ -32491,6 +32561,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d1164edf_8d05_4ecc_a7e5_c4f4385985d4_XLnk|Назад}^");
     end,
@@ -32618,6 +32689,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d8555e5a_3df3_482d_bfc8_6265ccd34442_XLnk|Далее}^");
     end,
@@ -32743,6 +32815,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_76f545a1_cdda_4d0e_b320_47d77cd90dbb_XLnk|Далее}^");
     end,
@@ -32867,6 +32940,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_782793f8_6eec_4057_b0d5_68df8575d091_XLnk|Далее}^");
     end,
@@ -32994,6 +33068,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c81d3234_708c_4cfc_b502_8ad981ba6094_XLnk|Далее}^");
     end,
@@ -33119,6 +33194,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_623808d9_0bf2_4b13_ac77_8488c71ecce9_XLnk|Далее}^");
     end,
@@ -33245,6 +33321,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_13eac71a_7f6d_441d_9b07_d8b3e69eb8e4_XLnk|Далее}^");
     end,
@@ -33373,6 +33450,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3f907080_19d1_481a_8254_16c49cd2ba99_XLnk|Набрать 32}^");
         p("{v_c7ee9deb_8a2d_4dfb_8d1b_50e29292120c_XLnk|Набрать 4}^");
@@ -33694,6 +33772,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_1ee227c1_10b3_4e99_b202_96aae3e605d4'] or s.wcns['v_1ee227c1_10b3_4e99_b202_96aae3e605d4']()) and "{v_1ee227c1_10b3_4e99_b202_96aae3e605d4_XLnk|Отправить отряд штурмовиков}^" or "");
         p((not s.wcns['v_3e903f3f_e76a_44fd_8e22_4a0a94c79325'] or s.wcns['v_3e903f3f_e76a_44fd_8e22_4a0a94c79325']()) and "{v_3e903f3f_e76a_44fd_8e22_4a0a94c79325_XLnk|Просто  напасть на флот диктатора Торгара (вы получаете две дополнительные карты)}^" or "");
@@ -33840,6 +33919,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_515d8ea8_6245_4115_878a_7a6b6c8c85ac_XLnk|Далее}^");
     end,
@@ -33961,6 +34041,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0cf01e5e_0358_4e1b_97cc_5c124799c309_XLnk|Правила игры}^");
         p("{v_42c6c470_2a8c_40df_8a3b_24c1b7f6a11d_XLnk|Авторы}^");
@@ -34123,6 +34204,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a294793b_a5a1_43e1_b02c_fef497b459bd_XLnk|Идти наперехват}^");
         p("{v_781e2c7f_e96d_4aa0_908e_2d685cc7074e_XLnk|Продолжить движение к планете Рита}^");
@@ -34266,6 +34348,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_42d7d721_0b4f_4c53_97c8_6ae50e32ffe5_XLnk|Если не согласны – можете лететь к другим планетам}^");
         p("{v_f1ff7a02_a927_4232_89f4_f9bd80ef69a7_XLnk|Вы согласны выполнить эту миссию и в награду получаете + 2 Славы}^");
@@ -34451,6 +34534,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_12c38cd5_de13_43f0_afad_82c36e1d39ac_XLnk|Далее}^");
     end,
@@ -34578,6 +34662,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9073c001_f869_4f19_b9be_f5a3a383982f_XLnk|Далее}^");
     end,
@@ -34702,6 +34787,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_bbae206c_708b_4cb6_9377_bad60f32696f_XLnk|Далее}^");
     end,
@@ -35019,6 +35105,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_46b34571_3fdb_4813_9d85_5f5b725c5caf'] or s.wcns['v_46b34571_3fdb_4813_9d85_5f5b725c5caf']()) and "{v_46b34571_3fdb_4813_9d85_5f5b725c5caf_XLnk|Далее}^" or "");
     end,
@@ -35120,6 +35207,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_fb915aac_9ae5_419a_a647_4d1931eb2355'] or s.wcns['v_fb915aac_9ae5_419a_a647_4d1931eb2355']()) and "{v_fb915aac_9ae5_419a_a647_4d1931eb2355_XLnk|Далее}^" or "");
     end,
@@ -35221,6 +35309,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_676a0e0a_95d3_42f2_8de6_4f317c89990b'] or s.wcns['v_676a0e0a_95d3_42f2_8de6_4f317c89990b']()) and "{v_676a0e0a_95d3_42f2_8de6_4f317c89990b_XLnk|Далее}^" or "");
     end,
@@ -35403,6 +35492,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec'] or s.wcns['v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec']()) and "{v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec_XLnk|Начать операцию}^" or "");
     end,
@@ -35504,6 +35594,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4db462ee_8040_48f1_b51f_a80b726e4ac1'] or s.wcns['v_4db462ee_8040_48f1_b51f_a80b726e4ac1']()) and "{v_4db462ee_8040_48f1_b51f_a80b726e4ac1_XLnk|Вы выполнили свою миссию и можете теперь лететь к другим планетам}^" or "");
     end,
@@ -35606,6 +35697,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d'] or s.wcns['v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d']()) and "{v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d_XLnk|Атаковать в лоб, рассчитывая на хорошую подготовку ваших бойцов}^" or "");
         p((not s.wcns['v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb'] or s.wcns['v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb']()) and "{v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb_XLnk|Обойти баррикаду и зайти  противнику в тыл}^" or "");
@@ -35725,6 +35817,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_af40cdfc_2aa3_469d_af8a_1e6bec189f16'] or s.wcns['v_af40cdfc_2aa3_469d_af8a_1e6bec189f16']()) and "{v_af40cdfc_2aa3_469d_af8a_1e6bec189f16_XLnk|Далее}^" or "");
     end,
@@ -35826,6 +35919,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_ee408e9b_4230_4da9_a32d_51e1be10c574'] or s.wcns['v_ee408e9b_4230_4da9_a32d_51e1be10c574']()) and "{v_ee408e9b_4230_4da9_a32d_51e1be10c574_XLnk|Использовать лифт}^" or "");
         p((not s.wcns['v_030aedeb_ab75_466b_8f17_a154cc9d3ab1'] or s.wcns['v_030aedeb_ab75_466b_8f17_a154cc9d3ab1']()) and "{v_030aedeb_ab75_466b_8f17_a154cc9d3ab1_XLnk|Пробираться через жилые отсеки}^" or "");
@@ -35947,6 +36041,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_24b759d8_0cb6_4670_9d71_407dcfe18c3d'] or s.wcns['v_24b759d8_0cb6_4670_9d71_407dcfe18c3d']()) and "{v_24b759d8_0cb6_4670_9d71_407dcfe18c3d_XLnk|Вы выполнили миссию и можете лететь к другим планетам}^" or "");
     end,
@@ -36050,6 +36145,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_af57cae7_2234_4260_bf25_fd4476841fc5'] or s.wcns['v_af57cae7_2234_4260_bf25_fd4476841fc5']()) and "{v_af57cae7_2234_4260_bf25_fd4476841fc5_XLnk|Далее}^" or "");
     end,
@@ -36151,6 +36247,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_f37bd811_95ac_4470_a5c0_485ab6058556'] or s.wcns['v_f37bd811_95ac_4470_a5c0_485ab6058556']()) and "{v_f37bd811_95ac_4470_a5c0_485ab6058556_XLnk|Послать на штурм еще один шатл}^" or "");
         p((not s.wcns['v_fd15ddf5_10cd_42c7_a89d_a7443e885c56'] or s.wcns['v_fd15ddf5_10cd_42c7_a89d_a7443e885c56']()) and "{v_fd15ddf5_10cd_42c7_a89d_a7443e885c56_XLnk|Отказаться от этой миссии и лететь к другим планетам}^" or "");
@@ -36271,6 +36368,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c1a26daf_8626_4f4d_9a27_5472804e263a'] or s.wcns['v_c1a26daf_8626_4f4d_9a27_5472804e263a']()) and "{v_c1a26daf_8626_4f4d_9a27_5472804e263a_XLnk|Обстрелять группу подозрительных астероидов}^" or "");
         p((not s.wcns['v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c'] or s.wcns['v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c']()) and "{v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c_XLnk|Оставить всё как есть, ведь обломки будут мешать и нашему пилоту}^" or "");
@@ -36390,6 +36488,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12'] or s.wcns['v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12']()) and "{v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12_XLnk|Прикажете десанту высаживаться немедленно}^" or "");
         p((not s.wcns['v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a'] or s.wcns['v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a']()) and "{v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a_XLnk|Прикажете подождать, чтобы погасло пламя}^" or "");
@@ -36509,6 +36608,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3d414bee_1b24_4443_a35c_fd876806cc69'] or s.wcns['v_3d414bee_1b24_4443_a35c_fd876806cc69']()) and "{v_3d414bee_1b24_4443_a35c_fd876806cc69_XLnk|Далее}^" or "");
     end,
@@ -36610,6 +36710,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e248ee60_f3ec_4867_a549_47bdadaf87c6'] or s.wcns['v_e248ee60_f3ec_4867_a549_47bdadaf87c6']()) and "{v_e248ee60_f3ec_4867_a549_47bdadaf87c6_XLnk|Убить всех пленных главарей}^" or "");
         p((not s.wcns['v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7'] or s.wcns['v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7']()) and "{v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7_XLnk|Пытать главарей}^" or "");
@@ -36729,6 +36830,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_51b3b173_667c_4ece_8852_ccc381d8f108'] or s.wcns['v_51b3b173_667c_4ece_8852_ccc381d8f108']()) and "{v_51b3b173_667c_4ece_8852_ccc381d8f108_XLnk|Отпустить ополченцев (вам -1 отряд штурмовиков)}^" or "");
         p((not s.wcns['v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f'] or s.wcns['v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f']()) and "{v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f_XLnk|Удержать ополченцев в вашей армии насильно (вам -1 Слава)}^" or "");
@@ -36850,6 +36952,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b27a5c50_c1d4_46ac_8085_122151a93177'] or s.wcns['v_b27a5c50_c1d4_46ac_8085_122151a93177']()) and "{v_b27a5c50_c1d4_46ac_8085_122151a93177_XLnk|Далее}^" or "");
     end,
@@ -36952,6 +37055,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb'] or s.wcns['v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb']()) and "{v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb_XLnk|Прикажете десанту высаживаться немедленно}^" or "");
         p((not s.wcns['v_87c78327_0af9_4664_8c9b_d7a66e1396de'] or s.wcns['v_87c78327_0af9_4664_8c9b_d7a66e1396de']()) and "{v_87c78327_0af9_4664_8c9b_d7a66e1396de_XLnk|Прикажете подождать, чтобы погасло пламя от взрыва}^" or "");
@@ -37072,6 +37176,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_df29a1f5_9a31_4f10_9b7b_939d3fa77715'] or s.wcns['v_df29a1f5_9a31_4f10_9b7b_939d3fa77715']()) and "{v_df29a1f5_9a31_4f10_9b7b_939d3fa77715_XLnk|Получить +1 отряд штурмовиков}^" or "");
         p((not s.wcns['v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b'] or s.wcns['v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b']()) and "{v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b_XLnk|Или +1 Славу}^" or "");
@@ -37193,6 +37298,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_51427cba_28d3_44d6_819b_affb227258d8'] or s.wcns['v_51427cba_28d3_44d6_819b_affb227258d8']()) and "{v_51427cba_28d3_44d6_819b_affb227258d8_XLnk|Далее}^" or "");
     end,
@@ -37295,6 +37401,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_d5183cae_3896_42e2_bc40_24d4e29f9624'] or s.wcns['v_d5183cae_3896_42e2_bc40_24d4e29f9624']()) and "{v_d5183cae_3896_42e2_bc40_24d4e29f9624_XLnk|Рискуть и выслать штурмовой отряд, чтобы нейтрализовать пиратов}^" or "");
         p((not s.wcns['v_5ae205a9_f87a_49f7_b4a0_e215c400e635'] or s.wcns['v_5ae205a9_f87a_49f7_b4a0_e215c400e635']()) and "{v_5ae205a9_f87a_49f7_b4a0_e215c400e635_XLnk|Отказаться и лететь дальше к другим планетам}^" or "");
@@ -37414,6 +37521,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_1059be42_8b9e_4586_92bc_68acdf44192d'] or s.wcns['v_1059be42_8b9e_4586_92bc_68acdf44192d']()) and "{v_1059be42_8b9e_4586_92bc_68acdf44192d_XLnk|Далее}^" or "");
     end,
@@ -37515,6 +37623,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_de4f3960_708c_4381_9b53_9c4e41862166'] or s.wcns['v_de4f3960_708c_4381_9b53_9c4e41862166']()) and "{v_de4f3960_708c_4381_9b53_9c4e41862166_XLnk|Далее}^" or "");
     end,
@@ -37616,6 +37725,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_9db6fdfa_db94_4886_bb76_70c55120dd45'] or s.wcns['v_9db6fdfa_db94_4886_bb76_70c55120dd45']()) and "{v_9db6fdfa_db94_4886_bb76_70c55120dd45_XLnk|Помочь Дориану Вэю}^" or "");
         p((not s.wcns['v_28099bbc_960d_4cb6_b214_3ccc6109094b'] or s.wcns['v_28099bbc_960d_4cb6_b214_3ccc6109094b']()) and "{v_28099bbc_960d_4cb6_b214_3ccc6109094b_XLnk|Отказаться и лететь к другим планетам}^" or "");
@@ -37735,6 +37845,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_01c8e623_25a9_4574_96d4_71fab2f018aa'] or s.wcns['v_01c8e623_25a9_4574_96d4_71fab2f018aa']()) and "{v_01c8e623_25a9_4574_96d4_71fab2f018aa_XLnk|Далее}^" or "");
     end,
@@ -37836,6 +37947,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4d40a286_0598_4534_bac0_0c73237e3e60'] or s.wcns['v_4d40a286_0598_4534_bac0_0c73237e3e60']()) and "{v_4d40a286_0598_4534_bac0_0c73237e3e60_XLnk|Далее}^" or "");
     end,
@@ -37937,6 +38049,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_da800c65_aaec_403e_bcec_c3b5fa96bd65'] or s.wcns['v_da800c65_aaec_403e_bcec_c3b5fa96bd65']()) and "{v_da800c65_aaec_403e_bcec_c3b5fa96bd65_XLnk|Пройдёте через пламя}^" or "");
         p((not s.wcns['v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0'] or s.wcns['v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0']()) and "{v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0_XLnk|Попробуете найти обходной путь}^" or "");
@@ -38057,6 +38170,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da'] or s.wcns['v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da']()) and "{v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da_XLnk|Вы выполнили миссию и можете лететь к другим планетам}^" or "");
     end,
@@ -38159,6 +38273,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20'] or s.wcns['v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20']()) and "{v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20_XLnk|Продолжить операцию}^" or "");
         p((not s.wcns['v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285'] or s.wcns['v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285']()) and "{v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285_XLnk|Принять предложение пирата и отступить (вам +5 Боеспособности вашего флота)}^" or "");
@@ -38282,6 +38397,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7746bb3f_782f_4569_a0a2_3d3982097d97'] or s.wcns['v_7746bb3f_782f_4569_a0a2_3d3982097d97']()) and "{v_7746bb3f_782f_4569_a0a2_3d3982097d97_XLnk|Начать операцию}^" or "");
         p((not s.wcns['v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850'] or s.wcns['v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850']()) and "{v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850_XLnk|Использовать Сканер разведки}^" or "");
@@ -38402,6 +38518,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_ed6a0c89_49af_4b48_bfb1_482cccead499'] or s.wcns['v_ed6a0c89_49af_4b48_bfb1_482cccead499']()) and "{v_ed6a0c89_49af_4b48_bfb1_482cccead499_XLnk|Далее}^" or "");
     end,
@@ -38503,6 +38620,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_cb525d63_ea96_4f4c_bf42_e07253b4e35a'] or s.wcns['v_cb525d63_ea96_4f4c_bf42_e07253b4e35a']()) and "{v_cb525d63_ea96_4f4c_bf42_e07253b4e35a_XLnk|Далее}^" or "");
     end,
@@ -38604,6 +38722,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe'] or s.wcns['v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe']()) and "{v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe_XLnk|Двигаться через столовую}^" or "");
         p((not s.wcns['v_362ea916_a3f3_446e_8a44_9e54769e725b'] or s.wcns['v_362ea916_a3f3_446e_8a44_9e54769e725b']()) and "{v_362ea916_a3f3_446e_8a44_9e54769e725b_XLnk|Или через оружейный отсек}^" or "");
@@ -38725,6 +38844,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_548554b9_9eca_4cc8_9831_b0b30a737bd7'] or s.wcns['v_548554b9_9eca_4cc8_9831_b0b30a737bd7']()) and "{v_548554b9_9eca_4cc8_9831_b0b30a737bd7_XLnk|Пробиваться к двигателям}^" or "");
         p((not s.wcns['v_b2273719_17f6_4c91_bb55_197a264494df'] or s.wcns['v_b2273719_17f6_4c91_bb55_197a264494df']()) and "{v_b2273719_17f6_4c91_bb55_197a264494df_XLnk|Пробиваться к командной рубке}^" or "");
@@ -38844,6 +38964,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_024479df_18e8_4a8a_bd8d_55371d7c8562'] or s.wcns['v_024479df_18e8_4a8a_bd8d_55371d7c8562']()) and "{v_024479df_18e8_4a8a_bd8d_55371d7c8562_XLnk|Далее}^" or "");
     end,
@@ -38945,6 +39066,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457'] or s.wcns['v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457']()) and "{v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457_XLnk|Уничтожить эту цель}^" or "");
         p((not s.wcns['v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7'] or s.wcns['v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7']()) and "{v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7_XLnk|Ничего не менять}^" or "");
@@ -39064,6 +39186,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a9700705_0e15_4ee0_bdcc_04edea765e53'] or s.wcns['v_a9700705_0e15_4ee0_bdcc_04edea765e53']()) and "{v_a9700705_0e15_4ee0_bdcc_04edea765e53_XLnk|Далее}^" or "");
     end,
@@ -39168,6 +39291,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_d078fed4_6789_459c_b6cb_9f2bbd6be8de'] or s.wcns['v_d078fed4_6789_459c_b6cb_9f2bbd6be8de']()) and "{v_d078fed4_6789_459c_b6cb_9f2bbd6be8de_XLnk|Выбрать первый вариант}^" or "");
         p((not s.wcns['v_cf9f58e7_688d_4a45_9196_8f009aace83e'] or s.wcns['v_cf9f58e7_688d_4a45_9196_8f009aace83e']()) and "{v_cf9f58e7_688d_4a45_9196_8f009aace83e_XLnk|Выбрать второй вариант}^" or "");
@@ -39287,6 +39411,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_daa3a373_b3ff_4b6e_8e2d_14604b17678f'] or s.wcns['v_daa3a373_b3ff_4b6e_8e2d_14604b17678f']()) and "{v_daa3a373_b3ff_4b6e_8e2d_14604b17678f_XLnk|Далее}^" or "");
     end,
@@ -39390,6 +39515,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_58c40954_15e8_44a9_9592_37c3797f31a0_XLnk|Попробовать ещё раз}^");
     end,
@@ -39516,6 +39642,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_229461de_5269_4ca7_8d43_1ec3831e1b88_XLnk|Попробовать ещё раз}^");
     end,
@@ -39640,6 +39767,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c8b31500_3ec0_454f_8b06_9c4d06a64727_XLnk|Далее}^");
     end,
@@ -39767,6 +39895,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e41a9f39_b6a5_4aaf_85bf_e3a4d6fcaba7_XLnk|Далее}^");
     end,
@@ -39890,6 +40019,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8fb52676_f71c_42f9_8bba_8494342f3b00_XLnk|Назад}^");
     end,
@@ -40015,6 +40145,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_86a33d7d_1e14_436d_a034_66f9f0c9cce9_XLnk|Согласиться принять на борт жителей планеты}^");
         p("{v_e83f768b_a775_4a17_a639_9c6a1b3ee55e_XLnk|Отказаться}^");
@@ -40159,6 +40290,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f53af9c0_135a_4d4b_84a9_86b50e6db5d4_XLnk|Врежете ему по морде}^");
         p("{v_8a0be654_bf54_480e_a08d_f3dfddf6a1e9_XLnk|Согласитесь на требования Бутчера}^");
@@ -40318,6 +40450,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_97ba7192_9203_45a5_bd93_b2c178c0de3f'] or s.wcns['v_97ba7192_9203_45a5_bd93_b2c178c0de3f']()) and "{v_97ba7192_9203_45a5_bd93_b2c178c0de3f_XLnk|Использовать Зенитные системы}^" or "");
         p("{v_1dcc4b19_e15b_4692_80a8_338318fd9f96_XLnk|Прикажете принять бой}^");
@@ -40477,6 +40610,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_70cee438_71b5_4b24_a486_f4a7afb90586_XLnk|Далее}^");
     end,
@@ -40604,6 +40738,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_30cdea85_bb32_41d7_9c15_fc0b1bf77bd2_XLnk|Далее}^");
     end,
@@ -40730,6 +40865,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7a27463d_529e_4eee_88b7_18d15178067d_XLnk|Далее}^");
     end,
@@ -40860,6 +40996,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_bbbee038_f45b_45b5_9124_7ec3f4ad721b_XLnk|Далее}^");
     end,
@@ -41091,6 +41228,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_fa5384c5_340f_430d_b0e3_7a07dbf14fb2_XLnk|Далее}^");
     end,
@@ -41216,6 +41354,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_928cfe89_f4c3_4129_8966_cfa54ab2df3a'] or s.wcns['v_928cfe89_f4c3_4129_8966_cfa54ab2df3a']()) and "{v_928cfe89_f4c3_4129_8966_cfa54ab2df3a_XLnk|Послать отряд штурмовиков}^" or "");
         p((not s.wcns['v_6dc7aacb_36aa_4ef1_a009_38ecb615af70'] or s.wcns['v_6dc7aacb_36aa_4ef1_a009_38ecb615af70']()) and "{v_6dc7aacb_36aa_4ef1_a009_38ecb615af70_XLnk|Воспользоваться Торговым сканером}^" or "");
@@ -41382,6 +41521,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_933172aa_9134_4f84_bccd_fc65424d8bc6_XLnk|Попробовать ещё раз}^");
     end,
@@ -41654,6 +41794,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_294912fd_411f_424f_b2cc_1dcbf88dc464_XLnk|Далее}^");
     end,
@@ -41779,6 +41920,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8e496373_9a46_4ead_8ffd_d5846753a29c_XLnk|Вступить в переговоры}^");
         p("{v_871e12f2_ddd1_4895_86a4_d94032ce7afd_XLnk|Атаковать флот адмирала Ваджры}^");
@@ -41921,6 +42063,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b947f53b_f6d6_4718_9645_46ef52f84f4e_XLnk|Принять участие в поединках}^");
         p("{v_2460ec5e_3d4d_4494_a643_dfc031151178_XLnk|Отказаться}^");
@@ -42064,6 +42207,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5e004234_5da8_4600_ba52_80dcad8076d7'] or s.wcns['v_5e004234_5da8_4600_ba52_80dcad8076d7']()) and "{v_5e004234_5da8_4600_ba52_80dcad8076d7_XLnk|Послать один отряд штурмовиков на помощь}^" or "");
         p("{v_52f267c1_82e5_4c9c_9f1e_fbec588a3c0f_XLnk|Бросить свой отряд на произвол судьбы и поскорее убираться от этого грузовоза. (Вам -1 отряд штурмовиков и -1 Слава)}^");
@@ -42333,6 +42477,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4d1ec7f7_a1e0_4c67_b529_65b25917ccab_XLnk|Далее}^");
     end,
@@ -42458,6 +42603,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b69874aa_e7d6_4df1_b78f_c1f3a45733be_XLnk|Далее}^");
     end,
@@ -42583,6 +42729,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d66d639f_3ad5_4d71_9d88_d1926ae8da9a_XLnk|Далее}^");
     end,
@@ -42708,6 +42855,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_ce67e0e8_5b45_4201_8584_2e2335bdd174'] or s.wcns['v_ce67e0e8_5b45_4201_8584_2e2335bdd174']()) and "{v_ce67e0e8_5b45_4201_8584_2e2335bdd174_XLnk|Отправить шатл для обследования места крушения}^" or "");
         p("{v_432f8e1f_ea42_4850_b090_0b7235969a7d_XLnk|Лететь к другим планетам}^");
@@ -42851,6 +42999,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7'] or s.wcns['v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7']()) and "{v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7_XLnk|Вступить в переговоры с Торгаром}^" or "");
         p("{v_6de16a71_d120_4f41_86cc_3cd2f08287fa_XLnk|Атаковать флот локанцев}^");
@@ -42995,6 +43144,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_46ee4fe1_c3eb_44e3_af08_470edbb3fa44_XLnk|Далее}^");
     end,
@@ -43315,6 +43465,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc'] or s.wcns['v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc']()) and "{v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc_XLnk|Наденете на себя очки и выключите свет в каюте}^" or "");
         p((not s.wcns['v_7d2b1d6a_7e78_4525_8962_edae09ab0be3'] or s.wcns['v_7d2b1d6a_7e78_4525_8962_edae09ab0be3']()) and "{v_7d2b1d6a_7e78_4525_8962_edae09ab0be3_XLnk|Или хотите проглотить таблетку?}^" or "");
@@ -43452,6 +43603,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_539828b7_235e_419e_bbc5_794908ce90df'] or s.wcns['v_539828b7_235e_419e_bbc5_794908ce90df']()) and "{v_539828b7_235e_419e_bbc5_794908ce90df_XLnk|Кого он подозревает в совершении диверсии?}^" or "");
         p((not s.wcns['v_ec4ecb3d_7148_486e_9575_03558e987085'] or s.wcns['v_ec4ecb3d_7148_486e_9575_03558e987085']()) and "{v_ec4ecb3d_7148_486e_9575_03558e987085_XLnk|Не заметил ли он каких-то странностей на корабле за последнюю неделю?}^" or "");
@@ -43691,6 +43843,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6fed5e6a_bd0e_4547_8d11_13b085d95efd'] or s.wcns['v_6fed5e6a_bd0e_4547_8d11_13b085d95efd']()) and "{v_6fed5e6a_bd0e_4547_8d11_13b085d95efd_XLnk|Завершить осмотр каюты}^" or "");
     end,
@@ -43795,6 +43948,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_94669ec8_09f7_4cd6_bf08_8a1ac8c93cdb'] or s.wcns['v_94669ec8_09f7_4cd6_bf08_8a1ac8c93cdb']()) and "{v_94669ec8_09f7_4cd6_bf08_8a1ac8c93cdb_XLnk|Далее}^" or "");
     end,
@@ -43897,6 +44051,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6f32c23f_1a35_4168_845b_53bbc5e6a4fd'] or s.wcns['v_6f32c23f_1a35_4168_845b_53bbc5e6a4fd']()) and "{v_6f32c23f_1a35_4168_845b_53bbc5e6a4fd_XLnk|Далее}^" or "");
     end,
@@ -44080,6 +44235,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f7868f85_f826_4264_a86f_6b55c5d37a4e_93fa06bd_400c_4b76_a8a2_e2917db8d2e4__Return_XLnk|Продолжить игру}^");
     end,
@@ -44181,6 +44337,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_26e440e9_a595_4dae_b95a_457975fef3b2'] or s.wcns['v_26e440e9_a595_4dae_b95a_457975fef3b2']()) and "{v_26e440e9_a595_4dae_b95a_457975fef3b2_XLnk|Далее}^" or "");
     end,
@@ -44282,6 +44439,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37'] or s.wcns['v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37']()) and "{v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37_XLnk|Попросите совета у Доджа}^" or "");
         p((not s.wcns['v_b5f11887_396d_4203_938f_9052199003f5'] or s.wcns['v_b5f11887_396d_4203_938f_9052199003f5']()) and "{v_b5f11887_396d_4203_938f_9052199003f5_XLnk|Расскажете Доджу про щиток}^" or "");
@@ -44403,6 +44561,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b511cd32_8625_456f_acff_86d81ae73a0c'] or s.wcns['v_b511cd32_8625_456f_acff_86d81ae73a0c']()) and "{v_b511cd32_8625_456f_acff_86d81ae73a0c_XLnk|Вам ничего не оставалось, как покинуть этот отсек}^" or "");
     end,
@@ -44504,6 +44663,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_f30da443_e75f_42d6_a1c7_b5f0e998a05e'] or s.wcns['v_f30da443_e75f_42d6_a1c7_b5f0e998a05e']()) and "{v_f30da443_e75f_42d6_a1c7_b5f0e998a05e_XLnk|Пойдете проверить пульт управления криогенной системой}^" or "");
         p((not s.wcns['v_09674975_e852_4c9a_be9e_e3cde182d74a'] or s.wcns['v_09674975_e852_4c9a_be9e_e3cde182d74a']()) and "{v_09674975_e852_4c9a_be9e_e3cde182d74a_XLnk|Поскорее покинете отсек пока не получили отравление}^" or "");
@@ -44624,6 +44784,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6a2fa5ee_ee6b_4827_b941_f4475f36d650'] or s.wcns['v_6a2fa5ee_ee6b_4827_b941_f4475f36d650']()) and "{v_6a2fa5ee_ee6b_4827_b941_f4475f36d650_XLnk|Подозревает ли он кого-то в диверсии}^" or "");
         p((not s.wcns['v_57a033ba_833f_48b2_9a69_b5e8601468d0'] or s.wcns['v_57a033ba_833f_48b2_9a69_b5e8601468d0']()) and "{v_57a033ba_833f_48b2_9a69_b5e8601468d0_XLnk|Попытаетесь использовать блеф и скажете, что знаете, что это он совершил диверсию на корабле}^" or "");
@@ -44761,6 +44922,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9'] or s.wcns['v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9']()) and "{v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9_XLnk|Кто мог перенастроить криогенную систему в складском отсеке?}^" or "");
         p((not s.wcns['v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61'] or s.wcns['v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61']()) and "{v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61_XLnk|Так почему вы не проведете этот анализ и не доложите о своих результатах капитану Кларку?}^" or "");
@@ -44880,6 +45042,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a6df6d8c_6405_4a41_a846_a3d912f5413f'] or s.wcns['v_a6df6d8c_6405_4a41_a846_a3d912f5413f']()) and "{v_a6df6d8c_6405_4a41_a846_a3d912f5413f_XLnk|Спросите, что он заметил необычного в последнее время?}^" or "");
         p((not s.wcns['v_6e6da2b2_6224_412b_b5db_519dbc0c849c'] or s.wcns['v_6e6da2b2_6224_412b_b5db_519dbc0c849c']()) and "{v_6e6da2b2_6224_412b_b5db_519dbc0c849c_XLnk|Спросите про начальника снабжения Ридли}^" or "");
@@ -44999,6 +45162,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_0ab791de_734d_4434_b418_15016f46ff94'] or s.wcns['v_0ab791de_734d_4434_b418_15016f46ff94']()) and "{v_0ab791de_734d_4434_b418_15016f46ff94_XLnk|И какие же вы знаете «факты»?}^" or "");
     end,
@@ -45100,6 +45264,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b6b20eb2_f538_4383_bf46_72016e5bca5d'] or s.wcns['v_b6b20eb2_f538_4383_bf46_72016e5bca5d']()) and "{v_b6b20eb2_f538_4383_bf46_72016e5bca5d_XLnk|Далее}^" or "");
     end,
@@ -45201,6 +45366,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b1f216dd_e562_4efb_ac39_b082375c1104'] or s.wcns['v_b1f216dd_e562_4efb_ac39_b082375c1104']()) and "{v_b1f216dd_e562_4efb_ac39_b082375c1104_XLnk|Пойти на палубу абордажных шатлов}^" or "");
         p((not s.wcns['v_0796df51_d545_400a_87d7_7441d7fb3cca'] or s.wcns['v_0796df51_d545_400a_87d7_7441d7fb3cca']()) and "{v_0796df51_d545_400a_87d7_7441d7fb3cca_XLnk|Пойти в отсек Связи}^" or "");
@@ -45399,6 +45565,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_86212a4e_c106_48f7_b4e0_ac3074c1ab8b'] or s.wcns['v_86212a4e_c106_48f7_b4e0_ac3074c1ab8b']()) and "{v_86212a4e_c106_48f7_b4e0_ac3074c1ab8b_XLnk|Далее}^" or "");
     end,
@@ -45503,6 +45670,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6cf13d48_3007_4785_ba90_8a4abb48bd6f'] or s.wcns['v_6cf13d48_3007_4785_ba90_8a4abb48bd6f']()) and "{v_6cf13d48_3007_4785_ba90_8a4abb48bd6f_XLnk|Кажется, это все что можно выжать полезного из этого служаки Крампа. Вы решили пока заняться другими делами}^" or "");
         p((not s.wcns['v_b9bb42c0_1fad_4848_a93d_ee4df8609301'] or s.wcns['v_b9bb42c0_1fad_4848_a93d_ee4df8609301']()) and "{v_b9bb42c0_1fad_4848_a93d_ee4df8609301_XLnk|Попросить  Крампа показать видеозаписи из медицинского отсека}^" or "");
@@ -45629,6 +45797,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_32bb4f16_0449_4499_9669_1369c90538dc'] or s.wcns['v_32bb4f16_0449_4499_9669_1369c90538dc']()) and "{v_32bb4f16_0449_4499_9669_1369c90538dc_XLnk|Попросите Доджа оценить ваш интеллектуальный уровень}^" or "");
     end,
@@ -45815,6 +45984,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_9bc708b3_f51d_494f_8293_f8bbfb962d1e'] or s.wcns['v_9bc708b3_f51d_494f_8293_f8bbfb962d1e']()) and "{v_9bc708b3_f51d_494f_8293_f8bbfb962d1e_XLnk|Согласитесь с «железными» доводами Доджа и пойдете писать рапорт на имя адмирала, в котором укажете, что поломка криогенных систем произошла по причине программного сбоя}^" or "");
         p((not s.wcns['v_b32fde9f_76d3_4a2b_b51d_94f593b768db'] or s.wcns['v_b32fde9f_76d3_4a2b_b51d_94f593b768db']()) and "{v_b32fde9f_76d3_4a2b_b51d_94f593b768db_XLnk|Или продолжите свое расследование и опростите других подозреваемых}^" or "");
@@ -45934,6 +46104,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4c537c12_c500_4745_9460_eeead8c3811c'] or s.wcns['v_4c537c12_c500_4745_9460_eeead8c3811c']()) and "{v_4c537c12_c500_4745_9460_eeead8c3811c_XLnk|Далее}^" or "");
     end,
@@ -46191,6 +46362,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_718f0c0c_30f4_435f_bcb9_6e20003c6393'] or s.wcns['v_718f0c0c_30f4_435f_bcb9_6e20003c6393']()) and "{v_718f0c0c_30f4_435f_bcb9_6e20003c6393_XLnk|Скажете доктору, что вы на хорошем счету у Адмирала и можете посодействовать о его переводе на флагман, где выше оклад и лучший комфорт для экипажа}^" or "");
     end,
@@ -46292,6 +46464,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_dc2d3086_2942_481d_9747_187b488c6c17'] or s.wcns['v_dc2d3086_2942_481d_9747_187b488c6c17']()) and "{v_dc2d3086_2942_481d_9747_187b488c6c17_XLnk|Далее}^" or "");
         p((not s.wcns['v_2bb486f3_6739_4159_b1be_115b2907d2e1'] or s.wcns['v_2bb486f3_6739_4159_b1be_115b2907d2e1']()) and "{v_2bb486f3_6739_4159_b1be_115b2907d2e1_XLnk|Далее}^" or "");
@@ -46413,6 +46586,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c'] or s.wcns['v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c']()) and "{v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c_XLnk|Вы решили больше не мучить капитана и пока оставить его в покое}^" or "");
     end,
@@ -46514,6 +46688,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3e4b494d_8947_4124_9c6a_2f4d2823445c'] or s.wcns['v_3e4b494d_8947_4124_9c6a_2f4d2823445c']()) and "{v_3e4b494d_8947_4124_9c6a_2f4d2823445c_XLnk|Вы взяли этот факт себе на заметку, и пошли дальше}^" or "");
     end,
@@ -46615,6 +46790,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bfda18a7_4777_4913_9861_3b580b51aaf7'] or s.wcns['v_bfda18a7_4777_4913_9861_3b580b51aaf7']()) and "{v_bfda18a7_4777_4913_9861_3b580b51aaf7_XLnk|А разве такое возможно?}^" or "");
         p((not s.wcns['v_b93cc154_105d_436a_946b_9b47e1cfecb4'] or s.wcns['v_b93cc154_105d_436a_946b_9b47e1cfecb4']()) and "{v_b93cc154_105d_436a_946b_9b47e1cfecb4_XLnk|Я напишу в рапорте, что диверсию совершил ты Додж, ибо только ты мог перенасторить алгоритмы на пульте управления.}^" or "");
@@ -46737,6 +46913,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4cdefb60_3864_436f_a322_a6c98adee56b'] or s.wcns['v_4cdefb60_3864_436f_a322_a6c98adee56b']()) and "{v_4cdefb60_3864_436f_a322_a6c98adee56b_XLnk|Завершить осмотр каюты}^" or "");
     end,
@@ -46841,6 +47018,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_bc262993_4469_446a_aa4e_0177b9649015_93fa06bd_400c_4b76_a8a2_e2917db8d2e4__Return_XLnk|Продолжить игру}^");
     end,
@@ -46941,6 +47119,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6d6ce3a9_4799_4f74_9c39_2ccdc43b837a'] or s.wcns['v_6d6ce3a9_4799_4f74_9c39_2ccdc43b837a']()) and "{v_6d6ce3a9_4799_4f74_9c39_2ccdc43b837a_XLnk|Далее}^" or "");
     end,
@@ -47042,6 +47221,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b2df375a_de4b_4293_bf7e_119af21fe5bb'] or s.wcns['v_b2df375a_de4b_4293_bf7e_119af21fe5bb']()) and "{v_b2df375a_de4b_4293_bf7e_119af21fe5bb_XLnk|Далее}^" or "");
     end,
@@ -47144,6 +47324,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3ed1b304_025d_4a0e_a828_0adb03725077'] or s.wcns['v_3ed1b304_025d_4a0e_a828_0adb03725077']()) and "{v_3ed1b304_025d_4a0e_a828_0adb03725077_XLnk|Далее}^" or "");
     end,
@@ -47247,6 +47428,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488'] or s.wcns['v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488']()) and "{v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488_XLnk|Доктора Гусмана}^" or "");
         p((not s.wcns['v_a58c0391_5ca7_4d1e_9de0_b676aa766f62'] or s.wcns['v_a58c0391_5ca7_4d1e_9de0_b676aa766f62']()) and "{v_a58c0391_5ca7_4d1e_9de0_b676aa766f62_XLnk|Каюту капитана Кларка}^" or "");
@@ -47456,6 +47638,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4'] or s.wcns['v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4']()) and "{v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4_XLnk|Скажете, что не все определяется только логикой и интеллектом. Есть еще интуиция}^" or "");
     end,
@@ -47557,6 +47740,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_2b72bf03_56c2_4823_9156_db47c4fbbd2d'] or s.wcns['v_2b72bf03_56c2_4823_9156_db47c4fbbd2d']()) and "{v_2b72bf03_56c2_4823_9156_db47c4fbbd2d_XLnk|Скажете, что вероятность слишком мала и адмирал не поверит в то, что сбой произошел случайно}^" or "");
         p((not s.wcns['v_a7474adf_bce0_408e_b470_f6790189e7b0'] or s.wcns['v_a7474adf_bce0_408e_b470_f6790189e7b0']()) and "{v_a7474adf_bce0_408e_b470_f6790189e7b0_XLnk|Спросите, почему Додж так заинтересован, чтобы диверсия выглядела как случайность}^" or "");
@@ -47677,6 +47861,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_8bbb3725_ebc1_4bd3_a29c_efdd75b8c909'] or s.wcns['v_8bbb3725_ebc1_4bd3_a29c_efdd75b8c909']()) and "{v_8bbb3725_ebc1_4bd3_a29c_efdd75b8c909_XLnk|Далее}^" or "");
     end,
@@ -47778,6 +47963,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_cb189117_7252_4ca8_8f01_514b058310d7'] or s.wcns['v_cb189117_7252_4ca8_8f01_514b058310d7']()) and "{v_cb189117_7252_4ca8_8f01_514b058310d7_XLnk|Спросите его кто мог перенастроить криогенную систему в складском отсеке}^" or "");
         p((not s.wcns['v_777cce8b_267e_45b8_828d_3a9b544cd024'] or s.wcns['v_777cce8b_267e_45b8_828d_3a9b544cd024']()) and "{v_777cce8b_267e_45b8_828d_3a9b544cd024_XLnk|Попросите Доджа оценить всех подозреваемых офицеров на предмет их причастности к диверсии}^" or "");
@@ -47897,6 +48083,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a0351aef_e50e_4b39_9e72_63b2175d9be8'] or s.wcns['v_a0351aef_e50e_4b39_9e72_63b2175d9be8']()) and "{v_a0351aef_e50e_4b39_9e72_63b2175d9be8_XLnk|Опросить всех подозреваемых}^" or "");
         p((not s.wcns['v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd'] or s.wcns['v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd']()) and "{v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd_XLnk|Осмотреть место происшествия в складском отсеке}^" or "");
@@ -48093,6 +48280,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_f90ea85c_5acf_48f1_bec3_7849d728ad24'] or s.wcns['v_f90ea85c_5acf_48f1_bec3_7849d728ad24']()) and "{v_f90ea85c_5acf_48f1_bec3_7849d728ad24_XLnk|Вы решили больше не мучить Ридли и пока оставить его в покое}^" or "");
     end,
@@ -48194,6 +48382,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5e7adfe7_423c_42b5_b7f0_b13010f2288c'] or s.wcns['v_5e7adfe7_423c_42b5_b7f0_b13010f2288c']()) and "{v_5e7adfe7_423c_42b5_b7f0_b13010f2288c_XLnk|Далее}^" or "");
     end,
@@ -48379,6 +48568,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4fda5660_f6f6_4a52_800f_d9f285099edb'] or s.wcns['v_4fda5660_f6f6_4a52_800f_d9f285099edb']()) and "{v_4fda5660_f6f6_4a52_800f_d9f285099edb_XLnk|Далее}^" or "");
     end,
@@ -48480,6 +48670,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5a2cd2ea_afc1_49d3_8080_8e45e14ada0a'] or s.wcns['v_5a2cd2ea_afc1_49d3_8080_8e45e14ada0a']()) and "{v_5a2cd2ea_afc1_49d3_8080_8e45e14ada0a_XLnk|Далее}^" or "");
     end,
@@ -48581,6 +48772,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_0b978725_9798_48aa_b42e_5b143e37b935'] or s.wcns['v_0b978725_9798_48aa_b42e_5b143e37b935']()) and "{v_0b978725_9798_48aa_b42e_5b143e37b935_XLnk|Попросите Крампа показать вам видео}^" or "");
         p((not s.wcns['v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3'] or s.wcns['v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3']()) and "{v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3_XLnk|Попросите Крампа показать вам видеозаписи сделанные пять дней назад}^" or "");
@@ -48701,6 +48893,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4'] or s.wcns['v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4']()) and "{v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4_XLnk|Хотите надавить на него еще сильнее и заявите, что знаете, что это он совершил диверсию на корабле}^" or "");
         p((not s.wcns['v_f7ffd235_dd1c_486b_a08f_bf40097452a9'] or s.wcns['v_f7ffd235_dd1c_486b_a08f_bf40097452a9']()) and "{v_f7ffd235_dd1c_486b_a08f_bf40097452a9_XLnk|Или будете молча наблюдать, как он мечется под вашим строгим взглядом}^" or "");
@@ -48822,6 +49015,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6418303b_c4ac_4fc6_a45f_4ba787018a46'] or s.wcns['v_6418303b_c4ac_4fc6_a45f_4ba787018a46']()) and "{v_6418303b_c4ac_4fc6_a45f_4ba787018a46_XLnk|Вы спросили Крампа - Не обнаружил ли он каких-то улик или странностей за последние пять дней?}^" or "");
     end,
@@ -48925,6 +49119,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_30ff5469_f28c_4c55_ba16_762ebc55af16'] or s.wcns['v_30ff5469_f28c_4c55_ba16_762ebc55af16']()) and "{v_30ff5469_f28c_4c55_ba16_762ebc55af16_XLnk|Попросите Доджа дать вам более подробное заключение по интеллектуальным способностям офицеров}^" or "");
         p((not s.wcns['v_f4339fc1_22ab_4943_9860_397bcce2830d'] or s.wcns['v_f4339fc1_22ab_4943_9860_397bcce2830d']()) and "{v_f4339fc1_22ab_4943_9860_397bcce2830d_XLnk|Или пойдете опрашивать других офицеров}^" or "");
@@ -49044,6 +49239,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3366d696_2185_4fa6_9cf3_15e1c26cdd49'] or s.wcns['v_3366d696_2185_4fa6_9cf3_15e1c26cdd49']()) and "{v_3366d696_2185_4fa6_9cf3_15e1c26cdd49_XLnk|Вы спросили Доджа, подозревает ли он кого-то в диверсии}^" or "");
     end,
@@ -49148,6 +49344,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d'] or s.wcns['v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d']()) and "{v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d_XLnk|Превозмогая головокружение, попробуете сесть на койке и настоите на том, чтобы продолжить свое расследование}^" or "");
         p((not s.wcns['v_39947d13_4cf3_49d3_86bc_01b31f2d0861'] or s.wcns['v_39947d13_4cf3_49d3_86bc_01b31f2d0861']()) and "{v_39947d13_4cf3_49d3_86bc_01b31f2d0861_XLnk|Согласитесь остаться в лазарете на один день и потом продолжите расследование}^" or "");
@@ -49267,6 +49464,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef'] or s.wcns['v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef']()) and "{v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef_XLnk|И что вы заметили?}^" or "");
         p((not s.wcns['v_91c0fb85_e1e2_43b9_917b_4d5073069d49'] or s.wcns['v_91c0fb85_e1e2_43b9_917b_4d5073069d49']()) and "{v_91c0fb85_e1e2_43b9_917b_4d5073069d49_XLnk|Резко спросите его, где он находился пять дней назад в 12/35 по Галактическому времени}^" or "");
@@ -49488,6 +49686,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_01bea31b_7d97_497c_b337_294eb4bc32fb'] or s.wcns['v_01bea31b_7d97_497c_b337_294eb4bc32fb']()) and "{v_01bea31b_7d97_497c_b337_294eb4bc32fb_XLnk|Скажете, что отправите рапорт адмиралу флота, в котором прямо укажете, что капитан Кларк противодействует расследованию}^" or "");
         p((not s.wcns['v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b'] or s.wcns['v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b']()) and "{v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b_XLnk|Не будете ссориться с капитаном Кларком и продолжите свое расследование без досмотра кают подозреваемых}^" or "");
@@ -49608,6 +49807,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857'] or s.wcns['v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857']()) and "{v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857_XLnk|Кажется, вы перегнули палку и настроили офицеров и капитана против себя}^" or "");
     end,
@@ -49711,6 +49911,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c938fc89_d3b9_4b19_8289_e072cd03d361'] or s.wcns['v_c938fc89_d3b9_4b19_8289_e072cd03d361']()) and "{v_c938fc89_d3b9_4b19_8289_e072cd03d361_XLnk|Далее}^" or "");
     end,
@@ -49815,6 +50016,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_9b04ea02_d506_4331_bc3f_43b67a8b85b7'] or s.wcns['v_9b04ea02_d506_4331_bc3f_43b67a8b85b7']()) and "{v_9b04ea02_d506_4331_bc3f_43b67a8b85b7_XLnk|Далее}^" or "");
     end,
@@ -49916,6 +50118,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a30884ce_f267_4d03_9225_374a316c2601'] or s.wcns['v_a30884ce_f267_4d03_9225_374a316c2601']()) and "{v_a30884ce_f267_4d03_9225_374a316c2601_XLnk|Скажете, что он вполне мог ознакомиться с инструкцией по настройке криогенных программ через компьютер в базе Справочной системы корабля}^" or "");
         p((not s.wcns['v_935088bd_45f3_468d_ba0a_a4ddaa3f842e'] or s.wcns['v_935088bd_45f3_468d_ba0a_a4ddaa3f842e']()) and "{v_935088bd_45f3_468d_ba0a_a4ddaa3f842e_XLnk|Спросите, где был капитан пять дней назад в 12/35}^" or "");
@@ -50037,6 +50240,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_22a1c8ee_a78b_4fb4_a50f_1d2febc96bda'] or s.wcns['v_22a1c8ee_a78b_4fb4_a50f_1d2febc96bda']()) and "{v_22a1c8ee_a78b_4fb4_a50f_1d2febc96bda_XLnk|Далее}^" or "");
     end,
@@ -50138,6 +50342,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_0d2a5709_953d_4823_9bb4_03f0ac0c433c'] or s.wcns['v_0d2a5709_953d_4823_9bb4_03f0ac0c433c']()) and "{v_0d2a5709_953d_4823_9bb4_03f0ac0c433c_XLnk|Продолжите свое расследование и опростите других подозреваемых}^" or "");
     end,
@@ -50242,6 +50447,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_61d33057_d41c_4e74_9b56_7deb62d8f1e1'] or s.wcns['v_61d33057_d41c_4e74_9b56_7deb62d8f1e1']()) and "{v_61d33057_d41c_4e74_9b56_7deb62d8f1e1_XLnk|Далее}^" or "");
         p((not s.wcns['v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e'] or s.wcns['v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e']()) and "{v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e_XLnk|Продолжить игру}^" or "");
@@ -50361,6 +50567,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_af588236_d955_4fac_80df_ea73aa35f557'] or s.wcns['v_af588236_d955_4fac_80df_ea73aa35f557']()) and "{v_af588236_d955_4fac_80df_ea73aa35f557_XLnk|Завершить осмотр каюты}^" or "");
     end,
@@ -50464,6 +50671,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_46f86f4c_1487_4822_9322_00720f364e41'] or s.wcns['v_46f86f4c_1487_4822_9322_00720f364e41']()) and "{v_46f86f4c_1487_4822_9322_00720f364e41_XLnk|Далее}^" or "");
     end,
@@ -50565,6 +50773,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_71ac805c_67a5_4606_85d0_90b037d1961d'] or s.wcns['v_71ac805c_67a5_4606_85d0_90b037d1961d']()) and "{v_71ac805c_67a5_4606_85d0_90b037d1961d_XLnk|Скажете, что знаете о его отношениях с капралом Кэтрин}^" or "");
         p((not s.wcns['v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c'] or s.wcns['v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c']()) and "{v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c_XLnk|Зададите ему другой вопрос}^" or "");
@@ -50684,6 +50893,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_36ba018f_4824_421f_a426_f82ab93d70d5'] or s.wcns['v_36ba018f_4824_421f_a426_f82ab93d70d5']()) and "{v_36ba018f_4824_421f_a426_f82ab93d70d5_XLnk|И кто, по-вашему, находится вне подозрений?}^" or "");
     end,
@@ -50785,6 +50995,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_db5d1ad1_592a_42c0_b30d_480c4bad1854'] or s.wcns['v_db5d1ad1_592a_42c0_b30d_480c4bad1854']()) and "{v_db5d1ad1_592a_42c0_b30d_480c4bad1854_XLnk|Далее}^" or "");
     end,
@@ -50886,6 +51097,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6'] or s.wcns['v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6']()) and "{v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6_XLnk|Расскажете Доджу про щиток}^" or "");
         p((not s.wcns['v_65910735_64a9_4dca_aa2e_d7efe1b195bf'] or s.wcns['v_65910735_64a9_4dca_aa2e_d7efe1b195bf']()) and "{v_65910735_64a9_4dca_aa2e_d7efe1b195bf_XLnk|Попросите Доджа дать вам более подробное заключение по интеллектуальным способностям офицеров}^" or "");
@@ -51005,6 +51217,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_78806482_c813_49e1_9d91_ce20cc29701d'] or s.wcns['v_78806482_c813_49e1_9d91_ce20cc29701d']()) and "{v_78806482_c813_49e1_9d91_ce20cc29701d_XLnk|Вы можете лишь успеть опросить подозреваемых офицеров}^" or "");
     end,
@@ -51107,6 +51320,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5140896f_1b08_4c17_9030_df40ae4356d3'] or s.wcns['v_5140896f_1b08_4c17_9030_df40ae4356d3']()) and "{v_5140896f_1b08_4c17_9030_df40ae4356d3_XLnk|Как по вашему, кому понадобилось устанавливать камеру в вашей каюте?}^" or "");
     end,
@@ -51211,6 +51425,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_8942e527_31a9_4909_914e_00b40b3873c8'] or s.wcns['v_8942e527_31a9_4909_914e_00b40b3873c8']()) and "{v_8942e527_31a9_4909_914e_00b40b3873c8_XLnk|Хотите посмотреть плакаты?}^" or "");
         p((not s.wcns['v_2cf1dcb5_4480_4786_b764_c6f96dd48d23'] or s.wcns['v_2cf1dcb5_4480_4786_b764_c6f96dd48d23']()) and "{v_2cf1dcb5_4480_4786_b764_c6f96dd48d23_XLnk|Завершить осмотр каюты}^" or "");
@@ -51331,6 +51546,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_291007d2_4bb7_4ddb_8a23_9741e4b64fd8'] or s.wcns['v_291007d2_4bb7_4ddb_8a23_9741e4b64fd8']()) and "{v_291007d2_4bb7_4ddb_8a23_9741e4b64fd8_XLnk|Далее}^" or "");
     end,
@@ -51435,6 +51651,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_276209e2_d488_44fa_bad0_6cc993ab2de2'] or s.wcns['v_276209e2_d488_44fa_bad0_6cc993ab2de2']()) and "{v_276209e2_d488_44fa_bad0_6cc993ab2de2_XLnk|Завершить осмотр каюты}^" or "");
     end,
@@ -51540,6 +51757,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_515d8a63_b7fe_4d57_93b2_d82d29dbad68'] or s.wcns['v_515d8a63_b7fe_4d57_93b2_d82d29dbad68']()) and "{v_515d8a63_b7fe_4d57_93b2_d82d29dbad68_XLnk|Пойдете дальше, чтобы не терять свое драгоценное время}^" or "");
         p((not s.wcns['v_e12ba243_9351_4fd7_99e5_c35a2e739c80'] or s.wcns['v_e12ba243_9351_4fd7_99e5_c35a2e739c80']()) and "{v_e12ba243_9351_4fd7_99e5_c35a2e739c80_XLnk|Или продолжите слушать}^" or "");
@@ -51659,6 +51877,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8'] or s.wcns['v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8']()) and "{v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8_XLnk|Кто имел доступ в складской отсек?}^" or "");
         p((not s.wcns['v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3'] or s.wcns['v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3']()) and "{v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3_XLnk|Кто из экипажа разбирается в наладке криогенной системы?}^" or "");
@@ -51817,6 +52036,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd'] or s.wcns['v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd']()) and "{v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd_XLnk|Пойдете дальше, чтобы не терять свое драгоценное время}^" or "");
     end,
@@ -51919,6 +52139,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a6cf91ca_9668_43a4_b6e6_e99c4739947f'] or s.wcns['v_a6cf91ca_9668_43a4_b6e6_e99c4739947f']()) and "{v_a6cf91ca_9668_43a4_b6e6_e99c4739947f_XLnk|Попросите его проверить в базе данных, кто из членов экипажа за последние пару недель запрашивал информацию, касающуюся работы криогенных систем корабля}^" or "");
         p((not s.wcns['v_62a9a664_3887_4bb8_ad41_97f363f77ad5'] or s.wcns['v_62a9a664_3887_4bb8_ad41_97f363f77ad5']()) and "{v_62a9a664_3887_4bb8_ad41_97f363f77ad5_XLnk|Узнаете кто запрашивал информацию о электропроводке в Справочном разделе}^" or "");
@@ -52057,6 +52278,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4491ac85_fa3e_43c1_a6f9_874865c57c61'] or s.wcns['v_4491ac85_fa3e_43c1_a6f9_874865c57c61']()) and "{v_4491ac85_fa3e_43c1_a6f9_874865c57c61_XLnk|Продолжите свое расследование и опростите других подозреваемых}^" or "");
     end,
@@ -52158,6 +52380,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_772a394a_9fdf_4dd9_b899_be5014a39358'] or s.wcns['v_772a394a_9fdf_4dd9_b899_be5014a39358']()) and "{v_772a394a_9fdf_4dd9_b899_be5014a39358_XLnk|Пойдете дальше, чтобы не терять свое драгоценное время}^" or "");
     end,
@@ -52261,6 +52484,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_931efa2b_7973_4d5a_a6f4_a6b889190f43'] or s.wcns['v_931efa2b_7973_4d5a_a6f4_a6b889190f43']()) and "{v_931efa2b_7973_4d5a_a6f4_a6b889190f43_XLnk|Откроете баночку чтобы рассмотреть их поближе}^" or "");
         p((not s.wcns['v_b8b9c39f_af50_4b1f_966e_b7935a212650'] or s.wcns['v_b8b9c39f_af50_4b1f_966e_b7935a212650']()) and "{v_b8b9c39f_af50_4b1f_966e_b7935a212650_XLnk|Завершить осмотр каюты}^" or "");
@@ -52382,6 +52606,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_0ccf959d_dcb6_45e7_aca8_458b8226c115'] or s.wcns['v_0ccf959d_dcb6_45e7_aca8_458b8226c115']()) and "{v_0ccf959d_dcb6_45e7_aca8_458b8226c115_XLnk|Далее}^" or "");
     end,
@@ -52483,6 +52708,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_09fd4be8_3335_435d_aa5c_7ad34e543492'] or s.wcns['v_09fd4be8_3335_435d_aa5c_7ad34e543492']()) and "{v_09fd4be8_3335_435d_aa5c_7ad34e543492_XLnk|Далее}^" or "");
     end,
@@ -52585,6 +52811,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a1517235_cd4e_4e03_b776_2a046aeeb772'] or s.wcns['v_a1517235_cd4e_4e03_b776_2a046aeeb772']()) and "{v_a1517235_cd4e_4e03_b776_2a046aeeb772_XLnk|Подозревает ли он кого-то в совершении диверсии}^" or "");
         p((not s.wcns['v_72af4c6c_fd96_4f74_a41a_bd2b42779db5'] or s.wcns['v_72af4c6c_fd96_4f74_a41a_bd2b42779db5']()) and "{v_72af4c6c_fd96_4f74_a41a_bd2b42779db5_XLnk|Не заметил ли он каких-то странностей в последние дни}^" or "");
@@ -52743,6 +52970,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_0f375258_0f9f_4dd4_a184_679233c425f7'] or s.wcns['v_0f375258_0f9f_4dd4_a184_679233c425f7']()) and "{v_0f375258_0f9f_4dd4_a184_679233c425f7_XLnk|Вы подозреваете капитана Кларка в совершении диверсии?}^" or "");
     end,
@@ -52850,6 +53078,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6bc7e178_8621_4f8d_ad12_2a500df15c82'] or s.wcns['v_6bc7e178_8621_4f8d_ad12_2a500df15c82']()) and "{v_6bc7e178_8621_4f8d_ad12_2a500df15c82_XLnk|Вы взяли этот факт себе на заметку, и пошли дальше}^" or "");
     end,
@@ -52955,6 +53184,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a52e5d64_4ff5_4f7b_a618_4b3deb446b96'] or s.wcns['v_a52e5d64_4ff5_4f7b_a618_4b3deb446b96']()) and "{v_a52e5d64_4ff5_4f7b_a618_4b3deb446b96_XLnk|Далее}^" or "");
     end,
@@ -53057,6 +53287,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1'] or s.wcns['v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1']()) and "{v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1_XLnk|Если вы действительно считаете, что Додж и есть вражеский агент, то можете прямо сейчас пойти и написать на него рапорт}^" or "");
         p((not s.wcns['v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd'] or s.wcns['v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd']()) and "{v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd_XLnk|Скажете, что вероятность в 14% тоже весомая цифра и Додж может ошибиться в своей уверенности}^" or "");
@@ -53176,6 +53407,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102'] or s.wcns['v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102']()) and "{v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102_XLnk|И что вам говорят ваши сингулярные процессы?}^" or "");
         p((not s.wcns['v_56a95074_5e26_4045_95e9_d0e3dc06dcb3'] or s.wcns['v_56a95074_5e26_4045_95e9_d0e3dc06dcb3']()) and "{v_56a95074_5e26_4045_95e9_d0e3dc06dcb3_XLnk|Кто мог перенастроить криогенную систему в складском отсеке?}^" or "");
@@ -53296,6 +53528,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_2b0ae650_a835_4e33_96f4_e01a8f0c8515'] or s.wcns['v_2b0ae650_a835_4e33_96f4_e01a8f0c8515']()) and "{v_2b0ae650_a835_4e33_96f4_e01a8f0c8515_XLnk|Подозревает ли он кого-то в диверсии}^" or "");
         p((not s.wcns['v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b'] or s.wcns['v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b']()) and "{v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b_XLnk|Где он находился пять дней назад в 12/35}^" or "");
@@ -53416,6 +53649,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_2e831b96_3299_44b0_a228_b75e94d16c8d'] or s.wcns['v_2e831b96_3299_44b0_a228_b75e94d16c8d']()) and "{v_2e831b96_3299_44b0_a228_b75e94d16c8d_XLnk|Далее}^" or "");
     end,
@@ -53517,6 +53751,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_06559fa1_c666_476f_af5a_cc2113e38c50'] or s.wcns['v_06559fa1_c666_476f_af5a_cc2113e38c50']()) and "{v_06559fa1_c666_476f_af5a_cc2113e38c50_XLnk|Далее}^" or "");
     end,
@@ -53626,6 +53861,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6b6eec9f_c77f_4c44_98b6_33f0c7904725'] or s.wcns['v_6b6eec9f_c77f_4c44_98b6_33f0c7904725']()) and "{v_6b6eec9f_c77f_4c44_98b6_33f0c7904725_XLnk|Далее}^" or "");
     end,
@@ -53727,6 +53963,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e'] or s.wcns['v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e']()) and "{v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e_XLnk|Скажете Доджу, что чутье подсказывает вам, что это была не случайность, а диверсия}^" or "");
     end,
@@ -53829,6 +54066,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7fe3f467_89eb_4837_852f_efe30902763b'] or s.wcns['v_7fe3f467_89eb_4837_852f_efe30902763b']()) and "{v_7fe3f467_89eb_4837_852f_efe30902763b_XLnk|Скажете Потоцкому, что раз у него нет алиби и он не может доказать, где он был в указанное время, то он находится под подозрением}^" or "");
         p((not s.wcns['v_433f91e6_da8a_48eb_8205_b09b18fa5ddc'] or s.wcns['v_433f91e6_da8a_48eb_8205_b09b18fa5ddc']()) and "{v_433f91e6_da8a_48eb_8205_b09b18fa5ddc_XLnk|Спросите про его встречу с капитаном Кларком}^" or "");
@@ -53966,6 +54204,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5468fb08_c4e4_41b8_94e6_3ce8836eb721'] or s.wcns['v_5468fb08_c4e4_41b8_94e6_3ce8836eb721']()) and "{v_5468fb08_c4e4_41b8_94e6_3ce8836eb721_XLnk|Далее}^" or "");
     end,
@@ -54069,6 +54308,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_db98590b_232c_4aa3_b701_fe5f0051a875'] or s.wcns['v_db98590b_232c_4aa3_b701_fe5f0051a875']()) and "{v_db98590b_232c_4aa3_b701_fe5f0051a875_XLnk|Попрощаетесь с ним и покинете лазарет}^" or "");
     end,
@@ -54170,6 +54410,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d'] or s.wcns['v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d']()) and "{v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d_XLnk|Инженера Доджа}^" or "");
         p((not s.wcns['v_a3e17583_45a4_4aab_8aa8_a174417df34f'] or s.wcns['v_a3e17583_45a4_4aab_8aa8_a174417df34f']()) and "{v_a3e17583_45a4_4aab_8aa8_a174417df34f_XLnk|Начальника по снабжению Ридли}^" or "");
@@ -54384,6 +54625,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf'] or s.wcns['v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf']()) and "{v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf_XLnk|Считаете, что капитан хочет от вас что-то скрыть и настоите на своем}^" or "");
         p((not s.wcns['v_332bc69c_5f9b_4f58_9335_778dc5b7d138'] or s.wcns['v_332bc69c_5f9b_4f58_9335_778dc5b7d138']()) and "{v_332bc69c_5f9b_4f58_9335_778dc5b7d138_XLnk|Займетесь другими делами}^" or "");
@@ -54503,6 +54745,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3d8f44df_3a82_4d7f_b94e_9087622907a3'] or s.wcns['v_3d8f44df_3a82_4d7f_b94e_9087622907a3']()) and "{v_3d8f44df_3a82_4d7f_b94e_9087622907a3_XLnk|Далее}^" or "");
     end,
@@ -54604,6 +54847,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_9bf2b0b8_7b7f_41ed_a865_f554487942e1'] or s.wcns['v_9bf2b0b8_7b7f_41ed_a865_f554487942e1']()) and "{v_9bf2b0b8_7b7f_41ed_a865_f554487942e1_XLnk|Далее}^" or "");
     end,
@@ -54707,6 +54951,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f'] or s.wcns['v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f']()) and "{v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f_XLnk|Не обнаружил ли он каких-то улик или странностей за последние дни?}^" or "");
         p((not s.wcns['v_06df80b1_3a0e_496c_971e_ccc3c09a24fb'] or s.wcns['v_06df80b1_3a0e_496c_971e_ccc3c09a24fb']()) and "{v_06df80b1_3a0e_496c_971e_ccc3c09a24fb_XLnk|Кого он подозревает в диверсии?}^" or "");
@@ -54827,6 +55072,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4545eb73_4bd8_4118_955f_cc43e4e67050'] or s.wcns['v_4545eb73_4bd8_4118_955f_cc43e4e67050']()) and "{v_4545eb73_4bd8_4118_955f_cc43e4e67050_XLnk|Далее}^" or "");
     end,
@@ -54928,6 +55174,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23'] or s.wcns['v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23']()) and "{v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23_XLnk|Завершить осмотр каюты}^" or "");
     end,
@@ -55032,6 +55279,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7bd5e1dd_47c3_41c8_b072_4c19736411dd'] or s.wcns['v_7bd5e1dd_47c3_41c8_b072_4c19736411dd']()) and "{v_7bd5e1dd_47c3_41c8_b072_4c19736411dd_XLnk|Попросить Крампа показать видеозаписи из медицинского отсека}^" or "");
         p((not s.wcns['v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a'] or s.wcns['v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a']()) and "{v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a_XLnk|Кажется, это все что можно выжать полезного из этого служаки Крампа. Вы решили пока заняться другими делами}^" or "");
@@ -55152,6 +55400,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_17fa66c5_ec61_4fa8_8d8d_90dc4e241ecb'] or s.wcns['v_17fa66c5_ec61_4fa8_8d8d_90dc4e241ecb']()) and "{v_17fa66c5_ec61_4fa8_8d8d_90dc4e241ecb_XLnk|Далее}^" or "");
     end,
@@ -55253,6 +55502,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b82cdce4_2c53_4625_a125_3917f7d35714'] or s.wcns['v_b82cdce4_2c53_4625_a125_3917f7d35714']()) and "{v_b82cdce4_2c53_4625_a125_3917f7d35714_XLnk|Виновником диверсии является инженер Додж}^" or "");
         p((not s.wcns['v_a9205aa3_6cf2_44c1_8366_fa67560e98a9'] or s.wcns['v_a9205aa3_6cf2_44c1_8366_fa67560e98a9']()) and "{v_a9205aa3_6cf2_44c1_8366_fa67560e98a9_XLnk|Виновником диверсии является доктор Гусман}^" or "");
@@ -55444,6 +55694,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3ae331c8_b71a_4534_ab99_9b72bc7cc33e'] or s.wcns['v_3ae331c8_b71a_4534_ab99_9b72bc7cc33e']()) and "{v_3ae331c8_b71a_4534_ab99_9b72bc7cc33e_XLnk|Далее}^" or "");
     end,
@@ -55545,6 +55796,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e1d770d4_fd71_49e7_a1c7_c370355ec53f'] or s.wcns['v_e1d770d4_fd71_49e7_a1c7_c370355ec53f']()) and "{v_e1d770d4_fd71_49e7_a1c7_c370355ec53f_XLnk|Вы взяли этот факт себе на заметку, и пошли дальше}^" or "");
     end,
@@ -55646,6 +55898,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6d78d572_28bc_4c87_a114_72ad0ba7ae73'] or s.wcns['v_6d78d572_28bc_4c87_a114_72ad0ba7ae73']()) and "{v_6d78d572_28bc_4c87_a114_72ad0ba7ae73_XLnk|Далее}^" or "");
     end,
@@ -55748,6 +56001,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_2e7f4ba9_f7cb_487d_9959_b7fc70bbcd20'] or s.wcns['v_2e7f4ba9_f7cb_487d_9959_b7fc70bbcd20']()) and "{v_2e7f4ba9_f7cb_487d_9959_b7fc70bbcd20_XLnk|Далее}^" or "");
     end,
@@ -55850,6 +56104,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_fdf63b99_4f5b_4f23_8973_a94d960fde62'] or s.wcns['v_fdf63b99_4f5b_4f23_8973_a94d960fde62']()) and "{v_fdf63b99_4f5b_4f23_8973_a94d960fde62_XLnk|Вы больше ничего не могли разобрать из их разговора и решили покинуть ангар}^" or "");
     end,
@@ -55954,6 +56209,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_84c2a879_6f55_4148_b237_f8b72b829022'] or s.wcns['v_84c2a879_6f55_4148_b237_f8b72b829022']()) and "{v_84c2a879_6f55_4148_b237_f8b72b829022_XLnk|Далее}^" or "");
         p((not s.wcns['v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c'] or s.wcns['v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c']()) and "{v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c_XLnk|Послушаете ещё}^" or "");
@@ -56073,6 +56329,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_033dad09_2800_4fa6_83d4_9bb2f2b62807_XLnk|Далее}^");
     end,
@@ -56195,6 +56452,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a5cadec0_c09c_4667_9a2f_d91472bf41dc_XLnk|Назад}^");
     end,
@@ -56320,6 +56578,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5837cdb4_1616_424f_b048_56831cc9832c_XLnk|Далее}^");
     end,
@@ -56446,6 +56705,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4aa3dfbc_b635_4a00_9cdc_edaddf6f361c_XLnk|Отказаться от покорения этой планеты и лететь дальше}^");
         p("{v_9f0e1faa_3851_4aee_9377_96d0ed614712_XLnk|Сразиться с врагами}^");
@@ -56589,6 +56849,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_eb5632c7_d045_4b33_8d75_73c13f1f50bb_XLnk|Предлагаю изменить курс и обойти это поле}^");
         p("{v_d097e008_a922_4959_94f6_9a5d742ac168_XLnk|Или прикажете продолжать движение}^");
@@ -56730,6 +56991,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b87e2b65_ff45_408c_bdf4_47c899d46343_XLnk|Прикажете идти на сближение с грузовым кораблем}^");
         p("{v_bf481c78_a9bf_443d_a8e3_59e649f409d6_XLnk|Направитесь к космической станции}^");
@@ -56889,6 +57151,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_23a8a5be_d43c_496b_9d87_57aed5ee18b4_XLnk|Далее}^");
     end,
@@ -57014,6 +57277,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_edee0769_a223_454d_86ea_7183bc4b762c_XLnk|Далее}^");
     end,
@@ -57138,6 +57402,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9d54d53a_6ad9_4f5e_854f_632e07b216dc_XLnk|Далее}^");
     end,
@@ -57263,6 +57528,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7310b3db_29fa_41fd_be5c_bd2be299037f_XLnk|Далее}^");
     end,
@@ -57386,6 +57652,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8c123363_2802_4adf_853a_318cdbcd69bf_XLnk|Назад}^");
     end,
@@ -57620,6 +57887,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_192c7700_cb94_4827_a8cd_405eff528470_XLnk|Далее}^");
     end,
@@ -57745,6 +58013,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f5975f39_3186_4055_b082_db2755614753_XLnk|Отправите звено истребителей на перехват вражеских корветов}^");
         p("{v_8cd7198a_3ab6_4f48_aea3_420943eaf47d_XLnk|Прикажете флоту прорываться через астероидное поле, чтобы бежать от врага}^");
@@ -57886,6 +58155,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1cb842b2_45ae_4799_baa5_37091688d83a_XLnk|Далее}^");
     end,
@@ -58011,6 +58281,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_acd2a779_1133_4792_b105_c266a8a351f4_XLnk|Вступить в бой с пиратами}^");
         p("{v_e08fc9a0_8ec8_4da9_9a36_6f7d37e35026_XLnk|Или отказаться от этой миссии, отступить к планете Таргос и напасть на нее}^");
@@ -58156,6 +58427,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_20ef8c65_b0c6_4335_a7f7_91f81df742a6_XLnk|Путь к планете Сотус теперь свободен}^");
     end,
@@ -58281,6 +58553,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_409e880a_0062_429e_81c4_11ba0c16adac_XLnk|Далее}^");
     end,
@@ -58406,6 +58679,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_182494ec_9d3d_4060_8ffd_8c270e384954'] or s.wcns['v_182494ec_9d3d_4060_8ffd_8c270e384954']()) and "{v_182494ec_9d3d_4060_8ffd_8c270e384954_XLnk|Воспользоваться Сканером разведки}^" or "");
         p("{v_241b8ab4_97c0_46b1_9a6f_43fb62b1258c_XLnk|Лавировать между астероидами}^");
@@ -58550,6 +58824,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3d5cc0b2_285c_408c_af4a_42203b41683c_XLnk|Пойдете за офицером}^");
         p("{v_a08cb3d0_0611_4ce3_8514_eb08f03c64e0_XLnk|Прикажете своим штурмовикам открыть по врагу огонь и будете отступать назад к своему шатлу}^");
@@ -58692,6 +58967,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ca4f56ae_0c7a_4100_9e73_55e04a2d83c5_XLnk|Далее}^");
     end,
@@ -58817,6 +59093,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5'] or s.wcns['v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5']()) and "{v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5_XLnk|Отправить на осмотр завода отряд штурмовиков}^" or "");
         p("{v_6abc30ab_170c_4695_a5da_594cbe80c432_XLnk|Продолжить полет к планете Боро}^");
@@ -58961,6 +59238,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7794a420_dd3a_42e1_9217_401f214af5d7_XLnk|Прикажете сначала атаковать станцию}^");
         p("{v_bd793d46_4607_49ad_8812_97f80310b97a_XLnk|Или не отвлекаться на эту цель и атаковать флот Фароса}^");
@@ -59110,6 +59388,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d3dd1d9e_7219_400e_ba1a_8245c50c65b9_XLnk|Всё могло быть иначе! Вернитесь назад и сделайте другой выбор.}^");
     end,
@@ -59239,6 +59518,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2f56328b_1b09_40e1_b12d_562a064828f2_XLnk|Далее}^");
     end,
@@ -59366,6 +59646,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ce519c40_fe20_46c2_8082_67a3492139d7_XLnk|Далее}^");
     end,
@@ -59493,6 +59774,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_6260402c_a545_477a_99e1_de18f432cae8_XLnk|Далее}^");
     end,
@@ -59621,6 +59903,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3800ab21_487f_44dd_868b_439e43ef8431_XLnk|Хотите лично пойти и вскрыть контейнер}^");
         p("{v_22bbb5e3_76ab_4cc4_821f_d088976b6125_XLnk|Отдадите контейнер с артефактом правителю планеты Нобула}^");
@@ -59762,6 +60045,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0a3402f7_a346_4b95_91b9_87872311e9e5_XLnk|Далее}^");
     end,
@@ -59887,6 +60171,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f17b8e5f_2d9e_43aa_a69a_768755199e04_XLnk|Далее}^");
     end,
@@ -60012,6 +60297,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_afaa680a_072d_4522_8208_7bf30d24a741_XLnk|Далее}^");
     end,
@@ -60140,6 +60426,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a5352824_5fcd_48c1_9c58_054d3ad506eb_XLnk|Далее}^");
     end,
@@ -60265,6 +60552,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c124c779_da7f_4dc9_a290_40801ad7de74_XLnk|Отправиться на планету Локан с якобы мирной миссией}^");
         p("{v_1bf49fe6_7f43_428a_8587_d18d88e42fdb_XLnk|Внезапно напасть на флот диктатора Торгара}^");
@@ -60408,6 +60696,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_70a85179_c88f_476d_8be1_bb0c289ad977_XLnk|Врежете ему по морде}^");
         p("{v_76f113ba_d2bf_4227_8174_210bd50aae16_XLnk|Согласитесь на требования Бутчера}^");
@@ -60550,6 +60839,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c6d39d59_a02e_4a08_b99f_cdab557d5e36_XLnk|Далее}^");
     end,
@@ -60675,6 +60965,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a767bd73_8321_48d8_8c3b_077970c1afdb_XLnk|Вступить в переговоры}^");
         p("{v_3508cc67_7ce3_4f3a_abe5_92910bebfad3_XLnk|Принять бой}^");
@@ -60817,6 +61108,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c31c8064_601b_4e70_a48b_d9676b9583d6'] or s.wcns['v_c31c8064_601b_4e70_a48b_d9676b9583d6']()) and "{v_c31c8064_601b_4e70_a48b_d9676b9583d6_XLnk|Использовать Энергетический щит}^" or "");
         p((not s.wcns['v_6834d60e_12cc_42e1_8035_eb771c67068b'] or s.wcns['v_6834d60e_12cc_42e1_8035_eb771c67068b']()) and "{v_6834d60e_12cc_42e1_8035_eb771c67068b_XLnk|Лететь через поле астероидов}^" or "");
@@ -60961,6 +61253,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_46d7a134_2082_48c0_a596_1e5feee927e3_XLnk|Далее}^");
     end,
@@ -62876,6 +63169,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f8ebf10e_b319_425b_ba33_a28865346514_XLnk|Далее}^");
     end,
@@ -63001,6 +63295,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e7ee190e_5917_4174_ab35_31acec5afa5f_XLnk|Далее}^");
     end,
@@ -63125,6 +63420,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_bafd385f_7389_4aab_b758_184fa107ff59_XLnk|Далее}^");
     end,
@@ -63252,6 +63548,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_48eff682_0993_4df3_870d_c828771219d2_XLnk|Взять 2 карты}^");
         p("{v_e51cec9a_0030_4732_b649_7f5200b03910_XLnk|Взять 2 отряда штурмовиков}^");
@@ -63396,6 +63693,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_47f90a24_1a89_481e_aaef_3fe72b9cb433_XLnk|Далее}^");
     end,
@@ -63629,6 +63927,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_606f8bb2_5c0a_4a2b_9a17_9921a99cb278_XLnk|Далее}^");
     end,
@@ -63754,6 +64053,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2860ab3c_8530_4455_889b_bea587542345_XLnk|Далее}^");
     end,
@@ -63880,6 +64180,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7041c079_b10d_4751_97b9_74ca41a5448a_XLnk|Лететь к грузовому кораблю}^");
         p("{v_b3430e82_3765_49a3_a95e_60708710d47a_XLnk|Лететь к сектору, откуда идет сигнал о помощи}^");
@@ -64039,6 +64340,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4638c38f_4533_4513_9b6c_00f1f7137dce_XLnk|Далее}^");
     end,
@@ -64162,6 +64464,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a01a7980_a915_401e_aa2b_c91063619606_XLnk|Назад}^");
     end,
@@ -64288,6 +64591,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_eabad344_d93c_4142_a7e5_7788a7336d5d_XLnk|Далее}^");
     end,
@@ -64414,6 +64718,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0d1f8789_0d83_483e_b19e_4cb74870aff2_XLnk|Доложите начальству о его замысле}^");
         p("{v_a1d95bf4_9ce1_42fd_913b_b318100b1984_XLnk|Решите бежать вместе с этим парнем}^");
@@ -64665,6 +64970,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -64772,6 +65078,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_36e65107_11df_401f_9af0_a7c554c8c75f_XLnk|Назад}^");
     end,
@@ -64897,6 +65204,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a9502956_ea28_4aa6_b901_be96e46cf7d7_XLnk|Далее}^");
     end,
@@ -65025,6 +65333,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815'] or s.wcns['v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815']()) and "{v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815_XLnk|Лететь к планете Дерек}^" or "");
         p((not s.wcns['v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f'] or s.wcns['v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f']()) and "{v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f_XLnk|Лететь к планете Рута}^" or "");
@@ -65207,6 +65516,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_907c8ebc_3a46_4058_b3d0_f256096b73d2_XLnk|Рискнете атаковать планету Дерек}^");
         p("{v_70f2180d_4d88_4540_92cd_db0f3cf3ed7f_XLnk|Полетите к другим планетам}^");
@@ -65349,6 +65659,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_aab4cffa_db0c_4090_befe_db4f84e075b0_XLnk|Далее}^");
     end,
@@ -65474,6 +65785,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5'] or s.wcns['v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5']()) and "{v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5_XLnk|Отправить шатл на поиски}^" or "");
         p("{v_015abcc6_5c56_4813_9746_ae807d83e08a_XLnk|Лететь к другим планетам}^");
@@ -65731,6 +66043,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9f081987_759d_460f_bb07_d19080d14bcd_XLnk|Назад}^");
     end,
@@ -65962,6 +66275,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_06f7e9b6_8035_4292_a5e5_3eb839aff228_XLnk|Назад}^");
     end,
@@ -68696,6 +69010,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_39a84a15_305f_4c5d_8a9a_7af52f9e72dd_XLnk|Далее}^");
     end,
@@ -69107,6 +69422,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_aabe7532_715f_486e_9651_9c96666896b2_XLnk|Назад}^");
     end,
@@ -69231,6 +69547,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9bfcdbe7_a117_483b_8163_05a02fe37634_XLnk|Далее}^");
     end,
@@ -69359,6 +69676,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_6ee505da_1da5_4022_b701_ca380034f8ad_XLnk|Далее}^");
     end,
@@ -69484,6 +69802,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f981d48b_897d_4a77_8840_0121ddb22571_XLnk|Помочь Вотану освободить его дочь}^");
         p("{v_490d4c0c_84a9_4a4f_bcfa_69a5392d3883_XLnk|Атаковать флот президента Вотана и покорить планету Боро}^");
@@ -69627,6 +69946,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_18400a98_bad9_458f_94b2_7622366a0ced_XLnk|Далее}^");
     end,
@@ -69751,6 +70071,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -69861,6 +70182,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c5eee3a5_a952_448f_9c87_39ab7c035579_XLnk|Далее}^");
     end,
@@ -69987,6 +70309,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5'] or s.wcns['v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5']()) and "{v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5_XLnk|Использовать Сканеры Разведки}^" or "");
         p((not s.wcns['v_3b97a188_e008_4a4d_a005_b14de68a8230'] or s.wcns['v_3b97a188_e008_4a4d_a005_b14de68a8230']()) and "{v_3b97a188_e008_4a4d_a005_b14de68a8230_XLnk|Далее}^" or "");
@@ -70130,6 +70453,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e74cc79d_ed0c_4991_8953_fdc022c44b77_XLnk|Вступить в переговоры}^");
         p("{v_a1dc96c1_71da_49e1_8344_be2fbdc893ba_XLnk|Атаковать}^");
@@ -70271,6 +70595,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_90c52c19_ab0b_4b9d_9991_376907e7db0e_XLnk|Далее}^");
     end,
@@ -70398,6 +70723,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e3e24868_a668_47af_b490_a0d186ae2564_XLnk|Далее}^");
     end,
@@ -70523,6 +70849,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a71ce839_7157_448b_b709_31ca7340ef0a_XLnk|Далее}^");
     end,
@@ -70779,6 +71106,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_929c945e_dcd0_4a2b_a97b_e94076322293_XLnk|Прикажете забрать контейнеры и вернуться на шатл (вам +5 Боеспособности флота)}^");
         p("{v_a822ed5f_0bd7_4b69_b15c_87e5da569b45_XLnk|Прикажете продолжать поиски}^");
@@ -70922,6 +71250,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_26965335_1372_4a09_b948_be09473c58ae_XLnk|Вы согласны на его условия}^");
         p("{v_edaf2e8a_533c_4f29_b723_442970dcc9c2_XLnk|Вы не согласны на его условия}^");
@@ -71064,6 +71393,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_75bb7ea1_862f_4c6c_9ca2_de0f2aad2c6d_XLnk|Далее}^");
     end,
@@ -71191,6 +71521,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2405a197_8de3_4adc_8604_501c591b2b8b_XLnk|Далее}^");
     end,
@@ -71424,6 +71755,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bec90652_a312_4479_a518_e2e2ac85fcff'] or s.wcns['v_bec90652_a312_4479_a518_e2e2ac85fcff']()) and "{v_bec90652_a312_4479_a518_e2e2ac85fcff_XLnk|Отправить на грузовой корабль штурмовой шатл для проверки груза}^" or "");
         p("{v_a05fe38d_9f71_4d76_bbaa_fd6af4d15128_XLnk|Не портить отношения с корпорацией «Мегатрон» и продолжить полет}^");
@@ -71570,6 +71902,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_28708460_b881_4983_b0b4_6ac6422337d6_XLnk|Далее}^");
     end,
@@ -71695,6 +72028,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5b5306a2_a672_448e_9b03_b6850aefc076_XLnk|Попробовать сунуть автомат между лопастями вентилятора}^");
         p("{v_ccdd034e_6d37_48a8_ba0f_bb72ff990e43_XLnk|Вернуться в лабиринт коридоров и найти Риддика}^");
@@ -71837,6 +72171,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_916787b5_c926_4333_87e8_e9ec6a9922ee_XLnk|Далее}^");
     end,
@@ -71962,6 +72297,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f12c353f_3a93_42a1_b3d1_a2f9e2d5cb53_XLnk|Согласиться взять Вульфа и его людей в свой экипаж}^");
         p("{v_488b0f27_8a2e_497b_9f79_de2fbbafba56_XLnk|Потерять один отряд штурмовиков, лишь бы не брать на борт неизвестных вам людей}^");
@@ -72106,6 +72442,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4508467c_684e_4f87_b113_25b72e28589d'] or s.wcns['v_4508467c_684e_4f87_b113_25b72e28589d']()) and "{v_4508467c_684e_4f87_b113_25b72e28589d_XLnk|Принять бой}^" or "");
         p((not s.wcns['v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f'] or s.wcns['v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f']()) and "{v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
@@ -72288,6 +72625,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_aa379f2f_5833_4cb0_b37f_a52a8d68358e_XLnk|Назад}^");
     end,
@@ -72410,6 +72748,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_6378a1d6_f726_43fe_b3d2_612b322e1319_XLnk|Назад}^");
     end,
@@ -72534,6 +72873,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_694a8114_5c3e_4297_8d79_75e42d1c1002_XLnk|Далее}^");
     end,
@@ -72659,6 +72999,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_b134d34f_b67a_4666_b340_df85f3f18d89'] or s.wcns['v_b134d34f_b67a_4666_b340_df85f3f18d89']()) and "{v_b134d34f_b67a_4666_b340_df85f3f18d89_XLnk|Прикажете отправить шатл со штурмовиками на помощь капитану тюремной баржи}^" or "");
         p("{v_1887eb79_bbf1_47d3_a976_94af707a05b2_XLnk|Продолжите полет к планете Варда}^");
@@ -72801,6 +73142,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b2b14bb0_7c30_48a9_a2cc_db250307bd8e_XLnk|Назад}^");
     end,
@@ -72927,6 +73269,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_590ffdbc_77eb_4fa6_b5b0_878ae44e9f8d_XLnk|Далее}^");
     end,
@@ -73167,6 +73510,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_69197317_e462_4e10_aeff_53cb4024a3fd_XLnk|Далее}^");
     end,
@@ -73292,6 +73636,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f290f508_8abd_4adc_b9cc_49a4b5d76153_XLnk|Мы можем выдать пиратам десяток девушек из наших экипажей. (Вам -2 Славы).}^");
         p("{v_c4f6c2f9_a273_45ee_9e3e_5118be2d7355_XLnk|Или можем вступить с пиратами в бой}^");
@@ -73437,6 +73782,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d77f30ab_c92d_4586_9272_5769e255c6bd_XLnk|Далее}^");
     end,
@@ -73564,6 +73910,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_503b3d43_893d_4940_a320_eb6b854be4a0_XLnk|Далее}^");
     end,
@@ -73811,6 +74158,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_287725ce_a783_49e8_9906_be62e0b7bc47_XLnk|Выберите нужное действие против ваших противников}^");
     end,
@@ -73935,6 +74283,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_240dcb76_c2e0_40d2_8fb2_75ab29dff2ae_XLnk|Далее}^");
     end,
@@ -74168,6 +74517,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d84d5e88_d6d5_422f_8540_e2c8ce125ee8_XLnk|Далее}^");
     end,
@@ -74294,6 +74644,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_381f0077_beeb_4022_aef7_0fdc962c5050'] or s.wcns['v_381f0077_beeb_4022_aef7_0fdc962c5050']()) and "{v_381f0077_beeb_4022_aef7_0fdc962c5050_XLnk|Послать абордажные челноки для захвата шахты}^" or "");
         p("{v_1fe00343_4e62_4b51_992e_c2a32e499411_XLnk|Воспользоваться тем, что вражеский флот еще не успел сконцентрировать свои силы на орбите и атаковать его}^");
@@ -74599,6 +74950,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e33c14a9_f737_4455_b450_fba43989cec6_XLnk|Отступать к кораблям флота}^");
         p("{v_9c1e575b_c6a2_4305_b761_aef4e4c79113_XLnk|Вступить в бой с преследователями}^");
@@ -74744,6 +75096,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c92e7a88_4050_4e38_807e_9aa057dcadce_XLnk|Далее}^");
     end,
@@ -74870,6 +75223,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_cb48714f_968a_4a0b_a184_d0fda1030d44_XLnk|Далее}^");
     end,
@@ -74998,6 +75352,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2984f6fe_c0c9_4f1a_924f_08f52b017a6b_XLnk|Далее}^");
     end,
@@ -75124,6 +75479,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_654f7460_de8e_41ae_b6f6_5f1aa05fc29e_XLnk|Далее}^");
     end,
@@ -75250,6 +75606,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_98676eab_5198_46a2_a93b_6a2bbae9465d_XLnk|Расстрелять этот корабль из наших орудий}^");
         p("{v_257f4fc5_1d57_497f_8c50_65e8adaa7094_XLnk|Продолжить полет к планете Варда}^");
@@ -75391,6 +75748,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e5beb135_d63b_48a1_8ee6_f1018c7c97b1_XLnk|Атаковать планету Нобула}^");
         p("{v_399aea07_7c9c_455c_b3fb_1e60b4078f50_XLnk|Согласится выполнить это задание}^");
@@ -75533,6 +75891,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f0f11ee2_1f0e_4abe_9805_0f99ac0a29ad_XLnk|Далее}^");
     end,
@@ -75657,6 +76016,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_663c0c04_83b9_4a9f_97a1_ffac2379a233_XLnk|Далее}^");
     end,
@@ -75781,6 +76141,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_cbe14597_b2fb_4336_b11a_b3a685090da6_XLnk|Далее}^");
     end,
@@ -75906,6 +76267,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_96a17c70_eb5b_4cd3_a7b3_dcb485cc3473_XLnk|Разрешить досмотр ваших кораблей}^");
         p("{v_949b7e42_c080_4826_b42c_be44112b3cd8_XLnk|Расстрелять патрульный корабль}^");
@@ -76064,6 +76426,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_491da31d_6aed_4744_b1d1_004d384cbb97'] or s.wcns['v_491da31d_6aed_4744_b1d1_004d384cbb97']()) and "{v_491da31d_6aed_4744_b1d1_004d384cbb97_XLnk|Воспользоваться Торговым сканером}^" or "");
         p("{v_29307f29_30ce_43a0_952b_5ce7e14b872e_XLnk|Продолжить полет к планете Эрива}^");
@@ -76260,6 +76623,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -76368,6 +76732,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_79cab178_26e7_41d9_8aea_a3a7dfafb95a'] or s.wcns['v_79cab178_26e7_41d9_8aea_a3a7dfafb95a']()) and "{v_79cab178_26e7_41d9_8aea_a3a7dfafb95a_XLnk|Отправите еще один шатл на поиски}^" or "");
         p("{v_bba83f5e_74a9_4565_8d11_9bc99439414a_XLnk|Направитесь к другим планетам}^");
@@ -76512,6 +76877,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f353470c_4441_429e_be72_08345c532c91_XLnk|Далее}^");
     end,
@@ -76637,6 +77003,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d967f38c_688f_43eb_9b76_05a727809899_XLnk|Далее}^");
     end,
@@ -76762,6 +77129,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_8879ed82_2772_4ad7_b8e1_7958717a3849'] or s.wcns['v_8879ed82_2772_4ad7_b8e1_7958717a3849']()) and "{v_8879ed82_2772_4ad7_b8e1_7958717a3849_XLnk|Далее}^" or "");
         p((not s.wcns['v_2bed3437_c2f3_4208_a96a_ed69369418ed'] or s.wcns['v_2bed3437_c2f3_4208_a96a_ed69369418ed']()) and "{v_2bed3437_c2f3_4208_a96a_ed69369418ed_XLnk|Далее}^" or "");
@@ -76908,6 +77276,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_43aea359_b68e_439b_a284_b02b5735e186_XLnk|Далее}^");
     end,
@@ -77034,6 +77403,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_991c73e9_5a58_4d85_a5f5_10bcb95c4aad_XLnk|Далее}^");
     end,
@@ -77159,6 +77529,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_eb287b7f_a96b_4fc5_a19c_dd58e9e99f10_XLnk|Далее}^");
     end,
@@ -77290,6 +77661,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8297e788_87f5_4565_a4cf_3e68cc334b1a_XLnk|Вступить в переговоры}^");
         p("{v_d6ad8120_106b_44aa_97d3_f439b22bf1aa_XLnk|Напасть на морлоков}^");
@@ -77432,6 +77804,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_2189505e_0380_4fa7_abdd_e2dcc7f501b1'] or s.wcns['v_2189505e_0380_4fa7_abdd_e2dcc7f501b1']()) and "{v_2189505e_0380_4fa7_abdd_e2dcc7f501b1_XLnk|Отправите еще один шатл на поиски}^" or "");
         p("{v_af28bf91_5bdd_46e8_a9dc_cc59cfb9ac7d_XLnk|Направитесь к другим планетам}^");
@@ -77576,6 +77949,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f6f1bb73_fea3_4816_ac18_2e3312d3bc95_XLnk|Далее}^");
     end,
@@ -77702,6 +78076,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f7e7ee3b_f481_4597_bb71_37a032990304_XLnk|Далее}^");
     end,
@@ -77827,6 +78202,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8188adc9_510f_4a60_bb6b_7dad04b8635b_XLnk|Разрешить экипажам своих кораблей посетить бордель}^");
         p("{v_6e7cc67d_d295_4d88_84df_24f4d354b3fa_XLnk|Продолжить полет к планете Эрива}^");
@@ -77968,6 +78344,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ea9d39bc_8b2f_4246_b255_7596a428439e_XLnk|Приказать взять на абордаж грузовоз}^");
         p("{v_bddc3c86_54d0_48e8_ae74_06c7ae2ff134_XLnk|Лететь к планете Нобула}^");
@@ -78109,6 +78486,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4691c5bb_0dea_4725_b4b7_33df33f88d0e'] or s.wcns['v_4691c5bb_0dea_4725_b4b7_33df33f88d0e']()) and "{v_4691c5bb_0dea_4725_b4b7_33df33f88d0e_XLnk|Далее}^" or "");
         p((not s.wcns['v_71db00cd_26c1_4a35_9b41_2a0cded77184'] or s.wcns['v_71db00cd_26c1_4a35_9b41_2a0cded77184']()) and "{v_71db00cd_26c1_4a35_9b41_2a0cded77184_XLnk|Воспользоваться Торговым сканером}^" or "");
@@ -78261,6 +78639,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0a48a730_7660_4540_8e73_17641c2c9e2b_XLnk|(Жаклин + Марта)  и (Эллис + Бегги)}^");
         p("{v_a0a24340_5f0d_48cc_928b_1c871b2d5297_XLnk|(Жаклин + Эллис) и (Марта + Бегги)}^");
@@ -78422,6 +78801,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_81b4eb54_2c96_4c93_8d2b_a3ab3dd99b47_XLnk|Далее}^");
     end,
@@ -78552,6 +78932,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ac8f1c2c_2811_4ee7_97b5_82f921a45c9f_XLnk|Далее}^");
     end,
@@ -78677,6 +79058,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_8fe7743f_98b4_473c_8612_f14ba9a6c80a'] or s.wcns['v_8fe7743f_98b4_473c_8612_f14ba9a6c80a']()) and "{v_8fe7743f_98b4_473c_8612_f14ba9a6c80a_XLnk|Наш флот может совершить прыжок к планете Варда}^" or "");
         p((not s.wcns['v_48916e40_af64_4593_9954_a010f93a1c83'] or s.wcns['v_48916e40_af64_4593_9954_a010f93a1c83']()) and "{v_48916e40_af64_4593_9954_a010f93a1c83_XLnk|Наш флот может совершить прыжок к планете Сотус}^" or "");
@@ -78860,6 +79242,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_54003419_88cd_4da8_904e_013862850031_XLnk|Далее}^");
     end,
@@ -78988,6 +79371,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_c7d5597d_2f57_4771_a742_d6444d3e4b9e'] or s.wcns['v_c7d5597d_2f57_4771_a742_d6444d3e4b9e']()) and "{v_c7d5597d_2f57_4771_a742_d6444d3e4b9e_XLnk|Далее}^" or "");
         p((not s.wcns['v_0432c875_ef3a_4856_8081_f64d66b26d36'] or s.wcns['v_0432c875_ef3a_4856_8081_f64d66b26d36']()) and "{v_0432c875_ef3a_4856_8081_f64d66b26d36_XLnk|Далее}^" or "");
@@ -80924,6 +81308,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee'] or s.wcns['v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee']()) and "{v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee_XLnk|Прикажете послать шатл с штурмовиками для обследования этого корабля}^" or "");
         p("{v_6f84eef5_097f_41ce_9059_139ef17ea3c4_XLnk|Лететь к планете Локан}^");
@@ -81075,6 +81460,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -82862,6 +83248,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_12fb05bd_03fe_4c94_a167_c86415ed1dcf_XLnk|Прикажете своим штурмовикам продолжить поиски}^");
         p("{v_c490f5bb_6672_45aa_b7ee_ae52f4535699_XLnk|Считаете, что здесь нет нечего полезного для вас, и продолжите полет к планете Боро}^");
@@ -83004,6 +83391,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3a36db4f_512a_4216_b923_c75bc8bac2e9_XLnk|Далее}^");
     end,
@@ -83128,6 +83516,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_fae57b90_96e5_4082_8769_aa39cef5a94b_XLnk|Прикажете преследовать врага}^");
         p("{v_91e0e81e_1997_4caf_b87c_5e8d63fdd78a_XLnk|Отступить к кораблям флота}^");
@@ -83270,6 +83659,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2907c941_1398_416e_9e72_b82dfa09a0cd_XLnk|Согласиться на выполнение этой миссии}^");
         p("{v_5eb8a834_d867_4cb9_aeeb_969b983cd34c_XLnk|Aтаковать флот Таргоса и подчинить эту планету силой}^");
@@ -83412,6 +83802,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_66e55772_d654_4494_ae30_c17b085658c0_XLnk|Прикажете продолжать поиски}^");
         p("{v_32e6b798_737b_4b55_9cf1_c88d5fe46cde_XLnk|Не хотите рисковать здоровьем ваших бойцов и прикажете возвращаться}^");
@@ -83662,6 +84053,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3af50360_f603_4b9d_a44a_25f46c04489e_XLnk|Далее}^");
     end,
@@ -83786,6 +84178,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c44836ae_b5ac_4e51_b1e4_d8d8bb39e3a5_XLnk|Далее}^");
     end,
@@ -83912,6 +84305,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_cca06c79_db2f_4bfd_b4fa_3fbb7e0b638e_XLnk|Далее}^");
     end,
@@ -84148,6 +84542,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e357e03d_91b8_4bed_817b_f89dbf513ab0'] or s.wcns['v_e357e03d_91b8_4bed_817b_f89dbf513ab0']()) and "{v_e357e03d_91b8_4bed_817b_f89dbf513ab0_XLnk|Можете попытаться захватить станцию}^" or "");
         p("{v_3d30730c_bd65_4c8e_8461_ca4dff54207f_XLnk|Можете атаковать станцию своим флотом}^");
@@ -84309,6 +84704,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_89348655_6e3c_4fe1_a1c6_3f38811067de_XLnk|Не хотите рисковать здоровьем ваших бойцов и прикажете возвращаться}^");
         p("{v_4cdda3cf_e632_444b_9012_07f64389ab46_XLnk|Прикажете продолжать поиски}^");
@@ -84450,6 +84846,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_fdf83c75_59bb_4186_a987_68057dc03fd9_XLnk|Откажетесь от этой затеи и полетите к планете Нобула}^");
         p("{v_49c1db6a_5f9d_445a_83cf_b828b8bc7b20_XLnk|Отправите один отряд бойцов на операцию без их согласия (вам -2 Славы)}^");
@@ -84593,6 +84990,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e26f0bb6_b003_4908_b163_9bba0d6a8fea_XLnk|Далее}^");
     end,
@@ -84719,6 +85117,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0dd5a922_601b_41e1_9526_b181d6e69c18_XLnk|Далее}^");
     end,
@@ -84844,6 +85243,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_cd05cdc4_9be4_444e_935a_e8c44a486d3a_XLnk|Далее}^");
     end,
@@ -85188,6 +85588,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_6c279b90_9fa9_4260_9b2b_4a8b95ba7116_XLnk|Далее}^");
     end,
@@ -85317,6 +85718,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_869250dd_b1aa_4cc7_9f6a_d8602eb8c39b_XLnk|Спасаться бегством (Боеспособности флота (-15))}^");
         p("{v_18d32a2f_23f9_40f2_ae26_47d5f6dd5976_XLnk|Бросить в бой истребители}^");
@@ -85460,6 +85862,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1702dde9_813f_4783_95dd_382f3358948e_XLnk|Взять несколько яиц и прекратить поисковую миссию}^");
         p("{v_75a7edec_aab2_4a01_b6b2_04e3530f62d6_XLnk|Не брать яйца и продолжить поиски}^");
@@ -85620,6 +86023,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1f594569_ed7b_41fb_a94e_6ad688fc9f1a_XLnk|Далее}^");
     end,
@@ -85745,6 +86149,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_94fb6ebb_765f_4820_be53_b08db63cac6f_XLnk|Согласится с этой идеей (вы получите карту Десанта Чужих)}^");
         p("{v_3f95243a_df0b_47b7_a5c1_790f7980e59e_XLnk|Отказаться и приказать уничтожить все яйца ксеноморфов}^");
@@ -85889,6 +86294,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e17c0658_b883_490e_a625_3d3235d70f33_XLnk|Назад}^");
     end,
@@ -86014,6 +86420,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4c41c197_b1c3_4e1c_802c_70e7fd6788ae_XLnk|Далее}^");
     end,
@@ -86138,6 +86545,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_83d086fe_ff84_4d8b_994b_256c9810121b_XLnk|Далее}^");
     end,
@@ -86263,6 +86671,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0565ee74_40a5_4031_952c_8908c734ce08_XLnk|Постоянно держаться в едином строю}^");
         p("{v_64ba5b1d_bebf_44c7_ba2d_825a88ae00b1_XLnk|Рассредоточиться и маневрировать между астероидами, чтобы запутать врага}^");
@@ -86424,6 +86833,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_607f7a3e_b0a9_4166_b5b9_54aefbdaa045_XLnk|Прикажете «Бестии» прикрыть наш флот от вражеской атаки}^");
         p("{v_dab8b166_d7b0_477d_b464_a427940aeb1b_XLnk|Или пусть останется в составе боевого звена и поможет своим}^");
@@ -86565,6 +86975,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c80c09b3_7c22_4add_93d4_f8cc74b4f4d5_XLnk|Далее}^");
     end,
@@ -86691,6 +87102,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1297f291_98a8_44e1_ada5_98854c77897c_XLnk|Оставить ребенка в челноке}^");
         p("{v_820d4a54_be10_410d_9fbf_381b74642cae_XLnk|Забрать его на свой корабль}^");
@@ -86832,6 +87244,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_6bcf151f_0b16_433f_9440_5281edd56277_XLnk|Далее}^");
     end,
@@ -87176,6 +87589,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_fd976705_4fd9_41cc_be57_50d026ad3f26_XLnk|Далее}^");
     end,
@@ -87300,6 +87714,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8b38e320_11b7_4074_82b1_38b747c386fe_XLnk|Принять подарок и лететь дальше}^");
         p("{v_18c61413_7c18_44ff_a270_fa101cba4082_XLnk|Атаковать флот диктатора Торгара}^");
@@ -87465,6 +87880,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -87574,6 +87990,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9248c4bf_76e1_456b_9e22_22294cc5b040_XLnk|Далее}^");
     end,
@@ -87699,6 +88116,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4eaacfaa_7def_404e_b5fc_3fff393db3be'] or s.wcns['v_4eaacfaa_7def_404e_b5fc_3fff393db3be']()) and "{v_4eaacfaa_7def_404e_b5fc_3fff393db3be_XLnk|Модернизировать один отряд ваших штурмовиков в андроидов}^" or "");
         p("{v_3aae2419_638b_4a50_b043_f3d410f13f35_XLnk|Лететь к планете Нобула}^");
@@ -89731,6 +90149,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_76e5401c_c1bf_4e03_acf3_73894956e67f_XLnk|Далее}^");
     end,
@@ -89856,6 +90275,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_532eb298_c477_468c_b691_c6c8104af64d_XLnk|Далее}^");
     end,
@@ -89983,6 +90403,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5c25ae06_9f75_4aed_a016_deaccab19c3b'] or s.wcns['v_5c25ae06_9f75_4aed_a016_deaccab19c3b']()) and "{v_5c25ae06_9f75_4aed_a016_deaccab19c3b_XLnk|Лететь к планете Чосер}^" or "");
         p((not s.wcns['v_fe691ed9_2b57_4133_b173_823e3b428aa3'] or s.wcns['v_fe691ed9_2b57_4133_b173_823e3b428aa3']()) and "{v_fe691ed9_2b57_4133_b173_823e3b428aa3_XLnk|Лететь к планете Рита}^" or "");
@@ -90369,6 +90790,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2abd9440_09ad_4d81_bb5c_9c9ecc8d39e3_XLnk|Далее}^");
     end,
@@ -90493,6 +90915,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42'] or s.wcns['v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42']()) and "{v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42_XLnk|Далее}^" or "");
         p((not s.wcns['v_4a4f6571_794b_4e65_b5b8_e1ba77443c24'] or s.wcns['v_4a4f6571_794b_4e65_b5b8_e1ba77443c24']()) and "{v_4a4f6571_794b_4e65_b5b8_e1ba77443c24_XLnk|Воспользоваться Торговым сканером}^" or "");
@@ -90636,6 +91059,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f5bfdc6c_fa09_4c12_b49d_8458c6f50556_XLnk|Назад}^");
     end,
@@ -90964,6 +91388,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4e653ba9_39d7_4bbd_a433_86b26b2d9054_XLnk|Далее}^");
     end,
@@ -91092,6 +91517,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_50df9898_5e22_474f_8d58_d86f1f581d78_XLnk|Далее}^");
     end,
@@ -91216,6 +91642,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_aa247627_9889_400f_937d_c39b1a4776fd_XLnk|Далее}^");
     end,
@@ -91497,6 +91924,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_cbf4d936_7ea3_4c7e_9079_1e0b58dcd595_XLnk|Далее}^");
     end,
@@ -91621,6 +92049,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4b4dcee4_3266_47ba_9629_f855bb965375_XLnk|Далее}^");
     end,
@@ -91747,6 +92176,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d08ccd2d_fbe5_499b_b50d_5a9f15a9f990_XLnk|Прикажете продолжить поиски}^");
         p("{v_2a99d4c9_e2b1_43b6_bfe4_9c0a84121823_XLnk|Вернуть поисковую группу и продолжить полет к другим планетам}^");
@@ -91891,6 +92321,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d940a04e_1a89_49fb_b4e1_0ac61790f592_XLnk|Далее}^");
     end,
@@ -92017,6 +92448,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f79b02c2_ba72_4d0c_89dd_c753d88e40a4_XLnk|Далее}^");
     end,
@@ -92142,6 +92574,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6736f1fe_7ab2_4d7d_abd3_933fe3a6ac2d'] or s.wcns['v_6736f1fe_7ab2_4d7d_abd3_933fe3a6ac2d']()) and "{v_6736f1fe_7ab2_4d7d_abd3_933fe3a6ac2d_XLnk|Далее}^" or "");
         p((not s.wcns['v_bc40fc51_8bc3_4ded_b46a_a04651f1fd9d'] or s.wcns['v_bc40fc51_8bc3_4ded_b46a_a04651f1fd9d']()) and "{v_bc40fc51_8bc3_4ded_b46a_a04651f1fd9d_XLnk|Далее}^" or "");
@@ -94058,6 +94491,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_396c526c_b3b0_470c_b705_b75b734ecacf_XLnk|Назад}^");
     end,
@@ -94184,6 +94618,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b8628ce0_d598_4e23_8c0d_fea185e36fa8_XLnk|Обследовать палубу «А»}^");
         p("{v_52774399_6dfd_4939_83c6_fbecd90f4c6d_XLnk|Обследовать палубу «В»}^");
@@ -94342,6 +94777,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_effb00d0_418d_4218_8cbd_1b58e0626b50_XLnk|Согласитесь на эту сделку}^");
         p("{v_1c72f000_d1ea_4d7e_9345_2ae9c91fe8bb_XLnk|Откажетесь}^");
@@ -94483,6 +94919,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_cd30ebd0_0be4_4277_abe4_324d9a1fbe48_XLnk|Прикажете добить основную группу врага}^");
         p("{v_c7296bd3_ae8b_47a3_a47c_f3af63217455_XLnk|Прикажете эскадрилье выйти из боя и лететь к кораблям, чтобы прикрывать флот}^");
@@ -94625,6 +95062,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_16b510ed_485d_48ff_aa66_91d2e0da249b_XLnk|Далее}^");
     end,
@@ -94750,6 +95188,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f1dcd1f9_c73a_4fc8_a562_fcce39f47950_XLnk|Лететь к сектору (В-217)}^");
         p("{v_979c46bf_514b_406c_8903_0dbebd953879_XLnk|Лететь к сектору (С-775)}^");
@@ -94909,6 +95348,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_59c757ce_6263_4bea_87fd_3c290d4c0571_XLnk|Далее}^");
     end,
@@ -95034,6 +95474,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4ccafdcb_789c_49d1_82bc_42a821a19d86_XLnk|Далее}^");
     end,
@@ -95267,6 +95708,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3386b89b_7957_4fa5_a623_5ddd6ebc946f_XLnk|Больше ничего интересного штурмовики не обнаружили и вернулись на свой корабль}^");
     end,
@@ -95508,6 +95950,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9651bd8e_394f_4ffe_baea_ab2e8418ea6e_XLnk|Если выбрали Вар. №2}^");
         p("{v_57270b20_f199_446d_a13e_44ec61aae20e_XLnk|Если вы выбрали Вар. №1}^");
@@ -95649,6 +96092,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9f1542d2_23e5_4237_a0f5_8b7e2ce24c73_XLnk|Не будете ссориться с корпорацией и продолжите полет  к станции «Головорезы Альконы»}^");
         p("{v_22bd9e23_559f_4ed9_87ba_1fbf6f45030a_XLnk|Разорвете договор с корпорацией и прикажете освободить пленников}^");
@@ -95809,6 +96253,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e2e43342_066e_4c16_9776_e8aa8d959312_XLnk|Далее}^");
     end,
@@ -96109,6 +96554,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_381e00c1_51ee_492f_9d68_35b5e6e92728_XLnk|Лететь к станции «Фаэтон»}^");
     end,
@@ -96233,6 +96679,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3'] or s.wcns['v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3']()) and "{v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3_XLnk|Использовать Энергетический щит}^" or "");
         p("{v_281c3e91_a8ba_4e29_8f91_9fb9980b73b6_XLnk|Лететь через поле астероидов}^");
@@ -96376,6 +96823,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2fe317fd_b26c_4a53_991a_05babab1b5b9_XLnk|Далее}^");
     end,
@@ -96500,6 +96948,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f701f7bb_cdd7_44fa_84ba_c5882ea42964_XLnk|Лететь к другим планетам}^");
         p((not s.wcns['v_6252862b_80b0_4da0_aeef_e974cfff781f'] or s.wcns['v_6252862b_80b0_4da0_aeef_e974cfff781f']()) and "{v_6252862b_80b0_4da0_aeef_e974cfff781f_XLnk|Атаковать флот диктатора Торгара}^" or "");
@@ -96843,6 +97292,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_73144ab0_1c4c_42a3_acff_95ae600f1888_XLnk|Далее}^");
     end,
@@ -96970,6 +97420,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f2c93cac_562a_4b5c_825f_c96f4921dcd6_XLnk|Далее}^");
     end,
@@ -97096,6 +97547,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_4f67b475_b028_4bad_b91f_e581e377b2b4_XLnk|Далее}^");
     end,
@@ -97220,6 +97672,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_93c5ad03_037e_4d09_b7e3_fffe0fe63b17_XLnk|Далее}^");
     end,
@@ -97344,6 +97797,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7e563d5b_2a0c_4946_9ca8_1c0e6d61847f_XLnk|Далее}^");
     end,
@@ -97468,6 +97922,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_66b6cbfd_af92_4951_ab28_e8576238b965_XLnk|Прикажете срочно уходить из этого сектора}^");
         p("{v_327b1119_7fc4_49d5_b3e7_3b90ea56415b_XLnk|Прикажете штурмовикам попытаться разминировать бомбу}^");
@@ -97703,6 +98158,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -97810,6 +98266,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_aea1003a_93f7_4fad_8a9b_9d6418e07e49_XLnk|Далее}^");
     end,
@@ -98152,6 +98609,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e32ffbd4_d6b1_4290_8bf8_3a404cad09be_XLnk|Лететь к планете Нобула}^");
     end,
@@ -98277,6 +98735,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f661166a_411d_4f1e_9ae9_b5b9526d7786_XLnk|Жаклин}^");
         p("{v_6ae23b6e_6148_4276_83fb_48f0d92f1013_XLnk|Брюсу}^");
@@ -98422,6 +98881,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_92ca3ecb_4eaf_4356_b93a_152ba8acc412_XLnk|Вражеский флот вас атакует}^");
     end,
@@ -98552,6 +99012,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_215db355_bb72_40cf_a876_d7a996fd931a_XLnk|Далее}^");
     end,
@@ -98846,6 +99307,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_c3c1b318_70ab_4fa1_aa7f_6225527a4ff7_XLnk|Далее}^");
     end,
@@ -98970,6 +99432,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0f3d3f03_20b6_40f5_ac04_85bf4e39d5a3_XLnk|Далее}^");
     end,
@@ -99095,6 +99558,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_995a9f79_e3a7_4d78_979b_4acc5ff6d448_XLnk|Далее}^");
     end,
@@ -99217,6 +99681,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7ad25d5c_1a35_46fd_a440_3e136671efe3_XLnk|Назад}^");
     end,
@@ -99342,6 +99807,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_f8e02595_9226_4356_ab01_a5ecd204ea7b'] or s.wcns['v_f8e02595_9226_4356_ab01_a5ecd204ea7b']()) and "{v_f8e02595_9226_4356_ab01_a5ecd204ea7b_XLnk|Далее}^" or "");
         p((not s.wcns['v_08121fbf_c103_4ffd_849c_107d137fc2dc'] or s.wcns['v_08121fbf_c103_4ffd_849c_107d137fc2dc']()) and "{v_08121fbf_c103_4ffd_849c_107d137fc2dc_XLnk|Далее}^" or "");
@@ -99487,6 +99953,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b'] or s.wcns['v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b']()) and "{v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b_XLnk|Отправить на поиск шатл с отрядом штурмовиков}^" or "");
         p((not s.wcns['v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4'] or s.wcns['v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4']()) and "{v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4_XLnk|Воспользоваться Сканерами Разведки}^" or "");
@@ -99651,6 +100118,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f3db2d8b_afeb_45e8_9f92_fb2d439fc1ac_XLnk|Назад}^");
     end,
@@ -99795,6 +100263,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e1c5fb2f_a2f6_4225_9aab_86eb86c3b938_XLnk|Назад}^");
     end,
@@ -101695,6 +102164,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -102078,6 +102548,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_43eec8c0_1b73_4afb_80b9_3aced0ca304b'] or s.wcns['v_43eec8c0_1b73_4afb_80b9_3aced0ca304b']()) and "{v_43eec8c0_1b73_4afb_80b9_3aced0ca304b_XLnk|Далее}^" or "");
     end,
@@ -102178,6 +102649,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -102387,6 +102859,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -102607,6 +103080,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b5f135dc_0c56_43fb_8952_9d01af23bb73_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return_XLnk|Далее}^");
     end,
@@ -102819,6 +103293,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -102910,6 +103385,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -102995,6 +103471,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_915f1447_abfd_485c_b67d_22d52698b63a_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return_XLnk|Повторить бой или лететь дальше}^");
     end,
@@ -103103,6 +103580,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -103188,6 +103666,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e42ec60a_ca35_4220_833d_5cff27b47527_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return_XLnk|Далее}^");
     end,
@@ -103642,6 +104121,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -103818,6 +104298,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -104013,6 +104494,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -104095,6 +104577,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -104282,6 +104765,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -104365,6 +104849,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -104759,6 +105244,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -104959,6 +105445,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_3d771710_df04_42b5_b65f_fddd9f78fde9'] or s.wcns['v_3d771710_df04_42b5_b65f_fddd9f78fde9']()) and "{v_3d771710_df04_42b5_b65f_fddd9f78fde9_XLnk|Далее}^" or "");
     end,
@@ -105057,6 +105544,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -105897,6 +106385,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_0e879101_07e4_4033_a661_195507314bb1_XLnk|Взять эту книгу}^");
         p("{v_85f964b0_9937_4235_b5f1_10aeb66cf0ac_XLnk|Не брать эту книгу}^");
@@ -106042,6 +106531,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_17374e0e_85be_4c0d_99b0_1272f5153a06'] or s.wcns['v_17374e0e_85be_4c0d_99b0_1272f5153a06']()) and "{v_17374e0e_85be_4c0d_99b0_1272f5153a06_XLnk|Диверсия}^" or "");
         p((not s.wcns['v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e'] or s.wcns['v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e']()) and "{v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e_XLnk|Осиное гнездо}^" or "");
@@ -106230,6 +106720,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_62b1c0e0_4925_4165_abbe_b1e0f21c9c2e_XLnk|Откажетесь и атакуете флот диктатора Торгара}^");
         p("{v_bde8c3dd_4b6e_4940_aaa2_04be13440543_XLnk|Согласитесь вместе напасть на планету Боро (вы получаете три дополнительные карты)}^");
@@ -106376,6 +106867,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8f7d5f38_9dbc_4eaf_adf0_1ad403461177_XLnk|Далее}^");
     end,
@@ -106500,6 +106992,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_03b54361_a941_4277_b1dd_b50bc2a172be_XLnk|Далее}^");
     end,
@@ -106625,6 +107118,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771'] or s.wcns['v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771']()) and "{v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771_XLnk|Послать на разведку отряд штурмовиков}^" or "");
         p("{v_7af630eb_3a83_4e3e_80bf_20ce0705ca48_XLnk|Продолжить полет к планете Варда}^");
@@ -106770,6 +107264,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_d9b2bf64_b281_44ca_99ac_59dda452aed9_XLnk|Послать шатл}^");
         p("{v_a1bb2b5f_a887_4cf7_8a1f_7bf6d173b9f8_XLnk|Расстрелять корабль}^");
@@ -106911,6 +107406,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_008257e7_fdba_4cac_8def_3c405a9bb91f_XLnk|Вступить с противником в переговоры}^");
         p("{v_06588bc3_90fd_4324_906d_db516abf16b6_XLnk|Принять бой}^");
@@ -107053,6 +107549,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9a860f9e_a36c_478f_a522_2a5dfefb4c2b_XLnk|Далее}^");
     end,
@@ -107177,6 +107674,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_cc86e800_550a_48c3_8d2e_c3858364966f'] or s.wcns['v_cc86e800_550a_48c3_8d2e_c3858364966f']()) and "{v_cc86e800_550a_48c3_8d2e_c3858364966f_XLnk|Мы можем лететь к планете Таргос}^" or "");
         p((not s.wcns['v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a'] or s.wcns['v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a']()) and "{v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a_XLnk|Мы можем лететь к планете Фарос}^" or "");
@@ -107343,6 +107841,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_208204af_83b3_4a01_b2c7_21a55b64bf3d_XLnk|Примете подарок правителя Цолькопуса и отправитесь к другим планетам}^");
         p("{v_93d37c3f_8b5f_45d6_8566_ed1c26d89988_XLnk|Решаете все же подчинить эту планету вашей Федерации}^");
@@ -107484,6 +107983,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_198611a1_0d31_423e_93af_815575cdf479_XLnk|Далее}^");
     end,
@@ -107609,6 +108109,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1b700d6c_1462_42d3_8da0_9d454ef5f7d9_XLnk|Далее}^");
     end,
@@ -107735,6 +108236,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118'] or s.wcns['v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118']()) and "{v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118_XLnk|Отправитесь с дипломатической миссией на планету Рута в сопровождении отряда верных вам штурмовиков}^" or "");
         p("{v_2f46ff76_aa8c_4260_85ad_987a9287e3b9_XLnk|Атакуете флот адмирала Ваджры}^");
@@ -107879,6 +108381,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7eae765e_afe4_488e_b7a7_f747e57adf97_XLnk|Далее}^");
     end,
@@ -108004,6 +108507,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ed837a69_7cc5_4e83_bd81_88db5399d1f5_XLnk|Отдать грузовые корабли на разграбление пиратам}^");
         p("{v_3a362201_67f0_4722_b4c9_3f6712b4d1c8_XLnk|Отправить в бой истребители}^");
@@ -108147,6 +108651,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_589677e4_906a_4f01_85bc_c48934b4c33b'] or s.wcns['v_589677e4_906a_4f01_85bc_c48934b4c33b']()) and "{v_589677e4_906a_4f01_85bc_c48934b4c33b_XLnk|Далее}^" or "");
         p((not s.wcns['v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c'] or s.wcns['v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c']()) and "{v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c_XLnk|С помощью Торгового сканера, определить содержимое грузов корпорации «Мегатрон»}^" or "");
@@ -108290,6 +108795,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_9338506d_f9d9_4045_b310_2ec4b050fcf5_XLnk|Далее}^");
     end,
@@ -108417,6 +108923,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_77987092_c034_4cc1_8f92_42ebbe73ffa7_XLnk|Далее}^");
     end,
@@ -108542,6 +109049,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_2ad51004_96ce_456a_ab1f_8ad6c535620c_XLnk|Атаковать корабли планеты Рута}^");
         p("{v_86770f8b_d201_4642_b3b9_a7a8634dbf77_XLnk|Не вмешиваться в этот конфликт и продолжить сближение с планетой Рута}^");
@@ -108683,6 +109191,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_eeb1c5d7_43d7_4eff_9592_cdf49eefbe7a_XLnk|Далее}^");
     end,
@@ -108810,6 +109319,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e7736e67_2273_4bc5_9dae_7096e6534f0f_XLnk|Далее}^");
     end,
@@ -108935,6 +109445,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_15c4d636_7f31_457e_9564_7cf333b4ad22_XLnk|Потребуете от контрабандиста отдать вам часть его груза}^");
         p("{v_fcce5e6a_de73_4935_9557_ae74eb23906d_XLnk|Отпустите его}^");
@@ -109077,6 +109588,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_54207d0b_f8ae_4736_825d_65a5125629c5_XLnk|Отказаться и лететь к планете Кратос}^");
         p("{v_f87062a7_178b_4b97_927f_388799ede15a_XLnk|Согласиться сопровождать торговца}^");
@@ -109218,6 +109730,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_236f80a1_7580_4524_8b81_0e6e9d806b63_XLnk|Вам ничего не оставалось, как отправиться к другим планетам}^");
     end,
@@ -109342,6 +109855,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5814f4a1_46f5_42b5_b765_8e31a4d7af68_XLnk|Не будете отвечать на вопрос и поскорее вскроете контейнер лично}^");
         p("{v_dcd89129_0b82_4ff4_b649_03d0bee5f437_XLnk|Скажете, что ничего не знаете об артефакте и вернетесь к планете Нобула}^");
@@ -109500,6 +110014,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_7d2bec7a_bbc2_462a_ae9c_2f3e81fb21d0_XLnk|Лично вскроете контейнер}^");
         p("{v_757366a1_b5dd_43f3_bb48_81073db911b3_XLnk|Отдадите контейнер с артефактом правителю планеты Нобула}^");
@@ -109642,6 +110157,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_ab497f37_cb7e_4218_abce_3d0dcbc24495_XLnk|Далее}^");
     end,
@@ -109770,6 +110286,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_03127152_f668_4d95_8b71_cbcdde3d8453_XLnk|Далее}^");
     end,
@@ -110228,6 +110745,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1123ff83_7003_4115_ba75_2ace6edad9b4_XLnk|Прикажете лететь к станции}^");
         p("{v_dde4bdf0_0ada_4f18_a9e6_ab8d96761f27_XLnk|Или спуститесь на поверхность планеты}^");
@@ -110372,6 +110890,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_be41f293_1df6_4578_a6da_08250e6ed086_XLnk|Далее}^");
     end,
@@ -110498,6 +111017,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_32e6e216_27a1_449d_bb95_e541830e59ff_XLnk|Уничтожить космопорт}^");
         p((not s.wcns['v_509fb7bf_5a3a_4711_b82e_1e676a4af904'] or s.wcns['v_509fb7bf_5a3a_4711_b82e_1e676a4af904']()) and "{v_509fb7bf_5a3a_4711_b82e_1e676a4af904_XLnk|Захватить этот космопорт}^" or "");
@@ -110641,6 +111161,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_85be9678_505e_45b7_99cf_05da87a33ddd_XLnk|Далее}^");
     end,
@@ -110766,6 +111287,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_67de1c3f_2057_405f_9e6f_83ca0e477296_XLnk|Далее}^");
     end,
@@ -110890,6 +111412,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_b24256d2_d083_4de3_8750_745d23a82184_XLnk|Далее}^");
     end,
@@ -111015,6 +111538,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a4dfae0a_f1fe_440e_9778_6f8d0cf0d0e2_XLnk|Далее}^");
     end,
@@ -111140,6 +111664,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5fd58ee2_6aa2_40d1_aa0b_851dd3669505_XLnk|Далее}^");
     end,
@@ -111266,6 +111791,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e5f4b3b8_2d6e_4a17_98fe_dd07c624e6e1_XLnk|Далее}^");
     end,
@@ -111517,6 +112043,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_2f45f342_41c6_4c92_9f7e_0191927cc58a'] or s.wcns['v_2f45f342_41c6_4c92_9f7e_0191927cc58a']()) and "{v_2f45f342_41c6_4c92_9f7e_0191927cc58a_XLnk|Принять бой}^" or "");
         p((not s.wcns['v_edc150d5_46ba_4540_a02e_cb6d670c929b'] or s.wcns['v_edc150d5_46ba_4540_a02e_cb6d670c929b']()) and "{v_edc150d5_46ba_4540_a02e_cb6d670c929b_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
@@ -111719,6 +112246,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_0688ce40_90db_4d78_be30_93411969b574'] or s.wcns['v_0688ce40_90db_4d78_be30_93411969b574']()) and "{v_0688ce40_90db_4d78_be30_93411969b574_XLnk|Использовать отряд штурмовиков для выполнения этой миссии}^" or "");
         p((not s.wcns['v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5'] or s.wcns['v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5']()) and "{v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5_XLnk|Покорить эту планету силой}^" or "");
@@ -111865,6 +112393,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_91493c75_1f62_4b10_94cc_81355395e3f7_XLnk|Далее}^");
     end,
@@ -112150,6 +112679,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_346e4169_5179_4562_94be_acbae90fe114_XLnk|Далее}^");
     end,
@@ -112444,6 +112974,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_a3b1c456_332a_45bf_a27d_36e2b0b38839_XLnk|Назад}^");
     end,
@@ -112569,6 +113100,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1d342dab_56c3_4b6c_b5cd_387ea3d3af5d_XLnk|Зачислить добровольцев в отряды штурмовиков}^");
         p("{v_6ae91b7b_04a1_4ec0_9bda_4b9e31c7407d_XLnk|Не брать на борт бывших преступников}^");
@@ -112713,6 +113245,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_77eac31a_da1f_49ed_9d40_75f1c951f5d5_XLnk|Рассредоточить флот и преодолеть астероидное поле}^");
         p("{v_ec2c4032_6f8b_4286_a729_df79c043233a_XLnk|Рискнуть и попытаться пройти астероидное поле, сохраняя боевое построение флота}^");
@@ -112857,6 +113390,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_98c94e4c_0641_4c6c_9219_05697d3a147c_XLnk|Далее}^");
     end,
@@ -112982,6 +113516,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_8175a2f6_788e_4bb9_9023_5daa3c938b0f_XLnk|Далее}^");
     end,
@@ -113104,6 +113639,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_1735ad35_0d57_486b_9036_8cc9dbefb213_XLnk|Назад}^");
     end,
@@ -113228,6 +113764,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3608a728_eb6b_4e98_80ca_1ff49fd6be37_XLnk|Далее}^");
     end,
@@ -113355,6 +113892,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
     end,
     wcns = {
@@ -113461,6 +113999,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_361ded5b_5f07_4ed2_8c13_c44e81944a8d_XLnk|Назад}^");
     end,
@@ -113691,6 +114230,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_fb26a364_dfdc_4322_a946_d1fa65a4ca28'] or s.wcns['v_fb26a364_dfdc_4322_a946_d1fa65a4ca28']()) and "{v_fb26a364_dfdc_4322_a946_d1fa65a4ca28_XLnk|Полное сканирование системы.}^" or "");
     end,
@@ -113789,6 +114329,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_48a07321_db60_4924_859a_a96b2f0ffa13'] or s.wcns['v_48a07321_db60_4924_859a_a96b2f0ffa13']()) and "{v_48a07321_db60_4924_859a_a96b2f0ffa13_XLnk|Далее}^" or "");
     end,
@@ -113888,6 +114429,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e8a0b0ab_31a2_40ad_a6c9_2fd8737effb3'] or s.wcns['v_e8a0b0ab_31a2_40ad_a6c9_2fd8737effb3']()) and "{v_e8a0b0ab_31a2_40ad_a6c9_2fd8737effb3_XLnk|Далее}^" or "");
     end,
@@ -113989,6 +114531,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_e1514114_9baf_488d_92ed_82084ee6b6ec_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return_XLnk|Завершить задание}^");
     end,
@@ -114088,6 +114631,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_aec9a2ed_4e8e_4225_8f5d_8a44db2ff572'] or s.wcns['v_aec9a2ed_4e8e_4225_8f5d_8a44db2ff572']()) and "{v_aec9a2ed_4e8e_4225_8f5d_8a44db2ff572_XLnk|Далее}^" or "");
     end,
@@ -114187,6 +114731,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_7ff1eedc_f891_4e66_ab51_dcbd71287200'] or s.wcns['v_7ff1eedc_f891_4e66_ab51_dcbd71287200']()) and "{v_7ff1eedc_f891_4e66_ab51_dcbd71287200_XLnk|Вспомнив про танк на транспортнике, вы с улыбкой согласились.}^" or "");
         p((not s.wcns['v_78e80cd9_4721_4150_b58b_009899c21a27'] or s.wcns['v_78e80cd9_4721_4150_b58b_009899c21a27']()) and "{v_78e80cd9_4721_4150_b58b_009899c21a27_XLnk|С неохотой вы согласились. Какой парад из одной машины?}^" or "");
@@ -114303,6 +114848,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5'] or s.wcns['v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5']()) and "{v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5_XLnk|Вывести флот на орбиту обитаемой планеты.}^" or "");
         p((not s.wcns['v_038d7d11_806a_4eef_b67e_87368ba4af1f'] or s.wcns['v_038d7d11_806a_4eef_b67e_87368ba4af1f']()) and "{v_038d7d11_806a_4eef_b67e_87368ba4af1f_XLnk|Исследовать троянскую точку.}^" or "");
@@ -114535,6 +115081,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_be975aff_2c84_4156_84a2_6f1764963e41'] or s.wcns['v_be975aff_2c84_4156_84a2_6f1764963e41']()) and "{v_be975aff_2c84_4156_84a2_6f1764963e41_XLnk|Далее}^" or "");
     end,
@@ -114633,6 +115180,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_18501d6c_56b9_4396_99aa_a9dc9a21aa97_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return_XLnk|Завершить задание}^");
     end,
@@ -114736,6 +115284,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p((not s.wcns['v_e6cccc5a_d776_4086_aab0_4e41d4c18692'] or s.wcns['v_e6cccc5a_d776_4086_aab0_4e41d4c18692']()) and "{v_e6cccc5a_d776_4086_aab0_4e41d4c18692_XLnk|Далее}^" or "");
     end,
@@ -114834,6 +115383,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_de22bcf0_aa88_40f2_9349_d398ffb4616d_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return_XLnk|Завершить задание}^");
     end,
@@ -114936,6 +115486,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_f9953558_e285_477f_84b1_ca5454c076ce_XLnk|Далее}^");
     end,
@@ -115061,6 +115612,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_3fd84dc9_a461_4d95_bfe8_455726329995_XLnk|Обследовать обломки корабля}^");
         p("{v_d71270fd_a5ad_42fe_8aa4_1f16f2040e3c_XLnk|Приказать шатлам вернуться на орбиту и продолжить полет к другим планетам}^");
@@ -115203,6 +115755,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_5f5dc541_08d0_466b_bebd_c1ec2b7589cc_XLnk|Далее}^");
     end,
@@ -115328,6 +115881,7 @@ return nlb:std_bg();
     way = {
     },
     xdsc = function(s)
+        p "^";
         p(nlb:alts_txt(s));
         p("{v_699caa25_8132_4dc4_a8e4_126d1c9af27d_XLnk|\"Сборник религиозных учений галактики Алькона\"}^");
         p("{v_051ae0c0_2f61_469f_8018_4aeb3d3e596a_XLnk|«Космические сказки»}^");
