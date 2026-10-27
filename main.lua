@@ -21694,10 +21694,10 @@ return nlb:std_bg();
 "IF YOUR WORK IS USED IN THE GAME, BUT NOT LISTED IN THE AUTHORS LIST, PLEASE CONTACT ME AT antokolos@gmail.com, AND INFORMATION ABOUT YOU AS THE CREATOR WILL BE ADDED.");
     end,
     way = {
-        'v_f279706d_f098_4909_844e_af3fa6951b52',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f279706d_f098_4909_844e_af3fa6951b52_XLnk|OK}^");
     end,
     wcns = {
     },
@@ -22070,11 +22070,11 @@ return nlb:std_bg();
 "(Вам -1 отряд штурмовиков).");
     end,
     way = {
-        'v_875e321c_1a99_4096_a368_65c65b751a39',
-        'v_02016866_b99a_40bb_8e7f_3ed7e8c8e6a2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_875e321c_1a99_4096_a368_65c65b751a39_XLnk|Расстрелять этот корабль из наших орудий}^");
+        p("{v_02016866_b99a_40bb_8e7f_3ed7e8c8e6a2_XLnk|Продолжить полет к планете Варда}^");
     end,
     wcns = {
     },
@@ -22211,10 +22211,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Электромагнитные помехи -- Вам +20 Боеспособности.");
     end,
     way = {
-        'v_427e8187_f39c_4b5c_8e42_ebb8c14ce97f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_427e8187_f39c_4b5c_8e42_ebb8c14ce97f_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -22695,12 +22695,12 @@ return nlb:std_bg();
         p("Командир!");
     end,
     way = {
-        'v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d',
-        'v_6a317ea9_00ad_44f3_8881_3ac80de23f83',
-        'v_33286258_5e4f_4d17_9f31_e3379043b5d2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d'] or s.wcns['v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d']()) and "{v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d_XLnk|Наш флот может сейчас сделать прыжок к планете Боро}^" or "");
+        p((not s.wcns['v_6a317ea9_00ad_44f3_8881_3ac80de23f83'] or s.wcns['v_6a317ea9_00ad_44f3_8881_3ac80de23f83']()) and "{v_6a317ea9_00ad_44f3_8881_3ac80de23f83_XLnk|Или к планете Локан}^" or "");
+        p((not s.wcns['v_33286258_5e4f_4d17_9f31_e3379043b5d2'] or s.wcns['v_33286258_5e4f_4d17_9f31_e3379043b5d2']()) and "{v_33286258_5e4f_4d17_9f31_e3379043b5d2_XLnk|Вы уже побывали на планетах Боро и Локан}^" or "");
     end,
     wcns = {
         ['v_e53192b0_eb6e_401d_b8ce_3ffcff7bc26d'] = function() return ( not _boro); end,
@@ -22986,15 +22986,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_db8cb57e_63da_4b80_aa08_71b65c2f1ff4',
-        'v_3d4db1ab_5788_4177_a14c_bbdf6d5e7588',
-        'v_1aecbe1d_1d1d_4bd2_86a9_97e78e4debd0',
-        'v_71694761_0a8c_4b2f_93a3_f4bf981cf96a',
-        'v_37eb2777_4796_452f_90d2_c3ed05be4c85',
-        'v_1f6799d9_052c_41a3_9225_077208ab563f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_db8cb57e_63da_4b80_aa08_71b65c2f1ff4'] or s.wcns['v_db8cb57e_63da_4b80_aa08_71b65c2f1ff4']()) and "{v_db8cb57e_63da_4b80_aa08_71b65c2f1ff4_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_3d4db1ab_5788_4177_a14c_bbdf6d5e7588'] or s.wcns['v_3d4db1ab_5788_4177_a14c_bbdf6d5e7588']()) and "{v_3d4db1ab_5788_4177_a14c_bbdf6d5e7588_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_1aecbe1d_1d1d_4bd2_86a9_97e78e4debd0'] or s.wcns['v_1aecbe1d_1d1d_4bd2_86a9_97e78e4debd0']()) and "{v_1aecbe1d_1d1d_4bd2_86a9_97e78e4debd0_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_71694761_0a8c_4b2f_93a3_f4bf981cf96a'] or s.wcns['v_71694761_0a8c_4b2f_93a3_f4bf981cf96a']()) and "{v_71694761_0a8c_4b2f_93a3_f4bf981cf96a_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_37eb2777_4796_452f_90d2_c3ed05be4c85'] or s.wcns['v_37eb2777_4796_452f_90d2_c3ed05be4c85']()) and "{v_37eb2777_4796_452f_90d2_c3ed05be4c85_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_1f6799d9_052c_41a3_9225_077208ab563f'] or s.wcns['v_1f6799d9_052c_41a3_9225_077208ab563f']()) and "{v_1f6799d9_052c_41a3_9225_077208ab563f_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_db8cb57e_63da_4b80_aa08_71b65c2f1ff4'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -23206,13 +23206,13 @@ return nlb:std_bg();
         p("Командир!");
     end,
     way = {
-        'v_7ada1706_cb29_42a3_ba52_4864e56581b7',
-        'v_9e1bd9c4_75a8_49d1_b885_e2249972bc62',
-        'v_4eb12447_7fdc_4ce7_9da0_a5b1259069bc',
-        'v_afb8be26_a4f8_4548_891c_b3cf4d7b1892',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7ada1706_cb29_42a3_ba52_4864e56581b7'] or s.wcns['v_7ada1706_cb29_42a3_ba52_4864e56581b7']()) and "{v_7ada1706_cb29_42a3_ba52_4864e56581b7_XLnk|Лететь к планете Нобула}^" or "");
+        p((not s.wcns['v_9e1bd9c4_75a8_49d1_b885_e2249972bc62'] or s.wcns['v_9e1bd9c4_75a8_49d1_b885_e2249972bc62']()) and "{v_9e1bd9c4_75a8_49d1_b885_e2249972bc62_XLnk|Лететь к планете Кратос}^" or "");
+        p((not s.wcns['v_4eb12447_7fdc_4ce7_9da0_a5b1259069bc'] or s.wcns['v_4eb12447_7fdc_4ce7_9da0_a5b1259069bc']()) and "{v_4eb12447_7fdc_4ce7_9da0_a5b1259069bc_XLnk|Лететь к планете Магол}^" or "");
+        p((not s.wcns['v_afb8be26_a4f8_4548_891c_b3cf4d7b1892'] or s.wcns['v_afb8be26_a4f8_4548_891c_b3cf4d7b1892']()) and "{v_afb8be26_a4f8_4548_891c_b3cf4d7b1892_XLnk|Вы уже были на планетах Нобула, Кратос и Магол}^" or "");
     end,
     wcns = {
         ['v_7ada1706_cb29_42a3_ba52_4864e56581b7'] = function() return ( not _nobula); end,
@@ -23514,12 +23514,12 @@ return nlb:std_bg();
 "Наши сканеры показывают, что на борту корабля содержится около трехсот людей. Это выглядит очень странным. Обычно грузовые корабли имеют команду не более десяти людей. Возможно это замаскированный десантный корабль пиратов.");
     end,
     way = {
-        'v_a6bf0c26_e4cc_48bc_bfa8_a7ba41330f17',
-        'v_976ffa9c_24af_4d6f_bb4a_1f7f1e7be6ff',
-        'v_cd313a03_a99e_4ecc_ad9b_c0c9a688d355',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a6bf0c26_e4cc_48bc_bfa8_a7ba41330f17_XLnk|Продолжить полет к планете Эрива}^");
+        p("{v_976ffa9c_24af_4d6f_bb4a_1f7f1e7be6ff_XLnk|Вступить в переговоры с капитаном корабля}^");
+        p("{v_cd313a03_a99e_4ecc_ad9b_c0c9a688d355_XLnk|Расстрелять подозрительный корабль из всех орудий}^");
     end,
     wcns = {
     },
@@ -24167,15 +24167,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_6290c3f2_a354_41a1_94fd_13014ba7abb3',
-        'v_0c202f02_42f4_47fa_b0ff_fb8725efaf58',
-        'v_26f2369b_1d9d_4f01_8967_601159c61453',
-        'v_32adb595_5b1d_4cb3_877e_e131988295d3',
-        'v_facd4eb1_dba8_4131_96f0_cced44e25d49',
-        'v_738f768c_aab6_473c_a7d7_ff58d6f0f92e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6290c3f2_a354_41a1_94fd_13014ba7abb3'] or s.wcns['v_6290c3f2_a354_41a1_94fd_13014ba7abb3']()) and "{v_6290c3f2_a354_41a1_94fd_13014ba7abb3_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_0c202f02_42f4_47fa_b0ff_fb8725efaf58'] or s.wcns['v_0c202f02_42f4_47fa_b0ff_fb8725efaf58']()) and "{v_0c202f02_42f4_47fa_b0ff_fb8725efaf58_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_26f2369b_1d9d_4f01_8967_601159c61453'] or s.wcns['v_26f2369b_1d9d_4f01_8967_601159c61453']()) and "{v_26f2369b_1d9d_4f01_8967_601159c61453_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_32adb595_5b1d_4cb3_877e_e131988295d3'] or s.wcns['v_32adb595_5b1d_4cb3_877e_e131988295d3']()) and "{v_32adb595_5b1d_4cb3_877e_e131988295d3_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_facd4eb1_dba8_4131_96f0_cced44e25d49'] or s.wcns['v_facd4eb1_dba8_4131_96f0_cced44e25d49']()) and "{v_facd4eb1_dba8_4131_96f0_cced44e25d49_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_738f768c_aab6_473c_a7d7_ff58d6f0f92e'] or s.wcns['v_738f768c_aab6_473c_a7d7_ff58d6f0f92e']()) and "{v_738f768c_aab6_473c_a7d7_ff58d6f0f92e_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_6290c3f2_a354_41a1_94fd_13014ba7abb3'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -24512,11 +24512,11 @@ return nlb:std_bg();
 "Со мной на связь вышел командир нашей поисковой группы. Они попали в засаду. Их окружили неизвестные вооруженные люди.");
     end,
     way = {
-        'v_9494a94c_6f84_4cdb_b923_fda74ce39bfb',
-        'v_43787534_fde8_4586_9845_bba2e67400b9',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_9494a94c_6f84_4cdb_b923_fda74ce39bfb'] or s.wcns['v_9494a94c_6f84_4cdb_b923_fda74ce39bfb']()) and "{v_9494a94c_6f84_4cdb_b923_fda74ce39bfb_XLnk|Прикажете вступить в бой}^" or "");
+        p("{v_43787534_fde8_4586_9845_bba2e67400b9_XLnk|Прикажете нашим бойцам сдаться в плен}^");
     end,
     wcns = {
         ['v_9494a94c_6f84_4cdb_b923_fda74ce39bfb'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -24779,11 +24779,11 @@ return nlb:std_bg();
         p("Я глава пиратского клана «Бессмертных»! Вы сопровождаете торговый флот корпорации «Мегатрон». Нам нужен их груз. Предлагаю вам сделку. Вы отдаете нам корабли корпорации, а мы отпускаем вас живыми.");
     end,
     way = {
-        'v_e135d30c_cfff_453a_a5bc_e1fc6a1ba88a',
-        'v_7e361ad3_83cf_41f7_923c_d3b9de6196ff',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e135d30c_cfff_453a_a5bc_e1fc6a1ba88a_XLnk|Отдать грузовые корабли пиратам и лететь к другим планетам}^");
+        p("{v_7e361ad3_83cf_41f7_923c_d3b9de6196ff_XLnk|Вступить с ними в бой}^");
     end,
     wcns = {
     },
@@ -24920,11 +24920,11 @@ return nlb:std_bg();
         p("Командир! Мы вынуждены вернуть наших штурмовиков. Атаковать \"Авалон\" из наших орудий мы не можем. Гелий-3 взорвётся, и все наши корабли будут уничтожены. Придётся отказаться от этого задания.");
     end,
     way = {
-        'v_63bd2b1a_f752_422e_9446_422eda2f710d',
-        'v_f9260a36_2d85_47fc_8dfd_163a8abece7a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_63bd2b1a_f752_422e_9446_422eda2f710d_XLnk|Вернуться к планете Рита и захватить ее силой}^");
+        p("{v_f9260a36_2d85_47fc_8dfd_163a8abece7a_XLnk|Лететь к другим планетам}^");
     end,
     wcns = {
     },
@@ -25067,11 +25067,11 @@ return nlb:std_bg();
 "Планета Фарос не имеет планетарной системы обороны, но у них сильный флот.");
     end,
     way = {
-        'v_bd9de47b_682a_45fd_ba4b_9b5801ecf8b9',
-        'v_2762babd_0414_4253_81b0_d164f2e1a6f0',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_bd9de47b_682a_45fd_ba4b_9b5801ecf8b9_XLnk|Переместиться к планете Таргос}^");
+        p("{v_2762babd_0414_4253_81b0_d164f2e1a6f0_XLnk|Переместиться к планете Фарос}^");
     end,
     wcns = {
     },
@@ -25208,12 +25208,12 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_197827b1_a9eb_486f_a758_4aa70efbed9f',
-        'v_4dee9a10_0966_4865_aa7e_7d9245288c77',
-        'v_a1d6de49_9c47_483d_a8e1_774509aa7e48',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_197827b1_a9eb_486f_a758_4aa70efbed9f'] or s.wcns['v_197827b1_a9eb_486f_a758_4aa70efbed9f']()) and "{v_197827b1_a9eb_486f_a758_4aa70efbed9f_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_4dee9a10_0966_4865_aa7e_7d9245288c77'] or s.wcns['v_4dee9a10_0966_4865_aa7e_7d9245288c77']()) and "{v_4dee9a10_0966_4865_aa7e_7d9245288c77_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_a1d6de49_9c47_483d_a8e1_774509aa7e48'] or s.wcns['v_a1d6de49_9c47_483d_a8e1_774509aa7e48']()) and "{v_a1d6de49_9c47_483d_a8e1_774509aa7e48_XLnk|Вы победили! Награда + "..tostring(_FAME_REWARD).." Славы}^" or "");
     end,
     wcns = {
         ['v_197827b1_a9eb_486f_a758_4aa70efbed9f'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -25372,13 +25372,13 @@ return nlb:std_bg();
 "Мы готовы направиться к новым планетам.");
     end,
     way = {
-        'v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32',
-        'v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb',
-        'v_e3f7fd6e_1ba5_4b7b_9a7f_a9bde4e17166',
-        'v_2963a2da_5fd3_4ef7_83d0_f40d1780a38b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32'] or s.wcns['v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32']()) and "{v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32_XLnk|Сделать прыжок к планете Рута}^" or "");
+        p((not s.wcns['v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb'] or s.wcns['v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb']()) and "{v_0a36fe68_5764_4d6e_a154_1a4ffb915dfb_XLnk|Сделать прыжок к планете Хорар}^" or "");
+        p((not s.wcns['v_e3f7fd6e_1ba5_4b7b_9a7f_a9bde4e17166'] or s.wcns['v_e3f7fd6e_1ba5_4b7b_9a7f_a9bde4e17166']()) and "{v_e3f7fd6e_1ba5_4b7b_9a7f_a9bde4e17166_XLnk|Лететь к планете Дерек}^" or "");
+        p((not s.wcns['v_2963a2da_5fd3_4ef7_83d0_f40d1780a38b'] or s.wcns['v_2963a2da_5fd3_4ef7_83d0_f40d1780a38b']()) and "{v_2963a2da_5fd3_4ef7_83d0_f40d1780a38b_XLnk|Вы уже посетили планеты Рута и Хорар}^" or "");
     end,
     wcns = {
         ['v_23bf7c38_d00e_4e42_aecb_adfbdd31eb32'] = function() return ( not _ruta); end,
@@ -26055,11 +26055,11 @@ return nlb:std_bg();
 "Командир! Я могу послать наших бойцов на юг. Может нам удастся обнаружить следы выживших?");
     end,
     way = {
-        'v_a79fc046_3d79_4399_8cec_d6c58acaac02',
-        'v_3a125599_f7cf_4da0_98ae_dcbe2c0ad921',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a79fc046_3d79_4399_8cec_d6c58acaac02_XLnk|Отозвать шатлы на орбиту и продолжить свой полет}^");
+        p("{v_3a125599_f7cf_4da0_98ae_dcbe2c0ad921_XLnk|Отправить бойцов на скутерах на поиски выживших}^");
     end,
     wcns = {
     },
@@ -26196,12 +26196,12 @@ return nlb:std_bg();
         p("Я адмирал флота – Ром Гор.  Недавно наша планета подверглась нападению неизвестных нам врагов. Эти незваные гости прибыли к нам из другой галактики. Они захватили уже две наши космические станции. Мы готовы вступить в вашу Федерацию, если вы уничтожите флот оккупантов.");
     end,
     way = {
-        'v_400e70a2_601a_4efd_b597_ada31810d53d',
-        'v_3438d470_99bb_4493_8c7b_f8b7f34065f8',
-        'v_e3bd84dd_6e7d_4420_b462_c219983ab882',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_400e70a2_601a_4efd_b597_ada31810d53d_XLnk|Согласитесь напасть на неизвестных пришельцев}^");
+        p("{v_3438d470_99bb_4493_8c7b_f8b7f34065f8_XLnk|Полетите к другим планетам}^");
+        p("{v_e3bd84dd_6e7d_4420_b462_c219983ab882_XLnk|Атакуете флот планеты Кратос}^");
     end,
     wcns = {
     },
@@ -26358,11 +26358,11 @@ return nlb:std_bg();
 "Счастливого пути.");
     end,
     way = {
-        'v_05d8c851_4f0d_47f2_a6eb_c6893864ba12',
-        'v_9c21ce93_2e66_4f5d_8e70_430f230df9f6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_05d8c851_4f0d_47f2_a6eb_c6893864ba12_XLnk|Лететь к месту расположения Верфи}^");
+        p("{v_9c21ce93_2e66_4f5d_8e70_430f230df9f6_XLnk|Лететь к планете Кратос}^");
     end,
     wcns = {
     },
@@ -26625,13 +26625,13 @@ return nlb:std_bg();
 "Мы можем лететь дальше.");
     end,
     way = {
-        'v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67',
-        'v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4',
-        'v_ab3eb117_10ae_45d8_bca8_4e2bf1dc2623',
-        'v_0f769503_0b37_41ad_81fa_a68abefc2d50',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67'] or s.wcns['v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67']()) and "{v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67_XLnk|Лететь к планете Сотус}^" or "");
+        p((not s.wcns['v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4'] or s.wcns['v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4']()) and "{v_b33fd052_ebf2_40c1_a4fb_3ecf0e45a3a4_XLnk|Лететь к планете Эрива}^" or "");
+        p((not s.wcns['v_ab3eb117_10ae_45d8_bca8_4e2bf1dc2623'] or s.wcns['v_ab3eb117_10ae_45d8_bca8_4e2bf1dc2623']()) and "{v_ab3eb117_10ae_45d8_bca8_4e2bf1dc2623_XLnk|Лететь к планете Варда}^" or "");
+        p((not s.wcns['v_0f769503_0b37_41ad_81fa_a68abefc2d50'] or s.wcns['v_0f769503_0b37_41ad_81fa_a68abefc2d50']()) and "{v_0f769503_0b37_41ad_81fa_a68abefc2d50_XLnk|Вы уже были на планетах Варда, Сотус и Эрива}^" or "");
     end,
     wcns = {
         ['v_277ac76d_d66f_49cc_bf8e_e4270b2fcf67'] = function() return ( not _sotus); end,
@@ -26808,11 +26808,11 @@ return nlb:std_bg();
         p("Говорит командир корабля «Авалон» - Рик Зетта. На нашем борту груз Гелия-3. Предлагаю вам сделку. Гелий-3 позволяет кораблям совершать гиперпрыжки через Звездные врата в другие галактики. Я готов отдать вам половину груза.");
     end,
     way = {
-        'v_240266f2_f2cf_4824_b42b_044295942c0a',
-        'v_2aac3972_71c0_4695_9f92_8b73ddfdc647',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_240266f2_f2cf_4824_b42b_044295942c0a'] or s.wcns['v_240266f2_f2cf_4824_b42b_044295942c0a']()) and "{v_240266f2_f2cf_4824_b42b_044295942c0a_XLnk|Откажетесь от этой сделки и отправите штурмовиков на абордаж}^" or "");
+        p("{v_2aac3972_71c0_4695_9f92_8b73ddfdc647_XLnk|Согласитесь с этим предложением}^");
     end,
     wcns = {
         ['v_240266f2_f2cf_4824_b42b_044295942c0a'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -27075,11 +27075,11 @@ return nlb:std_bg();
         p("Адмирал  Ротчер хотел бы стать Президентом планеты Фарос после ее вхождения в Федерацию. Если вы пообещаете ему эту должность, он готов вместе с вами атаковать наземные силы Фароса обещая легкую победу.");
     end,
     way = {
-        'v_fb7d361e_77ef_435b_8610_6de0ea2c1d3f',
-        'v_7026917d_baaf_47a0_8183_17d7c606e5d5',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_fb7d361e_77ef_435b_8610_6de0ea2c1d3f_XLnk|Согласитесь на эту сделку и вместе атакуете планету Фарос.}^");
+        p("{v_7026917d_baaf_47a0_8183_17d7c606e5d5_XLnk|Считаете, что это какая-то ловушка и прикажете атаковать флот адмирала Ротчера}^");
     end,
     wcns = {
     },
@@ -27222,11 +27222,11 @@ return nlb:std_bg();
 "(Вам +5 Боеспособности флота).");
     end,
     way = {
-        'v_347fb6ef_43c1_402a_ae19_c8e158d054e6',
-        'v_e2d8f5c1_af2a_4b33_94e8_935c939e921e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_347fb6ef_43c1_402a_ae19_c8e158d054e6_XLnk|Вернуть экипажи на корабли и продолжить полет к планете Эрива}^");
+        p("{v_e2d8f5c1_af2a_4b33_94e8_935c939e921e_XLnk|Задержаться еще на один день}^");
     end,
     wcns = {
     },
@@ -27878,10 +27878,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Самоподрыв -- вам -20 Боеспособности и все карты врага на поле уходят в отбой.");
     end,
     way = {
-        'v_f9d35fbb_01fc_4e7f_b794_91f4e84e45a1',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f9d35fbb_01fc_4e7f_b794_91f4e84e45a1_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -28667,11 +28667,11 @@ return nlb:std_bg();
 "Таможенники нашли на наших кораблях злополучных радиоактивных тараканов. Нам запретили посещать планету Нобула.");
     end,
     way = {
-        'v_1e8cf8b5_9965_4d0f_bf92_3677765869e1',
-        'v_59e78842_9db7_496f_b8ab_84162551c9f6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_1e8cf8b5_9965_4d0f_bf92_3677765869e1_XLnk|Атаковать планету}^");
+        p("{v_59e78842_9db7_496f_b8ab_84162551c9f6_XLnk|Лететь к другим планетам}^");
     end,
     wcns = {
     },
@@ -28808,10 +28808,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Массированная лобовая атака -- вам -5 Боеспособности и +1 Карта.");
     end,
     way = {
-        'v_63538395_71e2_4288_aa03_db555dc8f7dd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_63538395_71e2_4288_aa03_db555dc8f7dd_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -28933,11 +28933,11 @@ return nlb:std_bg();
 "Найдите и верните его нам.");
     end,
     way = {
-        'v_ec9c34e8_5884_486d_b3dc_1b5d1f9e1fde',
-        'v_4c729e1c_0613_43f5_85f4_bf00b80a8a7d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_ec9c34e8_5884_486d_b3dc_1b5d1f9e1fde_XLnk|Принять это задание}^");
+        p("{v_4c729e1c_0613_43f5_85f4_bf00b80a8a7d_XLnk|Отказаться и лететь к планете Кратос}^");
     end,
     wcns = {
     },
@@ -30205,11 +30205,11 @@ return nlb:std_bg();
 "Выберите награду.");
     end,
     way = {
-        'v_7b7c795d_775b_4792_891c_5feaf5d9edf6',
-        'v_2235e0ba_3c16_44d0_a0f4_9aaafa4a4f20',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_7b7c795d_775b_4792_891c_5feaf5d9edf6_XLnk|Вам +1 отряд штурмовиков}^");
+        p("{v_2235e0ba_3c16_44d0_a0f4_9aaafa4a4f20_XLnk|Вам +3 Славы и +1 карта флота}^");
     end,
     wcns = {
     },
@@ -30731,10 +30731,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Выход на выгодную позицию -- Сила Атаки этого крейсера увеличивается на +5 если на следующем ходу вы  им успешно Атакуете.");
     end,
     way = {
-        'v_c512ab81_e98a_45a7_87f9_5c0e4a874d07',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_c512ab81_e98a_45a7_87f9_5c0e4a874d07_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -30855,11 +30855,11 @@ return nlb:std_bg();
         p("Командир! К нам приближается вражеский флот. Это пираты.");
     end,
     way = {
-        'v_d36f377f_2e57_4003_9f2a_3782ea7a863a',
-        'v_b44eea4b_9084_4c34_989c_4e3f4d404006',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_d36f377f_2e57_4003_9f2a_3782ea7a863a_XLnk|Прикажете нашим штурмовикам вернуться на корабль, чтобы поскорее убраться отсюда}^");
+        p("{v_b44eea4b_9084_4c34_989c_4e3f4d404006_XLnk|Прикажете нашему флоту вступить с ними в бой}^");
     end,
     wcns = {
     },
@@ -30998,12 +30998,12 @@ return nlb:std_bg();
 "К планете Варда приближается огромный астероид. В результате столкновения планета будет уничтожена. Мы можем попытаться расстрелять астероид из наших орудий и ракет. Но на это потребуется расходовать много боеприпасов, из-за чего Боеспособность флота снизится.");
     end,
     way = {
-        'v_37238775_d8dc_4202_8784_8a6acb8e37fe',
-        'v_0d5e6bcb_137d_41ba_bcd4_5b6cfaa9d21f',
-        'v_1074d286_9db4_471c_b818_0dfd5dcf7b21',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_37238775_d8dc_4202_8784_8a6acb8e37fe_XLnk|Расстрелять астероид с потерей пяти единиц Боеспособности флота}^");
+        p("{v_0d5e6bcb_137d_41ba_bcd4_5b6cfaa9d21f_XLnk|Потратить на расстрел астероида десять единиц Боеспособности флота}^");
+        p("{v_1074d286_9db4_471c_b818_0dfd5dcf7b21_XLnk|Лететь к другим планетам}^");
     end,
     wcns = {
     },
@@ -31414,13 +31414,13 @@ return nlb:std_bg();
 "Научная лаборатория.");
     end,
     way = {
-        'v_9dca4af5_8eae_464c_b1cb_28fee56d1242',
-        'v_e487e585_d58d_47ce_9f92_6a5ffbf06ddf',
-        'v_d6d680ff_c8ea_4b95_bdd6_f0688ce6a3a4',
-        'v_e1c763b0_5036_429e_a902_19971fa45302',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_9dca4af5_8eae_464c_b1cb_28fee56d1242_XLnk|Научная лаборатория}^");
+        p("{v_e487e585_d58d_47ce_9f92_6a5ffbf06ddf_XLnk|Торговый сканер}^");
+        p("{v_d6d680ff_c8ea_4b95_bdd6_f0688ce6a3a4_XLnk|Ракеты}^");
+        p("{v_e1c763b0_5036_429e_a902_19971fa45302_XLnk|Энергетический щит}^");
     end,
     wcns = {
     },
@@ -31720,11 +31720,11 @@ return nlb:std_bg();
         p("В общей столовой вы познакомились с одним парнем. Он рассказал вам, что небольшая группа заключенных готовит побег и предложил вам бежать вместе с ними.");
     end,
     way = {
-        'v_05deba66_cb2d_47ce_9691_1cf3f1e46e8c',
-        'v_0eda7458_ff9b_446a_80f7_5121814f70ca',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_05deba66_cb2d_47ce_9691_1cf3f1e46e8c_XLnk|Сдадите заговорщиков охране тюрьмы в надежде получить награду от начальства}^");
+        p("{v_0eda7458_ff9b_446a_80f7_5121814f70ca_XLnk|Согласитесь участвовать в побеге}^");
     end,
     wcns = {
     },
@@ -31861,11 +31861,11 @@ return nlb:std_bg();
         p("Я Ванесса Ван Горн - командир пограничной эскадры планеты Рута. Мы  пытаемся задержать контрабандиста с планеты Локан. Не вмешивайтесь! В противном случае мы вас атакуем.");
     end,
     way = {
-        'v_5475cece_b5c5_4bde_8cce_dee563da0b68',
-        'v_88b81e3a_e052_49d2_8914_9d3a5e134b6d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_5475cece_b5c5_4bde_8cce_dee563da0b68_XLnk|Не вмешиваться и продолжить сближение с планетой Рута}^");
+        p("{v_88b81e3a_e052_49d2_8914_9d3a5e134b6d_XLnk|Атаковать корабли Ванессы Ван Горн}^");
     end,
     wcns = {
     },
@@ -32000,15 +32000,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_a857bb35_e3c3_4d6a_85c6_f781c0add0b6',
-        'v_c7edfa0a_d322_4fb2_abb6_b2342585d4c7',
-        'v_0f579a55_e4df_4338_b65e_7695c8fc93a1',
-        'v_57f50a07_a2fd_46c9_bf13_3cd88b9fca96',
-        'v_75a64cf7_f6cd_4962_8992_5b095fefb91e',
-        'v_12a5c3fc_97b5_457c_bf1d_3bbf6b6122f2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a857bb35_e3c3_4d6a_85c6_f781c0add0b6'] or s.wcns['v_a857bb35_e3c3_4d6a_85c6_f781c0add0b6']()) and "{v_a857bb35_e3c3_4d6a_85c6_f781c0add0b6_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_c7edfa0a_d322_4fb2_abb6_b2342585d4c7'] or s.wcns['v_c7edfa0a_d322_4fb2_abb6_b2342585d4c7']()) and "{v_c7edfa0a_d322_4fb2_abb6_b2342585d4c7_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_0f579a55_e4df_4338_b65e_7695c8fc93a1'] or s.wcns['v_0f579a55_e4df_4338_b65e_7695c8fc93a1']()) and "{v_0f579a55_e4df_4338_b65e_7695c8fc93a1_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_57f50a07_a2fd_46c9_bf13_3cd88b9fca96'] or s.wcns['v_57f50a07_a2fd_46c9_bf13_3cd88b9fca96']()) and "{v_57f50a07_a2fd_46c9_bf13_3cd88b9fca96_XLnk|Вы победили! Выбранная награда +1 карта}^" or "");
+        p((not s.wcns['v_75a64cf7_f6cd_4962_8992_5b095fefb91e'] or s.wcns['v_75a64cf7_f6cd_4962_8992_5b095fefb91e']()) and "{v_75a64cf7_f6cd_4962_8992_5b095fefb91e_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_12a5c3fc_97b5_457c_bf1d_3bbf6b6122f2'] or s.wcns['v_12a5c3fc_97b5_457c_bf1d_3bbf6b6122f2']()) and "{v_12a5c3fc_97b5_457c_bf1d_3bbf6b6122f2_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_a857bb35_e3c3_4d6a_85c6_f781c0add0b6'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -32220,11 +32220,11 @@ return nlb:std_bg();
         p("Говорит капитан корабля – Бабукан Грум. На своем корабле «Логос» я путешествую по планетам и собираю древние легенды и знания. Если у вас есть полезная для меня информация, то я могу обменяться с вами.");
     end,
     way = {
-        'v_d216da7e_5515_400b_910b_1452545bd4cb',
-        'v_e151fcb0_ab88_489e_9727_0225c8c1f92d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_d216da7e_5515_400b_910b_1452545bd4cb'] or s.wcns['v_d216da7e_5515_400b_910b_1452545bd4cb']()) and "{v_d216da7e_5515_400b_910b_1452545bd4cb_XLnk|У вас есть Научная Лаборатория}^" or "");
+        p((not s.wcns['v_e151fcb0_ab88_489e_9727_0225c8c1f92d'] or s.wcns['v_e151fcb0_ab88_489e_9727_0225c8c1f92d']()) and "{v_e151fcb0_ab88_489e_9727_0225c8c1f92d_XLnk|У вас нет Научной Лаборатории}^" or "");
     end,
     wcns = {
         ['v_d216da7e_5515_400b_910b_1452545bd4cb'] = function() return (_hasLaboratory); end,
@@ -32489,10 +32489,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Невидимость -- данный корабль невозможно уничтожить в бою (карта всегда остаётся на поле после атаки).");
     end,
     way = {
-        'v_d1164edf_8d05_4ecc_a7e5_c4f4385985d4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_d1164edf_8d05_4ecc_a7e5_c4f4385985d4_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -33371,12 +33371,12 @@ return nlb:std_bg();
 "Какое число вы прикажет ввести в качестве кода разминирования? Ошибка будет стоить вам жизни.");
     end,
     way = {
-        'v_3f907080_19d1_481a_8254_16c49cd2ba99',
-        'v_c7ee9deb_8a2d_4dfb_8d1b_50e29292120c',
-        'v_cc59242b_44b9_4603_af7e_307dfee4526b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_3f907080_19d1_481a_8254_16c49cd2ba99_XLnk|Набрать 32}^");
+        p("{v_c7ee9deb_8a2d_4dfb_8d1b_50e29292120c_XLnk|Набрать 4}^");
+        p("{v_cc59242b_44b9_4603_af7e_307dfee4526b_XLnk|Набрать 8}^");
     end,
     wcns = {
     },
@@ -33527,12 +33527,12 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_9537736d_fe3c_4981_93c2_9a293c9f460c',
-        'v_c1c3029b_c457_4737_823d_37a7d362e80d',
-        'v_0caac165_940e_4b87_87da_84e8aa323526',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_9537736d_fe3c_4981_93c2_9a293c9f460c'] or s.wcns['v_9537736d_fe3c_4981_93c2_9a293c9f460c']()) and "{v_9537736d_fe3c_4981_93c2_9a293c9f460c_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_c1c3029b_c457_4737_823d_37a7d362e80d'] or s.wcns['v_c1c3029b_c457_4737_823d_37a7d362e80d']()) and "{v_c1c3029b_c457_4737_823d_37a7d362e80d_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_0caac165_940e_4b87_87da_84e8aa323526'] or s.wcns['v_0caac165_940e_4b87_87da_84e8aa323526']()) and "{v_0caac165_940e_4b87_87da_84e8aa323526_XLnk|Вы победили! Награда + "..tostring(_FAME_REWARD).." Славы}^" or "");
     end,
     wcns = {
         ['v_9537736d_fe3c_4981_93c2_9a293c9f460c'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -33692,11 +33692,11 @@ return nlb:std_bg();
 "Предлагаю объединиться с флотом морлоков и вместе атаковать врага.");
     end,
     way = {
-        'v_1ee227c1_10b3_4e99_b202_96aae3e605d4',
-        'v_3e903f3f_e76a_44fd_8e22_4a0a94c79325',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_1ee227c1_10b3_4e99_b202_96aae3e605d4'] or s.wcns['v_1ee227c1_10b3_4e99_b202_96aae3e605d4']()) and "{v_1ee227c1_10b3_4e99_b202_96aae3e605d4_XLnk|Отправить отряд штурмовиков}^" or "");
+        p((not s.wcns['v_3e903f3f_e76a_44fd_8e22_4a0a94c79325'] or s.wcns['v_3e903f3f_e76a_44fd_8e22_4a0a94c79325']()) and "{v_3e903f3f_e76a_44fd_8e22_4a0a94c79325_XLnk|Просто  напасть на флот диктатора Торгара (вы получаете две дополнительные карты)}^" or "");
     end,
     wcns = {
         ['v_1ee227c1_10b3_4e99_b202_96aae3e605d4'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -33959,12 +33959,12 @@ return nlb:std_bg();
         p("Вы командир небольшого флота Федерации планеты Фаина. Парламент поручил вам важную миссию. Вы должны силой оружия и дипломатии вернуть под крыло федерации отколовшихся ренегатов.");
     end,
     way = {
-        'v_0cf01e5e_0358_4e1b_97cc_5c124799c309',
-        'v_42c6c470_2a8c_40df_8a3b_24c1b7f6a11d',
-        'v_74303879_60b8_4182_8487_e344da558b91',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_0cf01e5e_0358_4e1b_97cc_5c124799c309_XLnk|Правила игры}^");
+        p("{v_42c6c470_2a8c_40df_8a3b_24c1b7f6a11d_XLnk|Авторы}^");
+        p("{v_74303879_60b8_4182_8487_e344da558b91_XLnk|Начать игру}^");
     end,
     wcns = {
     },
@@ -34121,11 +34121,11 @@ return nlb:std_bg();
 "Мы засекли неподалеку движение неизвестного корабля.");
     end,
     way = {
-        'v_a294793b_a5a1_43e1_b02c_fef497b459bd',
-        'v_781e2c7f_e96d_4aa0_908e_2d685cc7074e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a294793b_a5a1_43e1_b02c_fef497b459bd_XLnk|Идти наперехват}^");
+        p("{v_781e2c7f_e96d_4aa0_908e_2d685cc7074e_XLnk|Продолжить движение к планете Рита}^");
     end,
     wcns = {
     },
@@ -34264,13 +34264,13 @@ return nlb:std_bg();
 "Мы заинтересованы в налаживании торговли с другими планетами галактики. Мы готовы войти в состав Федерации, если вы сопроводите наш грузовой флот на дальнюю космическую станцию - «Головорезы Альконы». Это пиратский клан, с которым мы ведем торговлю.");
     end,
     way = {
-        'v_42d7d721_0b4f_4c53_97c8_6ae50e32ffe5',
-        'v_f1ff7a02_a927_4232_89f4_f9bd80ef69a7',
-        'v_53a91986_3391_4ef7_bf00_6feb42771342',
-        'v_fbbec64f_d894_4976_9aeb_d4db8d0b0b1a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_42d7d721_0b4f_4c53_97c8_6ae50e32ffe5_XLnk|Если не согласны – можете лететь к другим планетам}^");
+        p("{v_f1ff7a02_a927_4232_89f4_f9bd80ef69a7_XLnk|Вы согласны выполнить эту миссию и в награду получаете + 2 Славы}^");
+        p("{v_53a91986_3391_4ef7_bf00_6feb42771342_XLnk|Вы согласны выполнить эту миссию и в награду получаете 3 карты корабля}^");
+        p("{v_fbbec64f_d894_4976_9aeb_d4db8d0b0b1a_XLnk|Вы согласны выполнить эту миссию и в награду получаете + 5 отрядов штурмовиков}^");
     end,
     wcns = {
     },
@@ -35401,10 +35401,10 @@ return nlb:std_bg();
         p("Адмирал, докладывает командир штурмовой группы - позывной «Блонда». Мой отряд готов отомстить этим ублюдкам за наших парней.");
     end,
     way = {
-        'v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec'] or s.wcns['v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec']()) and "{v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec_XLnk|Начать операцию}^" or "");
     end,
     wcns = {
         ['v_c66dec13_fdcf_4c5f_9eb5_7fe6a84a54ec'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -35502,10 +35502,10 @@ return nlb:std_bg();
         p("Десантники без капли жалости расстреливают пленных главарей. После скорой расправы ваши бойцы включают двигатели, направляя базу за пределы пояса астероидов. Пираты, узнав, что их вожаки уничтожены, бросаются на отчаянный штурм. Ваши бойцы организуют оборону. Бандиты атакуют неорганизованно и несут потери. А когда база выходит из зоны астероидного поля под прицел орудий вашего флота, - пираты сдаются. (Вам +1 Слава)");
     end,
     way = {
-        'v_4db462ee_8040_48f1_b51f_a80b726e4ac1',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_4db462ee_8040_48f1_b51f_a80b726e4ac1'] or s.wcns['v_4db462ee_8040_48f1_b51f_a80b726e4ac1']()) and "{v_4db462ee_8040_48f1_b51f_a80b726e4ac1_XLnk|Вы выполнили свою миссию и можете теперь лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_4db462ee_8040_48f1_b51f_a80b726e4ac1'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -35604,11 +35604,11 @@ return nlb:std_bg();
         p("Штурмовой отряд, сверяясь с картой, начинает продвижение. Внезапно бойцы наталкиваются на баррикаду. Сваленные в кучу ящики, создают хорошее укрытие для пиратов.  Несколько ваших бойцов падают замертво. Есть возможность обойти препятствие по системам вентиляции. Но это займёт довольно много времени и пираты успеют лучше подготовиться к отражению атаки.");
     end,
     way = {
-        'v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d',
-        'v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d'] or s.wcns['v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d']()) and "{v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d_XLnk|Атаковать в лоб, рассчитывая на хорошую подготовку ваших бойцов}^" or "");
+        p((not s.wcns['v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb'] or s.wcns['v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb']()) and "{v_3254464e_4da2_4fa8_8c7f_3b9f40ab77bb_XLnk|Обойти баррикаду и зайти  противнику в тыл}^" or "");
     end,
     wcns = {
         ['v_88d823ad_bf61_4a9d_9d17_ab8132ef4f3d'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -35824,11 +35824,11 @@ return nlb:std_bg();
         p("Обезглавить главарей пиратов – значит, одержать победу ещё до начала фактического столкновения. Приказ отдан – и десантники бросаются в атаку. Они встречают ожесточённое сопротивление. Один за другим ваши бойцы погибают, но их товарищи продолжают продвигаться. Наконец, отряд выходит на развилку. К командной рубке можно попасть с помощью грузового лифта. Либо пробиваться через жилые помещения, где могут быть сосредоточены большие силы пиратов.");
     end,
     way = {
-        'v_ee408e9b_4230_4da9_a32d_51e1be10c574',
-        'v_030aedeb_ab75_466b_8f17_a154cc9d3ab1',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_ee408e9b_4230_4da9_a32d_51e1be10c574'] or s.wcns['v_ee408e9b_4230_4da9_a32d_51e1be10c574']()) and "{v_ee408e9b_4230_4da9_a32d_51e1be10c574_XLnk|Использовать лифт}^" or "");
+        p((not s.wcns['v_030aedeb_ab75_466b_8f17_a154cc9d3ab1'] or s.wcns['v_030aedeb_ab75_466b_8f17_a154cc9d3ab1']()) and "{v_030aedeb_ab75_466b_8f17_a154cc9d3ab1_XLnk|Пробираться через жилые отсеки}^" or "");
     end,
     wcns = {
         ['v_ee408e9b_4230_4da9_a32d_51e1be10c574'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -35945,10 +35945,10 @@ return nlb:std_bg();
 "После того, как база оказывается вне зоны пояса астероидов, в действие вступают ваши орудия, и пираты сдаются. (Вам +1 Слава)");
     end,
     way = {
-        'v_24b759d8_0cb6_4670_9d71_407dcfe18c3d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_24b759d8_0cb6_4670_9d71_407dcfe18c3d'] or s.wcns['v_24b759d8_0cb6_4670_9d71_407dcfe18c3d']()) and "{v_24b759d8_0cb6_4670_9d71_407dcfe18c3d_XLnk|Вы выполнили миссию и можете лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_24b759d8_0cb6_4670_9d71_407dcfe18c3d'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -36149,11 +36149,11 @@ return nlb:std_bg();
         p("Десантный бот несётся вглубь астероидного поля, лавируя между огромными глыбами. Внезапно от небольшого астероида черную пустоту космоса прочерчивает оранжевая линия лазерной вспышки и упирается в бок вашего шатла. Это скрытая орудийная платформа пиратов. Огненный цветок распускается на дисплее вашего монитора. Вы потеряли шатл с одним штурмовым отрядом. Вам остаётся только стиснуть зубы. (Вам - 1 отряд штурмовиков)");
     end,
     way = {
-        'v_f37bd811_95ac_4470_a5c0_485ab6058556',
-        'v_fd15ddf5_10cd_42c7_a89d_a7443e885c56',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_f37bd811_95ac_4470_a5c0_485ab6058556'] or s.wcns['v_f37bd811_95ac_4470_a5c0_485ab6058556']()) and "{v_f37bd811_95ac_4470_a5c0_485ab6058556_XLnk|Послать на штурм еще один шатл}^" or "");
+        p((not s.wcns['v_fd15ddf5_10cd_42c7_a89d_a7443e885c56'] or s.wcns['v_fd15ddf5_10cd_42c7_a89d_a7443e885c56']()) and "{v_fd15ddf5_10cd_42c7_a89d_a7443e885c56_XLnk|Отказаться от этой миссии и лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_f37bd811_95ac_4470_a5c0_485ab6058556'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -36269,11 +36269,11 @@ return nlb:std_bg();
         p("- Адмирал! Мы засекли какую-то активность в небольшой группе скоплений астероидов! Мы можем воспользоваться главным калибром и разнести в пыль это нагромождение камней.");
     end,
     way = {
-        'v_c1a26daf_8626_4f4d_9a27_5472804e263a',
-        'v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_c1a26daf_8626_4f4d_9a27_5472804e263a'] or s.wcns['v_c1a26daf_8626_4f4d_9a27_5472804e263a']()) and "{v_c1a26daf_8626_4f4d_9a27_5472804e263a_XLnk|Обстрелять группу подозрительных астероидов}^" or "");
+        p((not s.wcns['v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c'] or s.wcns['v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c']()) and "{v_993d9b60_8eaa_4b32_912e_7a9fd157dd1c_XLnk|Оставить всё как есть, ведь обломки будут мешать и нашему пилоту}^" or "");
     end,
     wcns = {
         ['v_c1a26daf_8626_4f4d_9a27_5472804e263a'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -36388,11 +36388,11 @@ return nlb:std_bg();
         p("Пиратская База скорее представляла собой промышленный объект. Нагромождение грузовых доков, цистерн и платформ неуклюже примостилось на поверхности огромного астероида. Подлетев вплотную, десантный бот даёт залп из единственного орудия. Входной шлюз исчезает в адской вспышке. Путь внутрь базы свободен.");
     end,
     way = {
-        'v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12',
-        'v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12'] or s.wcns['v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12']()) and "{v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12_XLnk|Прикажете десанту высаживаться немедленно}^" or "");
+        p((not s.wcns['v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a'] or s.wcns['v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a']()) and "{v_3eed9025_3da3_4d7e_b00a_d32c3fbd492a_XLnk|Прикажете подождать, чтобы погасло пламя}^" or "");
     end,
     wcns = {
         ['v_11691e5d_7ce1_48e9_ade5_c977bcd3ff12'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -36608,11 +36608,11 @@ return nlb:std_bg();
         p("Какие будут дальнейшие указания, адмирал? Убить всех пленных? Или возьмём их в заложники? Если мы убьем главарей, то возможно остальные пираты сдадутся. Или может заставить пленных главарей убедить своих головорезов прекратить сопротивление?");
     end,
     way = {
-        'v_e248ee60_f3ec_4867_a549_47bdadaf87c6',
-        'v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e248ee60_f3ec_4867_a549_47bdadaf87c6'] or s.wcns['v_e248ee60_f3ec_4867_a549_47bdadaf87c6']()) and "{v_e248ee60_f3ec_4867_a549_47bdadaf87c6_XLnk|Убить всех пленных главарей}^" or "");
+        p((not s.wcns['v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7'] or s.wcns['v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7']()) and "{v_d28cbbfd_fa07_4bff_80e3_23d9c80839c7_XLnk|Пытать главарей}^" or "");
     end,
     wcns = {
         ['v_e248ee60_f3ec_4867_a549_47bdadaf87c6'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -36727,11 +36727,11 @@ return nlb:std_bg();
         p("Оставшиеся в живых местные ополченцы недовольны вашим решением и требуют отпустить их. Согласитесь с их требованием или нет?");
     end,
     way = {
-        'v_51b3b173_667c_4ece_8852_ccc381d8f108',
-        'v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_51b3b173_667c_4ece_8852_ccc381d8f108'] or s.wcns['v_51b3b173_667c_4ece_8852_ccc381d8f108']()) and "{v_51b3b173_667c_4ece_8852_ccc381d8f108_XLnk|Отпустить ополченцев (вам -1 отряд штурмовиков)}^" or "");
+        p((not s.wcns['v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f'] or s.wcns['v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f']()) and "{v_260ebe0b_83c1_483f_a4a9_5b9fa9fdd58f_XLnk|Удержать ополченцев в вашей армии насильно (вам -1 Слава)}^" or "");
     end,
     wcns = {
         ['v_51b3b173_667c_4ece_8852_ccc381d8f108'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -36950,11 +36950,11 @@ return nlb:std_bg();
 "Подлетев вплотную, десантный бот даёт залп из единственного орудия. Входной грузовой шлюз исчезает в адской вспышке. Путь внутрь пиратской базы свободен.");
     end,
     way = {
-        'v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb',
-        'v_87c78327_0af9_4664_8c9b_d7a66e1396de',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb'] or s.wcns['v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb']()) and "{v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb_XLnk|Прикажете десанту высаживаться немедленно}^" or "");
+        p((not s.wcns['v_87c78327_0af9_4664_8c9b_d7a66e1396de'] or s.wcns['v_87c78327_0af9_4664_8c9b_d7a66e1396de']()) and "{v_87c78327_0af9_4664_8c9b_d7a66e1396de_XLnk|Прикажете подождать, чтобы погасло пламя от взрыва}^" or "");
     end,
     wcns = {
         ['v_d8da6130_aa79_4ecd_b58f_cfbc16f7a2eb'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -37070,11 +37070,11 @@ return nlb:std_bg();
 "Среди пленных вы можете набрать добровольцев и создать из них один отряд штурмовиков, хотя такое сотрудничество с бывшими пиратами не делает вам чести.");
     end,
     way = {
-        'v_df29a1f5_9a31_4f10_9b7b_939d3fa77715',
-        'v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_df29a1f5_9a31_4f10_9b7b_939d3fa77715'] or s.wcns['v_df29a1f5_9a31_4f10_9b7b_939d3fa77715']()) and "{v_df29a1f5_9a31_4f10_9b7b_939d3fa77715_XLnk|Получить +1 отряд штурмовиков}^" or "");
+        p((not s.wcns['v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b'] or s.wcns['v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b']()) and "{v_df2f2e1c_991f_4d39_b5cd_f90abcfc367b_XLnk|Или +1 Славу}^" or "");
     end,
     wcns = {
         ['v_df29a1f5_9a31_4f10_9b7b_939d3fa77715'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -37293,11 +37293,11 @@ return nlb:std_bg();
 "Использование нашего флота в плотном скоплении каменных обломков астероидного поля невозможно. Мы можем только выслать туда наших штурмовиков для наземной операции. Корабли флота не смогут оказать поддержку нашим штурмовикам в случае возникновения проблем.");
     end,
     way = {
-        'v_d5183cae_3896_42e2_bc40_24d4e29f9624',
-        'v_5ae205a9_f87a_49f7_b4a0_e215c400e635',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_d5183cae_3896_42e2_bc40_24d4e29f9624'] or s.wcns['v_d5183cae_3896_42e2_bc40_24d4e29f9624']()) and "{v_d5183cae_3896_42e2_bc40_24d4e29f9624_XLnk|Рискуть и выслать штурмовой отряд, чтобы нейтрализовать пиратов}^" or "");
+        p((not s.wcns['v_5ae205a9_f87a_49f7_b4a0_e215c400e635'] or s.wcns['v_5ae205a9_f87a_49f7_b4a0_e215c400e635']()) and "{v_5ae205a9_f87a_49f7_b4a0_e215c400e635_XLnk|Отказаться и лететь дальше к другим планетам}^" or "");
     end,
     wcns = {
         ['v_d5183cae_3896_42e2_bc40_24d4e29f9624'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -37614,11 +37614,11 @@ return nlb:std_bg();
         p("Адмирал! Наш Союз приветствует вас! Наши планеты терроризируют пираты, разместившие свою космическую базу в астероидном поясе. У нас нет своего мощного флота, чтобы отбиться от них. Мы просим флот Федерации избавить нас от этого \"осиного гнезда\". Если вы согласитесь, мы сможем дать вам в помощь два отряда наших ополченцев. Если вы победите пиратов, то они готовы идти с вами и дальше!");
     end,
     way = {
-        'v_9db6fdfa_db94_4886_bb76_70c55120dd45',
-        'v_28099bbc_960d_4cb6_b214_3ccc6109094b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_9db6fdfa_db94_4886_bb76_70c55120dd45'] or s.wcns['v_9db6fdfa_db94_4886_bb76_70c55120dd45']()) and "{v_9db6fdfa_db94_4886_bb76_70c55120dd45_XLnk|Помочь Дориану Вэю}^" or "");
+        p((not s.wcns['v_28099bbc_960d_4cb6_b214_3ccc6109094b'] or s.wcns['v_28099bbc_960d_4cb6_b214_3ccc6109094b']()) and "{v_28099bbc_960d_4cb6_b214_3ccc6109094b_XLnk|Отказаться и лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_9db6fdfa_db94_4886_bb76_70c55120dd45'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -37935,11 +37935,11 @@ return nlb:std_bg();
         p("Скорость – залог успеха. Рассуждая так, вы направляете десант к лифтам. Когда впереди уже маячат железные двери, коридор прямо перед вами взрывается. Это была ловушка! Почти десяток десантников гибнет при взрыве. Стены, пол, потолок горят, создавая настоящую огненную стену. Каковы будут ваши действия?");
     end,
     way = {
-        'v_da800c65_aaec_403e_bcec_c3b5fa96bd65',
-        'v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_da800c65_aaec_403e_bcec_c3b5fa96bd65'] or s.wcns['v_da800c65_aaec_403e_bcec_c3b5fa96bd65']()) and "{v_da800c65_aaec_403e_bcec_c3b5fa96bd65_XLnk|Пройдёте через пламя}^" or "");
+        p((not s.wcns['v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0'] or s.wcns['v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0']()) and "{v_fb2d9d46_6671_4bd8_afb2_b9d172f949c0_XLnk|Попробуете найти обходной путь}^" or "");
     end,
     wcns = {
         ['v_da800c65_aaec_403e_bcec_c3b5fa96bd65'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -38055,10 +38055,10 @@ return nlb:std_bg();
 "После того, как база оказывается вне зоны пояса астероидов, в действие вступают ваши орудия, и пираты сдаются. (Вам +1 Слава)");
     end,
     way = {
-        'v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da'] or s.wcns['v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da']()) and "{v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da_XLnk|Вы выполнили миссию и можете лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_abc2e42f_71e4_4faa_bc3a_dd72177fa0da'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -38157,11 +38157,11 @@ return nlb:std_bg();
         p("- Адмирал! Я глава пиратского клана Хосе Рауль Родригес Пампа! Предлагаю вам выгодную сделку. Вы оставляете нас в покое, а мы дадим вам чертежи нового двигателя для ваших кораблей. С такими двигателями ваш флот будет более маневренным в бою с вражескими кораблями.");
     end,
     way = {
-        'v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20',
-        'v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20'] or s.wcns['v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20']()) and "{v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20_XLnk|Продолжить операцию}^" or "");
+        p((not s.wcns['v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285'] or s.wcns['v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285']()) and "{v_087b12c8_1bd1_4c5b_85ef_a798c5c7f285_XLnk|Принять предложение пирата и отступить (вам +5 Боеспособности вашего флота)}^" or "");
     end,
     wcns = {
         ['v_bda9f8ae_0e65_4a25_a8ba_12afc4dc2e20'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -38280,11 +38280,11 @@ return nlb:std_bg();
 "(вам +2 отряда штурмовиков)");
     end,
     way = {
-        'v_7746bb3f_782f_4569_a0a2_3d3982097d97',
-        'v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7746bb3f_782f_4569_a0a2_3d3982097d97'] or s.wcns['v_7746bb3f_782f_4569_a0a2_3d3982097d97']()) and "{v_7746bb3f_782f_4569_a0a2_3d3982097d97_XLnk|Начать операцию}^" or "");
+        p((not s.wcns['v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850'] or s.wcns['v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850']()) and "{v_dee6fd96_bcdc_4fc8_8872_6358d4cb8850_XLnk|Использовать Сканер разведки}^" or "");
     end,
     wcns = {
         ['v_7746bb3f_782f_4569_a0a2_3d3982097d97'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -38602,11 +38602,11 @@ return nlb:std_bg();
         p("Лифты слишком уязвимы. Если пираты заблокируют их, то отряд окажется в ловушке. Поэтому вы принимаете решение направить бойцов через жилые помещения. Пираты встречают штурмовиков ураганным огнём. Потеряв десяток десантников, ваш отряд пробивается дальше. Впереди коридор разделяется.");
     end,
     way = {
-        'v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe',
-        'v_362ea916_a3f3_446e_8a44_9e54769e725b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe'] or s.wcns['v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe']()) and "{v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe_XLnk|Двигаться через столовую}^" or "");
+        p((not s.wcns['v_362ea916_a3f3_446e_8a44_9e54769e725b'] or s.wcns['v_362ea916_a3f3_446e_8a44_9e54769e725b']()) and "{v_362ea916_a3f3_446e_8a44_9e54769e725b_XLnk|Или через оружейный отсек}^" or "");
     end,
     wcns = {
         ['v_892ce142_76b2_48e0_b21e_4a3e9a4b8fbe'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -38723,11 +38723,11 @@ return nlb:std_bg();
 "Второе место - командирская рубка. Можно попытаться захватить главарей этой пиратской базы.");
     end,
     way = {
-        'v_548554b9_9eca_4cc8_9831_b0b30a737bd7',
-        'v_b2273719_17f6_4c91_bb55_197a264494df',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_548554b9_9eca_4cc8_9831_b0b30a737bd7'] or s.wcns['v_548554b9_9eca_4cc8_9831_b0b30a737bd7']()) and "{v_548554b9_9eca_4cc8_9831_b0b30a737bd7_XLnk|Пробиваться к двигателям}^" or "");
+        p((not s.wcns['v_b2273719_17f6_4c91_bb55_197a264494df'] or s.wcns['v_b2273719_17f6_4c91_bb55_197a264494df']()) and "{v_b2273719_17f6_4c91_bb55_197a264494df_XLnk|Пробиваться к командной рубке}^" or "");
     end,
     wcns = {
         ['v_548554b9_9eca_4cc8_9831_b0b30a737bd7'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -38943,11 +38943,11 @@ return nlb:std_bg();
         p("Командир! Наши сенсоры засекли в скоплении астероидов скрытую вражескую орудийную платформу. Они могут легко сбить наш штурмовой шатл.");
     end,
     way = {
-        'v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457',
-        'v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457'] or s.wcns['v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457']()) and "{v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457_XLnk|Уничтожить эту цель}^" or "");
+        p((not s.wcns['v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7'] or s.wcns['v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7']()) and "{v_3e3c6cdc_1fe9_4692_adcd_18e9ee3388f7_XLnk|Ничего не менять}^" or "");
     end,
     wcns = {
         ['v_c4ca4d33_853b_43fd_a8a6_2c7eaeef0457'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -39166,11 +39166,11 @@ return nlb:std_bg();
 "Второй вариант – запустить двигатели и вывести базу за пределы пояса самостоятельно. Но здесь есть риск – пираты постараются вернуть себе контроль над двигателями. Вам придётся постараться, чтобы удержать их.");
     end,
     way = {
-        'v_d078fed4_6789_459c_b6cb_9f2bbd6be8de',
-        'v_cf9f58e7_688d_4a45_9196_8f009aace83e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_d078fed4_6789_459c_b6cb_9f2bbd6be8de'] or s.wcns['v_d078fed4_6789_459c_b6cb_9f2bbd6be8de']()) and "{v_d078fed4_6789_459c_b6cb_9f2bbd6be8de_XLnk|Выбрать первый вариант}^" or "");
+        p((not s.wcns['v_cf9f58e7_688d_4a45_9196_8f009aace83e'] or s.wcns['v_cf9f58e7_688d_4a45_9196_8f009aace83e']()) and "{v_cf9f58e7_688d_4a45_9196_8f009aace83e_XLnk|Выбрать второй вариант}^" or "");
     end,
     wcns = {
         ['v_d078fed4_6789_459c_b6cb_9f2bbd6be8de'] = function() return (_wasp_cnt ~= nil) and (_wasp_cnt == 1); end,
@@ -39388,10 +39388,10 @@ return nlb:std_bg();
 "ВЫ ПОГИБЛИ");
     end,
     way = {
-        'v_58c40954_15e8_44a9_9592_37c3797f31a0',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_58c40954_15e8_44a9_9592_37c3797f31a0_XLnk|Попробовать ещё раз}^");
     end,
     wcns = {
     },
@@ -39514,10 +39514,10 @@ return nlb:std_bg();
 "ВЫ ПОГИБЛИ");
     end,
     way = {
-        'v_229461de_5269_4ca7_8d43_1ec3831e1b88',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_229461de_5269_4ca7_8d43_1ec3831e1b88_XLnk|Попробовать ещё раз}^");
     end,
     wcns = {
     },
@@ -39888,10 +39888,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Берет огонь врага на себя -- карты ракетных атак врага не наносят вам ущерб при атаке, пока этот корабль находится на поле боя.");
     end,
     way = {
-        'v_8fb52676_f71c_42f9_8bba_8494342f3b00',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_8fb52676_f71c_42f9_8bba_8494342f3b00_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -40013,11 +40013,11 @@ return nlb:std_bg();
 "Если мы примем на борт жителей планеты Варда, то наши корабли будут сильно перенаселены. Это снизит боеспособность нашего флота на 15 единиц. Но есть и положительный момент. Мы сможем сформировать из беженцев 5 отрядов штурмовиков.");
     end,
     way = {
-        'v_86a33d7d_1e14_436d_a034_66f9f0c9cce9',
-        'v_e83f768b_a775_4a17_a639_9c6a1b3ee55e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_86a33d7d_1e14_436d_a034_66f9f0c9cce9_XLnk|Согласиться принять на борт жителей планеты}^");
+        p("{v_e83f768b_a775_4a17_a639_9c6a1b3ee55e_XLnk|Отказаться}^");
     end,
     wcns = {
     },
@@ -40157,12 +40157,12 @@ return nlb:std_bg();
         p("Через неделю в общем цеху к вам опять подвалил Бутчер и сказал, что теперь вы будете отдавать ему всю свою зарплату.");
     end,
     way = {
-        'v_f53af9c0_135a_4d4b_84a9_86b50e6db5d4',
-        'v_8a0be654_bf54_480e_a08d_f3dfddf6a1e9',
-        'v_998e6199_0abf_4e9d_9020_981afb3597fa',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f53af9c0_135a_4d4b_84a9_86b50e6db5d4_XLnk|Врежете ему по морде}^");
+        p("{v_8a0be654_bf54_480e_a08d_f3dfddf6a1e9_XLnk|Согласитесь на требования Бутчера}^");
+        p("{v_998e6199_0abf_4e9d_9020_981afb3597fa_XLnk|Пожалуетесь охранникам}^");
     end,
     wcns = {
     },
@@ -40316,12 +40316,12 @@ return nlb:std_bg();
 "От космической станции в нашу сторону вылетело несколько десятков абордажных шатлов. Велика угроза захвата части наших кораблей вражескими штурмовыми группами.");
     end,
     way = {
-        'v_97ba7192_9203_45a5_bd93_b2c178c0de3f',
-        'v_1dcc4b19_e15b_4692_80a8_338318fd9f96',
-        'v_b176b30d_f525_4549_b7a0_377e5f0bc045',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_97ba7192_9203_45a5_bd93_b2c178c0de3f'] or s.wcns['v_97ba7192_9203_45a5_bd93_b2c178c0de3f']()) and "{v_97ba7192_9203_45a5_bd93_b2c178c0de3f_XLnk|Использовать Зенитные системы}^" or "");
+        p("{v_1dcc4b19_e15b_4692_80a8_338318fd9f96_XLnk|Прикажете принять бой}^");
+        p("{v_b176b30d_f525_4549_b7a0_377e5f0bc045_XLnk|Прикажете отступить}^");
     end,
     wcns = {
         ['v_97ba7192_9203_45a5_bd93_b2c178c0de3f'] = function() return (_hasTurrets); end,
@@ -41214,12 +41214,12 @@ return nlb:std_bg();
 "Продолжаем полет к планете Варда. Параллельным курсом идет большой грузовой корабль. На наши запросы не отвечает.");
     end,
     way = {
-        'v_928cfe89_f4c3_4129_8966_cfa54ab2df3a',
-        'v_6dc7aacb_36aa_4ef1_a009_38ecb615af70',
-        'v_c21a5517_8904_4553_b26b_63d098b2e8a2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_928cfe89_f4c3_4129_8966_cfa54ab2df3a'] or s.wcns['v_928cfe89_f4c3_4129_8966_cfa54ab2df3a']()) and "{v_928cfe89_f4c3_4129_8966_cfa54ab2df3a_XLnk|Послать отряд штурмовиков}^" or "");
+        p((not s.wcns['v_6dc7aacb_36aa_4ef1_a009_38ecb615af70'] or s.wcns['v_6dc7aacb_36aa_4ef1_a009_38ecb615af70']()) and "{v_6dc7aacb_36aa_4ef1_a009_38ecb615af70_XLnk|Воспользоваться Торговым сканером}^" or "");
+        p("{v_c21a5517_8904_4553_b26b_63d098b2e8a2_XLnk|Продолжить полет к планете Варда}^");
     end,
     wcns = {
         ['v_928cfe89_f4c3_4129_8966_cfa54ab2df3a'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -41380,10 +41380,10 @@ return nlb:std_bg();
 "ВЫ ПОГИБЛИ");
     end,
     way = {
-        'v_933172aa_9134_4f84_bccd_fc65424d8bc6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_933172aa_9134_4f84_bccd_fc65424d8bc6_XLnk|Попробовать ещё раз}^");
     end,
     wcns = {
     },
@@ -41502,11 +41502,11 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_b155e4fc_8374_4888_88df_f4389c3f9fe1',
-        'v_07fe0c77_d963_46ad_a941_b8a09f6da30a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b155e4fc_8374_4888_88df_f4389c3f9fe1'] or s.wcns['v_b155e4fc_8374_4888_88df_f4389c3f9fe1']()) and "{v_b155e4fc_8374_4888_88df_f4389c3f9fe1_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_07fe0c77_d963_46ad_a941_b8a09f6da30a'] or s.wcns['v_07fe0c77_d963_46ad_a941_b8a09f6da30a']()) and "{v_07fe0c77_d963_46ad_a941_b8a09f6da30a_XLnk|Лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_b155e4fc_8374_4888_88df_f4389c3f9fe1'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -41777,11 +41777,11 @@ return nlb:std_bg();
 "- Мои шпионы доложили, что вы уже атаковали и подчинили несколько планет – заявил вам адмирал – Но мы не собираемся входить в состав вашей Федерации Я решил взять вас в качестве заложника.");
     end,
     way = {
-        'v_8e496373_9a46_4ead_8ffd_d5846753a29c',
-        'v_871e12f2_ddd1_4895_86a4_d94032ce7afd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_8e496373_9a46_4ead_8ffd_d5846753a29c_XLnk|Вступить в переговоры}^");
+        p("{v_871e12f2_ddd1_4895_86a4_d94032ce7afd_XLnk|Атаковать флот адмирала Ваджры}^");
     end,
     wcns = {
     },
@@ -41919,11 +41919,11 @@ return nlb:std_bg();
 "Этот турнир проходит в виде дуэлей на истребителях. Каждый пилот может выбрать любого из соперников и сразится с ним. Победитель получает руку принцессы.");
     end,
     way = {
-        'v_b947f53b_f6d6_4718_9645_46ef52f84f4e',
-        'v_2460ec5e_3d4d_4494_a643_dfc031151178',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_b947f53b_f6d6_4718_9645_46ef52f84f4e_XLnk|Принять участие в поединках}^");
+        p("{v_2460ec5e_3d4d_4494_a643_dfc031151178_XLnk|Отказаться}^");
     end,
     wcns = {
     },
@@ -42062,11 +42062,11 @@ return nlb:std_bg();
 "Мы не можем пробиться к шатлу. Нас окружили ксеноморфы! Срочно пришлите подмогу!");
     end,
     way = {
-        'v_5e004234_5da8_4600_ba52_80dcad8076d7',
-        'v_52f267c1_82e5_4c9c_9f1e_fbec588a3c0f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_5e004234_5da8_4600_ba52_80dcad8076d7'] or s.wcns['v_5e004234_5da8_4600_ba52_80dcad8076d7']()) and "{v_5e004234_5da8_4600_ba52_80dcad8076d7_XLnk|Послать один отряд штурмовиков на помощь}^" or "");
+        p("{v_52f267c1_82e5_4c9c_9f1e_fbec588a3c0f_XLnk|Бросить свой отряд на произвол судьбы и поскорее убираться от этого грузовоза. (Вам -1 отряд штурмовиков и -1 Слава)}^");
     end,
     wcns = {
         ['v_5e004234_5da8_4600_ba52_80dcad8076d7'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -42202,11 +42202,11 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_d00fcd7c_a01a_40c3_886e_63f6be35da15',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p("{v_d00fcd7c_a01a_40c3_886e_63f6be35da15_XLnk|Вернуться в игру}^");
     end,
     wcns = {
     },
@@ -42706,11 +42706,11 @@ return nlb:std_bg();
 "Сенсоры засекли сигнал SOS. Они передают на частоте кораблей нашей Федерации. Кажется, один из наших торговых кораблей потерпел крушение на поверхности планеты.");
     end,
     way = {
-        'v_ce67e0e8_5b45_4201_8584_2e2335bdd174',
-        'v_432f8e1f_ea42_4850_b090_0b7235969a7d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_ce67e0e8_5b45_4201_8584_2e2335bdd174'] or s.wcns['v_ce67e0e8_5b45_4201_8584_2e2335bdd174']()) and "{v_ce67e0e8_5b45_4201_8584_2e2335bdd174_XLnk|Отправить шатл для обследования места крушения}^" or "");
+        p("{v_432f8e1f_ea42_4850_b090_0b7235969a7d_XLnk|Лететь к другим планетам}^");
     end,
     wcns = {
         ['v_ce67e0e8_5b45_4201_8584_2e2335bdd174'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -42849,11 +42849,11 @@ return nlb:std_bg();
         p("Я Торгар – диктатор планеты Локан. Флот Федерации - нежеланный гость в нашем секторе. Если вы немедленно не уберетесь отсюда, я прикажу вас уничтожить.");
     end,
     way = {
-        'v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7',
-        'v_6de16a71_d120_4f41_86cc_3cd2f08287fa',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7'] or s.wcns['v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7']()) and "{v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7_XLnk|Вступить в переговоры с Торгаром}^" or "");
+        p("{v_6de16a71_d120_4f41_86cc_3cd2f08287fa_XLnk|Атаковать флот локанцев}^");
     end,
     wcns = {
         ['v_3ed8d31f_8bc5_4ca0_bcf4_57382f8d5af7'] = function() return (_fame ~= nil) and (_fame >= 5); end,
@@ -43313,12 +43313,12 @@ return nlb:std_bg();
 "Очки ночного виденья.");
     end,
     way = {
-        'v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc',
-        'v_7d2b1d6a_7e78_4525_8962_edae09ab0be3',
-        'v_48f28e37_1032_4442_9c5b_53c136b0807d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc'] or s.wcns['v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc']()) and "{v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc_XLnk|Наденете на себя очки и выключите свет в каюте}^" or "");
+        p((not s.wcns['v_7d2b1d6a_7e78_4525_8962_edae09ab0be3'] or s.wcns['v_7d2b1d6a_7e78_4525_8962_edae09ab0be3']()) and "{v_7d2b1d6a_7e78_4525_8962_edae09ab0be3_XLnk|Или хотите проглотить таблетку?}^" or "");
+        p((not s.wcns['v_48f28e37_1032_4442_9c5b_53c136b0807d'] or s.wcns['v_48f28e37_1032_4442_9c5b_53c136b0807d']()) and "{v_48f28e37_1032_4442_9c5b_53c136b0807d_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_a3fdabef_bcb4_43b0_9cbe_415364d5c9dc'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -43450,11 +43450,11 @@ return nlb:std_bg();
         p("О чем вы хотите расспросить доктора Гусмана?");
     end,
     way = {
-        'v_539828b7_235e_419e_bbc5_794908ce90df',
-        'v_ec4ecb3d_7148_486e_9575_03558e987085',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_539828b7_235e_419e_bbc5_794908ce90df'] or s.wcns['v_539828b7_235e_419e_bbc5_794908ce90df']()) and "{v_539828b7_235e_419e_bbc5_794908ce90df_XLnk|Кого он подозревает в совершении диверсии?}^" or "");
+        p((not s.wcns['v_ec4ecb3d_7148_486e_9575_03558e987085'] or s.wcns['v_ec4ecb3d_7148_486e_9575_03558e987085']()) and "{v_ec4ecb3d_7148_486e_9575_03558e987085_XLnk|Не заметил ли он каких-то странностей на корабле за последнюю неделю?}^" or "");
     end,
     wcns = {
         ['v_539828b7_235e_419e_bbc5_794908ce90df'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -43567,11 +43567,11 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_ac967f87_281b_4b37_b089_9e2df7877c1b',
-        'v_5c7e2775_17bd_4bac_89ff_21097c16e8b2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_ac967f87_281b_4b37_b089_9e2df7877c1b'] or s.wcns['v_ac967f87_281b_4b37_b089_9e2df7877c1b']()) and "{v_ac967f87_281b_4b37_b089_9e2df7877c1b_XLnk|Резко спросите его, где он находился пять дней назад в 12/35 по Галактическому времени}^" or "");
+        p((not s.wcns['v_5c7e2775_17bd_4bac_89ff_21097c16e8b2'] or s.wcns['v_5c7e2775_17bd_4bac_89ff_21097c16e8b2']()) and "{v_5c7e2775_17bd_4bac_89ff_21097c16e8b2_XLnk|Или спросите, что он заметил необычного в последнее время?}^" or "");
     end,
     wcns = {
         ['v_ac967f87_281b_4b37_b089_9e2df7877c1b'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -43689,10 +43689,10 @@ return nlb:std_bg();
 "Чип-ключ от шатла №10.");
     end,
     way = {
-        'v_6fed5e6a_bd0e_4547_8d11_13b085d95efd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6fed5e6a_bd0e_4547_8d11_13b085d95efd'] or s.wcns['v_6fed5e6a_bd0e_4547_8d11_13b085d95efd']()) and "{v_6fed5e6a_bd0e_4547_8d11_13b085d95efd_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_6fed5e6a_bd0e_4547_8d11_13b085d95efd'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44078,10 +44078,10 @@ return nlb:std_bg();
 "(Вам -20 Боеспособности флота)");
     end,
     way = {
-        'v_f7868f85_f826_4264_a86f_6b55c5d37a4e_93fa06bd_400c_4b76_a8a2_e2917db8d2e4__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f7868f85_f826_4264_a86f_6b55c5d37a4e_93fa06bd_400c_4b76_a8a2_e2917db8d2e4__Return_XLnk|Продолжить игру}^");
     end,
     wcns = {
     },
@@ -44280,11 +44280,11 @@ return nlb:std_bg();
         p("Я не могу этого сделать – безразличным тоном заявил вам Додж - Для этого я должен получить прямой приказ от капитана Кларка. Да это и не мое дело. Я не сыщик, а инженер.");
     end,
     way = {
-        'v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37',
-        'v_b5f11887_396d_4203_938f_9052199003f5',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37'] or s.wcns['v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37']()) and "{v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37_XLnk|Попросите совета у Доджа}^" or "");
+        p((not s.wcns['v_b5f11887_396d_4203_938f_9052199003f5'] or s.wcns['v_b5f11887_396d_4203_938f_9052199003f5']()) and "{v_b5f11887_396d_4203_938f_9052199003f5_XLnk|Расскажете Доджу про щиток}^" or "");
     end,
     wcns = {
         ['v_72bcc381_1eb0_40ea_836d_c8c84ffd5c37'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44401,10 +44401,10 @@ return nlb:std_bg();
 "Охранник замолчал, заметив ваше присутствие. Оба бойца отдали вам честь и с деловым видом направились патрулировать ангар.");
     end,
     way = {
-        'v_b511cd32_8625_456f_acff_86d81ae73a0c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b511cd32_8625_456f_acff_86d81ae73a0c'] or s.wcns['v_b511cd32_8625_456f_acff_86d81ae73a0c']()) and "{v_b511cd32_8625_456f_acff_86d81ae73a0c_XLnk|Вам ничего не оставалось, как покинуть этот отсек}^" or "");
     end,
     wcns = {
         ['v_b511cd32_8625_456f_acff_86d81ae73a0c'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44502,11 +44502,11 @@ return nlb:std_bg();
         p("Один из офицеров провел вас в складской отсек. Не смотря на работу вентиляции в отсеке воняло какой-то едкой химической дрянью. Офицер пояснил вам, что это результат недавней дезинфекции помещения и отказался туда входить. От нестерпимой вони химических реагентов у вас на глазах навернулись слезы, и запершило в горле.");
     end,
     way = {
-        'v_f30da443_e75f_42d6_a1c7_b5f0e998a05e',
-        'v_09674975_e852_4c9a_be9e_e3cde182d74a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_f30da443_e75f_42d6_a1c7_b5f0e998a05e'] or s.wcns['v_f30da443_e75f_42d6_a1c7_b5f0e998a05e']()) and "{v_f30da443_e75f_42d6_a1c7_b5f0e998a05e_XLnk|Пойдете проверить пульт управления криогенной системой}^" or "");
+        p((not s.wcns['v_09674975_e852_4c9a_be9e_e3cde182d74a'] or s.wcns['v_09674975_e852_4c9a_be9e_e3cde182d74a']()) and "{v_09674975_e852_4c9a_be9e_e3cde182d74a_XLnk|Поскорее покинете отсек пока не получили отравление}^" or "");
     end,
     wcns = {
         ['v_f30da443_e75f_42d6_a1c7_b5f0e998a05e'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44622,12 +44622,12 @@ return nlb:std_bg();
 "Что вы хотите у него спросить?");
     end,
     way = {
-        'v_6a2fa5ee_ee6b_4827_b941_f4475f36d650',
-        'v_57a033ba_833f_48b2_9a69_b5e8601468d0',
-        'v_22ee4ba4_3c70_48b6_b9d6_aa83f0ce43e9',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6a2fa5ee_ee6b_4827_b941_f4475f36d650'] or s.wcns['v_6a2fa5ee_ee6b_4827_b941_f4475f36d650']()) and "{v_6a2fa5ee_ee6b_4827_b941_f4475f36d650_XLnk|Подозревает ли он кого-то в диверсии}^" or "");
+        p((not s.wcns['v_57a033ba_833f_48b2_9a69_b5e8601468d0'] or s.wcns['v_57a033ba_833f_48b2_9a69_b5e8601468d0']()) and "{v_57a033ba_833f_48b2_9a69_b5e8601468d0_XLnk|Попытаетесь использовать блеф и скажете, что знаете, что это он совершил диверсию на корабле}^" or "");
+        p((not s.wcns['v_22ee4ba4_3c70_48b6_b9d6_aa83f0ce43e9'] or s.wcns['v_22ee4ba4_3c70_48b6_b9d6_aa83f0ce43e9']()) and "{v_22ee4ba4_3c70_48b6_b9d6_aa83f0ce43e9_XLnk|Спросите, где был капитан пять дней назад в 12/35}^" or "");
     end,
     wcns = {
         ['v_6a2fa5ee_ee6b_4827_b941_f4475f36d650'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44759,11 +44759,11 @@ return nlb:std_bg();
         p("Я могу оценить вероятность причастности каждого из подозреваемых в этой диверсии. На основании этих выводов можно будет с довольно большой вероятностью определить преступника.");
     end,
     way = {
-        'v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9',
-        'v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9'] or s.wcns['v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9']()) and "{v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9_XLnk|Кто мог перенастроить криогенную систему в складском отсеке?}^" or "");
+        p((not s.wcns['v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61'] or s.wcns['v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61']()) and "{v_38521f29_ebd4_4bf3_b0d4_ec6526c91a61_XLnk|Так почему вы не проведете этот анализ и не доложите о своих результатах капитану Кларку?}^" or "");
     end,
     wcns = {
         ['v_64bd430e_1787_4ac8_906d_d27ed0e9b6f9'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44878,11 +44878,11 @@ return nlb:std_bg();
         p("Где я был в 12/35 пять дней назад? – удивленно уставился на вас доктор – Вы шутите?! Я даже не помню, какого цвета был мой кал вчера!");
     end,
     way = {
-        'v_a6df6d8c_6405_4a41_a846_a3d912f5413f',
-        'v_6e6da2b2_6224_412b_b5db_519dbc0c849c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a6df6d8c_6405_4a41_a846_a3d912f5413f'] or s.wcns['v_a6df6d8c_6405_4a41_a846_a3d912f5413f']()) and "{v_a6df6d8c_6405_4a41_a846_a3d912f5413f_XLnk|Спросите, что он заметил необычного в последнее время?}^" or "");
+        p((not s.wcns['v_6e6da2b2_6224_412b_b5db_519dbc0c849c'] or s.wcns['v_6e6da2b2_6224_412b_b5db_519dbc0c849c']()) and "{v_6e6da2b2_6224_412b_b5db_519dbc0c849c_XLnk|Спросите про начальника снабжения Ридли}^" or "");
     end,
     wcns = {
         ['v_a6df6d8c_6405_4a41_a846_a3d912f5413f'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -44997,10 +44997,10 @@ return nlb:std_bg();
         p("Я никого не подозреваю – равнодушным тоном заявил вам Гусман – Человек движимый подозрениями - психически не совсем здоров. Вы это знали? Я привык работать не с подозрениями, а с медицинскими фактами. И только фактами! – док многозначительно сделал ударение на последнем слове.");
     end,
     way = {
-        'v_0ab791de_734d_4434_b418_15016f46ff94',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_0ab791de_734d_4434_b418_15016f46ff94'] or s.wcns['v_0ab791de_734d_4434_b418_15016f46ff94']()) and "{v_0ab791de_734d_4434_b418_15016f46ff94_XLnk|И какие же вы знаете «факты»?}^" or "");
     end,
     wcns = {
         ['v_0ab791de_734d_4434_b418_15016f46ff94'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -45199,15 +45199,15 @@ return nlb:std_bg();
         p("Куда вы хотите направиться?");
     end,
     way = {
-        'v_b1f216dd_e562_4efb_ac39_b082375c1104',
-        'v_0796df51_d545_400a_87d7_7441d7fb3cca',
-        'v_4123c112_b535_4d49_adfa_efbf426acedc',
-        'v_02027429_8bbb_4a07_803c_407803e890f6',
-        'v_7194b8d2_5d8f_4857_bd41_2b3484146849',
-        'v_69a13a46_aaea_4350_92c6_bbc5454da8bd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b1f216dd_e562_4efb_ac39_b082375c1104'] or s.wcns['v_b1f216dd_e562_4efb_ac39_b082375c1104']()) and "{v_b1f216dd_e562_4efb_ac39_b082375c1104_XLnk|Пойти на палубу абордажных шатлов}^" or "");
+        p((not s.wcns['v_0796df51_d545_400a_87d7_7441d7fb3cca'] or s.wcns['v_0796df51_d545_400a_87d7_7441d7fb3cca']()) and "{v_0796df51_d545_400a_87d7_7441d7fb3cca_XLnk|Пойти в отсек Связи}^" or "");
+        p((not s.wcns['v_4123c112_b535_4d49_adfa_efbf426acedc'] or s.wcns['v_4123c112_b535_4d49_adfa_efbf426acedc']()) and "{v_4123c112_b535_4d49_adfa_efbf426acedc_XLnk|Пойти в Инженерный отсек}^" or "");
+        p((not s.wcns['v_02027429_8bbb_4a07_803c_407803e890f6'] or s.wcns['v_02027429_8bbb_4a07_803c_407803e890f6']()) and "{v_02027429_8bbb_4a07_803c_407803e890f6_XLnk|Зайти в оружейную комнату}^" or "");
+        p((not s.wcns['v_7194b8d2_5d8f_4857_bd41_2b3484146849'] or s.wcns['v_7194b8d2_5d8f_4857_bd41_2b3484146849']()) and "{v_7194b8d2_5d8f_4857_bd41_2b3484146849_XLnk|Пройтись по коридорам и послушать разговоры членов экипажа}^" or "");
+        p((not s.wcns['v_69a13a46_aaea_4350_92c6_bbc5454da8bd'] or s.wcns['v_69a13a46_aaea_4350_92c6_bbc5454da8bd']()) and "{v_69a13a46_aaea_4350_92c6_bbc5454da8bd_XLnk|Заняться другими делами}^" or "");
     end,
     wcns = {
         ['v_b1f216dd_e562_4efb_ac39_b082375c1104'] = function() return (_sabotage_cnt ~= nil) and (( not _lvs_b1f216dd_e562_4efb_ac39_b082375c1104) and (_sabotage_cnt == 1)); end,
@@ -45501,11 +45501,11 @@ return nlb:std_bg();
 "По видео вы поняли, что пять дней назад в районе указанного времени в складской отсек по очереди зашли  – капитан корабля Кларк и командир штурмовиков Потоцкий. Они пробыли там минут пятнадцать. Затем из отсека вышел Потоцкий и чуть позже капитан Кларк.");
     end,
     way = {
-        'v_6cf13d48_3007_4785_ba90_8a4abb48bd6f',
-        'v_b9bb42c0_1fad_4848_a93d_ee4df8609301',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6cf13d48_3007_4785_ba90_8a4abb48bd6f'] or s.wcns['v_6cf13d48_3007_4785_ba90_8a4abb48bd6f']()) and "{v_6cf13d48_3007_4785_ba90_8a4abb48bd6f_XLnk|Кажется, это все что можно выжать полезного из этого служаки Крампа. Вы решили пока заняться другими делами}^" or "");
+        p((not s.wcns['v_b9bb42c0_1fad_4848_a93d_ee4df8609301'] or s.wcns['v_b9bb42c0_1fad_4848_a93d_ee4df8609301']()) and "{v_b9bb42c0_1fad_4848_a93d_ee4df8609301_XLnk|Попросить  Крампа показать видеозаписи из медицинского отсека}^" or "");
     end,
     wcns = {
         ['v_6cf13d48_3007_4785_ba90_8a4abb48bd6f'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -45627,10 +45627,10 @@ return nlb:std_bg();
 "Начальник снабжения Ридли – 8 баллов");
     end,
     way = {
-        'v_32bb4f16_0449_4499_9669_1369c90538dc',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_32bb4f16_0449_4499_9669_1369c90538dc'] or s.wcns['v_32bb4f16_0449_4499_9669_1369c90538dc']()) and "{v_32bb4f16_0449_4499_9669_1369c90538dc_XLnk|Попросите Доджа оценить ваш интеллектуальный уровень}^" or "");
     end,
     wcns = {
         ['v_32bb4f16_0449_4499_9669_1369c90538dc'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -45813,11 +45813,11 @@ return nlb:std_bg();
         p("Потому что хочу вам помочь – ответил Додж – Не подумайте офицер, что я проникся к вам какой-то симпатией. Мой электронный мозг далек от таких дефиниций как «симпатия». Я просто оценил ваши интеллектуальные способности и могу утверждать, что вероятность того что вы найдете вражеского агента = 0.267% - Додж снисходительно улыбнулся и продолжил – А теперь представьте что вы не нашли преступника… И как к этому отнесется ваше начальство? А?!... Оно решит, что вы не справились с поставленным заданием. А начальству всегда нужно кого-то наказать за возникшие неприятности. И как, по-вашему, кого накажут? Боевого капитана корабля Кларка? Или вас?…");
     end,
     way = {
-        'v_9bc708b3_f51d_494f_8293_f8bbfb962d1e',
-        'v_b32fde9f_76d3_4a2b_b51d_94f593b768db',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_9bc708b3_f51d_494f_8293_f8bbfb962d1e'] or s.wcns['v_9bc708b3_f51d_494f_8293_f8bbfb962d1e']()) and "{v_9bc708b3_f51d_494f_8293_f8bbfb962d1e_XLnk|Согласитесь с «железными» доводами Доджа и пойдете писать рапорт на имя адмирала, в котором укажете, что поломка криогенных систем произошла по причине программного сбоя}^" or "");
+        p((not s.wcns['v_b32fde9f_76d3_4a2b_b51d_94f593b768db'] or s.wcns['v_b32fde9f_76d3_4a2b_b51d_94f593b768db']()) and "{v_b32fde9f_76d3_4a2b_b51d_94f593b768db_XLnk|Или продолжите свое расследование и опростите других подозреваемых}^" or "");
     end,
     wcns = {
         ['v_9bc708b3_f51d_494f_8293_f8bbfb962d1e'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -46031,13 +46031,13 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_c8929679_7466_4978_b3ad_d88a3d7c1157',
-        'v_d6788bf4_9e2c_4572_9ae2_8524594cf029',
-        'v_4d35022e_3e18_4366_a210_dedc15741848',
-        'v_5b143897_e81a_4e96_8355_ae4abff786bd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_c8929679_7466_4978_b3ad_d88a3d7c1157'] or s.wcns['v_c8929679_7466_4978_b3ad_d88a3d7c1157']()) and "{v_c8929679_7466_4978_b3ad_d88a3d7c1157_XLnk|Спросите у Крампа зачем он делал эти записи}^" or "");
+        p((not s.wcns['v_d6788bf4_9e2c_4572_9ae2_8524594cf029'] or s.wcns['v_d6788bf4_9e2c_4572_9ae2_8524594cf029']()) and "{v_d6788bf4_9e2c_4572_9ae2_8524594cf029_XLnk|Спросите у Крампа, установлены ли камеры наблюдения во всех личных каютах офицеров}^" or "");
+        p((not s.wcns['v_4d35022e_3e18_4366_a210_dedc15741848'] or s.wcns['v_4d35022e_3e18_4366_a210_dedc15741848']()) and "{v_4d35022e_3e18_4366_a210_dedc15741848_XLnk|Попробуете блефовать и скажете, что знаете, что это он совершил диверсию}^" or "");
+        p((not s.wcns['v_5b143897_e81a_4e96_8355_ae4abff786bd'] or s.wcns['v_5b143897_e81a_4e96_8355_ae4abff786bd']()) and "{v_5b143897_e81a_4e96_8355_ae4abff786bd_XLnk|Закончить допрос Крампа}^" or "");
     end,
     wcns = {
         ['v_c8929679_7466_4978_b3ad_d88a3d7c1157'] = function() return (_sabotage_cnt ~= nil) and (( not _lvs_c8929679_7466_4978_b3ad_d88a3d7c1157) and (_sabotage_cnt == 1)); end,
@@ -46189,10 +46189,10 @@ return nlb:std_bg();
 "Док заглянул в свой планшет – Да. Пять дней назад он лежал у меня в лазарете – подтвердил Гусман – Правда, не с расстройством желудка, а с геморроем. Прободение язвы.");
     end,
     way = {
-        'v_718f0c0c_30f4_435f_bcb9_6e20003c6393',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_718f0c0c_30f4_435f_bcb9_6e20003c6393'] or s.wcns['v_718f0c0c_30f4_435f_bcb9_6e20003c6393']()) and "{v_718f0c0c_30f4_435f_bcb9_6e20003c6393_XLnk|Скажете доктору, что вы на хорошем счету у Адмирала и можете посодействовать о его переводе на флагман, где выше оклад и лучший комфорт для экипажа}^" or "");
     end,
     wcns = {
         ['v_718f0c0c_30f4_435f_bcb9_6e20003c6393'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -46411,10 +46411,10 @@ return nlb:std_bg();
 "Кажется, вы ошиблись. Капитан Ридли типичный «тыловик» и трус. Вряд ли такой как он мог бы быть вражеским агентом. Актерски сыграть простофилю и труса конечно можно, но обильное потоотделение - это уж слишком.");
     end,
     way = {
-        'v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c'] or s.wcns['v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c']()) and "{v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c_XLnk|Вы решили больше не мучить капитана и пока оставить его в покое}^" or "");
     end,
     wcns = {
         ['v_b74eec5b_7f08_4916_bfca_6e9ff440cc6c'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -46512,10 +46512,10 @@ return nlb:std_bg();
         p("Пальцы сержанта быстро забегали по клавиатуре, и на экране появился результат его запроса – Есть, офицер! За последние две недели этой информацией интересовались – инженер Додж и начальник по безопасности Крамп.");
     end,
     way = {
-        'v_3e4b494d_8947_4124_9c6a_2f4d2823445c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_3e4b494d_8947_4124_9c6a_2f4d2823445c'] or s.wcns['v_3e4b494d_8947_4124_9c6a_2f4d2823445c']()) and "{v_3e4b494d_8947_4124_9c6a_2f4d2823445c_XLnk|Вы взяли этот факт себе на заметку, и пошли дальше}^" or "");
     end,
     wcns = {
         ['v_3e4b494d_8947_4124_9c6a_2f4d2823445c'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -46613,11 +46613,11 @@ return nlb:std_bg();
         p("Мой вам совет, офицер – Додж доверительно наклонился в вашу сторону и, понизив голос, продолжил – Напишите в своем рапорте, что поломка криогенных систем произошла в результате случайного сбоя программы.");
     end,
     way = {
-        'v_bfda18a7_4777_4913_9861_3b580b51aaf7',
-        'v_b93cc154_105d_436a_946b_9b47e1cfecb4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_bfda18a7_4777_4913_9861_3b580b51aaf7'] or s.wcns['v_bfda18a7_4777_4913_9861_3b580b51aaf7']()) and "{v_bfda18a7_4777_4913_9861_3b580b51aaf7_XLnk|А разве такое возможно?}^" or "");
+        p((not s.wcns['v_b93cc154_105d_436a_946b_9b47e1cfecb4'] or s.wcns['v_b93cc154_105d_436a_946b_9b47e1cfecb4']()) and "{v_b93cc154_105d_436a_946b_9b47e1cfecb4_XLnk|Я напишу в рапорте, что диверсию совершил ты Додж, ибо только ты мог перенасторить алгоритмы на пульте управления.}^" or "");
     end,
     wcns = {
         ['v_bfda18a7_4777_4913_9861_3b580b51aaf7'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -46735,10 +46735,10 @@ return nlb:std_bg();
 "Странный выбор литературы для начальника снабжения. Или может быть, в своих фантазиях Ридли видит себя адмиралом, стоящим у штурвала космического Линкора?");
     end,
     way = {
-        'v_4cdefb60_3864_436f_a322_a6c98adee56b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_4cdefb60_3864_436f_a322_a6c98adee56b'] or s.wcns['v_4cdefb60_3864_436f_a322_a6c98adee56b']()) and "{v_4cdefb60_3864_436f_a322_a6c98adee56b_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_4cdefb60_3864_436f_a322_a6c98adee56b'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -46839,10 +46839,10 @@ return nlb:std_bg();
 "Вы успешно выполнили порученное вам задание.");
     end,
     way = {
-        'v_bc262993_4469_446a_aa4e_0177b9649015_93fa06bd_400c_4b76_a8a2_e2917db8d2e4__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_bc262993_4469_446a_aa4e_0177b9649015_93fa06bd_400c_4b76_a8a2_e2917db8d2e4__Return_XLnk|Продолжить игру}^");
     end,
     wcns = {
     },
@@ -47245,16 +47245,16 @@ return nlb:std_bg();
 "Чью каюту вы хотите осмотреть?");
     end,
     way = {
-        'v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488',
-        'v_a58c0391_5ca7_4d1e_9de0_b676aa766f62',
-        'v_fcc1429c_be38_4e2b_a531_184e08caf3b7',
-        'v_d62a4014_e1c3_4703_8dee_4eac91de4d10',
-        'v_f497d476_b6ee_4303_815f_b049862a1118',
-        'v_21a2e3ab_9360_4e12_b5f2_3f3cbb02a691',
-        'v_85aabcc8_f159_4725_a65c_b0cc7d66ecd2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488'] or s.wcns['v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488']()) and "{v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488_XLnk|Доктора Гусмана}^" or "");
+        p((not s.wcns['v_a58c0391_5ca7_4d1e_9de0_b676aa766f62'] or s.wcns['v_a58c0391_5ca7_4d1e_9de0_b676aa766f62']()) and "{v_a58c0391_5ca7_4d1e_9de0_b676aa766f62_XLnk|Каюту капитана Кларка}^" or "");
+        p((not s.wcns['v_fcc1429c_be38_4e2b_a531_184e08caf3b7'] or s.wcns['v_fcc1429c_be38_4e2b_a531_184e08caf3b7']()) and "{v_fcc1429c_be38_4e2b_a531_184e08caf3b7_XLnk|Начальника по безопасности Крампа}^" or "");
+        p((not s.wcns['v_d62a4014_e1c3_4703_8dee_4eac91de4d10'] or s.wcns['v_d62a4014_e1c3_4703_8dee_4eac91de4d10']()) and "{v_d62a4014_e1c3_4703_8dee_4eac91de4d10_XLnk|Командира штурмовиков Потоцкого}^" or "");
+        p((not s.wcns['v_f497d476_b6ee_4303_815f_b049862a1118'] or s.wcns['v_f497d476_b6ee_4303_815f_b049862a1118']()) and "{v_f497d476_b6ee_4303_815f_b049862a1118_XLnk|Начальника снабжения Ридли}^" or "");
+        p((not s.wcns['v_21a2e3ab_9360_4e12_b5f2_3f3cbb02a691'] or s.wcns['v_21a2e3ab_9360_4e12_b5f2_3f3cbb02a691']()) and "{v_21a2e3ab_9360_4e12_b5f2_3f3cbb02a691_XLnk|Инженера Доджа}^" or "");
+        p((not s.wcns['v_85aabcc8_f159_4725_a65c_b0cc7d66ecd2'] or s.wcns['v_85aabcc8_f159_4725_a65c_b0cc7d66ecd2']()) and "{v_85aabcc8_f159_4725_a65c_b0cc7d66ecd2_XLnk|Вы уже осмотрели все каюты какие хотели}^" or "");
     end,
     wcns = {
         ['v_e6e2a7d4_d93b_484d_8e74_e5bffff6a488'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -47454,10 +47454,10 @@ return nlb:std_bg();
         p("Если вы так хотите. Пожалуйста! Я оценил ваш интеллект в 34 балла. Вы удивлены? – Додж снисходительно улыбался, видя на вашем лице разочарование такой низкой на ваш взгляд оценкой.");
     end,
     way = {
-        'v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4'] or s.wcns['v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4']()) and "{v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4_XLnk|Скажете, что не все определяется только логикой и интеллектом. Есть еще интуиция}^" or "");
     end,
     wcns = {
         ['v_7ad945c3_6ce2_45cc_8d30_ebc4094bded4'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -47555,11 +47555,11 @@ return nlb:std_bg();
         p("Конечно, возможно! – заверил вас Додж – Я даже провел вычисления. Вероятность сбоя программы криогенных  систем = 3.0235 %. Можете даже внести эту цифру в свой рапорт и сослаться на меня – Додж довольно улыбнулся и, подмигнув вам, добавил – Начальство любит точные цифры.");
     end,
     way = {
-        'v_2b72bf03_56c2_4823_9156_db47c4fbbd2d',
-        'v_a7474adf_bce0_408e_b470_f6790189e7b0',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_2b72bf03_56c2_4823_9156_db47c4fbbd2d'] or s.wcns['v_2b72bf03_56c2_4823_9156_db47c4fbbd2d']()) and "{v_2b72bf03_56c2_4823_9156_db47c4fbbd2d_XLnk|Скажете, что вероятность слишком мала и адмирал не поверит в то, что сбой произошел случайно}^" or "");
+        p((not s.wcns['v_a7474adf_bce0_408e_b470_f6790189e7b0'] or s.wcns['v_a7474adf_bce0_408e_b470_f6790189e7b0']()) and "{v_a7474adf_bce0_408e_b470_f6790189e7b0_XLnk|Спросите, почему Додж так заинтересован, чтобы диверсия выглядела как случайность}^" or "");
     end,
     wcns = {
         ['v_2b72bf03_56c2_4823_9156_db47c4fbbd2d'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -47776,11 +47776,11 @@ return nlb:std_bg();
         p("Меня об этом никто не просил – безразличным тоном заявил вам Додж – Мой мозг напичкан разной электроникой и мои биологические и социально-психологические  программы заблокированы. Я не руководствуюсь такими понятиями, как «долг», «симпатия», «милосердие» и прочими анахронизмами. Все эти категории лишь мешают логическому мышлению и тормозят мои сингулярные процессы.");
     end,
     way = {
-        'v_cb189117_7252_4ca8_8f01_514b058310d7',
-        'v_777cce8b_267e_45b8_828d_3a9b544cd024',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_cb189117_7252_4ca8_8f01_514b058310d7'] or s.wcns['v_cb189117_7252_4ca8_8f01_514b058310d7']()) and "{v_cb189117_7252_4ca8_8f01_514b058310d7_XLnk|Спросите его кто мог перенастроить криогенную систему в складском отсеке}^" or "");
+        p((not s.wcns['v_777cce8b_267e_45b8_828d_3a9b544cd024'] or s.wcns['v_777cce8b_267e_45b8_828d_3a9b544cd024']()) and "{v_777cce8b_267e_45b8_828d_3a9b544cd024_XLnk|Попросите Доджа оценить всех подозреваемых офицеров на предмет их причастности к диверсии}^" or "");
     end,
     wcns = {
         ['v_cb189117_7252_4ca8_8f01_514b058310d7'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -47895,15 +47895,15 @@ return nlb:std_bg();
         p("Как вы хотите провести свое расследование?");
     end,
     way = {
-        'v_a0351aef_e50e_4b39_9e72_63b2175d9be8',
-        'v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd',
-        'v_2bb7e14e_164f_4243_9872_42fec6244a60',
-        'v_20c4a74c_4778_4b07_a29d_e89fd7b392d1',
-        'v_3db3dbbb_6c82_4edc_9f85_fdb0a28ceb2b',
-        'v_c0dd2d24_c09a_46e5_b698_6c1ee957a825',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a0351aef_e50e_4b39_9e72_63b2175d9be8'] or s.wcns['v_a0351aef_e50e_4b39_9e72_63b2175d9be8']()) and "{v_a0351aef_e50e_4b39_9e72_63b2175d9be8_XLnk|Опросить всех подозреваемых}^" or "");
+        p((not s.wcns['v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd'] or s.wcns['v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd']()) and "{v_d692db65_1dfa_40e9_96c5_f2bd7552e1fd_XLnk|Осмотреть место происшествия в складском отсеке}^" or "");
+        p((not s.wcns['v_2bb7e14e_164f_4243_9872_42fec6244a60'] or s.wcns['v_2bb7e14e_164f_4243_9872_42fec6244a60']()) and "{v_2bb7e14e_164f_4243_9872_42fec6244a60_XLnk|Пройтись по кораблю и расспросить рядовых о происшествии}^" or "");
+        p((not s.wcns['v_20c4a74c_4778_4b07_a29d_e89fd7b392d1'] or s.wcns['v_20c4a74c_4778_4b07_a29d_e89fd7b392d1']()) and "{v_20c4a74c_4778_4b07_a29d_e89fd7b392d1_XLnk|Осмотреть шатл № 10}^" or "");
+        p((not s.wcns['v_3db3dbbb_6c82_4edc_9f85_fdb0a28ceb2b'] or s.wcns['v_3db3dbbb_6c82_4edc_9f85_fdb0a28ceb2b']()) and "{v_3db3dbbb_6c82_4edc_9f85_fdb0a28ceb2b_XLnk|Потребовать от капитана произвести досмотр кают офицеров}^" or "");
+        p((not s.wcns['v_c0dd2d24_c09a_46e5_b698_6c1ee957a825'] or s.wcns['v_c0dd2d24_c09a_46e5_b698_6c1ee957a825']()) and "{v_c0dd2d24_c09a_46e5_b698_6c1ee957a825_XLnk|Подвести итоги расследования}^" or "");
     end,
     wcns = {
         ['v_a0351aef_e50e_4b39_9e72_63b2175d9be8'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -48091,10 +48091,10 @@ return nlb:std_bg();
 "Ну что ж нужно будет проверить эту версию. Заодно проверить, может кто-то другой делал запрос в Справочной системе.");
     end,
     way = {
-        'v_f90ea85c_5acf_48f1_bec3_7849d728ad24',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_f90ea85c_5acf_48f1_bec3_7849d728ad24'] or s.wcns['v_f90ea85c_5acf_48f1_bec3_7849d728ad24']()) and "{v_f90ea85c_5acf_48f1_bec3_7849d728ad24_XLnk|Вы решили больше не мучить Ридли и пока оставить его в покое}^" or "");
     end,
     wcns = {
         ['v_f90ea85c_5acf_48f1_bec3_7849d728ad24'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -48579,11 +48579,11 @@ return nlb:std_bg();
         p("Разумеется, после обнаружения диверсии я обследовал складской отсек, но не обнаружил никаких улик, которые бы дали хоть какую-то зацепку -  деловито начал офицер Крамп – Я также просмотрел все видеозаписи камер наблюдения в районе складского отсека. Ничего подозрительного не обнаружил. На склад почти каждый день заходили все офицеры, у которых есть туда доступ – это инженер Додж, доктор Гусман, капитан Кларк, начальник снабжения Ридли, командир штурмовиков Потоцкий, ну и я тоже заходил – признался Крамп. Он окинул вас испытующим взглядом и продолжил понизив свой голос - На складе хранится небольшой груз спиртного и наши офицеры иногда пополняют свои запасы… Ну, вы меня понимаете…");
     end,
     way = {
-        'v_0b978725_9798_48aa_b42e_5b143e37b935',
-        'v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_0b978725_9798_48aa_b42e_5b143e37b935'] or s.wcns['v_0b978725_9798_48aa_b42e_5b143e37b935']()) and "{v_0b978725_9798_48aa_b42e_5b143e37b935_XLnk|Попросите Крампа показать вам видео}^" or "");
+        p((not s.wcns['v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3'] or s.wcns['v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3']()) and "{v_9d7ea5ee_e794_4588_8f59_2190a94cc9b3_XLnk|Попросите Крампа показать вам видеозаписи сделанные пять дней назад}^" or "");
     end,
     wcns = {
         ['v_0b978725_9798_48aa_b42e_5b143e37b935'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -48699,11 +48699,11 @@ return nlb:std_bg();
 "- Что?.... Я?... Когда вы говорите, в 12/35?... – Ридли выглядел растерянным и лихорадочно пытался понять, что вы у него спрашиваете.");
     end,
     way = {
-        'v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4',
-        'v_f7ffd235_dd1c_486b_a08f_bf40097452a9',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4'] or s.wcns['v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4']()) and "{v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4_XLnk|Хотите надавить на него еще сильнее и заявите, что знаете, что это он совершил диверсию на корабле}^" or "");
+        p((not s.wcns['v_f7ffd235_dd1c_486b_a08f_bf40097452a9'] or s.wcns['v_f7ffd235_dd1c_486b_a08f_bf40097452a9']()) and "{v_f7ffd235_dd1c_486b_a08f_bf40097452a9_XLnk|Или будете молча наблюдать, как он мечется под вашим строгим взглядом}^" or "");
     end,
     wcns = {
         ['v_a6a6f290_cc24_4823_b2e0_d7038c52dcd4'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -48820,10 +48820,10 @@ return nlb:std_bg();
 "- Я подозреваю доктора Гусмана. У меня нет никаких доказательств, но док самый хитрый из всех наших офицеров. Он вполне мог бы провернуть такую диверсию. Я не знаю, как он это сделал, но мое чутье подсказывает мне что он и есть та самая «темная лошадка».");
     end,
     way = {
-        'v_6418303b_c4ac_4fc6_a45f_4ba787018a46',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6418303b_c4ac_4fc6_a45f_4ba787018a46'] or s.wcns['v_6418303b_c4ac_4fc6_a45f_4ba787018a46']()) and "{v_6418303b_c4ac_4fc6_a45f_4ba787018a46_XLnk|Вы спросили Крампа - Не обнаружил ли он каких-то улик или странностей за последние пять дней?}^" or "");
     end,
     wcns = {
         ['v_6418303b_c4ac_4fc6_a45f_4ba787018a46'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -48923,11 +48923,11 @@ return nlb:std_bg();
 "- В таком случае, круг подозреваемых резко расширяется – Додж ехидно улыбнулся – Почти любой член экипажа мог бы отключить автоматику электропитания. И как же теперь вы собираетесь найти вредителя?");
     end,
     way = {
-        'v_30ff5469_f28c_4c55_ba16_762ebc55af16',
-        'v_f4339fc1_22ab_4943_9860_397bcce2830d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_30ff5469_f28c_4c55_ba16_762ebc55af16'] or s.wcns['v_30ff5469_f28c_4c55_ba16_762ebc55af16']()) and "{v_30ff5469_f28c_4c55_ba16_762ebc55af16_XLnk|Попросите Доджа дать вам более подробное заключение по интеллектуальным способностям офицеров}^" or "");
+        p((not s.wcns['v_f4339fc1_22ab_4943_9860_397bcce2830d'] or s.wcns['v_f4339fc1_22ab_4943_9860_397bcce2830d']()) and "{v_f4339fc1_22ab_4943_9860_397bcce2830d_XLnk|Или пойдете опрашивать других офицеров}^" or "");
     end,
     wcns = {
         ['v_30ff5469_f28c_4c55_ba16_762ebc55af16'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -49042,10 +49042,10 @@ return nlb:std_bg();
         p("Вы спросили у Доджа, где он находился пять дней назад в 12/35 по Галактическому времени. Он не секунды не задумавшись, произнес – В это время я находился на палубе абордажных шатлов, где проводил запланированный техосмотр. Это может подтвердить видеосъемка, которая производится во всех отсеках корабля. Кроме этого мои слова могут подтвердить, по меньшей мере, десяток штурмовиков.");
     end,
     way = {
-        'v_3366d696_2185_4fa6_9cf3_15e1c26cdd49',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_3366d696_2185_4fa6_9cf3_15e1c26cdd49'] or s.wcns['v_3366d696_2185_4fa6_9cf3_15e1c26cdd49']()) and "{v_3366d696_2185_4fa6_9cf3_15e1c26cdd49_XLnk|Вы спросили Доджа, подозревает ли он кого-то в диверсии}^" or "");
     end,
     wcns = {
         ['v_3366d696_2185_4fa6_9cf3_15e1c26cdd49'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -49146,11 +49146,11 @@ return nlb:std_bg();
 "- Мда-а-а… Не повезло вам – подытожил капитан – Думаю на этом ваше расследование закончено. Док нашпиговал вас разными инъекциями, чтобы вы не отдали концы. Как ваша голова?  Плохо? Ну, вот видите! Надеюсь, вы понимаете, что в таком состоянии, ни о каком расследовании не может быть речи.");
     end,
     way = {
-        'v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d',
-        'v_39947d13_4cf3_49d3_86bc_01b31f2d0861',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d'] or s.wcns['v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d']()) and "{v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d_XLnk|Превозмогая головокружение, попробуете сесть на койке и настоите на том, чтобы продолжить свое расследование}^" or "");
+        p((not s.wcns['v_39947d13_4cf3_49d3_86bc_01b31f2d0861'] or s.wcns['v_39947d13_4cf3_49d3_86bc_01b31f2d0861']()) and "{v_39947d13_4cf3_49d3_86bc_01b31f2d0861_XLnk|Согласитесь остаться в лазарете на один день и потом продолжите расследование}^" or "");
     end,
     wcns = {
         ['v_df12d63c_3d3b_4f6c_8f07_7830105e6b5d'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -49265,12 +49265,12 @@ return nlb:std_bg();
         p("Странностей?... Хм… Конечно заметил – док заговорщически оглянулся в сторону двери – Я много чего замечаю, знаете ли – Гусман хитро подмигнул вам.");
     end,
     way = {
-        'v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef',
-        'v_91c0fb85_e1e2_43b9_917b_4d5073069d49',
-        'v_78f81e7b_3b51_47c3_a6fc_2aa915e5b5d4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef'] or s.wcns['v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef']()) and "{v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef_XLnk|И что вы заметили?}^" or "");
+        p((not s.wcns['v_91c0fb85_e1e2_43b9_917b_4d5073069d49'] or s.wcns['v_91c0fb85_e1e2_43b9_917b_4d5073069d49']()) and "{v_91c0fb85_e1e2_43b9_917b_4d5073069d49_XLnk|Резко спросите его, где он находился пять дней назад в 12/35 по Галактическому времени}^" or "");
+        p((not s.wcns['v_78f81e7b_3b51_47c3_a6fc_2aa915e5b5d4'] or s.wcns['v_78f81e7b_3b51_47c3_a6fc_2aa915e5b5d4']()) and "{v_78f81e7b_3b51_47c3_a6fc_2aa915e5b5d4_XLnk|Скажете доктору, что вы на хорошем счету у Адмирала и можете посодействовать о его переводе на флагман, где выше оклад и лучший комфорт для экипажа}^" or "");
     end,
     wcns = {
         ['v_ed6f1e0d_d5de_4507_9a91_7457ba4abbef'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -49486,11 +49486,11 @@ return nlb:std_bg();
         p("Вы ставите меня в неловкое положение перед моими офицерами. Досмотр их личных кают будет воспринято как оскорбление. На карту поставлен мой личный авторитет как капитана боевого крейсера. Извините, офицер, но я не могу на это пойти!");
     end,
     way = {
-        'v_01bea31b_7d97_497c_b337_294eb4bc32fb',
-        'v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_01bea31b_7d97_497c_b337_294eb4bc32fb'] or s.wcns['v_01bea31b_7d97_497c_b337_294eb4bc32fb']()) and "{v_01bea31b_7d97_497c_b337_294eb4bc32fb_XLnk|Скажете, что отправите рапорт адмиралу флота, в котором прямо укажете, что капитан Кларк противодействует расследованию}^" or "");
+        p((not s.wcns['v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b'] or s.wcns['v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b']()) and "{v_b3b417c3_7b3d_4b45_8541_ac6169de3f0b_XLnk|Не будете ссориться с капитаном Кларком и продолжите свое расследование без досмотра кают подозреваемых}^" or "");
     end,
     wcns = {
         ['v_01bea31b_7d97_497c_b337_294eb4bc32fb'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -49606,10 +49606,10 @@ return nlb:std_bg();
 "Пока у вас не будет веских обвинений в чей-то адрес, я не позволю рыться в личных вещах моих офицеров. Я ясно изъясняюсь?! – капитан буравил вас тяжелым взглядом. Среди присутствующих офицеров пронесся одобрительный ропот.");
     end,
     way = {
-        'v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857'] or s.wcns['v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857']()) and "{v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857_XLnk|Кажется, вы перегнули палку и настроили офицеров и капитана против себя}^" or "");
     end,
     wcns = {
         ['v_bcfaf4d7_1afd_4c3b_96cf_682a9e9d8857'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -49914,11 +49914,11 @@ return nlb:std_bg();
         p("Кажется, все на корабле подозревают меня в этом злополучном происшествии – пожаловался вам Ридли – Если я отвечаю за снабжение продовольствием, то это вовсе не значит, что это я испортил провизию. Кроме меня в складской отсек был доступ и у других офицеров. Да и в этих чертовых настройках криогенных систем я ничего не понимаю. Это мог сделать только инженер Додж.");
     end,
     way = {
-        'v_a30884ce_f267_4d03_9225_374a316c2601',
-        'v_935088bd_45f3_468d_ba0a_a4ddaa3f842e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a30884ce_f267_4d03_9225_374a316c2601'] or s.wcns['v_a30884ce_f267_4d03_9225_374a316c2601']()) and "{v_a30884ce_f267_4d03_9225_374a316c2601_XLnk|Скажете, что он вполне мог ознакомиться с инструкцией по настройке криогенных программ через компьютер в базе Справочной системы корабля}^" or "");
+        p((not s.wcns['v_935088bd_45f3_468d_ba0a_a4ddaa3f842e'] or s.wcns['v_935088bd_45f3_468d_ba0a_a4ddaa3f842e']()) and "{v_935088bd_45f3_468d_ba0a_a4ddaa3f842e_XLnk|Спросите, где был капитан пять дней назад в 12/35}^" or "");
     end,
     wcns = {
         ['v_a30884ce_f267_4d03_9225_374a316c2601'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -50136,10 +50136,10 @@ return nlb:std_bg();
         p("Ну, раз вы так уверены в своем «чутье», то идите и ищите – подытожил разговор Додж – Извините офицер, но у меня много других дел. Рад был вам помочь.");
     end,
     way = {
-        'v_0d2a5709_953d_4823_9bb4_03f0ac0c433c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_0d2a5709_953d_4823_9bb4_03f0ac0c433c'] or s.wcns['v_0d2a5709_953d_4823_9bb4_03f0ac0c433c']()) and "{v_0d2a5709_953d_4823_9bb4_03f0ac0c433c_XLnk|Продолжите свое расследование и опростите других подозреваемых}^" or "");
     end,
     wcns = {
         ['v_0d2a5709_953d_4823_9bb4_03f0ac0c433c'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -50240,11 +50240,11 @@ return nlb:std_bg();
 "УСПЕШНЫЙ ФИНАЛ");
     end,
     way = {
-        'v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
         p((not s.wcns['v_61d33057_d41c_4e74_9b56_7deb62d8f1e1'] or s.wcns['v_61d33057_d41c_4e74_9b56_7deb62d8f1e1']()) and "{v_61d33057_d41c_4e74_9b56_7deb62d8f1e1_XLnk|Далее}^" or "");
+        p((not s.wcns['v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e'] or s.wcns['v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e']()) and "{v_3a14b40a_cb46_403d_8c53_c3d2d8e42c6e_XLnk|Продолжить игру}^" or "");
     end,
     wcns = {
         ['v_61d33057_d41c_4e74_9b56_7deb62d8f1e1'] = function() return (_sabotage_cnt ~= nil) and ((_sabotage_cnt == 1) and (_cache)); end,
@@ -50359,10 +50359,10 @@ return nlb:std_bg();
         p("Только с очень близкого расстояния вы обнаружили, что это кибернетические копии мух. Каково их назначение? Непонятно.");
     end,
     way = {
-        'v_af588236_d955_4fac_80df_ea73aa35f557',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_af588236_d955_4fac_80df_ea73aa35f557'] or s.wcns['v_af588236_d955_4fac_80df_ea73aa35f557']()) and "{v_af588236_d955_4fac_80df_ea73aa35f557_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_af588236_d955_4fac_80df_ea73aa35f557'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -50563,11 +50563,11 @@ return nlb:std_bg();
         p("Вы признались, что у вас есть видео, на котором зафиксировано, как пять дней назад примерно в 12/35 Потоцкий и капитан Кларк заходили в складской отсек и пробыли там пятнадцать минут. Командир штурмовиков молчал, давая вам понять, что не хочет говорить на эту тему.");
     end,
     way = {
-        'v_71ac805c_67a5_4606_85d0_90b037d1961d',
-        'v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_71ac805c_67a5_4606_85d0_90b037d1961d'] or s.wcns['v_71ac805c_67a5_4606_85d0_90b037d1961d']()) and "{v_71ac805c_67a5_4606_85d0_90b037d1961d_XLnk|Скажете, что знаете о его отношениях с капралом Кэтрин}^" or "");
+        p((not s.wcns['v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c'] or s.wcns['v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c']()) and "{v_60a5448b_f7ef_4b50_893e_69e7b3fb1b6c_XLnk|Зададите ему другой вопрос}^" or "");
     end,
     wcns = {
         ['v_71ac805c_67a5_4606_85d0_90b037d1961d'] = function() return (_sabotage_cnt ~= nil) and ((_sabotage_cnt == 1) and (_lovers)); end,
@@ -50682,10 +50682,10 @@ return nlb:std_bg();
         p("Кого я подозреваю? – Потоцкий задумался – Я могу лишь твердо сказать, кого я точно НЕ подозреваю!");
     end,
     way = {
-        'v_36ba018f_4824_421f_a426_f82ab93d70d5',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_36ba018f_4824_421f_a426_f82ab93d70d5'] or s.wcns['v_36ba018f_4824_421f_a426_f82ab93d70d5']()) and "{v_36ba018f_4824_421f_a426_f82ab93d70d5_XLnk|И кто, по-вашему, находится вне подозрений?}^" or "");
     end,
     wcns = {
         ['v_36ba018f_4824_421f_a426_f82ab93d70d5'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -50884,11 +50884,11 @@ return nlb:std_bg();
         p("Это мог сделать я или любой другой офицер, если он ознакомился с инструкцией работы криогенной системы через компьютер в разделе Справочной информации. Хотя, с точки зрения оценки интеллектуальных возможностей из списка подозреваемых можно исключить начальника снабжения Ридли. Его интеллект не способен осилить даже Инструкцию. Проще говоря - он кретин – сухо подытожил Додж.");
     end,
     way = {
-        'v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6',
-        'v_65910735_64a9_4dca_aa2e_d7efe1b195bf',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6'] or s.wcns['v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6']()) and "{v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6_XLnk|Расскажете Доджу про щиток}^" or "");
+        p((not s.wcns['v_65910735_64a9_4dca_aa2e_d7efe1b195bf'] or s.wcns['v_65910735_64a9_4dca_aa2e_d7efe1b195bf']()) and "{v_65910735_64a9_4dca_aa2e_d7efe1b195bf_XLnk|Попросите Доджа дать вам более подробное заключение по интеллектуальным способностям офицеров}^" or "");
     end,
     wcns = {
         ['v_a04a5210_a8ff_4cc7_b543_ca3204bb83a6'] = function() return (_sabotage_cnt ~= nil) and ((_sabotage_cnt == 1) and (_switchboard)); end,
@@ -51003,10 +51003,10 @@ return nlb:std_bg();
         p("У вас осталось очень мало времени на расследование. Адмирал связался с вами и запросил результатов. Вы попросили у него особых полномочий, чтобы ускорить процесс расследования. Адмирал дал вам высший код доступа и все полномочия. Времени в образ! Вам придется выбирать каким делам, уделить внимание, а чем пожертвовать.");
     end,
     way = {
-        'v_78806482_c813_49e1_9d91_ce20cc29701d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_78806482_c813_49e1_9d91_ce20cc29701d'] or s.wcns['v_78806482_c813_49e1_9d91_ce20cc29701d']()) and "{v_78806482_c813_49e1_9d91_ce20cc29701d_XLnk|Вы можете лишь успеть опросить подозреваемых офицеров}^" or "");
     end,
     wcns = {
         ['v_78806482_c813_49e1_9d91_ce20cc29701d'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -51105,10 +51105,10 @@ return nlb:std_bg();
         p("Странности? – Потоцкий задумался – Странность заключается в том, что недавно я обнаружил в своей каюте скрытую камеру наблюдения! – командир штурмовиков многозначительно замолчал, ожидая вашей реакции.");
     end,
     way = {
-        'v_5140896f_1b08_4c17_9030_df40ae4356d3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_5140896f_1b08_4c17_9030_df40ae4356d3'] or s.wcns['v_5140896f_1b08_4c17_9030_df40ae4356d3']()) and "{v_5140896f_1b08_4c17_9030_df40ae4356d3_XLnk|Как по вашему, кому понадобилось устанавливать камеру в вашей каюте?}^" or "");
     end,
     wcns = {
         ['v_5140896f_1b08_4c17_9030_df40ae4356d3'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -51209,11 +51209,11 @@ return nlb:std_bg();
 "Набор плакатов на космическую тему.");
     end,
     way = {
-        'v_8942e527_31a9_4909_914e_00b40b3873c8',
-        'v_2cf1dcb5_4480_4786_b764_c6f96dd48d23',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_8942e527_31a9_4909_914e_00b40b3873c8'] or s.wcns['v_8942e527_31a9_4909_914e_00b40b3873c8']()) and "{v_8942e527_31a9_4909_914e_00b40b3873c8_XLnk|Хотите посмотреть плакаты?}^" or "");
+        p((not s.wcns['v_2cf1dcb5_4480_4786_b764_c6f96dd48d23'] or s.wcns['v_2cf1dcb5_4480_4786_b764_c6f96dd48d23']()) and "{v_2cf1dcb5_4480_4786_b764_c6f96dd48d23_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_8942e527_31a9_4909_914e_00b40b3873c8'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -51433,10 +51433,10 @@ return nlb:std_bg();
 "В настенной аптечке вы нашли таблетки от импотенции.");
     end,
     way = {
-        'v_276209e2_d488_44fa_bad0_6cc993ab2de2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_276209e2_d488_44fa_bad0_6cc993ab2de2'] or s.wcns['v_276209e2_d488_44fa_bad0_6cc993ab2de2']()) and "{v_276209e2_d488_44fa_bad0_6cc993ab2de2_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_276209e2_d488_44fa_bad0_6cc993ab2de2'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -51538,11 +51538,11 @@ return nlb:std_bg();
 "Кажется это обычные солдатские разговоры. Ничего интересного.");
     end,
     way = {
-        'v_515d8a63_b7fe_4d57_93b2_d82d29dbad68',
-        'v_e12ba243_9351_4fd7_99e5_c35a2e739c80',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_515d8a63_b7fe_4d57_93b2_d82d29dbad68'] or s.wcns['v_515d8a63_b7fe_4d57_93b2_d82d29dbad68']()) and "{v_515d8a63_b7fe_4d57_93b2_d82d29dbad68_XLnk|Пойдете дальше, чтобы не терять свое драгоценное время}^" or "");
+        p((not s.wcns['v_e12ba243_9351_4fd7_99e5_c35a2e739c80'] or s.wcns['v_e12ba243_9351_4fd7_99e5_c35a2e739c80']()) and "{v_e12ba243_9351_4fd7_99e5_c35a2e739c80_XLnk|Или продолжите слушать}^" or "");
     end,
     wcns = {
         ['v_515d8a63_b7fe_4d57_93b2_d82d29dbad68'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -51657,13 +51657,13 @@ return nlb:std_bg();
         p("Какие вопросы вы хотите задать капитану Кларку?");
     end,
     way = {
-        'v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8',
-        'v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3',
-        'v_054e6428_b3c2_46d8_ba17_12d9114e118d',
-        'v_03787782_08ef_4831_9e82_ca2add309177',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8'] or s.wcns['v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8']()) and "{v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8_XLnk|Кто имел доступ в складской отсек?}^" or "");
+        p((not s.wcns['v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3'] or s.wcns['v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3']()) and "{v_3d14e1de_d0cc_4c09_8c43_a79b59ca8ef3_XLnk|Кто из экипажа разбирается в наладке криогенной системы?}^" or "");
+        p((not s.wcns['v_054e6428_b3c2_46d8_ba17_12d9114e118d'] or s.wcns['v_054e6428_b3c2_46d8_ba17_12d9114e118d']()) and "{v_054e6428_b3c2_46d8_ba17_12d9114e118d_XLnk|Кого капитан подозревает в этой диверсии?}^" or "");
+        p((not s.wcns['v_03787782_08ef_4831_9e82_ca2add309177'] or s.wcns['v_03787782_08ef_4831_9e82_ca2add309177']()) and "{v_03787782_08ef_4831_9e82_ca2add309177_XLnk|Вы уже узнали всё что хотели}^" or "");
     end,
     wcns = {
         ['v_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8'] = function() return (_sabotage_cnt ~= nil) and (( not _lvs_8a8ef53b_fcf9_4c60_b3b4_3c28e828e0f8) and (_sabotage_cnt == 1)); end,
@@ -51815,10 +51815,10 @@ return nlb:std_bg();
         p("Вы покрутились в Инженерном отсеке но не узнали ничего интересного.");
     end,
     way = {
-        'v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd'] or s.wcns['v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd']()) and "{v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd_XLnk|Пойдете дальше, чтобы не терять свое драгоценное время}^" or "");
     end,
     wcns = {
         ['v_7bad7cd0_2b25_4eed_b9b6_8b8dbd35befd'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -51917,12 +51917,12 @@ return nlb:std_bg();
 "- Все нормально, офицер – отрапортовал вам сержант. Станция дальнего действия «Ретроман» на межгалактической волне передает шлягеры, которые были популярны несколько столетий назад. Сейчас они снова вошли в моду. Хотите послушать? Я могу включить погромче – услужливо предложил сержант.");
     end,
     way = {
-        'v_a6cf91ca_9668_43a4_b6e6_e99c4739947f',
-        'v_62a9a664_3887_4bb8_ad41_97f363f77ad5',
-        'v_372f5d1d_c4d1_4fcf_9541_d6e89eb940e2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a6cf91ca_9668_43a4_b6e6_e99c4739947f'] or s.wcns['v_a6cf91ca_9668_43a4_b6e6_e99c4739947f']()) and "{v_a6cf91ca_9668_43a4_b6e6_e99c4739947f_XLnk|Попросите его проверить в базе данных, кто из членов экипажа за последние пару недель запрашивал информацию, касающуюся работы криогенных систем корабля}^" or "");
+        p((not s.wcns['v_62a9a664_3887_4bb8_ad41_97f363f77ad5'] or s.wcns['v_62a9a664_3887_4bb8_ad41_97f363f77ad5']()) and "{v_62a9a664_3887_4bb8_ad41_97f363f77ad5_XLnk|Узнаете кто запрашивал информацию о электропроводке в Справочном разделе}^" or "");
+        p((not s.wcns['v_372f5d1d_c4d1_4fcf_9541_d6e89eb940e2'] or s.wcns['v_372f5d1d_c4d1_4fcf_9541_d6e89eb940e2']()) and "{v_372f5d1d_c4d1_4fcf_9541_d6e89eb940e2_XLnk|Попросите его включить музыку громче}^" or "");
     end,
     wcns = {
         ['v_a6cf91ca_9668_43a4_b6e6_e99c4739947f'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -52055,10 +52055,10 @@ return nlb:std_bg();
         p("Ваш психотип вам этого не позволит – поучительным тоном произнес Додж – Вы напичканы такими глупыми понятиями как «долг», «честь», «истина» и прочее. Вы не станете обвинять в преступлении невиновного. Верно? – Додж улыбнулся и по-дружески похлопал вас по плечу.");
     end,
     way = {
-        'v_4491ac85_fa3e_43c1_a6f9_874865c57c61',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_4491ac85_fa3e_43c1_a6f9_874865c57c61'] or s.wcns['v_4491ac85_fa3e_43c1_a6f9_874865c57c61']()) and "{v_4491ac85_fa3e_43c1_a6f9_874865c57c61_XLnk|Продолжите свое расследование и опростите других подозреваемых}^" or "");
     end,
     wcns = {
         ['v_4491ac85_fa3e_43c1_a6f9_874865c57c61'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -52156,10 +52156,10 @@ return nlb:std_bg();
         p("Вы покрутились возле Оружейной комнаты, но не узнали ничего интересного.");
     end,
     way = {
-        'v_772a394a_9fdf_4dd9_b899_be5014a39358',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_772a394a_9fdf_4dd9_b899_be5014a39358'] or s.wcns['v_772a394a_9fdf_4dd9_b899_be5014a39358']()) and "{v_772a394a_9fdf_4dd9_b899_be5014a39358_XLnk|Пойдете дальше, чтобы не терять свое драгоценное время}^" or "");
     end,
     wcns = {
         ['v_772a394a_9fdf_4dd9_b899_be5014a39358'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -52259,11 +52259,11 @@ return nlb:std_bg();
 "В закрытой небольшой баночке вы нашли двух мертвых мух размером всего в три миллиметра.");
     end,
     way = {
-        'v_931efa2b_7973_4d5a_a6f4_a6b889190f43',
-        'v_b8b9c39f_af50_4b1f_966e_b7935a212650',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_931efa2b_7973_4d5a_a6f4_a6b889190f43'] or s.wcns['v_931efa2b_7973_4d5a_a6f4_a6b889190f43']()) and "{v_931efa2b_7973_4d5a_a6f4_a6b889190f43_XLnk|Откроете баночку чтобы рассмотреть их поближе}^" or "");
+        p((not s.wcns['v_b8b9c39f_af50_4b1f_966e_b7935a212650'] or s.wcns['v_b8b9c39f_af50_4b1f_966e_b7935a212650']()) and "{v_b8b9c39f_af50_4b1f_966e_b7935a212650_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_931efa2b_7973_4d5a_a6f4_a6b889190f43'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -52583,13 +52583,13 @@ return nlb:std_bg();
 "Что вы хотите у него спросить?");
     end,
     way = {
-        'v_a1517235_cd4e_4e03_b776_2a046aeeb772',
-        'v_72af4c6c_fd96_4f74_a41a_bd2b42779db5',
-        'v_bd244509_5452_47f6_91e0_1c74bc62606a',
-        'v_6bec17d7_c058_4a80_a766_8f4ccaf8e87d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a1517235_cd4e_4e03_b776_2a046aeeb772'] or s.wcns['v_a1517235_cd4e_4e03_b776_2a046aeeb772']()) and "{v_a1517235_cd4e_4e03_b776_2a046aeeb772_XLnk|Подозревает ли он кого-то в совершении диверсии}^" or "");
+        p((not s.wcns['v_72af4c6c_fd96_4f74_a41a_bd2b42779db5'] or s.wcns['v_72af4c6c_fd96_4f74_a41a_bd2b42779db5']()) and "{v_72af4c6c_fd96_4f74_a41a_bd2b42779db5_XLnk|Не заметил ли он каких-то странностей в последние дни}^" or "");
+        p((not s.wcns['v_bd244509_5452_47f6_91e0_1c74bc62606a'] or s.wcns['v_bd244509_5452_47f6_91e0_1c74bc62606a']()) and "{v_bd244509_5452_47f6_91e0_1c74bc62606a_XLnk|Где он был пять дней назад в 12/35 по Галактическому времени}^" or "");
+        p((not s.wcns['v_6bec17d7_c058_4a80_a766_8f4ccaf8e87d'] or s.wcns['v_6bec17d7_c058_4a80_a766_8f4ccaf8e87d']()) and "{v_6bec17d7_c058_4a80_a766_8f4ccaf8e87d_XLnk|Закончить допрос Потоцкого}^" or "");
     end,
     wcns = {
         ['v_a1517235_cd4e_4e03_b776_2a046aeeb772'] = function() return (_sabotage_cnt ~= nil) and (( not _lvs_a1517235_cd4e_4e03_b776_2a046aeeb772) and (_sabotage_cnt == 1)); end,
@@ -52741,10 +52741,10 @@ return nlb:std_bg();
         p("Разумеется, Я! – твердо отчеканил командир штурмовиков – А вот насчет других офицеров я бы не поручился. Я бы посоветовал вам получше присмотреться к нашему инженеру Доджу. Этот тип отличается от всех членов нашего экипажа. Никто не знает что у него в голове! К тому же он единственный хорошо знает работу всех систем корабля – Потоцкий замялся и добавил чуть изменившимся голосом – Да и капитана корабля Кларка я бы не сбрасывал со счета.");
     end,
     way = {
-        'v_0f375258_0f9f_4dd4_a184_679233c425f7',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_0f375258_0f9f_4dd4_a184_679233c425f7'] or s.wcns['v_0f375258_0f9f_4dd4_a184_679233c425f7']()) and "{v_0f375258_0f9f_4dd4_a184_679233c425f7_XLnk|Вы подозреваете капитана Кларка в совершении диверсии?}^" or "");
     end,
     wcns = {
         ['v_0f375258_0f9f_4dd4_a184_679233c425f7'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -52848,10 +52848,10 @@ return nlb:std_bg();
 "- Конечно! – подтвердил вам вашу догадку боец – Но я смотрю, что все провода на месте и никакого обрыва кабеля нет. Так что все в порядке. Только вот пломба сорвана, а это нарушение инструкции.");
     end,
     way = {
-        'v_6bc7e178_8621_4f8d_ad12_2a500df15c82',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6bc7e178_8621_4f8d_ad12_2a500df15c82'] or s.wcns['v_6bc7e178_8621_4f8d_ad12_2a500df15c82']()) and "{v_6bc7e178_8621_4f8d_ad12_2a500df15c82_XLnk|Вы взяли этот факт себе на заметку, и пошли дальше}^" or "");
     end,
     wcns = {
         ['v_6bc7e178_8621_4f8d_ad12_2a500df15c82'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -53055,11 +53055,11 @@ return nlb:std_bg();
         p("В ответ на ваше заявление Додж ухмыльнулся – Вы этого не сделаете – уверенным тоном заявил он. Офицер, вы забываете, что я не совсем Человек. Мой электронный мозг постоянно анализирует все ваши реакции, интонации и обороты речи. И я могу с вероятностью в 86% утверждать, что вы блефуете.");
     end,
     way = {
-        'v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1',
-        'v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1'] or s.wcns['v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1']()) and "{v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1_XLnk|Если вы действительно считаете, что Додж и есть вражеский агент, то можете прямо сейчас пойти и написать на него рапорт}^" or "");
+        p((not s.wcns['v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd'] or s.wcns['v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd']()) and "{v_cfc77272_1a7f_4bbe_be9a_c49edb62eedd_XLnk|Скажете, что вероятность в 14% тоже весомая цифра и Додж может ошибиться в своей уверенности}^" or "");
     end,
     wcns = {
         ['v_b2199cd9_f3e1_4317_8cb8_c68f4e35e4a1'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -53174,11 +53174,11 @@ return nlb:std_bg();
         p("Подозрения? – переспросил Додж – Я руководствуюсь не субъективными ощущениями, а логикой и сингулярным моделированием параллельных процессов.");
     end,
     way = {
-        'v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102',
-        'v_56a95074_5e26_4045_95e9_d0e3dc06dcb3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102'] or s.wcns['v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102']()) and "{v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102_XLnk|И что вам говорят ваши сингулярные процессы?}^" or "");
+        p((not s.wcns['v_56a95074_5e26_4045_95e9_d0e3dc06dcb3'] or s.wcns['v_56a95074_5e26_4045_95e9_d0e3dc06dcb3']()) and "{v_56a95074_5e26_4045_95e9_d0e3dc06dcb3_XLnk|Кто мог перенастроить криогенную систему в складском отсеке?}^" or "");
     end,
     wcns = {
         ['v_1fcc2c2f_a9b2_4bb2_ab23_b01d2fa30102'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -53294,11 +53294,11 @@ return nlb:std_bg();
 "Что вы хотите спросить у Доджа?");
     end,
     way = {
-        'v_2b0ae650_a835_4e33_96f4_e01a8f0c8515',
-        'v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_2b0ae650_a835_4e33_96f4_e01a8f0c8515'] or s.wcns['v_2b0ae650_a835_4e33_96f4_e01a8f0c8515']()) and "{v_2b0ae650_a835_4e33_96f4_e01a8f0c8515_XLnk|Подозревает ли он кого-то в диверсии}^" or "");
+        p((not s.wcns['v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b'] or s.wcns['v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b']()) and "{v_838a6dfa_9cd6_4407_bda9_c215f0c1c04b_XLnk|Где он находился пять дней назад в 12/35}^" or "");
     end,
     wcns = {
         ['v_2b0ae650_a835_4e33_96f4_e01a8f0c8515'] = function() return (_sabotage_cnt ~= nil) and ((_sabotage_cnt == 1) and ( not _time)); end,
@@ -53725,10 +53725,10 @@ return nlb:std_bg();
         p("На этот счет можете быть спокойны, офицер – Додж посмотрел на вас как на школьника-недоумка – Я оценил интеллектуальные способности и психотип нашего адмирала и могу утверждать, что с вероятностью в 56% он поверит в то, что сбой криогенных систем произошел случайно.");
     end,
     way = {
-        'v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e'] or s.wcns['v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e']()) and "{v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e_XLnk|Скажете Доджу, что чутье подсказывает вам, что это была не случайность, а диверсия}^" or "");
     end,
     wcns = {
         ['v_f80e4a3f_33ae_4867_8d0d_f8418fbcef2e'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -53827,12 +53827,12 @@ return nlb:std_bg();
 "- Да откуда я могу помнить, где я был в это время пять дней назад?! – возмутился командир штурмовиков – У меня же в голове не компьютер!");
     end,
     way = {
-        'v_7fe3f467_89eb_4837_852f_efe30902763b',
-        'v_433f91e6_da8a_48eb_8205_b09b18fa5ddc',
-        'v_208e4e7e_dc8d_4810_8199_f68617b115f6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7fe3f467_89eb_4837_852f_efe30902763b'] or s.wcns['v_7fe3f467_89eb_4837_852f_efe30902763b']()) and "{v_7fe3f467_89eb_4837_852f_efe30902763b_XLnk|Скажете Потоцкому, что раз у него нет алиби и он не может доказать, где он был в указанное время, то он находится под подозрением}^" or "");
+        p((not s.wcns['v_433f91e6_da8a_48eb_8205_b09b18fa5ddc'] or s.wcns['v_433f91e6_da8a_48eb_8205_b09b18fa5ddc']()) and "{v_433f91e6_da8a_48eb_8205_b09b18fa5ddc_XLnk|Спросите про его встречу с капитаном Кларком}^" or "");
+        p((not s.wcns['v_208e4e7e_dc8d_4810_8199_f68617b115f6'] or s.wcns['v_208e4e7e_dc8d_4810_8199_f68617b115f6']()) and "{v_208e4e7e_dc8d_4810_8199_f68617b115f6_XLnk|Или зададите ему другой вопрос}^" or "");
     end,
     wcns = {
         ['v_7fe3f467_89eb_4837_852f_efe30902763b'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -54067,10 +54067,10 @@ return nlb:std_bg();
 "Кажется, док решил над вами поиздеваться. Или у него такое чувство юмора?");
     end,
     way = {
-        'v_db98590b_232c_4aa3_b701_fe5f0051a875',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_db98590b_232c_4aa3_b701_fe5f0051a875'] or s.wcns['v_db98590b_232c_4aa3_b701_fe5f0051a875']()) and "{v_db98590b_232c_4aa3_b701_fe5f0051a875_XLnk|Попрощаетесь с ним и покинете лазарет}^" or "");
     end,
     wcns = {
         ['v_db98590b_232c_4aa3_b701_fe5f0051a875'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -54168,16 +54168,16 @@ return nlb:std_bg();
         p("Кого вы хотите допросить?");
     end,
     way = {
-        'v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d',
-        'v_a3e17583_45a4_4aab_8aa8_a174417df34f',
-        'v_dee0d7d7_3b8b_4b70_92ca_d247be509f30',
-        'v_5ca59e3f_1868_4d71_a491_5c6731c6ae72',
-        'v_328ff39e_17f8_4628_8325_cac8468427e1',
-        'v_843b78cc_070e_410a_a148_bf0e4ac3012a',
-        'v_eb68c36b_3384_4848_b6a4_48bb334ef75e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d'] or s.wcns['v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d']()) and "{v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d_XLnk|Инженера Доджа}^" or "");
+        p((not s.wcns['v_a3e17583_45a4_4aab_8aa8_a174417df34f'] or s.wcns['v_a3e17583_45a4_4aab_8aa8_a174417df34f']()) and "{v_a3e17583_45a4_4aab_8aa8_a174417df34f_XLnk|Начальника по снабжению Ридли}^" or "");
+        p((not s.wcns['v_dee0d7d7_3b8b_4b70_92ca_d247be509f30'] or s.wcns['v_dee0d7d7_3b8b_4b70_92ca_d247be509f30']()) and "{v_dee0d7d7_3b8b_4b70_92ca_d247be509f30_XLnk|Доктора Гусмана}^" or "");
+        p((not s.wcns['v_5ca59e3f_1868_4d71_a491_5c6731c6ae72'] or s.wcns['v_5ca59e3f_1868_4d71_a491_5c6731c6ae72']()) and "{v_5ca59e3f_1868_4d71_a491_5c6731c6ae72_XLnk|Начальника по безопасности Крампа}^" or "");
+        p((not s.wcns['v_328ff39e_17f8_4628_8325_cac8468427e1'] or s.wcns['v_328ff39e_17f8_4628_8325_cac8468427e1']()) and "{v_328ff39e_17f8_4628_8325_cac8468427e1_XLnk|Командира штурмовиков Потоцкого}^" or "");
+        p((not s.wcns['v_843b78cc_070e_410a_a148_bf0e4ac3012a'] or s.wcns['v_843b78cc_070e_410a_a148_bf0e4ac3012a']()) and "{v_843b78cc_070e_410a_a148_bf0e4ac3012a_XLnk|Закончить допрос и продолжить расследование в другом месте}^" or "");
+        p((not s.wcns['v_eb68c36b_3384_4848_b6a4_48bb334ef75e'] or s.wcns['v_eb68c36b_3384_4848_b6a4_48bb334ef75e']()) and "{v_eb68c36b_3384_4848_b6a4_48bb334ef75e_XLnk|Подвести итоги расследования}^" or "");
     end,
     wcns = {
         ['v_482187fd_1fe2_45ef_b24b_57b70e0d9f7d'] = function() return (_sabotage_cnt ~= nil) and (( not _lvs_482187fd_1fe2_45ef_b24b_57b70e0d9f7d) and (_sabotage_cnt == 1)); end,
@@ -54382,11 +54382,11 @@ return nlb:std_bg();
         p("Не думаю, что осмотр складского отсека даст вам какую-то полезную информацию – возразил капитан Кларк – К тому же мы провели дезинфекцию и находиться там небезопасно.");
     end,
     way = {
-        'v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf',
-        'v_332bc69c_5f9b_4f58_9335_778dc5b7d138',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf'] or s.wcns['v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf']()) and "{v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf_XLnk|Считаете, что капитан хочет от вас что-то скрыть и настоите на своем}^" or "");
+        p((not s.wcns['v_332bc69c_5f9b_4f58_9335_778dc5b7d138'] or s.wcns['v_332bc69c_5f9b_4f58_9335_778dc5b7d138']()) and "{v_332bc69c_5f9b_4f58_9335_778dc5b7d138_XLnk|Займетесь другими делами}^" or "");
     end,
     wcns = {
         ['v_640b2a5e_7cdd_4abc_a6d2_7e8eb52326cf'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -54705,11 +54705,11 @@ return nlb:std_bg();
 "Какие вопросы вы хотите ему задать?");
     end,
     way = {
-        'v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f',
-        'v_06df80b1_3a0e_496c_971e_ccc3c09a24fb',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f'] or s.wcns['v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f']()) and "{v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f_XLnk|Не обнаружил ли он каких-то улик или странностей за последние дни?}^" or "");
+        p((not s.wcns['v_06df80b1_3a0e_496c_971e_ccc3c09a24fb'] or s.wcns['v_06df80b1_3a0e_496c_971e_ccc3c09a24fb']()) and "{v_06df80b1_3a0e_496c_971e_ccc3c09a24fb_XLnk|Кого он подозревает в диверсии?}^" or "");
     end,
     wcns = {
         ['v_65dbaa85_c0af_4e0a_b6fb_e67c4062c27f'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -54926,10 +54926,10 @@ return nlb:std_bg();
         p("Мда-а-а… У доктора Гусмана своеобразное чувство юмора.");
     end,
     way = {
-        'v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23'] or s.wcns['v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23']()) and "{v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23_XLnk|Завершить осмотр каюты}^" or "");
     end,
     wcns = {
         ['v_e3a6946a_94e3_4ad8_9024_bbe8a80f2c23'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -55030,11 +55030,11 @@ return nlb:std_bg();
 "– инженер Додж, доктор Гусман, капитан корабля Кларк, начальник снабжения Ридли, командир штурмовиков Потоцкий, и Крамп. Все выходящие из слада выносили небольшие свертки. Самые большие свертки выносил Потоцкий.");
     end,
     way = {
-        'v_7bd5e1dd_47c3_41c8_b072_4c19736411dd',
-        'v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7bd5e1dd_47c3_41c8_b072_4c19736411dd'] or s.wcns['v_7bd5e1dd_47c3_41c8_b072_4c19736411dd']()) and "{v_7bd5e1dd_47c3_41c8_b072_4c19736411dd_XLnk|Попросить Крампа показать видеозаписи из медицинского отсека}^" or "");
+        p((not s.wcns['v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a'] or s.wcns['v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a']()) and "{v_fa9d4e02_e18b_4391_bf59_b2e1c17f970a_XLnk|Кажется, это все что можно выжать полезного из этого служаки Крампа. Вы решили пока заняться другими делами}^" or "");
     end,
     wcns = {
         ['v_7bd5e1dd_47c3_41c8_b072_4c19736411dd'] = function() return (_sabotage_cnt ~= nil) and ((_sabotage_cnt == 1) and (_diarrhea)); end,
@@ -55251,15 +55251,15 @@ return nlb:std_bg();
         p("Что вы укажете в своем рапорте?");
     end,
     way = {
-        'v_b82cdce4_2c53_4625_a125_3917f7d35714',
-        'v_a9205aa3_6cf2_44c1_8366_fa67560e98a9',
-        'v_bdf50400_cd1a_494c_9de8_92229450b1a8',
-        'v_df1a03b4_f085_4a54_9212_4164aba29664',
-        'v_3b2fee5c_bdaf_4a4f_865f_ef15ff832f2d',
-        'v_8137eed8_249a_4cdb_902f_336ef7f1fd6c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b82cdce4_2c53_4625_a125_3917f7d35714'] or s.wcns['v_b82cdce4_2c53_4625_a125_3917f7d35714']()) and "{v_b82cdce4_2c53_4625_a125_3917f7d35714_XLnk|Виновником диверсии является инженер Додж}^" or "");
+        p((not s.wcns['v_a9205aa3_6cf2_44c1_8366_fa67560e98a9'] or s.wcns['v_a9205aa3_6cf2_44c1_8366_fa67560e98a9']()) and "{v_a9205aa3_6cf2_44c1_8366_fa67560e98a9_XLnk|Виновником диверсии является доктор Гусман}^" or "");
+        p((not s.wcns['v_bdf50400_cd1a_494c_9de8_92229450b1a8'] or s.wcns['v_bdf50400_cd1a_494c_9de8_92229450b1a8']()) and "{v_bdf50400_cd1a_494c_9de8_92229450b1a8_XLnk|Виновником диверсии является капитан Кларк}^" or "");
+        p((not s.wcns['v_df1a03b4_f085_4a54_9212_4164aba29664'] or s.wcns['v_df1a03b4_f085_4a54_9212_4164aba29664']()) and "{v_df1a03b4_f085_4a54_9212_4164aba29664_XLnk|Виновником диверсии является начальник снабжения Ридли}^" or "");
+        p((not s.wcns['v_3b2fee5c_bdaf_4a4f_865f_ef15ff832f2d'] or s.wcns['v_3b2fee5c_bdaf_4a4f_865f_ef15ff832f2d']()) and "{v_3b2fee5c_bdaf_4a4f_865f_ef15ff832f2d_XLnk|Виновником диверсии является начальник безопасности Крамп}^" or "");
+        p((not s.wcns['v_8137eed8_249a_4cdb_902f_336ef7f1fd6c'] or s.wcns['v_8137eed8_249a_4cdb_902f_336ef7f1fd6c']()) and "{v_8137eed8_249a_4cdb_902f_336ef7f1fd6c_XLnk|Виновником диверсии является командир штурмовиков Потоцкий}^" or "");
     end,
     wcns = {
         ['v_b82cdce4_2c53_4625_a125_3917f7d35714'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -55543,10 +55543,10 @@ return nlb:std_bg();
         p("Пальцы сержанта быстро застучали по клавиатуре, и на экране появился результат его запроса – Да, офицер! За последние две недели этой информацией интересовались – инженер Додж и капитан Кларк.");
     end,
     way = {
-        'v_e1d770d4_fd71_49e7_a1c7_c370355ec53f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e1d770d4_fd71_49e7_a1c7_c370355ec53f'] or s.wcns['v_e1d770d4_fd71_49e7_a1c7_c370355ec53f']()) and "{v_e1d770d4_fd71_49e7_a1c7_c370355ec53f_XLnk|Вы взяли этот факт себе на заметку, и пошли дальше}^" or "");
     end,
     wcns = {
         ['v_e1d770d4_fd71_49e7_a1c7_c370355ec53f'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -55848,10 +55848,10 @@ return nlb:std_bg();
         p("До вас лишь долетели обрывки фраз – «сучка»….  «каюте Потоцкого» … «капитану Кларку» … «на два фронта»…");
     end,
     way = {
-        'v_fdf63b99_4f5b_4f23_8973_a94d960fde62',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_fdf63b99_4f5b_4f23_8973_a94d960fde62'] or s.wcns['v_fdf63b99_4f5b_4f23_8973_a94d960fde62']()) and "{v_fdf63b99_4f5b_4f23_8973_a94d960fde62_XLnk|Вы больше ничего не могли разобрать из их разговора и решили покинуть ангар}^" or "");
     end,
     wcns = {
         ['v_fdf63b99_4f5b_4f23_8973_a94d960fde62'] = function() return (_sabotage_cnt ~= nil) and (_sabotage_cnt == 1); end,
@@ -55952,11 +55952,11 @@ return nlb:std_bg();
 "- Ну, ты хватил! – возмутился первый боец – Кто я и кто Потоцкий. Он же боевой офицер!  - рядовой доверительно наклонился к товарищу и, понизив голос, продолжил – А еще говорят...");
     end,
     way = {
-        'v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
         p((not s.wcns['v_84c2a879_6f55_4148_b237_f8b72b829022'] or s.wcns['v_84c2a879_6f55_4148_b237_f8b72b829022']()) and "{v_84c2a879_6f55_4148_b237_f8b72b829022_XLnk|Далее}^" or "");
+        p((not s.wcns['v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c'] or s.wcns['v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c']()) and "{v_dc697b0e_00e7_40eb_bfe9_c8d7bac6c11c_XLnk|Послушаете ещё}^" or "");
     end,
     wcns = {
         ['v_84c2a879_6f55_4148_b237_f8b72b829022'] = function() return (_sabotage_cnt ~= nil) and ((_sabotage_cnt == 1) and (_cough)); end,
@@ -56193,10 +56193,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Паника -- до конца сражения враг не может использовать Действие-Блок против ваших атак.");
     end,
     way = {
-        'v_a5cadec0_c09c_4667_9a2f_d91472bf41dc',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a5cadec0_c09c_4667_9a2f_d91472bf41dc_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -56444,11 +56444,11 @@ return nlb:std_bg();
 "Принцесса Амалия посчитала ваш отказ от турнира оскорблением в ее адрес. Женихи -  соискатели ее руки объявили, что готовы наказать обидчика. Объединенный флот Лорда Варга, Принца Кайсана и Хана Юргена готовят свои эскадры, чтобы атаковать нас. Это будет тяжелый бой.");
     end,
     way = {
-        'v_4aa3dfbc_b635_4a00_9cdc_edaddf6f361c',
-        'v_9f0e1faa_3851_4aee_9377_96d0ed614712',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_4aa3dfbc_b635_4a00_9cdc_edaddf6f361c_XLnk|Отказаться от покорения этой планеты и лететь дальше}^");
+        p("{v_9f0e1faa_3851_4aee_9377_96d0ed614712_XLnk|Сразиться с врагами}^");
     end,
     wcns = {
     },
@@ -56587,11 +56587,11 @@ return nlb:std_bg();
 "Наши сканеры засекли среди скопления астероидов группу неизвестных кораблей типа корвет. Если это враги, то нашим кораблям будет сложно маневрировать в поле астероидов.");
     end,
     way = {
-        'v_eb5632c7_d045_4b33_8d75_73c13f1f50bb',
-        'v_d097e008_a922_4959_94f6_9a5d742ac168',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_eb5632c7_d045_4b33_8d75_73c13f1f50bb_XLnk|Предлагаю изменить курс и обойти это поле}^");
+        p("{v_d097e008_a922_4959_94f6_9a5d742ac168_XLnk|Или прикажете продолжать движение}^");
     end,
     wcns = {
     },
@@ -56728,12 +56728,12 @@ return nlb:std_bg();
         p("Командир! Рядом с нами параллельным курсом идет транспортное судно. А в секторе (В-112) мы засекли космическую станцию.");
     end,
     way = {
-        'v_b87e2b65_ff45_408c_bdf4_47c899d46343',
-        'v_bf481c78_a9bf_443d_a8e3_59e649f409d6',
-        'v_864a323d_239f_4b14_a110_85c695895160',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_b87e2b65_ff45_408c_bdf4_47c899d46343_XLnk|Прикажете идти на сближение с грузовым кораблем}^");
+        p("{v_bf481c78_a9bf_443d_a8e3_59e649f409d6_XLnk|Направитесь к космической станции}^");
+        p("{v_864a323d_239f_4b14_a110_85c695895160_XLnk|Решаете лететь прямо к планете Кратос}^");
     end,
     wcns = {
     },
@@ -57384,10 +57384,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Генератор антиматерии -- наносит Ущерб -80 Боеспособности --  с вероятностью 50% может сыграть против врага или против вас.");
     end,
     way = {
-        'v_8c123363_2802_4adf_853a_318cdbcd69bf',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_8c123363_2802_4adf_853a_318cdbcd69bf_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -57743,11 +57743,11 @@ return nlb:std_bg();
 "Наши сканеры засекли движение. К нам приближается флот корветов. Они легко маневрируют среди астероидов. Наши корабли не смогут маневрировать в бою.");
     end,
     way = {
-        'v_f5975f39_3186_4055_b082_db2755614753',
-        'v_8cd7198a_3ab6_4f48_aea3_420943eaf47d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f5975f39_3186_4055_b082_db2755614753_XLnk|Отправите звено истребителей на перехват вражеских корветов}^");
+        p("{v_8cd7198a_3ab6_4f48_aea3_420943eaf47d_XLnk|Прикажете флоту прорываться через астероидное поле, чтобы бежать от врага}^");
     end,
     wcns = {
     },
@@ -58009,11 +58009,11 @@ return nlb:std_bg();
 "Согласно полученной информации станция хорошо вооружена, но блокирована флотом легких крейсеров. Судя по перехваченным разговорам это пираты. Есть опасность, что в случае нашего приближения к станции, ее обитатели примут нас за пиратов и откроют огонь. Пока они разберутся, кто есть кто, мы можем потерять 10 единиц Боеготовности флота.");
     end,
     way = {
-        'v_acd2a779_1133_4792_b105_c266a8a351f4',
-        'v_e08fc9a0_8ec8_4da9_9a36_6f7d37e35026',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_acd2a779_1133_4792_b105_c266a8a351f4_XLnk|Вступить в бой с пиратами}^");
+        p("{v_e08fc9a0_8ec8_4da9_9a36_6f7d37e35026_XLnk|Или отказаться от этой миссии, отступить к планете Таргос и напасть на нее}^");
     end,
     wcns = {
     },
@@ -58154,10 +58154,10 @@ return nlb:std_bg();
 "(Вам -1 отряд штурмовиков).");
     end,
     way = {
-        'v_20ef8c65_b0c6_4335_a7f7_91f81df742a6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_20ef8c65_b0c6_4335_a7f7_91f81df742a6_XLnk|Путь к планете Сотус теперь свободен}^");
     end,
     wcns = {
     },
@@ -58404,11 +58404,11 @@ return nlb:std_bg();
 "Впереди широкий фронт астероидных полей. Я попытаюсь провести наши корабли через этот хаос.");
     end,
     way = {
-        'v_182494ec_9d3d_4060_8ffd_8c270e384954',
-        'v_241b8ab4_97c0_46b1_9a6f_43fb62b1258c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_182494ec_9d3d_4060_8ffd_8c270e384954'] or s.wcns['v_182494ec_9d3d_4060_8ffd_8c270e384954']()) and "{v_182494ec_9d3d_4060_8ffd_8c270e384954_XLnk|Воспользоваться Сканером разведки}^" or "");
+        p("{v_241b8ab4_97c0_46b1_9a6f_43fb62b1258c_XLnk|Лавировать между астероидами}^");
     end,
     wcns = {
         ['v_182494ec_9d3d_4060_8ffd_8c270e384954'] = function() return (_hasRadar); end,
@@ -58548,11 +58548,11 @@ return nlb:std_bg();
         p("Ваш шатл прибыл в мегаполис Сатурналию. Вас встречал почетный караул гвардейцев адмирала Ваджры. Однако самого адмирала на посадочной полосе вы не заметили. Офицер гвардейцев пригласил вас следовать за ним. Что это могло бы значить? Неуважение к вашей персоне? Или это западня?");
     end,
     way = {
-        'v_3d5cc0b2_285c_408c_af4a_42203b41683c',
-        'v_a08cb3d0_0611_4ce3_8514_eb08f03c64e0',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_3d5cc0b2_285c_408c_af4a_42203b41683c_XLnk|Пойдете за офицером}^");
+        p("{v_a08cb3d0_0611_4ce3_8514_eb08f03c64e0_XLnk|Прикажете своим штурмовикам открыть по врагу огонь и будете отступать назад к своему шатлу}^");
     end,
     wcns = {
     },
@@ -58815,11 +58815,11 @@ return nlb:std_bg();
 "Рядом с планетой Боро наши сканеры засекли астероид с промышленным объектом на поверхности. Завод выглядит заброшенным.");
     end,
     way = {
-        'v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5',
-        'v_6abc30ab_170c_4695_a5da_594cbe80c432',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5'] or s.wcns['v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5']()) and "{v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5_XLnk|Отправить на осмотр завода отряд штурмовиков}^" or "");
+        p("{v_6abc30ab_170c_4695_a5da_594cbe80c432_XLnk|Продолжить полет к планете Боро}^");
     end,
     wcns = {
         ['v_ecc3b6e5_bc0d_4215_b375_5d46d19983b5'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -58959,11 +58959,11 @@ return nlb:std_bg();
         p("Командир! Наши сенсоры засекли на орбите планеты космическую станцию. На другой стороне планеты, на орбите находится боевой флот Фароса.");
     end,
     way = {
-        'v_7794a420_dd3a_42e1_9217_401f214af5d7',
-        'v_bd793d46_4607_49ad_8812_97f80310b97a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_7794a420_dd3a_42e1_9217_401f214af5d7_XLnk|Прикажете сначала атаковать станцию}^");
+        p("{v_bd793d46_4607_49ad_8812_97f80310b97a_XLnk|Или не отвлекаться на эту цель и атаковать флот Фароса}^");
     end,
     wcns = {
     },
@@ -59108,10 +59108,10 @@ return nlb:std_bg();
 "КОНЕЦ");
     end,
     way = {
-        'v_d3dd1d9e_7219_400e_ba1a_8245c50c65b9',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_d3dd1d9e_7219_400e_ba1a_8245c50c65b9_XLnk|Всё могло быть иначе! Вернитесь назад и сделайте другой выбор.}^");
     end,
     wcns = {
     },
@@ -59619,11 +59619,11 @@ return nlb:std_bg();
         p("Командир! Наши ученые обнаружили на поверхности контейнера с артефактом зашифрованную надпись. В тексте говорится, что вскрыть контейнер может лишь тот, кто умеет контролировать свои мысли и желания. Наши ученые отказываются вскрывать контейнер.");
     end,
     way = {
-        'v_3800ab21_487f_44dd_868b_439e43ef8431',
-        'v_22bbb5e3_76ab_4cc4_821f_d088976b6125',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_3800ab21_487f_44dd_868b_439e43ef8431_XLnk|Хотите лично пойти и вскрыть контейнер}^");
+        p("{v_22bbb5e3_76ab_4cc4_821f_d088976b6125_XLnk|Отдадите контейнер с артефактом правителю планеты Нобула}^");
     end,
     wcns = {
     },
@@ -60263,11 +60263,11 @@ return nlb:std_bg();
 "Даже в союзе с флотом Морлоков наш флот будет уступать врагу. Предлагаю отправиться на планету Локан с якобы мирной миссией, а затем высадить наших штурмовиков для освобождения дочери президента Вотана.");
     end,
     way = {
-        'v_c124c779_da7f_4dc9_a290_40801ad7de74',
-        'v_1bf49fe6_7f43_428a_8587_d18d88e42fdb',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_c124c779_da7f_4dc9_a290_40801ad7de74_XLnk|Отправиться на планету Локан с якобы мирной миссией}^");
+        p("{v_1bf49fe6_7f43_428a_8587_d18d88e42fdb_XLnk|Внезапно напасть на флот диктатора Торгара}^");
     end,
     wcns = {
     },
@@ -60406,11 +60406,11 @@ return nlb:std_bg();
 "- Эй, мужик! Меня зовут Бутчер. Меня здесь все знают. Будешь отдавать мне половину своей зарплаты. Тут у нас есть магазин для заключенных. А мне всегда не хватает денег. Усек?!");
     end,
     way = {
-        'v_70a85179_c88f_476d_8be1_bb0c289ad977',
-        'v_76f113ba_d2bf_4227_8174_210bd50aae16',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_70a85179_c88f_476d_8be1_bb0c289ad977_XLnk|Врежете ему по морде}^");
+        p("{v_76f113ba_d2bf_4227_8174_210bd50aae16_XLnk|Согласитесь на требования Бутчера}^");
     end,
     wcns = {
     },
@@ -60673,11 +60673,11 @@ return nlb:std_bg();
         p("-- Если вы не уберете свой флот от нашей планеты, я прикажу своей эскадре немедленно атаковать вас!");
     end,
     way = {
-        'v_a767bd73_8321_48d8_8c3b_077970c1afdb',
-        'v_3508cc67_7ce3_4f3a_abe5_92910bebfad3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a767bd73_8321_48d8_8c3b_077970c1afdb_XLnk|Вступить в переговоры}^");
+        p("{v_3508cc67_7ce3_4f3a_abe5_92910bebfad3_XLnk|Принять бой}^");
     end,
     wcns = {
     },
@@ -60815,11 +60815,11 @@ return nlb:std_bg();
         p("Командир! Курс к туманности «Тор» проходит через скопление астероидов.");
     end,
     way = {
-        'v_c31c8064_601b_4e70_a48b_d9676b9583d6',
-        'v_6834d60e_12cc_42e1_8035_eb771c67068b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_c31c8064_601b_4e70_a48b_d9676b9583d6'] or s.wcns['v_c31c8064_601b_4e70_a48b_d9676b9583d6']()) and "{v_c31c8064_601b_4e70_a48b_d9676b9583d6_XLnk|Использовать Энергетический щит}^" or "");
+        p((not s.wcns['v_6834d60e_12cc_42e1_8035_eb771c67068b'] or s.wcns['v_6834d60e_12cc_42e1_8035_eb771c67068b']()) and "{v_6834d60e_12cc_42e1_8035_eb771c67068b_XLnk|Лететь через поле астероидов}^" or "");
     end,
     wcns = {
         ['v_c31c8064_601b_4e70_a48b_d9676b9583d6'] = function() return (_hasShields); end,
@@ -63250,11 +63250,11 @@ return nlb:std_bg();
 "Вам +2 карты или 2 отряда штурмовиков");
     end,
     way = {
-        'v_48eff682_0993_4df3_870d_c828771219d2',
-        'v_e51cec9a_0030_4732_b649_7f5200b03910',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_48eff682_0993_4df3_870d_c828771219d2_XLnk|Взять 2 карты}^");
+        p("{v_e51cec9a_0030_4732_b649_7f5200b03910_XLnk|Взять 2 отряда штурмовиков}^");
     end,
     wcns = {
     },
@@ -63878,12 +63878,12 @@ return nlb:std_bg();
         p("Командир! Наши сенсоры засекли в секторе (А-457) грузовой корабль, а из сектора (В-239)  идет слабый сигнал SOS.");
     end,
     way = {
-        'v_7041c079_b10d_4751_97b9_74ca41a5448a',
-        'v_b3430e82_3765_49a3_a95e_60708710d47a',
-        'v_83b3af22_3957_47d3_b9cf_5c0377af344c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_7041c079_b10d_4751_97b9_74ca41a5448a_XLnk|Лететь к грузовому кораблю}^");
+        p("{v_b3430e82_3765_49a3_a95e_60708710d47a_XLnk|Лететь к сектору, откуда идет сигнал о помощи}^");
+        p("{v_83b3af22_3957_47d3_b9cf_5c0377af344c_XLnk|Следовать прямиком к планете Нобула}^");
     end,
     wcns = {
     },
@@ -64160,10 +64160,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Перехватить инициативу боя -- вам +1 Карта.");
     end,
     way = {
-        'v_a01a7980_a915_401e_aa2b_c91063619606',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a01a7980_a915_401e_aa2b_c91063619606_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -64412,11 +64412,11 @@ return nlb:std_bg();
 "Первые дни ваш сокамерник молчал. Присматривался к вам. Однажды он шепнул вам на ухо, чтобы следующей ночью вы были наготове. Он сказал, что у него есть план побега.");
     end,
     way = {
-        'v_0d1f8789_0d83_483e_b19e_4cb74870aff2',
-        'v_a1d95bf4_9ce1_42fd_913b_b318100b1984',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_0d1f8789_0d83_483e_b19e_4cb74870aff2_XLnk|Доложите начальству о его замысле}^");
+        p("{v_a1d95bf4_9ce1_42fd_913b_b318100b1984_XLnk|Решите бежать вместе с этим парнем}^");
     end,
     wcns = {
     },
@@ -64770,10 +64770,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Оперативное управление -- иногда компьютерные системы дают сбой и тогда простые командиры могут интуитивно принимать быстрые и верные решения -- вам +1 Карта.");
     end,
     way = {
-        'v_36e65107_11df_401f_9af0_a7c554c8c75f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_36e65107_11df_401f_9af0_a7c554c8c75f_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -65023,13 +65023,13 @@ return nlb:std_bg();
 "Планета Хорар имеет многочисленный флот абордажных шатлов.");
     end,
     way = {
-        'v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815',
-        'v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f',
-        'v_2747ec44_582f_4a10_b4db_10d7c000acd8',
-        'v_284b51e5_2e12_4694_b97c_4a08c6e17ff4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815'] or s.wcns['v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815']()) and "{v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815_XLnk|Лететь к планете Дерек}^" or "");
+        p((not s.wcns['v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f'] or s.wcns['v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f']()) and "{v_2ac8fe2b_b5a8_47b9_be8b_ed4eccb5a18f_XLnk|Лететь к планете Рута}^" or "");
+        p((not s.wcns['v_2747ec44_582f_4a10_b4db_10d7c000acd8'] or s.wcns['v_2747ec44_582f_4a10_b4db_10d7c000acd8']()) and "{v_2747ec44_582f_4a10_b4db_10d7c000acd8_XLnk|Лететь к планете Хорар}^" or "");
+        p((not s.wcns['v_284b51e5_2e12_4694_b97c_4a08c6e17ff4'] or s.wcns['v_284b51e5_2e12_4694_b97c_4a08c6e17ff4']()) and "{v_284b51e5_2e12_4694_b97c_4a08c6e17ff4_XLnk|Вы уже побывали на планетах Дерек, Рута и Хорар}^" or "");
     end,
     wcns = {
         ['v_bb8f381e_2b5d_4c74_a164_e2fd5ab0f815'] = function() return ( not _derek); end,
@@ -65205,11 +65205,11 @@ return nlb:std_bg();
         p("По законам вашей Федерации диктаторские режимы должны сменяться на парламентские или президентские республики. Харкон не намерен отказываться от своей власти. Диктатор хвастливо заявил, что он обладает мощным лазером Разрушителем, который может легко уничтожить весь ваш флот.");
     end,
     way = {
-        'v_907c8ebc_3a46_4058_b3d0_f256096b73d2',
-        'v_70f2180d_4d88_4540_92cd_db0f3cf3ed7f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_907c8ebc_3a46_4058_b3d0_f256096b73d2_XLnk|Рискнете атаковать планету Дерек}^");
+        p("{v_70f2180d_4d88_4540_92cd_db0f3cf3ed7f_XLnk|Полетите к другим планетам}^");
     end,
     wcns = {
     },
@@ -65472,11 +65472,11 @@ return nlb:std_bg();
 "Планета Сотус полностью покрыта океаном. Лишь кое-где из воды торчат небольшие скалы.");
     end,
     way = {
-        'v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5',
-        'v_015abcc6_5c56_4813_9746_ae807d83e08a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5'] or s.wcns['v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5']()) and "{v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5_XLnk|Отправить шатл на поиски}^" or "");
+        p("{v_015abcc6_5c56_4813_9746_ae807d83e08a_XLnk|Лететь к другим планетам}^");
     end,
     wcns = {
         ['v_23d6ca12_6d2e_44a0_968c_86a68da4e6f5'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -65729,10 +65729,10 @@ return nlb:std_bg();
 "Чтобы закончить редактирование, нажмите ссылку Готово в правой части экрана. Обратите внимание, что вы не сможете выйти из режима редактирования колоды до тех пор, пока в вашей колоде выбранных карт не будет ровно 15 карт.");
     end,
     way = {
-        'v_9f081987_759d_460f_bb07_d19080d14bcd',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_9f081987_759d_460f_bb07_d19080d14bcd_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -65960,10 +65960,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Сеет хаос среди тактического построения вражеского флота -- вам  +2 карты.");
     end,
     way = {
-        'v_06f7e9b6_8035_4292_a5e5_3eb839aff228',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_06f7e9b6_8035_4292_a5e5_3eb839aff228_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -68816,13 +68816,13 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_8fdab8f1_98ed_4e56_9978_e09995dc6824',
-        'v_597df13d_e744_4995_97d0_3acd9bd5329d',
-        'v_84d44ffb_f0f3_484d_a8bd_670b8ee7897a',
-        'v_4a7b7aca_18e0_4963_8430_b17877a950da',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_8fdab8f1_98ed_4e56_9978_e09995dc6824'] or s.wcns['v_8fdab8f1_98ed_4e56_9978_e09995dc6824']()) and "{v_8fdab8f1_98ed_4e56_9978_e09995dc6824_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_597df13d_e744_4995_97d0_3acd9bd5329d'] or s.wcns['v_597df13d_e744_4995_97d0_3acd9bd5329d']()) and "{v_597df13d_e744_4995_97d0_3acd9bd5329d_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_84d44ffb_f0f3_484d_a8bd_670b8ee7897a'] or s.wcns['v_84d44ffb_f0f3_484d_a8bd_670b8ee7897a']()) and "{v_84d44ffb_f0f3_484d_a8bd_670b8ee7897a_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_4a7b7aca_18e0_4963_8430_b17877a950da'] or s.wcns['v_4a7b7aca_18e0_4963_8430_b17877a950da']()) and "{v_4a7b7aca_18e0_4963_8430_b17877a950da_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
     end,
     wcns = {
         ['v_8fdab8f1_98ed_4e56_9978_e09995dc6824'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -69105,10 +69105,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Постановка минного поля -- враг до конца сражения может выставить на поле максимум только 3 карты.");
     end,
     way = {
-        'v_aabe7532_715f_486e_9651_9c96666896b2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_aabe7532_715f_486e_9651_9c96666896b2_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -69482,11 +69482,11 @@ return nlb:std_bg();
         p("- Я президент Вотан. Наша раса всегда была верным союзником Федерации. Мы ведем войну с планетой Локан и ее диктатором Торгаром. Несколько дней назад корабль, на котором находилась моя дочь Фрея, был захвачен кораблями врага. Я прошу вас помочь нам в войне с локанцами.");
     end,
     way = {
-        'v_f981d48b_897d_4a77_8840_0121ddb22571',
-        'v_490d4c0c_84a9_4a4f_bcfa_69a5392d3883',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f981d48b_897d_4a77_8840_0121ddb22571_XLnk|Помочь Вотану освободить его дочь}^");
+        p("{v_490d4c0c_84a9_4a4f_bcfa_69a5392d3883_XLnk|Атаковать флот президента Вотана и покорить планету Боро}^");
     end,
     wcns = {
     },
@@ -69985,10 +69985,10 @@ return nlb:std_bg();
 "Я считаю, что нам не следует рассредоточивать свои силы при прохождении через пояс астероидов. В случае неожиданного появления врага, наш флот не сможет эффективно обороняться.");
     end,
     way = {
-        'v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5'] or s.wcns['v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5']()) and "{v_b24495ec_f1a2_424b_9dcd_a6390ec4e7e5_XLnk|Использовать Сканеры Разведки}^" or "");
         p((not s.wcns['v_3b97a188_e008_4a4d_a005_b14de68a8230'] or s.wcns['v_3b97a188_e008_4a4d_a005_b14de68a8230']()) and "{v_3b97a188_e008_4a4d_a005_b14de68a8230_XLnk|Далее}^" or "");
     end,
     wcns = {
@@ -70128,11 +70128,11 @@ return nlb:std_bg();
         p("Я пожизненный диктатор планеты Дерек – Харкон Четвертый! По какому праву вы вторглись в наш сектор?");
     end,
     way = {
-        'v_e74cc79d_ed0c_4991_8953_fdc022c44b77',
-        'v_a1dc96c1_71da_49e1_8344_be2fbdc893ba',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e74cc79d_ed0c_4991_8953_fdc022c44b77_XLnk|Вступить в переговоры}^");
+        p("{v_a1dc96c1_71da_49e1_8344_be2fbdc893ba_XLnk|Атаковать}^");
     end,
     wcns = {
     },
@@ -70646,11 +70646,11 @@ return nlb:std_bg();
 "Пример игровых карт:");
     end,
     way = {
-        'v_f561b791_4a92_4a1e_bcf4_d4a5b85f423f',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p("{v_f561b791_4a92_4a1e_bcf4_d4a5b85f423f_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -70777,11 +70777,11 @@ return nlb:std_bg();
 "Мы обнаружили в грузовом ангаре контейнеры с боеприпасами. Они подходят для наших орудий.");
     end,
     way = {
-        'v_929c945e_dcd0_4a2b_a97b_e94076322293',
-        'v_a822ed5f_0bd7_4b69_b15c_87e5da569b45',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_929c945e_dcd0_4a2b_a97b_e94076322293_XLnk|Прикажете забрать контейнеры и вернуться на шатл (вам +5 Боеспособности флота)}^");
+        p("{v_a822ed5f_0bd7_4b69_b15c_87e5da569b45_XLnk|Прикажете продолжать поиски}^");
     end,
     wcns = {
     },
@@ -70920,11 +70920,11 @@ return nlb:std_bg();
 "Адмирал согласился войти в состав Федерации. Однако за это попросил у вас отдать ему несколько ваших боевых кораблей.");
     end,
     way = {
-        'v_26965335_1372_4a09_b948_be09473c58ae',
-        'v_edaf2e8a_533c_4f29_b723_442970dcc9c2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_26965335_1372_4a09_b948_be09473c58ae_XLnk|Вы согласны на его условия}^");
+        p("{v_edaf2e8a_533c_4f29_b723_442970dcc9c2_XLnk|Вы не согласны на его условия}^");
     end,
     wcns = {
     },
@@ -71422,11 +71422,11 @@ return nlb:std_bg();
         p("Я капитан Гарх. Вы пытались сканировать наш груз. Предупреждаю, что все ваши попытки будут пресечены. Содержание груза это коммерческая тайна нашей корпорации.");
     end,
     way = {
-        'v_bec90652_a312_4479_a518_e2e2ac85fcff',
-        'v_a05fe38d_9f71_4d76_bbaa_fd6af4d15128',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_bec90652_a312_4479_a518_e2e2ac85fcff'] or s.wcns['v_bec90652_a312_4479_a518_e2e2ac85fcff']()) and "{v_bec90652_a312_4479_a518_e2e2ac85fcff_XLnk|Отправить на грузовой корабль штурмовой шатл для проверки груза}^" or "");
+        p("{v_a05fe38d_9f71_4d76_bbaa_fd6af4d15128_XLnk|Не портить отношения с корпорацией «Мегатрон» и продолжить полет}^");
     end,
     wcns = {
         ['v_bec90652_a312_4479_a518_e2e2ac85fcff'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -71693,11 +71693,11 @@ return nlb:std_bg();
 "Это тупик! Зачем Риддик послал вас в эту шахту? Он наверняка знал, что здесь нет прохода! Этот сукин сын подставил вас.");
     end,
     way = {
-        'v_5b5306a2_a672_448e_9b03_b6850aefc076',
-        'v_ccdd034e_6d37_48a8_ba0f_bb72ff990e43',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_5b5306a2_a672_448e_9b03_b6850aefc076_XLnk|Попробовать сунуть автомат между лопастями вентилятора}^");
+        p("{v_ccdd034e_6d37_48a8_ba0f_bb72ff990e43_XLnk|Вернуться в лабиринт коридоров и найти Риддика}^");
     end,
     wcns = {
     },
@@ -71960,11 +71960,11 @@ return nlb:std_bg();
 "Если вы не примете моего предложения – ваши люди будут убиты.");
     end,
     way = {
-        'v_f12c353f_3a93_42a1_b3d1_a2f9e2d5cb53',
-        'v_488b0f27_8a2e_497b_9f79_de2fbbafba56',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f12c353f_3a93_42a1_b3d1_a2f9e2d5cb53_XLnk|Согласиться взять Вульфа и его людей в свой экипаж}^");
+        p("{v_488b0f27_8a2e_497b_9f79_de2fbbafba56_XLnk|Потерять один отряд штурмовиков, лишь бы не брать на борт неизвестных вам людей}^");
     end,
     wcns = {
     },
@@ -72104,13 +72104,13 @@ return nlb:std_bg();
         p("БОЙ С ПИРАТАМИ возле космической станции \"Улисс\" (вам -10 Боеспособности)");
     end,
     way = {
-        'v_4508467c_684e_4f87_b113_25b72e28589d',
-        'v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f',
-        'v_18052333_0040_4d6a_8826_4b2ab1c444bc',
-        'v_adbdc32f_d431_425d_86aa_820bec1116de',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_4508467c_684e_4f87_b113_25b72e28589d'] or s.wcns['v_4508467c_684e_4f87_b113_25b72e28589d']()) and "{v_4508467c_684e_4f87_b113_25b72e28589d_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f'] or s.wcns['v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f']()) and "{v_9bed0e33_a82d_47dc_a2cc_b9c28c094c9f_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_18052333_0040_4d6a_8826_4b2ab1c444bc'] or s.wcns['v_18052333_0040_4d6a_8826_4b2ab1c444bc']()) and "{v_18052333_0040_4d6a_8826_4b2ab1c444bc_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_adbdc32f_d431_425d_86aa_820bec1116de'] or s.wcns['v_adbdc32f_d431_425d_86aa_820bec1116de']()) and "{v_adbdc32f_d431_425d_86aa_820bec1116de_XLnk|Лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_4508467c_684e_4f87_b113_25b72e28589d'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -72286,10 +72286,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Командный Штаб -- система управления информационными потоками позволяет лучше координировать действия ваших кораблей в бою -- дает вам +3 Карты.");
     end,
     way = {
-        'v_aa379f2f_5833_4cb0_b37f_a52a8d68358e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_aa379f2f_5833_4cb0_b37f_a52a8d68358e_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -72408,10 +72408,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Захват цели -- наносит неблокируемый ущерб врагу 5 Боеспособности.");
     end,
     way = {
-        'v_6378a1d6_f726_43fe_b3d2_612b322e1319',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_6378a1d6_f726_43fe_b3d2_612b322e1319_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -72657,11 +72657,11 @@ return nlb:std_bg();
 "Тюремную баржу «Тауэр -009» атакуют десять пиратских корветов. Они уже пристыковались и пошли на абордаж. Мы засекли приближение еще одной группы неизвестных кораблей. Но они пока далеко от места боя.");
     end,
     way = {
-        'v_b134d34f_b67a_4666_b340_df85f3f18d89',
-        'v_1887eb79_bbf1_47d3_a976_94af707a05b2',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b134d34f_b67a_4666_b340_df85f3f18d89'] or s.wcns['v_b134d34f_b67a_4666_b340_df85f3f18d89']()) and "{v_b134d34f_b67a_4666_b340_df85f3f18d89_XLnk|Прикажете отправить шатл со штурмовиками на помощь капитану тюремной баржи}^" or "");
+        p("{v_1887eb79_bbf1_47d3_a976_94af707a05b2_XLnk|Продолжите полет к планете Варда}^");
     end,
     wcns = {
         ['v_b134d34f_b67a_4666_b340_df85f3f18d89'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -72799,10 +72799,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Самопожертвование -- пилоты перехватчиков ценою своих жизней готовы остановить вражескую атаку -- вам -3 Боеспособности.");
     end,
     way = {
-        'v_b2b14bb0_7c30_48a9_a2cc_db250307bd8e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_b2b14bb0_7c30_48a9_a2cc_db250307bd8e_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -73290,11 +73290,11 @@ return nlb:std_bg();
         p("Командир!");
     end,
     way = {
-        'v_f290f508_8abd_4adc_b9cc_49a4b5d76153',
-        'v_c4f6c2f9_a273_45ee_9e3e_5118be2d7355',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f290f508_8abd_4adc_b9cc_49a4b5d76153_XLnk|Мы можем выдать пиратам десяток девушек из наших экипажей. (Вам -2 Славы).}^");
+        p("{v_c4f6c2f9_a273_45ee_9e3e_5118be2d7355_XLnk|Или можем вступить с пиратами в бой}^");
     end,
     wcns = {
     },
@@ -73681,11 +73681,11 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_c5bda68d_8508_4288_a968_be8e709cb179',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p("{v_c5bda68d_8508_4288_a968_be8e709cb179_XLnk|Вернуться в игру}^");
     end,
     wcns = {
     },
@@ -73809,10 +73809,10 @@ return nlb:std_bg();
 "Мы получили список ваших соперников. Вы можете подкупить одного из них. Вы можете послать шпиона, чтобы заминировать истребитель соперника. И вы можете отравить одного из конкурентов.");
     end,
     way = {
-        'v_287725ce_a783_49e8_9906_be62e0b7bc47',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_287725ce_a783_49e8_9906_be62e0b7bc47_XLnk|Выберите нужное действие против ваших противников}^");
     end,
     wcns = {
     },
@@ -74292,11 +74292,11 @@ return nlb:std_bg();
 "Наши сенсоры обнаружили на поверхности планеты шахту с Лазером Разрушителем. Мы можем послать туда свои шатлы с отрядами  штурмовиков, чтобы захватить это супер-оружие.");
     end,
     way = {
-        'v_381f0077_beeb_4022_aef7_0fdc962c5050',
-        'v_1fe00343_4e62_4b51_992e_c2a32e499411',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_381f0077_beeb_4022_aef7_0fdc962c5050'] or s.wcns['v_381f0077_beeb_4022_aef7_0fdc962c5050']()) and "{v_381f0077_beeb_4022_aef7_0fdc962c5050_XLnk|Послать абордажные челноки для захвата шахты}^" or "");
+        p("{v_1fe00343_4e62_4b51_992e_c2a32e499411_XLnk|Воспользоваться тем, что вражеский флот еще не успел сконцентрировать свои силы на орбите и атаковать его}^");
     end,
     wcns = {
         ['v_381f0077_beeb_4022_aef7_0fdc962c5050'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -74433,12 +74433,12 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_3a844b04_bbc5_4cd4_8900_da1d9f5c4e50',
-        'v_d9a727cc_cc81_4edf_8eab_244af021d418',
-        'v_d010938e_c7a8_4ed8_ab6d_9ca51b9b04a6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_3a844b04_bbc5_4cd4_8900_da1d9f5c4e50'] or s.wcns['v_3a844b04_bbc5_4cd4_8900_da1d9f5c4e50']()) and "{v_3a844b04_bbc5_4cd4_8900_da1d9f5c4e50_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_d9a727cc_cc81_4edf_8eab_244af021d418'] or s.wcns['v_d9a727cc_cc81_4edf_8eab_244af021d418']()) and "{v_d9a727cc_cc81_4edf_8eab_244af021d418_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_d010938e_c7a8_4ed8_ab6d_9ca51b9b04a6'] or s.wcns['v_d010938e_c7a8_4ed8_ab6d_9ca51b9b04a6']()) and "{v_d010938e_c7a8_4ed8_ab6d_9ca51b9b04a6_XLnk|Вы победили! Награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
     end,
     wcns = {
         ['v_3a844b04_bbc5_4cd4_8900_da1d9f5c4e50'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -74597,11 +74597,11 @@ return nlb:std_bg();
 "Какие будут приказы?");
     end,
     way = {
-        'v_e33c14a9_f737_4455_b450_fba43989cec6',
-        'v_9c1e575b_c6a2_4305_b761_aef4e4c79113',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e33c14a9_f737_4455_b450_fba43989cec6_XLnk|Отступать к кораблям флота}^");
+        p("{v_9c1e575b_c6a2_4305_b761_aef4e4c79113_XLnk|Вступить в бой с преследователями}^");
     end,
     wcns = {
     },
@@ -75248,11 +75248,11 @@ return nlb:std_bg();
 "Нам удалось эвакуировать отряд штурмовиков с грузовоза.");
     end,
     way = {
-        'v_98676eab_5198_46a2_a93b_6a2bbae9465d',
-        'v_257f4fc5_1d57_497f_8c50_65e8adaa7094',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_98676eab_5198_46a2_a93b_6a2bbae9465d_XLnk|Расстрелять этот корабль из наших орудий}^");
+        p("{v_257f4fc5_1d57_497f_8c50_65e8adaa7094_XLnk|Продолжить полет к планете Варда}^");
     end,
     wcns = {
     },
@@ -75389,11 +75389,11 @@ return nlb:std_bg();
         p("Я правитель планеты Нобула – Гонорий. Я готов примкнуть к вашей Федерации, если вы доставите мне артефакт с астероида Немезида-9. Астероид находится в газовой туманности «Тор».");
     end,
     way = {
-        'v_e5beb135_d63b_48a1_8ee6_f1018c7c97b1',
-        'v_399aea07_7c9c_455c_b3fb_1e60b4078f50',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e5beb135_d63b_48a1_8ee6_f1018c7c97b1_XLnk|Атаковать планету Нобула}^");
+        p("{v_399aea07_7c9c_455c_b3fb_1e60b4078f50_XLnk|Согласится выполнить это задание}^");
     end,
     wcns = {
     },
@@ -75904,12 +75904,12 @@ return nlb:std_bg();
         p("Говорит капитан патрульного крейсера! Все чужие корабли перед выходом на нижнюю орбиту нашей планеты должны пройти досмотр.");
     end,
     way = {
-        'v_96a17c70_eb5b_4cd3_a7b3_dcb485cc3473',
-        'v_949b7e42_c080_4826_b42c_be44112b3cd8',
-        'v_3a2bf02a_f896_4e33_9494_1f5575e3cbb8',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_96a17c70_eb5b_4cd3_a7b3_dcb485cc3473_XLnk|Разрешить досмотр ваших кораблей}^");
+        p("{v_949b7e42_c080_4826_b42c_be44112b3cd8_XLnk|Расстрелять патрульный корабль}^");
+        p("{v_3a2bf02a_f896_4e33_9494_1f5575e3cbb8_XLnk|Лететь к другим планетам}^");
     end,
     wcns = {
     },
@@ -76062,12 +76062,12 @@ return nlb:std_bg();
         p("Командир! Наши сенсоры засекли идущий встречным курсом грузовой корабль.");
     end,
     way = {
-        'v_491da31d_6aed_4744_b1d1_004d384cbb97',
-        'v_29307f29_30ce_43a0_952b_5ce7e14b872e',
-        'v_2b0d5c86_6363_47aa_b7c4_ac72ede3766d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_491da31d_6aed_4744_b1d1_004d384cbb97'] or s.wcns['v_491da31d_6aed_4744_b1d1_004d384cbb97']()) and "{v_491da31d_6aed_4744_b1d1_004d384cbb97_XLnk|Воспользоваться Торговым сканером}^" or "");
+        p("{v_29307f29_30ce_43a0_952b_5ce7e14b872e_XLnk|Продолжить полет к планете Эрива}^");
+        p("{v_2b0d5c86_6363_47aa_b7c4_ac72ede3766d_XLnk|Вступить в переговоры с капитаном корабля}^");
     end,
     wcns = {
         ['v_491da31d_6aed_4744_b1d1_004d384cbb97'] = function() return (_hasCargoScanner); end,
@@ -76366,11 +76366,11 @@ return nlb:std_bg();
 "Через несколько суток вы потеряли связь с вашим шатлом (вы потеряли 1 отряд штурмовиков). Хотите послать еще один шатл с отрядом?");
     end,
     way = {
-        'v_79cab178_26e7_41d9_8aea_a3a7dfafb95a',
-        'v_bba83f5e_74a9_4565_8d11_9bc99439414a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_79cab178_26e7_41d9_8aea_a3a7dfafb95a'] or s.wcns['v_79cab178_26e7_41d9_8aea_a3a7dfafb95a']()) and "{v_79cab178_26e7_41d9_8aea_a3a7dfafb95a_XLnk|Отправите еще один шатл на поиски}^" or "");
+        p("{v_bba83f5e_74a9_4565_8d11_9bc99439414a_XLnk|Направитесь к другим планетам}^");
     end,
     wcns = {
         ['v_79cab178_26e7_41d9_8aea_a3a7dfafb95a'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -77288,11 +77288,11 @@ return nlb:std_bg();
         p("- Я президент Вотан и представляю расу Морлоков. Наша раса всегда была верным союзником Федерации. Вы собираетесь напасть на нас?");
     end,
     way = {
-        'v_8297e788_87f5_4565_a4cf_3e68cc334b1a',
-        'v_d6ad8120_106b_44aa_97d3_f439b22bf1aa',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_8297e788_87f5_4565_a4cf_3e68cc334b1a_XLnk|Вступить в переговоры}^");
+        p("{v_d6ad8120_106b_44aa_97d3_f439b22bf1aa_XLnk|Напасть на морлоков}^");
     end,
     wcns = {
     },
@@ -77430,11 +77430,11 @@ return nlb:std_bg();
         p("Через сутки вы потеряли связь и с этим шатлом (вы потеряли 1 отряд штурмовиков). Хотите послать еще один шатл с отрядом?");
     end,
     way = {
-        'v_2189505e_0380_4fa7_abdd_e2dcc7f501b1',
-        'v_af28bf91_5bdd_46e8_a9dc_cc59cfb9ac7d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_2189505e_0380_4fa7_abdd_e2dcc7f501b1'] or s.wcns['v_2189505e_0380_4fa7_abdd_e2dcc7f501b1']()) and "{v_2189505e_0380_4fa7_abdd_e2dcc7f501b1_XLnk|Отправите еще один шатл на поиски}^" or "");
+        p("{v_af28bf91_5bdd_46e8_a9dc_cc59cfb9ac7d_XLnk|Направитесь к другим планетам}^");
     end,
     wcns = {
         ['v_2189505e_0380_4fa7_abdd_e2dcc7f501b1'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -77825,11 +77825,11 @@ return nlb:std_bg();
 "Информация о предложении капитана Джус Синга быстро облетела личный состав флота. Парни волнуются. Экипажи уже давно не отдыхали. Ребята требуют «отгула» и хотели бы посетить бордель.");
     end,
     way = {
-        'v_8188adc9_510f_4a60_bb6b_7dad04b8635b',
-        'v_6e7cc67d_d295_4d88_84df_24f4d354b3fa',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_8188adc9_510f_4a60_bb6b_7dad04b8635b_XLnk|Разрешить экипажам своих кораблей посетить бордель}^");
+        p("{v_6e7cc67d_d295_4d88_84df_24f4d354b3fa_XLnk|Продолжить полет к планете Эрива}^");
     end,
     wcns = {
     },
@@ -77966,11 +77966,11 @@ return nlb:std_bg();
         p("Командир! Раз у нас есть отряд боевых андроидов, то может быть, воспользуемся этим и пошлем их на штурм грузового корабля корпорации «Роботроникс»? Радиация нам теперь не страшна!");
     end,
     way = {
-        'v_ea9d39bc_8b2f_4246_b255_7596a428439e',
-        'v_bddc3c86_54d0_48e8_ae74_06c7ae2ff134',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_ea9d39bc_8b2f_4246_b255_7596a428439e_XLnk|Приказать взять на абордаж грузовоз}^");
+        p("{v_bddc3c86_54d0_48e8_ae74_06c7ae2ff134_XLnk|Лететь к планете Нобула}^");
     end,
     wcns = {
     },
@@ -78107,11 +78107,11 @@ return nlb:std_bg();
         p("Командир! Мы наткнулись на боевого дроида. Потеряли несколько бойцов. Продвигаться дальше нет возможности.");
     end,
     way = {
-        'v_71db00cd_26c1_4a35_9b41_2a0cded77184',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
         p((not s.wcns['v_4691c5bb_0dea_4725_b4b7_33df33f88d0e'] or s.wcns['v_4691c5bb_0dea_4725_b4b7_33df33f88d0e']()) and "{v_4691c5bb_0dea_4725_b4b7_33df33f88d0e_XLnk|Далее}^" or "");
+        p((not s.wcns['v_71db00cd_26c1_4a35_9b41_2a0cded77184'] or s.wcns['v_71db00cd_26c1_4a35_9b41_2a0cded77184']()) and "{v_71db00cd_26c1_4a35_9b41_2a0cded77184_XLnk|Воспользоваться Торговым сканером}^" or "");
     end,
     wcns = {
         ['v_4691c5bb_0dea_4725_b4b7_33df33f88d0e'] = function() return ( not _hasCargoScanner); end,
@@ -78259,12 +78259,12 @@ return nlb:std_bg();
 "Или пусть сами решают как они хотят разбиться на пары.");
     end,
     way = {
-        'v_0a48a730_7660_4540_8e73_17641c2c9e2b',
-        'v_a0a24340_5f0d_48cc_928b_1c871b2d5297',
-        'v_805943e7_f164_4f06_8d54_bfcb46c8beeb',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_0a48a730_7660_4540_8e73_17641c2c9e2b_XLnk|(Жаклин + Марта)  и (Эллис + Бегги)}^");
+        p("{v_a0a24340_5f0d_48cc_928b_1c871b2d5297_XLnk|(Жаклин + Эллис) и (Марта + Бегги)}^");
+        p("{v_805943e7_f164_4f06_8d54_bfcb46c8beeb_XLnk|Решат сами}^");
     end,
     wcns = {
     },
@@ -78675,13 +78675,13 @@ return nlb:std_bg();
         p("Командир!");
     end,
     way = {
-        'v_8fe7743f_98b4_473c_8612_f14ba9a6c80a',
-        'v_48916e40_af64_4593_9954_a010f93a1c83',
-        'v_c4744ab2_e875_4b30_a348_49d29a69b31a',
-        'v_bdd78b15_636d_4e75_a98d_b7feccc8d9a4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_8fe7743f_98b4_473c_8612_f14ba9a6c80a'] or s.wcns['v_8fe7743f_98b4_473c_8612_f14ba9a6c80a']()) and "{v_8fe7743f_98b4_473c_8612_f14ba9a6c80a_XLnk|Наш флот может совершить прыжок к планете Варда}^" or "");
+        p((not s.wcns['v_48916e40_af64_4593_9954_a010f93a1c83'] or s.wcns['v_48916e40_af64_4593_9954_a010f93a1c83']()) and "{v_48916e40_af64_4593_9954_a010f93a1c83_XLnk|Наш флот может совершить прыжок к планете Сотус}^" or "");
+        p((not s.wcns['v_c4744ab2_e875_4b30_a348_49d29a69b31a'] or s.wcns['v_c4744ab2_e875_4b30_a348_49d29a69b31a']()) and "{v_c4744ab2_e875_4b30_a348_49d29a69b31a_XLnk|Наш флот может совершить прыжок к планете Эрива}^" or "");
+        p((not s.wcns['v_bdd78b15_636d_4e75_a98d_b7feccc8d9a4'] or s.wcns['v_bdd78b15_636d_4e75_a98d_b7feccc8d9a4']()) and "{v_bdd78b15_636d_4e75_a98d_b7feccc8d9a4_XLnk|Вы уже были на планетах Варда, Сотус и Эрива}^" or "");
     end,
     wcns = {
         ['v_8fe7743f_98b4_473c_8612_f14ba9a6c80a'] = function() return ( not _varda); end,
@@ -80922,11 +80922,11 @@ return nlb:std_bg();
 "Впереди обломки большого корабля. Энергетический всплеск, который мы зафиксировали, по-видимому, был от взрыва этого корабля.");
     end,
     way = {
-        'v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee',
-        'v_6f84eef5_097f_41ce_9059_139ef17ea3c4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee'] or s.wcns['v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee']()) and "{v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee_XLnk|Прикажете послать шатл с штурмовиками для обследования этого корабля}^" or "");
+        p("{v_6f84eef5_097f_41ce_9059_139ef17ea3c4_XLnk|Лететь к планете Локан}^");
     end,
     wcns = {
         ['v_dbbef316_0fa1_4e7e_89fd_bd0389ec10ee'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -82860,11 +82860,11 @@ return nlb:std_bg();
         p("Ваши десантники осмотрели несколько инженерных и жилых модулей завода, но не обнаружили пока ни единой живой души. Аварийное освещение и система климат-контроля были в рабочем состоянии. Все это выглядит странно.");
     end,
     way = {
-        'v_12fb05bd_03fe_4c94_a167_c86415ed1dcf',
-        'v_c490f5bb_6672_45aa_b7ee_ae52f4535699',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_12fb05bd_03fe_4c94_a167_c86415ed1dcf_XLnk|Прикажете своим штурмовикам продолжить поиски}^");
+        p("{v_c490f5bb_6672_45aa_b7ee_ae52f4535699_XLnk|Считаете, что здесь нет нечего полезного для вас, и продолжите полет к планете Боро}^");
     end,
     wcns = {
     },
@@ -83126,11 +83126,11 @@ return nlb:std_bg();
         p("Докладывает Фостер! Мы вступили в бой. Два вражеских истребителя подбиты! Эскадрилья противника разделилась на две части и отступает.");
     end,
     way = {
-        'v_fae57b90_96e5_4082_8769_aa39cef5a94b',
-        'v_91e0e81e_1997_4caf_b87c_5e8d63fdd78a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_fae57b90_96e5_4082_8769_aa39cef5a94b_XLnk|Прикажете преследовать врага}^");
+        p("{v_91e0e81e_1997_4caf_b87c_5e8d63fdd78a_XLnk|Отступить к кораблям флота}^");
     end,
     wcns = {
     },
@@ -83268,11 +83268,11 @@ return nlb:std_bg();
 "Министр обороны попросил вас отправиться на дальнюю космическую станцию «Улисс» и эвакуировать оттуда ее население. Эта станция отрезана от планеты Таргос пиратами. Это и будет доказательством ваших мирных намерений.");
     end,
     way = {
-        'v_2907c941_1398_416e_9e72_b82dfa09a0cd',
-        'v_5eb8a834_d867_4cb9_aeeb_969b983cd34c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_2907c941_1398_416e_9e72_b82dfa09a0cd_XLnk|Согласиться на выполнение этой миссии}^");
+        p("{v_5eb8a834_d867_4cb9_aeeb_969b983cd34c_XLnk|Aтаковать флот Таргоса и подчинить эту планету силой}^");
     end,
     wcns = {
     },
@@ -83410,11 +83410,11 @@ return nlb:std_bg();
         p("Продолжаем поиски. Пока никого не обнаружили. Радиация по-прежнему высокая.");
     end,
     way = {
-        'v_66e55772_d654_4494_ae30_c17b085658c0',
-        'v_32e6b798_737b_4b55_9cf1_c88d5fe46cde',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_66e55772_d654_4494_ae30_c17b085658c0_XLnk|Прикажете продолжать поиски}^");
+        p("{v_32e6b798_737b_4b55_9cf1_c88d5fe46cde_XLnk|Не хотите рисковать здоровьем ваших бойцов и прикажете возвращаться}^");
     end,
     wcns = {
     },
@@ -84146,12 +84146,12 @@ return nlb:std_bg();
 "На внешней орбите планеты Сотус расположена боевая космическая станция. Мы получили от них предупреждение. Если мы попытаемся приблизиться к планете, они откроют по нам огонь из своих орудий.");
     end,
     way = {
-        'v_e357e03d_91b8_4bed_817b_f89dbf513ab0',
-        'v_3d30730c_bd65_4c8e_8461_ca4dff54207f',
-        'v_ed47ad1c_c5d9_47a5_91e4_b7a882278a6c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e357e03d_91b8_4bed_817b_f89dbf513ab0'] or s.wcns['v_e357e03d_91b8_4bed_817b_f89dbf513ab0']()) and "{v_e357e03d_91b8_4bed_817b_f89dbf513ab0_XLnk|Можете попытаться захватить станцию}^" or "");
+        p("{v_3d30730c_bd65_4c8e_8461_ca4dff54207f_XLnk|Можете атаковать станцию своим флотом}^");
+        p((not s.wcns['v_ed47ad1c_c5d9_47a5_91e4_b7a882278a6c'] or s.wcns['v_ed47ad1c_c5d9_47a5_91e4_b7a882278a6c']()) and "{v_ed47ad1c_c5d9_47a5_91e4_b7a882278a6c_XLnk|Вступить с противником в переговоры}^" or "");
     end,
     wcns = {
         ['v_e357e03d_91b8_4bed_817b_f89dbf513ab0'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -84307,11 +84307,11 @@ return nlb:std_bg();
         p("Командир! Мы находимся в отсеке управления Энергетической системы корабля. Наши дозиметры фиксируют высокий уровень радиации.");
     end,
     way = {
-        'v_89348655_6e3c_4fe1_a1c6_3f38811067de',
-        'v_4cdda3cf_e632_444b_9012_07f64389ab46',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_89348655_6e3c_4fe1_a1c6_3f38811067de_XLnk|Не хотите рисковать здоровьем ваших бойцов и прикажете возвращаться}^");
+        p("{v_4cdda3cf_e632_444b_9012_07f64389ab46_XLnk|Прикажете продолжать поиски}^");
     end,
     wcns = {
     },
@@ -84448,11 +84448,11 @@ return nlb:std_bg();
         p("Вы собрали отряды штурмовиков и предложили сделать шаг вперед тех, кто согласен на операцию по трансформации в андроидов. Желающих не нашлось.");
     end,
     way = {
-        'v_fdf83c75_59bb_4186_a987_68057dc03fd9',
-        'v_49c1db6a_5f9d_445a_83cf_b828b8bc7b20',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_fdf83c75_59bb_4186_a987_68057dc03fd9_XLnk|Откажетесь от этой затеи и полетите к планете Нобула}^");
+        p("{v_49c1db6a_5f9d_445a_83cf_b828b8bc7b20_XLnk|Отправите один отряд бойцов на операцию без их согласия (вам -2 Славы)}^");
     end,
     wcns = {
     },
@@ -84965,15 +84965,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_57e40eac_248d_4a3a_bf23_822cc9adb60d',
-        'v_9365a23f_090e_4815_9920_b439d693b8da',
-        'v_555aaf9a_a53a_4fd7_b5c5_6eabd34326cc',
-        'v_7276f341_26e5_43af_b0a1_089696c922ff',
-        'v_17444987_07e9_4774_97ac_54690be78a84',
-        'v_9a72260b_81ed_48d4_ab2c_0e65e4da6563',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_57e40eac_248d_4a3a_bf23_822cc9adb60d'] or s.wcns['v_57e40eac_248d_4a3a_bf23_822cc9adb60d']()) and "{v_57e40eac_248d_4a3a_bf23_822cc9adb60d_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_9365a23f_090e_4815_9920_b439d693b8da'] or s.wcns['v_9365a23f_090e_4815_9920_b439d693b8da']()) and "{v_9365a23f_090e_4815_9920_b439d693b8da_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_555aaf9a_a53a_4fd7_b5c5_6eabd34326cc'] or s.wcns['v_555aaf9a_a53a_4fd7_b5c5_6eabd34326cc']()) and "{v_555aaf9a_a53a_4fd7_b5c5_6eabd34326cc_XLnk|Вы победили! Выбранная награда +1 карта}^" or "");
+        p((not s.wcns['v_7276f341_26e5_43af_b0a1_089696c922ff'] or s.wcns['v_7276f341_26e5_43af_b0a1_089696c922ff']()) and "{v_7276f341_26e5_43af_b0a1_089696c922ff_XLnk|Вы победили! Выбранная награда +1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_17444987_07e9_4774_97ac_54690be78a84'] or s.wcns['v_17444987_07e9_4774_97ac_54690be78a84']()) and "{v_17444987_07e9_4774_97ac_54690be78a84_XLnk|Вы победили! Выбранная награда +5 к Боеспособности флота}^" or "");
+        p((not s.wcns['v_9a72260b_81ed_48d4_ab2c_0e65e4da6563'] or s.wcns['v_9a72260b_81ed_48d4_ab2c_0e65e4da6563']()) and "{v_9a72260b_81ed_48d4_ab2c_0e65e4da6563_XLnk|Лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_57e40eac_248d_4a3a_bf23_822cc9adb60d'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -85315,11 +85315,11 @@ return nlb:std_bg();
 "Приказывайте!");
     end,
     way = {
-        'v_869250dd_b1aa_4cc7_9f6a_d8602eb8c39b',
-        'v_18d32a2f_23f9_40f2_ae26_47d5f6dd5976',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_869250dd_b1aa_4cc7_9f6a_d8602eb8c39b_XLnk|Спасаться бегством (Боеспособности флота (-15))}^");
+        p("{v_18d32a2f_23f9_40f2_ae26_47d5f6dd5976_XLnk|Бросить в бой истребители}^");
     end,
     wcns = {
     },
@@ -85458,12 +85458,12 @@ return nlb:std_bg();
 "Мы обнаружили странные биологические объекты. Это огромные яйца. Мы можем взять с собой несколько образцов для исследований.");
     end,
     way = {
-        'v_1702dde9_813f_4783_95dd_382f3358948e',
-        'v_75a7edec_aab2_4a01_b6b2_04e3530f62d6',
-        'v_c9d65a31_a108_4a92_8469_ab0713698406',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_1702dde9_813f_4783_95dd_382f3358948e_XLnk|Взять несколько яиц и прекратить поисковую миссию}^");
+        p("{v_75a7edec_aab2_4a01_b6b2_04e3530f62d6_XLnk|Не брать яйца и продолжить поиски}^");
+        p("{v_c9d65a31_a108_4a92_8469_ab0713698406_XLnk|Уничтожить эти странные яйца}^");
     end,
     wcns = {
     },
@@ -85743,11 +85743,11 @@ return nlb:std_bg();
 "Наши ученые провели экспертизу найденных яиц. Это яйца ксеноморфов. Эти твари крайне живучие и опасные. Наши ученые предложили идею. Мы можем поместить детенышей ксеноморфов в несколько наших шатлов, и использовать их для абордажа вражеских кораблей.");
     end,
     way = {
-        'v_94fb6ebb_765f_4820_be53_b08db63cac6f',
-        'v_3f95243a_df0b_47b7_a5c1_790f7980e59e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_94fb6ebb_765f_4820_be53_b08db63cac6f_XLnk|Согласится с этой идеей (вы получите карту Десанта Чужих)}^");
+        p("{v_3f95243a_df0b_47b7_a5c1_790f7980e59e_XLnk|Отказаться и приказать уничтожить все яйца ксеноморфов}^");
     end,
     wcns = {
     },
@@ -85887,10 +85887,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Сканер навигационной разведки фрегата -- пеленгует вражеские корабли, и сообщают вам о перемещении врага -- дает вам +5 Боеспособности флоту.");
     end,
     way = {
-        'v_e17c0658_b883_490e_a625_3d3235d70f33',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e17c0658_b883_490e_a625_3d3235d70f33_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -86261,12 +86261,12 @@ return nlb:std_bg();
 "Наши истребители сблизились с врагом. Какую тактику им выбрать?  Приказывайте!");
     end,
     way = {
-        'v_0565ee74_40a5_4031_952c_8908c734ce08',
-        'v_64ba5b1d_bebf_44c7_ba2d_825a88ae00b1',
-        'v_f6433d5e_efd8_412f_8636_ef3a60190912',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_0565ee74_40a5_4031_952c_8908c734ce08_XLnk|Постоянно держаться в едином строю}^");
+        p("{v_64ba5b1d_bebf_44c7_ba2d_825a88ae00b1_XLnk|Рассредоточиться и маневрировать между астероидами, чтобы запутать врага}^");
+        p("{v_f6433d5e_efd8_412f_8636_ef3a60190912_XLnk|Каждому пилоту выбрать себе цель и действовать на свое усмотрение}^");
     end,
     wcns = {
     },
@@ -86422,11 +86422,11 @@ return nlb:std_bg();
         p("Командир!");
     end,
     way = {
-        'v_607f7a3e_b0a9_4166_b5b9_54aefbdaa045',
-        'v_dab8b166_d7b0_477d_b464_a427940aeb1b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_607f7a3e_b0a9_4166_b5b9_54aefbdaa045_XLnk|Прикажете «Бестии» прикрыть наш флот от вражеской атаки}^");
+        p("{v_dab8b166_d7b0_477d_b464_a427940aeb1b_XLnk|Или пусть останется в составе боевого звена и поможет своим}^");
     end,
     wcns = {
     },
@@ -86689,11 +86689,11 @@ return nlb:std_bg();
         p("Командир! Мы обнаружили младенца. Больше выживших в челноке нет. Что нам делать с ребенком?");
     end,
     way = {
-        'v_1297f291_98a8_44e1_ada5_98854c77897c',
-        'v_820d4a54_be10_410d_9fbf_381b74642cae',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_1297f291_98a8_44e1_ada5_98854c77897c_XLnk|Оставить ребенка в челноке}^");
+        p("{v_820d4a54_be10_410d_9fbf_381b74642cae_XLnk|Забрать его на свой корабль}^");
     end,
     wcns = {
     },
@@ -86952,15 +86952,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_e3378c64_5880_4f19_9492_ad185471a152',
-        'v_b872509b_6e15_4808_a9c0_840e4947d489',
-        'v_8e089268_12a3_4c78_afe0_e665c9fb819f',
-        'v_568d0f12_ce89_4d8b_849d_12ba237faa93',
-        'v_4ffcee7a_b56e_407e_adf4_cf5edd0ddd30',
-        'v_fee3d247_36e8_421d_9001_cc14ffbaaf46',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_e3378c64_5880_4f19_9492_ad185471a152'] or s.wcns['v_e3378c64_5880_4f19_9492_ad185471a152']()) and "{v_e3378c64_5880_4f19_9492_ad185471a152_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_b872509b_6e15_4808_a9c0_840e4947d489'] or s.wcns['v_b872509b_6e15_4808_a9c0_840e4947d489']()) and "{v_b872509b_6e15_4808_a9c0_840e4947d489_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_8e089268_12a3_4c78_afe0_e665c9fb819f'] or s.wcns['v_8e089268_12a3_4c78_afe0_e665c9fb819f']()) and "{v_8e089268_12a3_4c78_afe0_e665c9fb819f_XLnk|Вы победили! Выбранная награда +1 карта}^" or "");
+        p((not s.wcns['v_568d0f12_ce89_4d8b_849d_12ba237faa93'] or s.wcns['v_568d0f12_ce89_4d8b_849d_12ba237faa93']()) and "{v_568d0f12_ce89_4d8b_849d_12ba237faa93_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_4ffcee7a_b56e_407e_adf4_cf5edd0ddd30'] or s.wcns['v_4ffcee7a_b56e_407e_adf4_cf5edd0ddd30']()) and "{v_4ffcee7a_b56e_407e_adf4_cf5edd0ddd30_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
+        p((not s.wcns['v_fee3d247_36e8_421d_9001_cc14ffbaaf46'] or s.wcns['v_fee3d247_36e8_421d_9001_cc14ffbaaf46']()) and "{v_fee3d247_36e8_421d_9001_cc14ffbaaf46_XLnk|Мы можем выдать пиратам десяток девушек из наших экипажей. (Вам -2 Славы).}^" or "");
     end,
     wcns = {
         ['v_e3378c64_5880_4f19_9492_ad185471a152'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -87298,12 +87298,12 @@ return nlb:std_bg();
         p("-- Я Торгар – диктатор планеты Локан. Обычно с не прошеными гостями у меня разговор короткий. Но как мне сообщили, вы оказали помощь одному из моих торговых кораблей у планеты Рута. А я не привык оставаться в долгу. Я готов подарить вам один из своих кораблей.");
     end,
     way = {
-        'v_8b38e320_11b7_4074_82b1_38b747c386fe',
-        'v_18c61413_7c18_44ff_a270_fa101cba4082',
-        'v_3347c129_e420_4bf3_957d_ea4de48e7a07',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_8b38e320_11b7_4074_82b1_38b747c386fe_XLnk|Принять подарок и лететь дальше}^");
+        p("{v_18c61413_7c18_44ff_a270_fa101cba4082_XLnk|Атаковать флот диктатора Торгара}^");
+        p((not s.wcns['v_3347c129_e420_4bf3_957d_ea4de48e7a07'] or s.wcns['v_3347c129_e420_4bf3_957d_ea4de48e7a07']()) and "{v_3347c129_e420_4bf3_957d_ea4de48e7a07_XLnk|Освободить принцессу Фрею}^" or "");
     end,
     wcns = {
         ['v_3347c129_e420_4bf3_957d_ea4de48e7a07'] = function() return (_freja); end,
@@ -87697,11 +87697,11 @@ return nlb:std_bg();
 "Мы предлагаем услуги по модернизации людей в боевых андроидов. В качестве оплаты мы берем только Гелий-3.");
     end,
     way = {
-        'v_4eaacfaa_7def_404e_b5fc_3fff393db3be',
-        'v_3aae2419_638b_4a50_b043_f3d410f13f35',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_4eaacfaa_7def_404e_b5fc_3fff393db3be'] or s.wcns['v_4eaacfaa_7def_404e_b5fc_3fff393db3be']()) and "{v_4eaacfaa_7def_404e_b5fc_3fff393db3be_XLnk|Модернизировать один отряд ваших штурмовиков в андроидов}^" or "");
+        p("{v_3aae2419_638b_4a50_b043_f3d410f13f35_XLnk|Лететь к планете Нобула}^");
     end,
     wcns = {
         ['v_4eaacfaa_7def_404e_b5fc_3fff393db3be'] = function() return (_playerAssaultTroops ~= nil) and (_helium and _playerAssaultTroops > 0); end,
@@ -89981,12 +89981,12 @@ return nlb:std_bg();
 "Мы можем лететь к другим планетам.");
     end,
     way = {
-        'v_5c25ae06_9f75_4aed_a016_deaccab19c3b',
-        'v_fe691ed9_2b57_4133_b173_823e3b428aa3',
-        'v_e32a7454_732e_4a19_a15d_b7e60a4a8e05',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_5c25ae06_9f75_4aed_a016_deaccab19c3b'] or s.wcns['v_5c25ae06_9f75_4aed_a016_deaccab19c3b']()) and "{v_5c25ae06_9f75_4aed_a016_deaccab19c3b_XLnk|Лететь к планете Чосер}^" or "");
+        p((not s.wcns['v_fe691ed9_2b57_4133_b173_823e3b428aa3'] or s.wcns['v_fe691ed9_2b57_4133_b173_823e3b428aa3']()) and "{v_fe691ed9_2b57_4133_b173_823e3b428aa3_XLnk|Лететь к планете Рита}^" or "");
+        p((not s.wcns['v_e32a7454_732e_4a19_a15d_b7e60a4a8e05'] or s.wcns['v_e32a7454_732e_4a19_a15d_b7e60a4a8e05']()) and "{v_e32a7454_732e_4a19_a15d_b7e60a4a8e05_XLnk|Вы уже были на планетах Рита и Чосер}^" or "");
     end,
     wcns = {
         ['v_5c25ae06_9f75_4aed_a016_deaccab19c3b'] = function() return ( not _chocer); end,
@@ -90147,15 +90147,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_b1246257_203d_40c7_9f22_25965bb94b01',
-        'v_65f09482_b0ae_4760_bd31_22af93682b41',
-        'v_a9657e64_7d5d_44f6_8c8a_f3f031becfc7',
-        'v_3757e6f6_7a51_4744_885c_a64741c022c3',
-        'v_6de24634_1d21_49db_8c95_947eb6e53de6',
-        'v_88799175_1d7b_48e5_a589_7cb9717e57b6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_b1246257_203d_40c7_9f22_25965bb94b01'] or s.wcns['v_b1246257_203d_40c7_9f22_25965bb94b01']()) and "{v_b1246257_203d_40c7_9f22_25965bb94b01_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_65f09482_b0ae_4760_bd31_22af93682b41'] or s.wcns['v_65f09482_b0ae_4760_bd31_22af93682b41']()) and "{v_65f09482_b0ae_4760_bd31_22af93682b41_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_a9657e64_7d5d_44f6_8c8a_f3f031becfc7'] or s.wcns['v_a9657e64_7d5d_44f6_8c8a_f3f031becfc7']()) and "{v_a9657e64_7d5d_44f6_8c8a_f3f031becfc7_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_3757e6f6_7a51_4744_885c_a64741c022c3'] or s.wcns['v_3757e6f6_7a51_4744_885c_a64741c022c3']()) and "{v_3757e6f6_7a51_4744_885c_a64741c022c3_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_6de24634_1d21_49db_8c95_947eb6e53de6'] or s.wcns['v_6de24634_1d21_49db_8c95_947eb6e53de6']()) and "{v_6de24634_1d21_49db_8c95_947eb6e53de6_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_88799175_1d7b_48e5_a589_7cb9717e57b6'] or s.wcns['v_88799175_1d7b_48e5_a589_7cb9717e57b6']()) and "{v_88799175_1d7b_48e5_a589_7cb9717e57b6_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_b1246257_203d_40c7_9f22_25965bb94b01'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -90491,11 +90491,11 @@ return nlb:std_bg();
         p("Благодарю вас за помощь, командир! Я обязательно сообщу своему правительству об оказанной вами услуге. А теперь мне нужно поскорее убираться отсюда. Прощайте!");
     end,
     way = {
-        'v_4a4f6571_794b_4e65_b5b8_e1ba77443c24',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
         p((not s.wcns['v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42'] or s.wcns['v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42']()) and "{v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42_XLnk|Далее}^" or "");
+        p((not s.wcns['v_4a4f6571_794b_4e65_b5b8_e1ba77443c24'] or s.wcns['v_4a4f6571_794b_4e65_b5b8_e1ba77443c24']()) and "{v_4a4f6571_794b_4e65_b5b8_e1ba77443c24_XLnk|Воспользоваться Торговым сканером}^" or "");
     end,
     wcns = {
         ['v_bc78f67d_f34b_4f2a_93f6_fa7e0d3aea42'] = function() return ( not _hasCargoScanner); end,
@@ -90634,10 +90634,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Отвлечение внимания на себя -- истребители окружают корабли противника и завязывают бой. Это дает вашему флоту небольшой выигрыш во времени -- вам +1 Карта на поле.");
     end,
     way = {
-        'v_f5bfdc6c_fa09_4c12_b49d_8458c6f50556',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f5bfdc6c_fa09_4c12_b49d_8458c6f50556_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -90756,14 +90756,14 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_9ee67ebb_95f9_442d_baed_598c9c2ba4c1',
-        'v_34e3dd7b_6481_416c_bdd2_a6b7642284cd',
-        'v_b06c4bdb_6112_4f2f_b3c2_3539046be912',
-        'v_86c4656a_4876_4a97_8e4b_078fdbc28886',
-        'v_e6289630_0d0e_4618_843b_be84ba0dc4d1',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_9ee67ebb_95f9_442d_baed_598c9c2ba4c1'] or s.wcns['v_9ee67ebb_95f9_442d_baed_598c9c2ba4c1']()) and "{v_9ee67ebb_95f9_442d_baed_598c9c2ba4c1_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_34e3dd7b_6481_416c_bdd2_a6b7642284cd'] or s.wcns['v_34e3dd7b_6481_416c_bdd2_a6b7642284cd']()) and "{v_34e3dd7b_6481_416c_bdd2_a6b7642284cd_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_b06c4bdb_6112_4f2f_b3c2_3539046be912'] or s.wcns['v_b06c4bdb_6112_4f2f_b3c2_3539046be912']()) and "{v_b06c4bdb_6112_4f2f_b3c2_3539046be912_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_86c4656a_4876_4a97_8e4b_078fdbc28886'] or s.wcns['v_86c4656a_4876_4a97_8e4b_078fdbc28886']()) and "{v_86c4656a_4876_4a97_8e4b_078fdbc28886_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_e6289630_0d0e_4618_843b_be84ba0dc4d1'] or s.wcns['v_e6289630_0d0e_4618_843b_be84ba0dc4d1']()) and "{v_e6289630_0d0e_4618_843b_be84ba0dc4d1_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_9ee67ebb_95f9_442d_baed_598c9c2ba4c1'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -91745,11 +91745,11 @@ return nlb:std_bg();
 "Они пока не обнаружили никаких следов людей. Начинается снежный буран. Горючее на скутерах осталось лишь на обратный путь.");
     end,
     way = {
-        'v_d08ccd2d_fbe5_499b_b50d_5a9f15a9f990',
-        'v_2a99d4c9_e2b1_43b6_bfe4_9c0a84121823',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_d08ccd2d_fbe5_499b_b50d_5a9f15a9f990_XLnk|Прикажете продолжить поиски}^");
+        p("{v_2a99d4c9_e2b1_43b6_bfe4_9c0a84121823_XLnk|Вернуть поисковую группу и продолжить полет к другим планетам}^");
     end,
     wcns = {
     },
@@ -94056,10 +94056,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Критическое повреждение -- ваша карта уходит в отбой и убивает одну любую карту врага на поле.");
     end,
     way = {
-        'v_396c526c_b3b0_470c_b705_b75b734ecacf',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_396c526c_b3b0_470c_b705_b75b734ecacf_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -94182,12 +94182,12 @@ return nlb:std_bg();
 "Какие будут распоряжения?");
     end,
     way = {
-        'v_b8628ce0_d598_4e23_8c0d_fea185e36fa8',
-        'v_52774399_6dfd_4939_83c6_fbecd90f4c6d',
-        'v_f6a12512_8e92_4126_b170_7ecacd7b1d82',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_b8628ce0_d598_4e23_8c0d_fea185e36fa8_XLnk|Обследовать палубу «А»}^");
+        p("{v_52774399_6dfd_4939_83c6_fbecd90f4c6d_XLnk|Обследовать палубу «В»}^");
+        p("{v_f6a12512_8e92_4126_b170_7ecacd7b1d82_XLnk|Обследовать палубу «С»}^");
     end,
     wcns = {
     },
@@ -94340,11 +94340,11 @@ return nlb:std_bg();
         p("Начальник похвалил вас за то, что вы помогли воспрепятствовать побегу заключенных. Он предложил вам сделку. Вас собирались посадить в камеру с одним из самых опасных узников. Вы должны были следить за ним. Он уже трижды пытался бежать из тюрьмы. Каждый раз охране чудом удавалось его задержать. Этот опасный рецидивист уже убил восьмерых охранников и задушил пятерых подсаженных к нему в камеру соглядатаев. Если вы согласитесь помочь, начальник тюрьмы обещает через месяц выпустить вас на свободу.");
     end,
     way = {
-        'v_effb00d0_418d_4218_8cbd_1b58e0626b50',
-        'v_1c72f000_d1ea_4d7e_9345_2ae9c91fe8bb',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_effb00d0_418d_4218_8cbd_1b58e0626b50_XLnk|Согласитесь на эту сделку}^");
+        p("{v_1c72f000_d1ea_4d7e_9345_2ae9c91fe8bb_XLnk|Откажетесь}^");
     end,
     wcns = {
     },
@@ -94481,11 +94481,11 @@ return nlb:std_bg();
         p("Докладываю! Мы ведем бой с истребителями противника. Мы сбили троих. Наши потери один пилот. Часть вражеских истребителей прорвалась к нашим кораблям.");
     end,
     way = {
-        'v_cd30ebd0_0be4_4277_abe4_324d9a1fbe48',
-        'v_c7296bd3_ae8b_47a3_a47c_f3af63217455',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_cd30ebd0_0be4_4277_abe4_324d9a1fbe48_XLnk|Прикажете добить основную группу врага}^");
+        p("{v_c7296bd3_ae8b_47a3_a47c_f3af63217455_XLnk|Прикажете эскадрилье выйти из боя и лететь к кораблям, чтобы прикрывать флот}^");
     end,
     wcns = {
     },
@@ -94748,12 +94748,12 @@ return nlb:std_bg();
 "Мы засекли непонятный энергетический всплеск в звездном секторе (В-217). В другом секторе (С-775) наши сканеры зафиксировали движение большого корабля.");
     end,
     way = {
-        'v_f1dcd1f9_c73a_4fc8_a562_fcce39f47950',
-        'v_979c46bf_514b_406c_8903_0dbebd953879',
-        'v_f3fc329b_a64f_467e_91e6_f524ac88e5a4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f1dcd1f9_c73a_4fc8_a562_fcce39f47950_XLnk|Лететь к сектору (В-217)}^");
+        p("{v_979c46bf_514b_406c_8903_0dbebd953879_XLnk|Лететь к сектору (С-775)}^");
+        p("{v_f3fc329b_a64f_467e_91e6_f524ac88e5a4_XLnk|Продолжить полет к планете Локан}^");
     end,
     wcns = {
     },
@@ -95265,10 +95265,10 @@ return nlb:std_bg();
         p("В медицинском отсеке ваши бойцы обнаружили очень странный объект. На операционном столе они нашли частично выпотрошенный труп какого-то мерзкого существа.");
     end,
     way = {
-        'v_3386b89b_7957_4fa5_a623_5ddd6ebc946f',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_3386b89b_7957_4fa5_a623_5ddd6ebc946f_XLnk|Больше ничего интересного штурмовики не обнаружили и вернулись на свой корабль}^");
     end,
     wcns = {
     },
@@ -95506,11 +95506,11 @@ return nlb:std_bg();
 "Отравить Лорда Варга");
     end,
     way = {
-        'v_9651bd8e_394f_4ffe_baea_ab2e8418ea6e',
-        'v_57270b20_f199_446d_a13e_44ec61aae20e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_9651bd8e_394f_4ffe_baea_ab2e8418ea6e_XLnk|Если выбрали Вар. №2}^");
+        p("{v_57270b20_f199_446d_a13e_44ec61aae20e_XLnk|Если вы выбрали Вар. №1}^");
     end,
     wcns = {
     },
@@ -95647,12 +95647,12 @@ return nlb:std_bg();
         p("Командир! Мы обнаружили груз корпорации. Они перевозят капсулы с клонами молодых девушек и мужчин. Это «живой товар». Мы выяснили, что корпорация «Мегатрон» нелегально занимается работорговлей по всей галактике.");
     end,
     way = {
-        'v_9f1542d2_23e5_4237_a0f5_8b7e2ce24c73',
-        'v_22bd9e23_559f_4ed9_87ba_1fbf6f45030a',
-        'v_66fbb7d6_930c_4f10_99b5_f8f8627ed743',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_9f1542d2_23e5_4237_a0f5_8b7e2ce24c73_XLnk|Не будете ссориться с корпорацией и продолжите полет  к станции «Головорезы Альконы»}^");
+        p("{v_22bd9e23_559f_4ed9_87ba_1fbf6f45030a_XLnk|Разорвете договор с корпорацией и прикажете освободить пленников}^");
+        p("{v_66fbb7d6_930c_4f10_99b5_f8f8627ed743_XLnk|Освободите пленников и зачислите их в состав своего флота}^");
     end,
     wcns = {
     },
@@ -95929,13 +95929,13 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_314adb7f_4810_454a_ac2d_977a25f1a3a5',
-        'v_3d0139fb_4d18_427b_a0a5_4d724f8daf97',
-        'v_a5e42505_cccd_4812_88c9_e640b3412f0c',
-        'v_280dccc4_ce8b_4518_9bfb_8233d5df3938',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_314adb7f_4810_454a_ac2d_977a25f1a3a5'] or s.wcns['v_314adb7f_4810_454a_ac2d_977a25f1a3a5']()) and "{v_314adb7f_4810_454a_ac2d_977a25f1a3a5_XLnk|Обследовать палубу «А»}^" or "");
+        p((not s.wcns['v_3d0139fb_4d18_427b_a0a5_4d724f8daf97'] or s.wcns['v_3d0139fb_4d18_427b_a0a5_4d724f8daf97']()) and "{v_3d0139fb_4d18_427b_a0a5_4d724f8daf97_XLnk|Обследовать палубу «В»}^" or "");
+        p((not s.wcns['v_a5e42505_cccd_4812_88c9_e640b3412f0c'] or s.wcns['v_a5e42505_cccd_4812_88c9_e640b3412f0c']()) and "{v_a5e42505_cccd_4812_88c9_e640b3412f0c_XLnk|Обследовать палубу «С»}^" or "");
+        p("{v_280dccc4_ce8b_4518_9bfb_8233d5df3938_XLnk|Отряду штурмовиков закончить поисковую миссию}^");
     end,
     wcns = {
         ['v_314adb7f_4810_454a_ac2d_977a25f1a3a5'] = function() return ( not _deckA); end,
@@ -96107,10 +96107,10 @@ return nlb:std_bg();
         p("Выбор сделан. Можно двигаться дальше.");
     end,
     way = {
-        'v_381e00c1_51ee_492f_9d68_35b5e6e92728',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_381e00c1_51ee_492f_9d68_35b5e6e92728_XLnk|Лететь к станции «Фаэтон»}^");
     end,
     wcns = {
     },
@@ -96231,11 +96231,11 @@ return nlb:std_bg();
         p("Командир перед нами поле астероидов. От них идет сильное радиоактивное излучение.");
     end,
     way = {
-        'v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3',
-        'v_281c3e91_a8ba_4e29_8f91_9fb9980b73b6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3'] or s.wcns['v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3']()) and "{v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3_XLnk|Использовать Энергетический щит}^" or "");
+        p("{v_281c3e91_a8ba_4e29_8f91_9fb9980b73b6_XLnk|Лететь через поле астероидов}^");
     end,
     wcns = {
         ['v_08effbe6_f5a8_4c6a_b1b3_8b31e035feb3'] = function() return (_hasShields); end,
@@ -96498,12 +96498,12 @@ return nlb:std_bg();
         p("Я Торгар – диктатор планеты Локан. Вы нежеланные гости в нашем секторе. Если вы немедленно не уберетесь отсюда, я вас уничтожу. А тех из вас кто выживет в бою, я прикажу \"разобрать на органы\".");
     end,
     way = {
-        'v_f701f7bb_cdd7_44fa_84ba_c5882ea42964',
-        'v_6252862b_80b0_4da0_aeef_e974cfff781f',
-        'v_592321f4_113f_42fe_b47f_d4063188e863',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f701f7bb_cdd7_44fa_84ba_c5882ea42964_XLnk|Лететь к другим планетам}^");
+        p((not s.wcns['v_6252862b_80b0_4da0_aeef_e974cfff781f'] or s.wcns['v_6252862b_80b0_4da0_aeef_e974cfff781f']()) and "{v_6252862b_80b0_4da0_aeef_e974cfff781f_XLnk|Атаковать флот диктатора Торгара}^" or "");
+        p((not s.wcns['v_592321f4_113f_42fe_b47f_d4063188e863'] or s.wcns['v_592321f4_113f_42fe_b47f_d4063188e863']()) and "{v_592321f4_113f_42fe_b47f_d4063188e863_XLnk|Освободить принцессу Фрею}^" or "");
     end,
     wcns = {
         ['v_6252862b_80b0_4da0_aeef_e974cfff781f'] = function() return (_playerAssaultTroops ~= nil) and ( not (_freja and (_playerAssaultTroops > 0))); end,
@@ -96658,13 +96658,13 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_7e0a5f05_1c65_4a10_8d10_431afc4a7a9e',
-        'v_564be1c6_76e3_4296_b072_2987ecf71bad',
-        'v_4d85af6b_5c26_4878_8ac2_06998ef7dd0f',
-        'v_0cc8ec16_1ddf_4d84_80a7_6ef82ac7a3e1',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7e0a5f05_1c65_4a10_8d10_431afc4a7a9e'] or s.wcns['v_7e0a5f05_1c65_4a10_8d10_431afc4a7a9e']()) and "{v_7e0a5f05_1c65_4a10_8d10_431afc4a7a9e_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_564be1c6_76e3_4296_b072_2987ecf71bad'] or s.wcns['v_564be1c6_76e3_4296_b072_2987ecf71bad']()) and "{v_564be1c6_76e3_4296_b072_2987ecf71bad_XLnk|Принять бой (Вам -20 боеспособности)}^" or "");
+        p((not s.wcns['v_4d85af6b_5c26_4878_8ac2_06998ef7dd0f'] or s.wcns['v_4d85af6b_5c26_4878_8ac2_06998ef7dd0f']()) and "{v_4d85af6b_5c26_4878_8ac2_06998ef7dd0f_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_0cc8ec16_1ddf_4d84_80a7_6ef82ac7a3e1'] or s.wcns['v_0cc8ec16_1ddf_4d84_80a7_6ef82ac7a3e1']()) and "{v_0cc8ec16_1ddf_4d84_80a7_6ef82ac7a3e1_XLnk|Лететь к другим планетам}^" or "");
     end,
     wcns = {
         ['v_7e0a5f05_1c65_4a10_8d10_431afc4a7a9e'] = function() return (_fightResult ~= nil) and ((_fightResult >= 0) and (_fightResult < 2)); end,
@@ -97466,11 +97466,11 @@ return nlb:std_bg();
         p("Наши бойцы захватили корабль. Один из пленных сообщил, что в грузовом отсеке установлена мина. Если наши бойцы ее не обезвредят – «Авалон» взорвется через двадцать минут. Вместе с ним взорвутся все наши корабли. Нужно улетать немедленно.");
     end,
     way = {
-        'v_66b6cbfd_af92_4951_ab28_e8576238b965',
-        'v_327b1119_7fc4_49d5_b3e7_3b90ea56415b',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_66b6cbfd_af92_4951_ab28_e8576238b965_XLnk|Прикажете срочно уходить из этого сектора}^");
+        p("{v_327b1119_7fc4_49d5_b3e7_3b90ea56415b_XLnk|Прикажете штурмовикам попытаться разминировать бомбу}^");
     end,
     wcns = {
     },
@@ -97930,15 +97930,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_1c73818b_6cc2_4a24_8793_5c5fdbf00119',
-        'v_23bd3060_d1b1_41bc_883d_491cbf867661',
-        'v_a0865052_6fc1_42ef_8166_f45acefc3e7b',
-        'v_cac1b658_b223_4c3b_98b0_c7ee2e3e0240',
-        'v_5e3a2e33_5223_41ed_b8a7_4bf27a6e3fef',
-        'v_d14c9430_4890_4c54_9ea4_9a64e13012e1',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_1c73818b_6cc2_4a24_8793_5c5fdbf00119'] or s.wcns['v_1c73818b_6cc2_4a24_8793_5c5fdbf00119']()) and "{v_1c73818b_6cc2_4a24_8793_5c5fdbf00119_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_23bd3060_d1b1_41bc_883d_491cbf867661'] or s.wcns['v_23bd3060_d1b1_41bc_883d_491cbf867661']()) and "{v_23bd3060_d1b1_41bc_883d_491cbf867661_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_a0865052_6fc1_42ef_8166_f45acefc3e7b'] or s.wcns['v_a0865052_6fc1_42ef_8166_f45acefc3e7b']()) and "{v_a0865052_6fc1_42ef_8166_f45acefc3e7b_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы}^" or "");
+        p((not s.wcns['v_cac1b658_b223_4c3b_98b0_c7ee2e3e0240'] or s.wcns['v_cac1b658_b223_4c3b_98b0_c7ee2e3e0240']()) and "{v_cac1b658_b223_4c3b_98b0_c7ee2e3e0240_XLnk|Вы победили! Выбранная награда +1 карта}^" or "");
+        p((not s.wcns['v_5e3a2e33_5223_41ed_b8a7_4bf27a6e3fef'] or s.wcns['v_5e3a2e33_5223_41ed_b8a7_4bf27a6e3fef']()) and "{v_5e3a2e33_5223_41ed_b8a7_4bf27a6e3fef_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_d14c9430_4890_4c54_9ea4_9a64e13012e1'] or s.wcns['v_d14c9430_4890_4c54_9ea4_9a64e13012e1']()) and "{v_d14c9430_4890_4c54_9ea4_9a64e13012e1_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_1c73818b_6cc2_4a24_8793_5c5fdbf00119'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -98150,10 +98150,10 @@ return nlb:std_bg();
         p("Командир! Мы готовы лететь к планете Нобула.");
     end,
     way = {
-        'v_e32ffbd4_d6b1_4290_8bf8_3a404cad09be',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e32ffbd4_d6b1_4290_8bf8_3a404cad09be_XLnk|Лететь к планете Нобула}^");
     end,
     wcns = {
     },
@@ -98275,11 +98275,11 @@ return nlb:std_bg();
 "Нужно срочно назначить другого командира эскадрильи. Кому предать командование?");
     end,
     way = {
-        'v_f661166a_411d_4f1e_9ae9_b5b9526d7786',
-        'v_6ae23b6e_6148_4276_83fb_48f0d92f1013',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f661166a_411d_4f1e_9ae9_b5b9526d7786_XLnk|Жаклин}^");
+        p("{v_6ae23b6e_6148_4276_83fb_48f0d92f1013_XLnk|Брюсу}^");
     end,
     wcns = {
     },
@@ -98420,10 +98420,10 @@ return nlb:std_bg();
 "");
     end,
     way = {
-        'v_92ca3ecb_4eaf_4356_b93a_152ba8acc412',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_92ca3ecb_4eaf_4356_b93a_152ba8acc412_XLnk|Вражеский флот вас атакует}^");
     end,
     wcns = {
     },
@@ -98677,13 +98677,13 @@ return nlb:std_bg();
 "Выберите командира.");
     end,
     way = {
-        'v_d8e8973f_06b3_46f4_8e6f_0aa54cc41092',
-        'v_2b277f14_3eb1_4963_9b72_759ffdd5aa32',
-        'v_40f43e54_09db_436c_9cef_2a9b221ff3a3',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p("{v_d8e8973f_06b3_46f4_8e6f_0aa54cc41092_XLnk|Назначить командиром эскадрильи Фостера}^");
+        p("{v_2b277f14_3eb1_4963_9b72_759ffdd5aa32_XLnk|Назначить командиром эскадрильи Жаклин}^");
+        p("{v_40f43e54_09db_436c_9cef_2a9b221ff3a3_XLnk|Назначить командиром эскадрильи Брюса}^");
     end,
     wcns = {
     },
@@ -99215,10 +99215,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Шквальный огонь -- Урон врагу -20 и ваша карта тут же уходит в отбой.");
     end,
     way = {
-        'v_7ad25d5c_1a35_46fd_a440_3e136671efe3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_7ad25d5c_1a35_46fd_a440_3e136671efe3_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -99485,12 +99485,12 @@ return nlb:std_bg();
 "Планета Хорар имеет газообразную и радиоактивную атмосферу. Мы не можем нашими сканерами определить, где находится их главный мегаполис.");
     end,
     way = {
-        'v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b',
-        'v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4',
-        'v_0843ada0_a39c_41eb_942e_361cd147a3d8',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b'] or s.wcns['v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b']()) and "{v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b_XLnk|Отправить на поиск шатл с отрядом штурмовиков}^" or "");
+        p((not s.wcns['v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4'] or s.wcns['v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4']()) and "{v_4298f889_3bb3_4a2f_ad65_c2737c93a7d4_XLnk|Воспользоваться Сканерами Разведки}^" or "");
+        p("{v_0843ada0_a39c_41eb_942e_361cd147a3d8_XLnk|Направиться к другим планетам}^");
     end,
     wcns = {
         ['v_cf11c26a_73cb_496a_a0f6_6b5ba6010e5b'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -99649,10 +99649,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Оптимизация залпового огня -- тактический компьютер корректирует огонь ваших орудий и дает +10 Боеспособности флоту.");
     end,
     way = {
-        'v_f3db2d8b_afeb_45e8_9f92_fb2d439fc1ac',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_f3db2d8b_afeb_45e8_9f92_fb2d439fc1ac_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -99793,10 +99793,10 @@ return nlb:std_bg();
 "20) КИНО -- Группа Крови");
     end,
     way = {
-        'v_e1c5fb2f_a2f6_4225_9aab_86eb86c3b938',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e1c5fb2f_a2f6_4225_9aab_86eb86c3b938_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -101774,10 +101774,10 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_2f9002d9_bb30_4141_bf72_00ddbbfb195e_1e9768b7_110c_4ac6_a2fb_500cac6923ee__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_2f9002d9_bb30_4141_bf72_00ddbbfb195e_1e9768b7_110c_4ac6_a2fb_500cac6923ee__Return'] or s.wcns['v_2f9002d9_bb30_4141_bf72_00ddbbfb195e_1e9768b7_110c_4ac6_a2fb_500cac6923ee__Return']()) and "{v_2f9002d9_bb30_4141_bf72_00ddbbfb195e_1e9768b7_110c_4ac6_a2fb_500cac6923ee__Return_XLnk|}^" or "");
     end,
     wcns = {
         ['v_2f9002d9_bb30_4141_bf72_00ddbbfb195e_1e9768b7_110c_4ac6_a2fb_500cac6923ee__Return'] = function() return (not (_isFight)); end,
@@ -102605,10 +102605,10 @@ return nlb:std_bg();
         p("Это было нелегко, но вы всё же победили в этом бою!");
     end,
     way = {
-        'v_b5f135dc_0c56_43fb_8952_9d01af23bb73_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_b5f135dc_0c56_43fb_8952_9d01af23bb73_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return_XLnk|Далее}^");
     end,
     wcns = {
     },
@@ -102709,11 +102709,11 @@ return nlb:std_bg();
     end,
     dsc = true,
     way = {
-        'v_1853b31b_9736_4a39_9bf0_1180a91ddfe4',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_1853b31b_9736_4a39_9bf0_1180a91ddfe4'] or s.wcns['v_1853b31b_9736_4a39_9bf0_1180a91ddfe4']()) and "{v_1853b31b_9736_4a39_9bf0_1180a91ddfe4_XLnk|^Результат раунда}^" or "");
     end,
     wcns = {
         ['v_1853b31b_9736_4a39_9bf0_1180a91ddfe4'] = function() return (_isAI ~= nil) and ( not _isAI); end,
@@ -102993,10 +102993,10 @@ return nlb:std_bg();
         p("Вы проиграли сражение! Ваша Слава снизилась. Попытайтесь еще раз");
     end,
     way = {
-        'v_915f1447_abfd_485c_b67d_22d52698b63a_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_915f1447_abfd_485c_b67d_22d52698b63a_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return_XLnk|Повторить бой или лететь дальше}^");
     end,
     wcns = {
     },
@@ -103186,10 +103186,10 @@ return nlb:std_bg();
         p("Вы победили в этом бою!");
     end,
     way = {
-        'v_e42ec60a_ca35_4220_833d_5cff27b47527_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e42ec60a_ca35_4220_833d_5cff27b47527_2f9002d9_bb30_4141_bf72_00ddbbfb195e__Return_XLnk|Далее}^");
     end,
     wcns = {
     },
@@ -103290,11 +103290,11 @@ return nlb:std_bg();
     end,
     dsc = true,
     way = {
-        'v_22f74493_7bd4_4535_aa4c_79d226b4c933',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_22f74493_7bd4_4535_aa4c_79d226b4c933'] or s.wcns['v_22f74493_7bd4_4535_aa4c_79d226b4c933']()) and "{v_22f74493_7bd4_4535_aa4c_79d226b4c933_XLnk|^Передать ход противнику}^" or "");
     end,
     wcns = {
         ['v_22f74493_7bd4_4535_aa4c_79d226b4c933'] = function() return (_isAI ~= nil) and ( not _isAI); end,
@@ -103494,10 +103494,10 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_55d1ac35_92c3_427c_b83e_a9f1e710e55c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_55d1ac35_92c3_427c_b83e_a9f1e710e55c'] or s.wcns['v_55d1ac35_92c3_427c_b83e_a9f1e710e55c']()) and "{v_55d1ac35_92c3_427c_b83e_a9f1e710e55c_XLnk|Дебаг}^" or "");
     end,
     wcns = {
         ['v_55d1ac35_92c3_427c_b83e_a9f1e710e55c'] = function() return ( not _roundFinished); end,
@@ -105775,11 +105775,11 @@ return nlb:std_bg();
 "Удачи!");
     end,
     way = {
-        'v_878d78c4_2546_45b9_8727_3497e6f5c9da',
     },
     xdsc = function(s)
         p "^";
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_878d78c4_2546_45b9_8727_3497e6f5c9da'] or s.wcns['v_878d78c4_2546_45b9_8727_3497e6f5c9da']()) and "{v_878d78c4_2546_45b9_8727_3497e6f5c9da_XLnk|Начать игру}^" or "");
     end,
     wcns = {
         ['v_878d78c4_2546_45b9_8727_3497e6f5c9da'] = function() return (_isFight); end,
@@ -105895,11 +105895,11 @@ return nlb:std_bg();
 "Что-то подсказывает вам, что эта книга таит в себе какую-то опасность. Хотите взять её?");
     end,
     way = {
-        'v_0e879101_07e4_4033_a661_195507314bb1',
-        'v_85f964b0_9937_4235_b5f1_10aeb66cf0ac',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_0e879101_07e4_4033_a661_195507314bb1_XLnk|Взять эту книгу}^");
+        p("{v_85f964b0_9937_4235_b5f1_10aeb66cf0ac_XLnk|Не брать эту книгу}^");
     end,
     wcns = {
     },
@@ -106040,13 +106040,13 @@ return nlb:std_bg();
 "Вы можете в любой момент открыть эту страницу, нажав ссылку Доступные задания в меню справа.");
     end,
     way = {
-        'v_17374e0e_85be_4c0d_99b0_1272f5153a06',
-        'v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e',
-        'v_c772d3ca_16a5_4c7c_a692_77844c6edc32',
-        'v_15c5c969_4ffd_4598_886c_a0841a6ccbca',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_17374e0e_85be_4c0d_99b0_1272f5153a06'] or s.wcns['v_17374e0e_85be_4c0d_99b0_1272f5153a06']()) and "{v_17374e0e_85be_4c0d_99b0_1272f5153a06_XLnk|Диверсия}^" or "");
+        p((not s.wcns['v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e'] or s.wcns['v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e']()) and "{v_cf6c4c2a_4d30_4c83_8a93_0c75e90f164e_XLnk|Осиное гнездо}^" or "");
+        p("{v_c772d3ca_16a5_4c7c_a692_77844c6edc32_XLnk|Вернуться в игру}^");
+        p((not s.wcns['v_15c5c969_4ffd_4598_886c_a0841a6ccbca'] or s.wcns['v_15c5c969_4ffd_4598_886c_a0841a6ccbca']()) and "{v_15c5c969_4ffd_4598_886c_a0841a6ccbca_XLnk|Воины}^" or "");
     end,
     wcns = {
         ['v_17374e0e_85be_4c0d_99b0_1272f5153a06'] = function() return (_fame ~= nil) and (( not _lvs_17374e0e_85be_4c0d_99b0_1272f5153a06) and (_fame > 3)); end,
@@ -106228,11 +106228,11 @@ return nlb:std_bg();
         p("Я могу предложить вам выгодную сделку. Мы ведем войну с этими жалкими морлоками с планеты Боро. Предлагаю объединить наши флоты и атаковать морлоков. За вашу помощь я дам вам три корабля.");
     end,
     way = {
-        'v_62b1c0e0_4925_4165_abbe_b1e0f21c9c2e',
-        'v_bde8c3dd_4b6e_4940_aaa2_04be13440543',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_62b1c0e0_4925_4165_abbe_b1e0f21c9c2e_XLnk|Откажетесь и атакуете флот диктатора Торгара}^");
+        p("{v_bde8c3dd_4b6e_4940_aaa2_04be13440543_XLnk|Согласитесь вместе напасть на планету Боро (вы получаете три дополнительные карты)}^");
     end,
     wcns = {
     },
@@ -106623,11 +106623,11 @@ return nlb:std_bg();
 "Наши сканеры определили, что корабль перевозит большое количество руды.");
     end,
     way = {
-        'v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771',
-        'v_7af630eb_3a83_4e3e_80bf_20ce0705ca48',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771'] or s.wcns['v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771']()) and "{v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771_XLnk|Послать на разведку отряд штурмовиков}^" or "");
+        p("{v_7af630eb_3a83_4e3e_80bf_20ce0705ca48_XLnk|Продолжить полет к планете Варда}^");
     end,
     wcns = {
         ['v_a24fed0e_2f2b_4c96_97e4_e4b2052a9771'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -106768,11 +106768,11 @@ return nlb:std_bg();
 "Или расстреляем корабль из орудий, а потом обыщем его обломки.");
     end,
     way = {
-        'v_d9b2bf64_b281_44ca_99ac_59dda452aed9',
-        'v_a1bb2b5f_a887_4cf7_8a1f_7bf6d173b9f8',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_d9b2bf64_b281_44ca_99ac_59dda452aed9_XLnk|Послать шатл}^");
+        p("{v_a1bb2b5f_a887_4cf7_8a1f_7bf6d173b9f8_XLnk|Расстрелять корабль}^");
     end,
     wcns = {
     },
@@ -106909,11 +106909,11 @@ return nlb:std_bg();
         p("Говорит адмирал флота Фароса – Билл Ротчер! Наше требование - немедленная капитуляция. В противном случае мы вас уничтожим!");
     end,
     way = {
-        'v_008257e7_fdba_4cac_8def_3c405a9bb91f',
-        'v_06588bc3_90fd_4324_906d_db516abf16b6',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_008257e7_fdba_4cac_8def_3c405a9bb91f_XLnk|Вступить с противником в переговоры}^");
+        p("{v_06588bc3_90fd_4324_906d_db516abf16b6_XLnk|Принять бой}^");
     end,
     wcns = {
     },
@@ -107175,12 +107175,12 @@ return nlb:std_bg();
         p("Командир!");
     end,
     way = {
-        'v_cc86e800_550a_48c3_8d2e_c3858364966f',
-        'v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a',
-        'v_09f3fc48_3c94_4838_a462_72cfe315ca8d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_cc86e800_550a_48c3_8d2e_c3858364966f'] or s.wcns['v_cc86e800_550a_48c3_8d2e_c3858364966f']()) and "{v_cc86e800_550a_48c3_8d2e_c3858364966f_XLnk|Мы можем лететь к планете Таргос}^" or "");
+        p((not s.wcns['v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a'] or s.wcns['v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a']()) and "{v_8ce89bb0_a1f5_4203_a979_5c53d5ec9c4a_XLnk|Мы можем лететь к планете Фарос}^" or "");
+        p((not s.wcns['v_09f3fc48_3c94_4838_a462_72cfe315ca8d'] or s.wcns['v_09f3fc48_3c94_4838_a462_72cfe315ca8d']()) and "{v_09f3fc48_3c94_4838_a462_72cfe315ca8d_XLnk|Вы уже были на планетах Таргос и Фарос}^" or "");
     end,
     wcns = {
         ['v_cc86e800_550a_48c3_8d2e_c3858364966f'] = function() return ( not _targos); end,
@@ -107341,11 +107341,11 @@ return nlb:std_bg();
         p("- Я верховный правитель Цолькопус. Мы живем своей замкнутой жизнью и не нуждаемся ни в чьей помощи. Если вы оставите нас в покое, мы подарим вам одну из наших технологий. Если же вы будете нам докучать, то у нас достаточно сил чтобы достойно вам ответить.");
     end,
     way = {
-        'v_208204af_83b3_4a01_b2c7_21a55b64bf3d',
-        'v_93d37c3f_8b5f_45d6_8566_ed1c26d89988',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_208204af_83b3_4a01_b2c7_21a55b64bf3d_XLnk|Примете подарок правителя Цолькопуса и отправитесь к другим планетам}^");
+        p("{v_93d37c3f_8b5f_45d6_8566_ed1c26d89988_XLnk|Решаете все же подчинить эту планету вашей Федерации}^");
     end,
     wcns = {
     },
@@ -107733,11 +107733,11 @@ return nlb:std_bg();
 "Если вы прибыли с миром, то я готов встретиться с вами. Если же вы пришли с войной, то мой флот уничтожит вас.");
     end,
     way = {
-        'v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118',
-        'v_2f46ff76_aa8c_4260_85ad_987a9287e3b9',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118'] or s.wcns['v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118']()) and "{v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118_XLnk|Отправитесь с дипломатической миссией на планету Рута в сопровождении отряда верных вам штурмовиков}^" or "");
+        p("{v_2f46ff76_aa8c_4260_85ad_987a9287e3b9_XLnk|Атакуете флот адмирала Ваджры}^");
     end,
     wcns = {
         ['v_6e46e7fc_c6e9_48cb_b3f8_40e1a1d7d118'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -108002,11 +108002,11 @@ return nlb:std_bg();
 "Наши корабли не готовы к бою. Мы можем выслать против пиратов лишь наши истребители.");
     end,
     way = {
-        'v_ed837a69_7cc5_4e83_bd81_88db5399d1f5',
-        'v_3a362201_67f0_4722_b4c9_3f6712b4d1c8',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_ed837a69_7cc5_4e83_bd81_88db5399d1f5_XLnk|Отдать грузовые корабли на разграбление пиратам}^");
+        p("{v_3a362201_67f0_4722_b4c9_3f6712b4d1c8_XLnk|Отправить в бой истребители}^");
     end,
     wcns = {
     },
@@ -108145,11 +108145,11 @@ return nlb:std_bg();
 "Наш флот следует к станции «Головорезы Альконы».");
     end,
     way = {
-        'v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
         p((not s.wcns['v_589677e4_906a_4f01_85bc_c48934b4c33b'] or s.wcns['v_589677e4_906a_4f01_85bc_c48934b4c33b']()) and "{v_589677e4_906a_4f01_85bc_c48934b4c33b_XLnk|Далее}^" or "");
+        p((not s.wcns['v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c'] or s.wcns['v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c']()) and "{v_cf7688b1_9c97_4c95_a6f1_7a92b0708e0c_XLnk|С помощью Торгового сканера, определить содержимое грузов корпорации «Мегатрон»}^" or "");
     end,
     wcns = {
         ['v_589677e4_906a_4f01_85bc_c48934b4c33b'] = function() return ( not _hasCargoScanner); end,
@@ -108540,11 +108540,11 @@ return nlb:std_bg();
         p("Я капитан грузового танкера «Х-512». Порт приписки – планета Локан. Меня атакуют корабли планеты Рута.  Прошу вашей помощи!");
     end,
     way = {
-        'v_2ad51004_96ce_456a_ab1f_8ad6c535620c',
-        'v_86770f8b_d201_4642_b3b9_a7a8634dbf77',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_2ad51004_96ce_456a_ab1f_8ad6c535620c_XLnk|Атаковать корабли планеты Рута}^");
+        p("{v_86770f8b_d201_4642_b3b9_a7a8634dbf77_XLnk|Не вмешиваться в этот конфликт и продолжить сближение с планетой Рута}^");
     end,
     wcns = {
     },
@@ -108933,11 +108933,11 @@ return nlb:std_bg();
         p("Ваш Сканер определил, что в трюмах грузового корабля находятся различные системы вооружения. Торговля оружием и боевыми системами запрещена.");
     end,
     way = {
-        'v_15c4d636_7f31_457e_9564_7cf333b4ad22',
-        'v_fcce5e6a_de73_4935_9557_ae74eb23906d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_15c4d636_7f31_457e_9564_7cf333b4ad22_XLnk|Потребуете от контрабандиста отдать вам часть его груза}^");
+        p("{v_fcce5e6a_de73_4935_9557_ae74eb23906d_XLnk|Отпустите его}^");
     end,
     wcns = {
     },
@@ -109075,11 +109075,11 @@ return nlb:std_bg();
         p("Я капитан Рой Шерлок. Торгую по всей галактике. Здесь часто появляются пираты. Могу предложить вам свои товары, если вы сопроводите меня к станции «Фаэтон».");
     end,
     way = {
-        'v_54207d0b_f8ae_4736_825d_65a5125629c5',
-        'v_f87062a7_178b_4b97_927f_388799ede15a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_54207d0b_f8ae_4736_825d_65a5125629c5_XLnk|Отказаться и лететь к планете Кратос}^");
+        p("{v_f87062a7_178b_4b97_927f_388799ede15a_XLnk|Согласиться сопровождать торговца}^");
     end,
     wcns = {
     },
@@ -109216,10 +109216,10 @@ return nlb:std_bg();
         p("Не успел ваш флот выйти на нижнюю орбиту планеты Сотус, как вокруг надводного космопорта возникла гигантская воронка и втянула его внутрь. Теперь на поверхности планеты не было никаких объектов, которые мог бы атаковать ваш флот. Кораблей способных к подводному плаванию у вас не было.");
     end,
     way = {
-        'v_236f80a1_7580_4524_8b81_0e6e9d806b63',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_236f80a1_7580_4524_8b81_0e6e9d806b63_XLnk|Вам ничего не оставалось, как отправиться к другим планетам}^");
     end,
     wcns = {
     },
@@ -109340,12 +109340,12 @@ return nlb:std_bg();
         p("Я Лориэль Бола - представитель галактики Радогаст. Мы прибыли в вашу галактику для поиска артефакта «Похититель Разума». Этот артефакт крайне опасен для тех, кто не знает, как с ним обращаться. Вам известно, где он находится?");
     end,
     way = {
-        'v_5814f4a1_46f5_42b5_b765_8e31a4d7af68',
-        'v_dcd89129_0b82_4ff4_b649_03d0bee5f437',
-        'v_c35bed44_4f33_4df8_a36d_8a429e1fae56',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_5814f4a1_46f5_42b5_b765_8e31a4d7af68_XLnk|Не будете отвечать на вопрос и поскорее вскроете контейнер лично}^");
+        p("{v_dcd89129_0b82_4ff4_b649_03d0bee5f437_XLnk|Скажете, что ничего не знаете об артефакте и вернетесь к планете Нобула}^");
+        p("{v_c35bed44_4f33_4df8_a36d_8a429e1fae56_XLnk|Отдадите артефакт представителю галактики Родогаст и вернётесь к планете}^");
     end,
     wcns = {
     },
@@ -109498,11 +109498,11 @@ return nlb:std_bg();
         p("Невозможно исследовать контейнер без лаборатории. Нужно решить, что  с ним делать.");
     end,
     way = {
-        'v_7d2bec7a_bbc2_462a_ae9c_2f3e81fb21d0',
-        'v_757366a1_b5dd_43f3_bb48_81073db911b3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_7d2bec7a_bbc2_462a_ae9c_2f3e81fb21d0_XLnk|Лично вскроете контейнер}^");
+        p("{v_757366a1_b5dd_43f3_bb48_81073db911b3_XLnk|Отдадите контейнер с артефактом правителю планеты Нобула}^");
     end,
     wcns = {
     },
@@ -109891,15 +109891,15 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_91b315d5_aca4_4156_bc14_4354f538675b',
-        'v_5391f422_0265_4b93_a97b_946ae8aa0667',
-        'v_bac9dcc6_f3f2_411a_a349_057d1e213a73',
-        'v_597fc131_5bda_4ec7_b470_18177686e80e',
-        'v_a4b28369_ea5d_4964_baa6_aceadeecbcdc',
-        'v_ea5ecb84_0d82_45fe_94ad_986d3a986644',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_91b315d5_aca4_4156_bc14_4354f538675b'] or s.wcns['v_91b315d5_aca4_4156_bc14_4354f538675b']()) and "{v_91b315d5_aca4_4156_bc14_4354f538675b_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_5391f422_0265_4b93_a97b_946ae8aa0667'] or s.wcns['v_5391f422_0265_4b93_a97b_946ae8aa0667']()) and "{v_5391f422_0265_4b93_a97b_946ae8aa0667_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_bac9dcc6_f3f2_411a_a349_057d1e213a73'] or s.wcns['v_bac9dcc6_f3f2_411a_a349_057d1e213a73']()) and "{v_bac9dcc6_f3f2_411a_a349_057d1e213a73_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_597fc131_5bda_4ec7_b470_18177686e80e'] or s.wcns['v_597fc131_5bda_4ec7_b470_18177686e80e']()) and "{v_597fc131_5bda_4ec7_b470_18177686e80e_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_a4b28369_ea5d_4964_baa6_aceadeecbcdc'] or s.wcns['v_a4b28369_ea5d_4964_baa6_aceadeecbcdc']()) and "{v_a4b28369_ea5d_4964_baa6_aceadeecbcdc_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_ea5ecb84_0d82_45fe_94ad_986d3a986644'] or s.wcns['v_ea5ecb84_0d82_45fe_94ad_986d3a986644']()) and "{v_ea5ecb84_0d82_45fe_94ad_986d3a986644_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_91b315d5_aca4_4156_bc14_4354f538675b'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -110226,11 +110226,11 @@ return nlb:std_bg();
 "На дальней орбите планеты Сотус расположена космическая станция.");
     end,
     way = {
-        'v_1123ff83_7003_4115_ba75_2ace6edad9b4',
-        'v_dde4bdf0_0ada_4f18_a9e6_ab8d96761f27',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_1123ff83_7003_4115_ba75_2ace6edad9b4_XLnk|Прикажете лететь к станции}^");
+        p("{v_dde4bdf0_0ada_4f18_a9e6_ab8d96761f27_XLnk|Или спуститесь на поверхность планеты}^");
     end,
     wcns = {
     },
@@ -110496,11 +110496,11 @@ return nlb:std_bg();
 "Наши сенсоры засекли на поверхности океана надводную станцию космопорта.");
     end,
     way = {
-        'v_32e6e216_27a1_449d_bb95_e541830e59ff',
-        'v_509fb7bf_5a3a_4711_b82e_1e676a4af904',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_32e6e216_27a1_449d_bb95_e541830e59ff_XLnk|Уничтожить космопорт}^");
+        p((not s.wcns['v_509fb7bf_5a3a_4711_b82e_1e676a4af904'] or s.wcns['v_509fb7bf_5a3a_4711_b82e_1e676a4af904']()) and "{v_509fb7bf_5a3a_4711_b82e_1e676a4af904_XLnk|Захватить этот космопорт}^" or "");
     end,
     wcns = {
         ['v_509fb7bf_5a3a_4711_b82e_1e676a4af904'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -111515,14 +111515,14 @@ return nlb:std_bg();
         p("Вашим офицерам придётся любой ценой победить в этом бою, чтобы вызволить вас из плена.");
     end,
     way = {
-        'v_2f45f342_41c6_4c92_9f7e_0191927cc58a',
-        'v_edc150d5_46ba_4540_a02e_cb6d670c929b',
-        'v_515eada2_c955_4852_91bd_3784649f037b',
-        'v_4acce58d_463e_456f_93ee_fce6b0be1c39',
-        'v_63ad81e9_4cec_495c_9f0f_2916ca6ea2e4',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_2f45f342_41c6_4c92_9f7e_0191927cc58a'] or s.wcns['v_2f45f342_41c6_4c92_9f7e_0191927cc58a']()) and "{v_2f45f342_41c6_4c92_9f7e_0191927cc58a_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_edc150d5_46ba_4540_a02e_cb6d670c929b'] or s.wcns['v_edc150d5_46ba_4540_a02e_cb6d670c929b']()) and "{v_edc150d5_46ba_4540_a02e_cb6d670c929b_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
+        p((not s.wcns['v_515eada2_c955_4852_91bd_3784649f037b'] or s.wcns['v_515eada2_c955_4852_91bd_3784649f037b']()) and "{v_515eada2_c955_4852_91bd_3784649f037b_XLnk|Вы победили! Выбранная награда +1 карта.}^" or "");
+        p((not s.wcns['v_4acce58d_463e_456f_93ee_fce6b0be1c39'] or s.wcns['v_4acce58d_463e_456f_93ee_fce6b0be1c39']()) and "{v_4acce58d_463e_456f_93ee_fce6b0be1c39_XLnk|Вы победили! Выбранная награда + 1 Отряд штурмовиков}^" or "");
+        p((not s.wcns['v_63ad81e9_4cec_495c_9f0f_2916ca6ea2e4'] or s.wcns['v_63ad81e9_4cec_495c_9f0f_2916ca6ea2e4']()) and "{v_63ad81e9_4cec_495c_9f0f_2916ca6ea2e4_XLnk|Вы победили! Выбранная награда + 5 к Боеспособности флота}^" or "");
     end,
     wcns = {
         ['v_2f45f342_41c6_4c92_9f7e_0191927cc58a'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -111717,11 +111717,11 @@ return nlb:std_bg();
         p("Вас приветствует член Парламента – Солон Ливий. Мы приветствуем флот Федерации. Нам нужна ваша помощь. Наше судно «Авалон» с грузом Гелия-3 было захвачено пиратами. Пираты грозятся его взорвать, если мы попытаемся их атаковать. Ваши штурмовики могли бы проникнуть на транспорт и освободить его от пиратов.");
     end,
     way = {
-        'v_0688ce40_90db_4d78_be30_93411969b574',
-        'v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_0688ce40_90db_4d78_be30_93411969b574'] or s.wcns['v_0688ce40_90db_4d78_be30_93411969b574']()) and "{v_0688ce40_90db_4d78_be30_93411969b574_XLnk|Использовать отряд штурмовиков для выполнения этой миссии}^" or "");
+        p((not s.wcns['v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5'] or s.wcns['v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5']()) and "{v_d31f67cd_cf5e_45b4_be8c_2fef9b6612b5_XLnk|Покорить эту планету силой}^" or "");
     end,
     wcns = {
         ['v_0688ce40_90db_4d78_be30_93411969b574'] = function() return (_playerAssaultTroops ~= nil) and (_playerAssaultTroops > 0); end,
@@ -111985,12 +111985,12 @@ return nlb:std_bg();
     var { time = 0; wastext = false; lasttext = nil; tag = ''; autowired = false; },
     dsc = true,
     way = {
-        'v_d9887975_18f6_43e8_9e1c_f275e3824b06',
-        'v_93a65003_26d7_4022_8e8c_718987e8601c',
-        'v_be338d23_0712_4995_9990_18a5614da25e',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_d9887975_18f6_43e8_9e1c_f275e3824b06'] or s.wcns['v_d9887975_18f6_43e8_9e1c_f275e3824b06']()) and "{v_d9887975_18f6_43e8_9e1c_f275e3824b06_XLnk|Принять бой}^" or "");
+        p((not s.wcns['v_93a65003_26d7_4022_8e8c_718987e8601c'] or s.wcns['v_93a65003_26d7_4022_8e8c_718987e8601c']()) and "{v_93a65003_26d7_4022_8e8c_718987e8601c_XLnk|Лететь к другим планетам}^" or "");
+        p((not s.wcns['v_be338d23_0712_4995_9990_18a5614da25e'] or s.wcns['v_be338d23_0712_4995_9990_18a5614da25e']()) and "{v_be338d23_0712_4995_9990_18a5614da25e_XLnk|Вы победили! Выбранная награда + "..tostring(_FAME_REWARD).." Славы.}^" or "");
     end,
     wcns = {
         ['v_d9887975_18f6_43e8_9e1c_f275e3824b06'] = function() return (_fightResult ~= nil) and ((_fightResult < 0) or (_fightResult >= 2)); end,
@@ -112442,10 +112442,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Атака Камикадзе -- беспилотники идут на таран и дают вам тактическое преимущество в бою -- вам +10 Боеспособности.");
     end,
     way = {
-        'v_a3b1c456_332a_45bf_a27d_36e2b0b38839',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_a3b1c456_332a_45bf_a27d_36e2b0b38839_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -112567,11 +112567,11 @@ return nlb:std_bg();
 "Мы понесли большие потери, но зачистили корабль от пиратов. В благодарность за нашу помощь капитан корабля предлагает нам выбрать из узников два десятка добровольцев, которые захотят примкнуть к нашему отряду.");
     end,
     way = {
-        'v_1d342dab_56c3_4b6c_b5cd_387ea3d3af5d',
-        'v_6ae91b7b_04a1_4ec0_9bda_4b9e31c7407d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_1d342dab_56c3_4b6c_b5cd_387ea3d3af5d_XLnk|Зачислить добровольцев в отряды штурмовиков}^");
+        p("{v_6ae91b7b_04a1_4ec0_9bda_4b9e31c7407d_XLnk|Не брать на борт бывших преступников}^");
     end,
     wcns = {
     },
@@ -112711,11 +112711,11 @@ return nlb:std_bg();
 "Каково будет ваше решение?");
     end,
     way = {
-        'v_77eac31a_da1f_49ed_9d40_75f1c951f5d5',
-        'v_ec2c4032_6f8b_4286_a729_df79c043233a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_77eac31a_da1f_49ed_9d40_75f1c951f5d5_XLnk|Рассредоточить флот и преодолеть астероидное поле}^");
+        p("{v_ec2c4032_6f8b_4286_a729_df79c043233a_XLnk|Рискнуть и попытаться пройти астероидное поле, сохраняя боевое построение флота}^");
     end,
     wcns = {
     },
@@ -113102,10 +113102,10 @@ return nlb:std_bg();
 "СПЕЦСПОСОБНОСТЬ: Абордаж -- ваши шатлы захватывают вражеский корабль, и карта врага уходит на вашу половину поля (если есть свободное место).");
     end,
     way = {
-        'v_1735ad35_0d57_486b_9036_8cc9dbefb213',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_1735ad35_0d57_486b_9036_8cc9dbefb213_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -113459,10 +113459,10 @@ return nlb:std_bg();
 "ОСОБЕННОСТЬ: Маневрирование -- корабль оснащен мощными маневровыми двигателями -- вам +5 Боеспособности.");
     end,
     way = {
-        'v_361ded5b_5f07_4ed2_8c13_c44e81944a8d',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_361ded5b_5f07_4ed2_8c13_c44e81944a8d_XLnk|Назад}^");
     end,
     wcns = {
     },
@@ -113689,10 +113689,10 @@ return nlb:std_bg();
         p("Вы прибыли в эту заброшенную систему. Возможно вы первый посетитель этих мест за многие годы. Следы искусственных источников электромагнитного излучения есть только у одной небольшой планеты.");
     end,
     way = {
-        'v_fb26a364_dfdc_4322_a946_d1fa65a4ca28',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_fb26a364_dfdc_4322_a946_d1fa65a4ca28'] or s.wcns['v_fb26a364_dfdc_4322_a946_d1fa65a4ca28']()) and "{v_fb26a364_dfdc_4322_a946_d1fa65a4ca28_XLnk|Полное сканирование системы.}^" or "");
     end,
     wcns = {
         ['v_fb26a364_dfdc_4322_a946_d1fa65a4ca28'] = function() return (_warriors_cnt ~= nil) and (_warriors_cnt == 1); end,
@@ -113987,10 +113987,10 @@ return nlb:std_bg();
 "Парад произвел фурор. Недовольны остались только местные дорожные службы, но кому интересно их мнение? Правительство подписало с вами договор и отправило к вашему флоту единственный их почти исправный крейсер. После некоторого ремонта, пригодного даже к межзвездным путешествиям.");
     end,
     way = {
-        'v_e1514114_9baf_488d_92ed_82084ee6b6ec_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_e1514114_9baf_488d_92ed_82084ee6b6ec_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return_XLnk|Завершить задание}^");
     end,
     wcns = {
     },
@@ -114185,11 +114185,11 @@ return nlb:std_bg();
         p("После некоторых колебаний местных властей, вам разрешили высадиться, при условии наличия не более одной боевой машины и не более 10 солдат.");
     end,
     way = {
-        'v_7ff1eedc_f891_4e66_ab51_dcbd71287200',
-        'v_78e80cd9_4721_4150_b58b_009899c21a27',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_7ff1eedc_f891_4e66_ab51_dcbd71287200'] or s.wcns['v_7ff1eedc_f891_4e66_ab51_dcbd71287200']()) and "{v_7ff1eedc_f891_4e66_ab51_dcbd71287200_XLnk|Вспомнив про танк на транспортнике, вы с улыбкой согласились.}^" or "");
+        p((not s.wcns['v_78e80cd9_4721_4150_b58b_009899c21a27'] or s.wcns['v_78e80cd9_4721_4150_b58b_009899c21a27']()) and "{v_78e80cd9_4721_4150_b58b_009899c21a27_XLnk|С неохотой вы согласились. Какой парад из одной машины?}^" or "");
     end,
     wcns = {
         ['v_7ff1eedc_f891_4e66_ab51_dcbd71287200'] = function() return (_warriors_cnt ~= nil) and ((_warriors_cnt == 1) and (_tank)); end,
@@ -114301,17 +114301,17 @@ return nlb:std_bg();
         p("После часа работы сканеров и обработки результатов, вы получили некоторые интересные данные. Похоже что на планете имеются мощные системы ПВО, в троянской точке нашли крупное скопление обломков, а на спутнике планеты есть старая база космофлота, видимо заброшенная.");
     end,
     way = {
-        'v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5',
-        'v_038d7d11_806a_4eef_b67e_87368ba4af1f',
-        'v_6307f6ca_bdb9_4c33_81b6_c1259c4f09b0',
-        'v_bc2809bd_59b8_4766_a3b8_dd0b37043b4e',
-        'v_08850076_60b3_488e_b80b_92d4101a5db5',
-        'v_97d5f631_4324_482e_adef_d4acdff45331',
-        'v_52a10212_bcd0_4daf_8269_4308f35197c9',
-        'v_3ba56bae_ca11_4fe8_8af2_fd8d307e66e3',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p((not s.wcns['v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5'] or s.wcns['v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5']()) and "{v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5_XLnk|Вывести флот на орбиту обитаемой планеты.}^" or "");
+        p((not s.wcns['v_038d7d11_806a_4eef_b67e_87368ba4af1f'] or s.wcns['v_038d7d11_806a_4eef_b67e_87368ba4af1f']()) and "{v_038d7d11_806a_4eef_b67e_87368ba4af1f_XLnk|Исследовать троянскую точку.}^" or "");
+        p((not s.wcns['v_6307f6ca_bdb9_4c33_81b6_c1259c4f09b0'] or s.wcns['v_6307f6ca_bdb9_4c33_81b6_c1259c4f09b0']()) and "{v_6307f6ca_bdb9_4c33_81b6_c1259c4f09b0_XLnk|Послать десант на базу космофлота.}^" or "");
+        p((not s.wcns['v_bc2809bd_59b8_4766_a3b8_dd0b37043b4e'] or s.wcns['v_bc2809bd_59b8_4766_a3b8_dd0b37043b4e']()) and "{v_bc2809bd_59b8_4766_a3b8_dd0b37043b4e_XLnk|Исследовать троянскую точку.}^" or "");
+        p((not s.wcns['v_08850076_60b3_488e_b80b_92d4101a5db5'] or s.wcns['v_08850076_60b3_488e_b80b_92d4101a5db5']()) and "{v_08850076_60b3_488e_b80b_92d4101a5db5_XLnk|Отправить спутник-шпион на орбиту для перехвата сигналов с планеты.}^" or "");
+        p((not s.wcns['v_97d5f631_4324_482e_adef_d4acdff45331'] or s.wcns['v_97d5f631_4324_482e_adef_d4acdff45331']()) and "{v_97d5f631_4324_482e_adef_d4acdff45331_XLnk|Вывести флот на орбиту обитаемой планеты.}^" or "");
+        p((not s.wcns['v_52a10212_bcd0_4daf_8269_4308f35197c9'] or s.wcns['v_52a10212_bcd0_4daf_8269_4308f35197c9']()) and "{v_52a10212_bcd0_4daf_8269_4308f35197c9_XLnk|Устроить бомбардировку и принуждение к миру.}^" or "");
+        p((not s.wcns['v_3ba56bae_ca11_4fe8_8af2_fd8d307e66e3'] or s.wcns['v_3ba56bae_ca11_4fe8_8af2_fd8d307e66e3']()) and "{v_3ba56bae_ca11_4fe8_8af2_fd8d307e66e3_XLnk|Запросить разрешение на высадку и на парад некоторого ограниченного контингента.}^" or "");
     end,
     wcns = {
         ['v_5a75c809_348a_42d5_b1a8_0d1dc8d197a5'] = function() return (_warriors_cnt ~= nil) and (( not _lvs_5a75c809_348a_42d5_b1a8_0d1dc8d197a5) and ((_warriors_cnt == 1) and ( not _agression and _hasShields))); end,
@@ -114631,10 +114631,10 @@ return nlb:std_bg();
         p("Аборигены сражались до последней ракеты и погибли почти все. Вам достался выжженный мир.");
     end,
     way = {
-        'v_18501d6c_56b9_4396_99aa_a9dc9a21aa97_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_18501d6c_56b9_4396_99aa_a9dc9a21aa97_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return_XLnk|Завершить задание}^");
     end,
     wcns = {
     },
@@ -114832,10 +114832,10 @@ return nlb:std_bg();
         p("Аборигены посмеялись над вашим войском, которое просто затерялось на просторах главного проспекта. Но все-таки согласились подписать договор о сотрудничестве и даже выделили местный отряд десантников в подмогу.");
     end,
     way = {
-        'v_de22bcf0_aa88_40f2_9349_d398ffb4616d_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_de22bcf0_aa88_40f2_9349_d398ffb4616d_2452aeaf_fb7a_4f6d_9b68_e2994c9ff69d__Return_XLnk|Завершить задание}^");
     end,
     wcns = {
     },
@@ -115059,11 +115059,11 @@ return nlb:std_bg();
 "Мы обнаружили обломки грузового корабля Федерации. Сигнал SOS идет от него. Вокруг корабля нет никаких следов людей. Прикажете нашим бойцам обследовать отсеки корабля?");
     end,
     way = {
-        'v_3fd84dc9_a461_4d95_bfe8_455726329995',
-        'v_d71270fd_a5ad_42fe_8aa4_1f16f2040e3c',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
+        p("{v_3fd84dc9_a461_4d95_bfe8_455726329995_XLnk|Обследовать обломки корабля}^");
+        p("{v_d71270fd_a5ad_42fe_8aa4_1f16f2040e3c_XLnk|Приказать шатлам вернуться на орбиту и продолжить полет к другим планетам}^");
     end,
     wcns = {
     },
@@ -115326,11 +115326,11 @@ return nlb:std_bg();
         p("Ваши научные исследования меня заинтересовали. Вот список древних книг-файлов, которые я могу предложить вам в обмен. Выберите что-то одно из списка.");
     end,
     way = {
-        'v_051ae0c0_2f61_469f_8018_4aeb3d3e596a',
     },
     xdsc = function(s)
         p(nlb:alts_txt(s));
         p("{v_699caa25_8132_4dc4_a8e4_126d1c9af27d_XLnk|\"Сборник религиозных учений галактики Алькона\"}^");
+        p("{v_051ae0c0_2f61_469f_8018_4aeb3d3e596a_XLnk|«Космические сказки»}^");
         p("{v_46945180_237d_4e9b_ad42_a54ac73e153f_XLnk|\"1001 надежный способ уничтожить тараканов на вашем корабле\"}^");
         p("{v_93734852_17a4_4269_9815_a5af0585305c_XLnk|\"О чем размышляют роботы?\"}^");
         p("{v_0e49f59e_3e7a_45a9_be5b_d2b764edbfed_XLnk|\"Как выжить в открытом космосе\"}^");
